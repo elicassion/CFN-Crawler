@@ -1,0 +1,153 @@
+{
+    "fdInfo": {
+        "eName": "Renting_out", 
+        "cName": "出租", 
+        "des": "拥有商品的出租者，获得承租者的货币，将商品一段时期内的使用权赋予承租者。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "包租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出顶", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出赁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "顶", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "招租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租借", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租赁", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "商品是在交易过程中临时用货币交换使用权的物品。"
+        }, 
+        {
+            "abbrName": "lee", 
+            "eName": "Lessee", 
+            "cName": "承租者", 
+            "isCore": true, 
+            "def": "承租者是通过向出租者支付一定的费用而获得商品临时使用权的人。"
+        }, 
+        {
+            "abbrName": "les", 
+            "eName": "Lessor", 
+            "cName": "出租者", 
+            "isCore": true, 
+            "def": "拥有商品所有权、临时把商品租给承租者以获得租金的人。"
+        }, 
+        {
+            "abbrName": "dur_fin_st", 
+            "eName": "Duration_of_final_state", 
+            "cName": "结果时量", 
+            "isCore": false, 
+            "def": "承租者拥有商品使用权的时间长度。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "租借的原因。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何对租借活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "发生出租交易所凭借的手段。"
+        }, 
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "cName": "货币", 
+            "isCore": false, 
+            "def": "货币是交易中为获得商品临时使用权所支付的租金。0"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "租借行为发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "实施出租行为的目的。"
+        }, 
+        {
+            "abbrName": "pog", 
+            "eName": "Purpose_of_goods", 
+            "cName": "对商品的处置", 
+            "isCore": false, 
+            "def": "表示承租者如何处置商品。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "cName": "单位价格", 
+            "isCore": false, 
+            "def": "有些租借行为中，支付的租金是按商品的单位价格来计算的，该框架元素即指商品的单位价格。"
+        }, 
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "cName": "方向", 
+            "isCore": false, 
+            "def": "描述出租的动作方向，由趋向补语表达。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "该框架元素指可以用来计算商品或服务的任何单位，用“以”、“按”、“论”等介词引导。"
+        }
+    ]
+}

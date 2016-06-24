@@ -1,0 +1,187 @@
+{
+    "fdInfo": {
+        "eName": "Activity_prepare", 
+        "cName": "行为准备", 
+        "des": "致动者为某一行为或工作做准备。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "备办", 
+            "POS": "v"
+        }, 
+        {
+            "word": "备补", 
+            "POS": "v"
+        }, 
+        {
+            "word": "备餐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "备耕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "备考", 
+            "POS": "v"
+        }, 
+        {
+            "word": "备课", 
+            "POS": "v"
+        }, 
+        {
+            "word": "备有", 
+            "POS": "v"
+        }, 
+        {
+            "word": "备战", 
+            "POS": "v"
+        }, 
+        {
+            "word": "备置", 
+            "POS": "v"
+        }, 
+        {
+            "word": "绸缪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "筹办", 
+            "POS": "v"
+        }, 
+        {
+            "word": "筹备", 
+            "POS": "v"
+        }, 
+        {
+            "word": "筹措", 
+            "POS": "v"
+        }, 
+        {
+            "word": "筹划", 
+            "POS": "v"
+        }, 
+        {
+            "word": "筹谋", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打算", 
+            "POS": "v"
+        }, 
+        {
+            "word": "规划", 
+            "POS": "v"
+        }, 
+        {
+            "word": "计划", 
+            "POS": "n"
+        }, 
+        {
+            "word": "计划", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谋划", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预备", 
+            "POS": "v"
+        }, 
+        {
+            "word": "准备", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "activity", 
+            "eName": "Activity", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "致动者为之做准备的行动。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "指为行动做准备的个人或组织。"
+        }, 
+        {
+            "abbrName": "benef", 
+            "eName": "Beneficiary", 
+            "cName": "受益人", 
+            "isCore": false, 
+            "def": "表示从事件中获益的参与者。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "描述事件有层级差别的属性，表示事件所达到的水平。 "
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该元素描述活动的参与者，注意和修饰的不同之处在于，形容是对活动的参与者的描述，而修饰是对活动本身的描述。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "动作行为本身持续的时间数量或者动作重复进行所用的时间数量."
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iteration", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "表示事件或状态重复发生的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述事件所处的状态，是一个杂类，凡是无法归入其他更加具体的框架元素时，都归入修饰元素；做动词目标词的状语或补语，名词目标词的定语。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者进行准备的方式、手段。 "
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "致动者做准备时所处的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者做准备的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致动者开始准备的时间。"
+        }
+    ]
+}

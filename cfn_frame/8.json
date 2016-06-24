@@ -1,0 +1,176 @@
+{
+    "fdInfo": {
+        "eName": "Categorization", 
+        "cName": "范畴化", 
+        "des": "认知者认为某些现象符合某种范畴的特征，在认识上将其归入该范畴，或将多个现象分化成几个不同的范畴。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "当作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "典范", 
+            "POS": "n"
+        }, 
+        {
+            "word": "典型", 
+            "POS": "n"
+        }, 
+        {
+            "word": "定性", 
+            "POS": "v"
+        }, 
+        {
+            "word": "定义", 
+            "POS": "n"
+        }, 
+        {
+            "word": "定义", 
+            "POS": "v"
+        }, 
+        {
+            "word": "范畴", 
+            "POS": "n"
+        }, 
+        {
+            "word": "范畴化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分级", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分类", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分门别类", 
+            "POS": "i"
+        }, 
+        {
+            "word": "分为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "概括", 
+            "POS": "v"
+        }, 
+        {
+            "word": "概念", 
+            "POS": "n"
+        }, 
+        {
+            "word": "归类", 
+            "POS": "v"
+        }, 
+        {
+            "word": "归入", 
+            "POS": "v"
+        }, 
+        {
+            "word": "归为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "看成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "看作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "总括", 
+            "POS": "v"
+        }, 
+        {
+            "word": "作为", 
+            "POS": "p"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "categ", 
+            "eName": "Category", 
+            "cName": "范畴", 
+            "isCore": true, 
+            "def": "范畴是一个抽象的概念，现象是范畴的一个实例，通常用目标词的宾语表示。"
+        }, 
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "进行归类或分类的人，通常由主语表示。"
+        }, 
+        {
+            "abbrName": "feat", 
+            "eName": "Feature", 
+            "cName": "特征项", 
+            "isCore": true, 
+            "def": "特征项表示个体能够归入某范畴所具备的基本属性，它为认识事物提供一个评定维度，各种现象在此维度上占据不同的位置，从而归入不同的范畴。例如，一部画作可以从颜色、质地（光面、糙面）进行分类；如果以颜色分，有的就可以归入橙色系，有的归入红色系。特征项元素通常用\"根据\"引导的介词短语表示。"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "现象指认知者所分析考察的实体，作为某种范畴的成员。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "进行归类或分类时所处的物理条件或社会状况。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述自主感知活动的特征或所处状态的成分，都归入该元素，如\"勉强、明显\"等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "认知者进行归类或分类时所采取的行为措施。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "表示范畴化是什么时候进行的。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "表示事件在每个单位时间所发生的次数。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素并不表示目标词在本句之内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是重复前面的动作，或仅仅是假想目标词动作是一系列相似事件或状态的重复。用\"序数词语＋动量词\"、\"又、再\"、\"首次、首先\"等表示。"
+        }, 
+        {
+            "abbrName": "sco_role", 
+            "eName": null, 
+            "cName": "角色范围", 
+            "isCore": false, 
+            "def": "表示认知者或现象的数量范围，常用数量短语、副词\"都、只\"等表示。他把听到的一切都看成人们的捕风捉影。"
+        }
+    ]
+}

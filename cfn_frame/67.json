@@ -1,0 +1,149 @@
+{
+    "fdInfo": {
+        "eName": "Expansion", 
+        "cName": "类似", 
+        "des": "两个不同的实体，或是具体的物体或是抽象的类型，彼此相似。这些实体可能被当作两个不同的框架元素或要素，即实体-1和实体-2，或者合起来作为单个框架元素或要素，即多个实体。其类似可能是基于两个实体的外观，物理特性或其他特性，然而，这些方面不是非出现不可;实体还可能或多或少在一定程度上相似。注意，虽然相似与否来自某个评判者的观念，但是评判者并不是相似框架中的一部分。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "不同", 
+            "POS": "a"
+        }, 
+        {
+            "word": "差别", 
+            "POS": "n"
+        }, 
+        {
+            "word": "差异", 
+            "POS": "n"
+        }, 
+        {
+            "word": "好像", 
+            "POS": "v"
+        }, 
+        {
+            "word": "活像", 
+            "POS": "v"
+        }, 
+        {
+            "word": "酷似", 
+            "POS": "v"
+        }, 
+        {
+            "word": "酷肖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "如同", 
+            "POS": "v"
+        }, 
+        {
+            "word": "神似", 
+            "POS": "v"
+        }, 
+        {
+            "word": "是", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宛如", 
+            "POS": "v"
+        }, 
+        {
+            "word": "相似", 
+            "POS": "a"
+        }, 
+        {
+            "word": "相异", 
+            "POS": "a"
+        }, 
+        {
+            "word": "像", 
+            "POS": "v"
+        }, 
+        {
+            "word": "形似", 
+            "POS": "v"
+        }, 
+        {
+            "word": "犹如", 
+            "POS": "v"
+        }, 
+        {
+            "word": "有如", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ents", 
+            "eName": "Entities", 
+            "cName": "实体集", 
+            "isCore": true, 
+            "def": "实体是一组物体或抽象类型，其相似处是问题的核心。"
+        }, 
+        {
+            "abbrName": "ent_1", 
+            "eName": "Entity_1", 
+            "cName": "实体1", 
+            "isCore": true, 
+            "def": "当两个实体被分开表达时，此框架元素标记两个实体中更显著的那个实体，一般做句子的主语或话题。"
+        }, 
+        {
+            "abbrName": "dimen", 
+            "eName": "Dimension", 
+            "cName": "维度", 
+            "isCore": true, 
+            "def": "此框架元素表达的是实体有相似点的方面，如外观、风格、物理特性等。"
+        }, 
+        {
+            "abbrName": "ent_2", 
+            "eName": "Entity_2", 
+            "cName": "实体2", 
+            "isCore": true, 
+            "def": "当两个实体被分开表达时，此框架元素标记两个实体中较不显著的那个实体，一般以介词短语或比喻句的喻体出现。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "导致实体有相似点的原因。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素描述实体的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述实体。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "实体具有相似点时所处的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示相似点是否存在的时间。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "实体在某些方面相似的程度。"
+        }
+    ]
+}

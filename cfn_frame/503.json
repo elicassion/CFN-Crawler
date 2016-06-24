@@ -1,0 +1,84 @@
+{
+    "fdInfo": {
+        "eName": "Breaking_apart", 
+        "cName": "碎裂", 
+        "des": "整体分裂成很多碎片，导致整体的损坏（在多数情况下，碎片都没有单独的功能）。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "分崩离析", 
+            "POS": "i"
+        }, 
+        {
+            "word": "分裂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "粉碎", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解体", 
+            "POS": "v"
+        }, 
+        {
+            "word": "破裂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "碎", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "pie", 
+            "eName": "Pieces", 
+            "cName": "碎片", 
+            "isCore": true, 
+            "def": "碎片是由整体的分裂而产生的。"
+        }, 
+        {
+            "abbrName": "whl", 
+            "eName": "Whole", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "整体分成碎片，这些碎片在整体破裂之前并不一定是可界定的子部分。"
+        }, 
+        {
+            "abbrName": "crit", 
+            "eName": "Criterion", 
+            "cName": "标准", 
+            "isCore": false, 
+            "def": "该框架元素表示整体中的部分或组件的属性，这些都与整体分裂的位置相互关联。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "未被其他特定的框架元素所包含的对事件或参与者的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "促使分裂事件发生的行为、事件或状态。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "分裂发生的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "分裂发生的时间。"
+        }
+    ]
+}

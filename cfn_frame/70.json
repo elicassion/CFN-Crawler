@@ -1,0 +1,89 @@
+{
+    "fdInfo": {
+        "eName": "Intoxication", 
+        "cName": "迷醉", 
+        "des": "该框架表示人的大脑受某种致醉物的作用，处于一种不清醒的状态。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "昏迷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "昏迷不醒", 
+            "POS": "i"
+        }, 
+        {
+            "word": "迷糊", 
+            "POS": "a"
+        }, 
+        {
+            "word": "迷惑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "迷醉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兴奋", 
+            "POS": "a"
+        }, 
+        {
+            "word": "引诱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "诱惑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "醉", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认知者的精神状态在致醉物的作用下发生改变。"
+        }, 
+        {
+            "abbrName": "int", 
+            "eName": null, 
+            "cName": "致醉物", 
+            "isCore": true, 
+            "def": "致醉物改变认知者的精神状态。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "此框架元素表示认知者被致醉物改变的程度。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "此框架元素表示致醉物持续作用的时间量。"
+        }, 
+        {
+            "abbrName": "eval", 
+            "eName": null, 
+            "cName": "评价", 
+            "isCore": false, 
+            "def": "评价是对认知者对致醉物的反应的特点的描写。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "此框架元素表示认知者被迷醉的样子，以及其他无法归入具体的框架元素的描述。"
+        }
+    ]
+}

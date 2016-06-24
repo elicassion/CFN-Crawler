@@ -1,0 +1,50 @@
+{
+    "fdInfo": {
+        "eName": "Joint_offence", 
+        "cName": "共同犯罪", 
+        "des": "共同犯罪是指两人以上共同故意犯罪。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "共同犯罪", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "共同犯罪", 
+            "isCore": true, 
+            "def": "共同犯罪中的各犯罪人"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "地位或作用", 
+            "isCore": true, 
+            "def": "各共同犯罪人在共同犯罪中所处的地位或所发挥的作用。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "罪行", 
+            "isCore": true, 
+            "def": "共同犯罪人所实施犯罪行为。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "量刑情形", 
+            "isCore": true, 
+            "def": "对共同犯罪人量刑时，考虑其不同地位、作用所作出的从重、从轻、减轻、免除等情形。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法律", 
+            "isCore": true, 
+            "def": "对共同犯罪人的地位、作用及其处罚原则进行规定的法律"
+        }
+    ]
+}

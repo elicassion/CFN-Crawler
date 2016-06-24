@@ -1,0 +1,78 @@
+{
+    "fdInfo": {
+        "eName": "Simple_naming", 
+        "cName": "称", 
+        "des": "说话者通常使用某一特定术语来指代一实体。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "称说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "简称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "叫", 
+            "POS": "v"
+        }, 
+        {
+            "word": "叫作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "名", 
+            "POS": "v"
+        }, 
+        {
+            "word": "命名", 
+            "POS": "v"
+        }, 
+        {
+            "word": "是", 
+            "POS": "v"
+        }, 
+        {
+            "word": "指称", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "通常由一个术语来指代的实体的类型。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "用一术语来指一特定实体的说话者或言语社区。"
+        }, 
+        {
+            "abbrName": "tm", 
+            "eName": "Term", 
+            "cName": "术语", 
+            "isCore": true, 
+            "def": "用于指一实体类型的语言符号。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "讲话者使用术语指代实体的频率。"
+        }, 
+        {
+            "abbrName": "motive", 
+            "eName": "Motivation", 
+            "cName": "动机", 
+            "isCore": false, 
+            "def": "选择用某术语来指代某实体的原因。"
+        }
+    ]
+}

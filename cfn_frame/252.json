@@ -1,0 +1,100 @@
+{
+    "fdInfo": {
+        "eName": "Kidnapping", 
+        "cName": "绑架", 
+        "des": "该框架描述了罪犯为满足其不法目的，使用暴力、胁迫或者其他方法劫持被害人的情形。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "绑架", 
+            "POS": "v"
+        }, 
+        {
+            "word": "绑票", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劫持", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "罪犯是为满足不法目的而使用暴力、胁迫或者其他方法劫持被害人的人。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "被害人是违背自己意愿被罪犯劫持的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "被害人被罪犯控制的时间。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "被害人被绑架的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "绑架发生的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "罪犯实施绑架的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "绑架发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "罪犯希望通过绑架达到的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "原因就是罪犯为什么进行绑架。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "绑架发生的时间。"
+        }
+    ]
+}

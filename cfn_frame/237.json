@@ -1,0 +1,96 @@
+{
+    "fdInfo": {
+        "eName": "Get_a_job", 
+        "cName": "得到工作", 
+        "des": "指新的雇员通过雇主获得职位并从事某些工作；雇主根据雇员工作的业绩付给雇员报酬。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "签", 
+            "POS": "v"
+        }, 
+        {
+            "word": "签约", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "empee", 
+            "eName": "Employee", 
+            "cName": "雇员", 
+            "isCore": true, 
+            "def": "指与雇主发生雇佣关系的人。"
+        }, 
+        {
+            "abbrName": "emper", 
+            "eName": "Employer", 
+            "cName": "雇主", 
+            "isCore": true, 
+            "def": "指与雇员发生雇佣关系的人或机构。"
+        }, 
+        {
+            "abbrName": "posit", 
+            "eName": "Position", 
+            "cName": "职位", 
+            "isCore": true, 
+            "def": "指雇佣关系中，某类工种的名称。"
+        }, 
+        {
+            "abbrName": "task", 
+            "eName": "Task", 
+            "cName": "任务", 
+            "isCore": true, 
+            "def": "任务指雇员需要为雇主工作的行为。"
+        }, 
+        {
+            "abbrName": "compense", 
+            "eName": "Compensation", 
+            "cName": "报酬", 
+            "isCore": false, 
+            "def": "报酬是雇员完成某任务而获得的相应报偿。"
+        }, 
+        {
+            "abbrName": "cb", 
+            "eName": "Contract_basis", 
+            "cName": "合同类型", 
+            "isCore": false, 
+            "def": "合同类型是雇员与雇主间签订的或口头的协议所属的类型，一般指“全日制，半日制，试用，正式”等类型。这种类型跟雇员的职位、工作时间及报酬有关。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员和雇主发生雇佣关系时候的具体修饰。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指雇员进入雇佣关系的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员与雇主发生雇佣关系的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员进入雇佣关系的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员与雇主签订合约的时间。"
+        }
+    ]
+}

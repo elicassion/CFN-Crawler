@@ -1,0 +1,45 @@
+{
+    "fdInfo": {
+        "eName": "Visitor_and_host", 
+        "cName": "访客_东道主", 
+        "des": "拜访者和主人共处一地。主人允许拜访者使用主人的地方和（或）资源来实现其目的。访问通常是社会性的。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "host", 
+            "eName": "Host", 
+            "cName": "东道主", 
+            "isCore": true, 
+            "def": "出于对访客的考虑，允许访客使用其资源的个体。"
+        }, 
+        {
+            "abbrName": "hos_loc", 
+            "eName": "Host_location", 
+            "cName": "待客场所", 
+            "isCore": true, 
+            "def": "与东道主及其相关的场所（或者说该场所位于东道主的领地内），通常是与居住、工作或管理相关的空间场所。访客被邀请到待客场所，可使用该接待场所或其中的资源。"
+        }, 
+        {
+            "abbrName": "vis", 
+            "eName": "Visitor", 
+            "cName": "访客", 
+            "isCore": true, 
+            "def": "为了实现某种目的而临时与东道主在一起的有感实体。"
+        }, 
+        {
+            "abbrName": "nor_loc", 
+            "eName": "Normal_location", 
+            "cName": "常住地", 
+            "isCore": false, 
+            "def": "访客通常生活或与其（长期）相关的场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "访客希望参与，东道主也愿意款待，才得以进行的活动。"
+        }
+    ]
+}

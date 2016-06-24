@@ -1,0 +1,216 @@
+{
+    "fdInfo": {
+        "eName": "Part_orientational", 
+        "cName": "部分之定位性", 
+        "des": "该框架中，某一整体有一部分，该部分是根据整体的标准或内在定向而定义的。在目标词是形容词的情况下，它和所修饰的名词有一种特殊的关系，这样，名词的句法论元短语在语义上可充当形容词的论元结构，例如"
+    }, 
+    "lexElmt": [
+        {
+            "word": "北", 
+            "POS": "n"
+        }, 
+        {
+            "word": "北边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "北方", 
+            "POS": "n"
+        }, 
+        {
+            "word": "北面", 
+            "POS": "n"
+        }, 
+        {
+            "word": "表面", 
+            "POS": "n"
+        }, 
+        {
+            "word": "底层", 
+            "POS": "n"
+        }, 
+        {
+            "word": "底盘", 
+            "POS": "n"
+        }, 
+        {
+            "word": "顶层", 
+            "POS": "n"
+        }, 
+        {
+            "word": "顶点", 
+            "POS": "n"
+        }, 
+        {
+            "word": "东", 
+            "POS": "n"
+        }, 
+        {
+            "word": "东边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "东方", 
+            "POS": "n"
+        }, 
+        {
+            "word": "东面", 
+            "POS": "n"
+        }, 
+        {
+            "word": "东南", 
+            "POS": "n"
+        }, 
+        {
+            "word": "腹地", 
+            "POS": "n"
+        }, 
+        {
+            "word": "后", 
+            "POS": "n"
+        }, 
+        {
+            "word": "后边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "后方", 
+            "POS": "n"
+        }, 
+        {
+            "word": "后面", 
+            "POS": "n"
+        }, 
+        {
+            "word": "南", 
+            "POS": "n"
+        }, 
+        {
+            "word": "南边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "南方", 
+            "POS": "n"
+        }, 
+        {
+            "word": "南面", 
+            "POS": "n"
+        }, 
+        {
+            "word": "前", 
+            "POS": "n"
+        }, 
+        {
+            "word": "前臂", 
+            "POS": "n"
+        }, 
+        {
+            "word": "前边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "前方", 
+            "POS": "n"
+        }, 
+        {
+            "word": "前脚", 
+            "POS": "n"
+        }, 
+        {
+            "word": "前面", 
+            "POS": "n"
+        }, 
+        {
+            "word": "山顶", 
+            "POS": "n"
+        }, 
+        {
+            "word": "山脚", 
+            "POS": "n"
+        }, 
+        {
+            "word": "上", 
+            "POS": "n"
+        }, 
+        {
+            "word": "上边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "上面", 
+            "POS": "n"
+        }, 
+        {
+            "word": "西", 
+            "POS": "n"
+        }, 
+        {
+            "word": "西北", 
+            "POS": "n"
+        }, 
+        {
+            "word": "西边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "西方", 
+            "POS": "n"
+        }, 
+        {
+            "word": "西面", 
+            "POS": "n"
+        }, 
+        {
+            "word": "下", 
+            "POS": "n"
+        }, 
+        {
+            "word": "下边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "下面", 
+            "POS": "n"
+        }, 
+        {
+            "word": "右", 
+            "POS": "n"
+        }, 
+        {
+            "word": "右边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "左", 
+            "POS": "n"
+        }, 
+        {
+            "word": "左边", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "par", 
+            "eName": "Part", 
+            "cName": "部分", 
+            "isCore": true, 
+            "def": "较大整体的一部分。"
+        }, 
+        {
+            "abbrName": "whl", 
+            "eName": "Whole", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "拥有其所有部分的不可分割的实体。"
+        }, 
+        {
+            "abbrName": "parpro", 
+            "eName": "Part_Prop", 
+            "cName": "部分属性", 
+            "isCore": false, 
+            "def": "与某一整体的部分相关的性质。"
+        }
+    ]
+}

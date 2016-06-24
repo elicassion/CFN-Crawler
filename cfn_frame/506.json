@@ -1,0 +1,75 @@
+{
+    "fdInfo": {
+        "eName": "Measure_linear_extent", 
+        "cName": "长度测量", 
+        "des": "该框架与表示线性长度的计量单位名词相关。框架元素包括计量单位、数量和物品。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "光年", 
+            "POS": "n"
+        }, 
+        {
+            "word": "毫米", 
+            "POS": "n"
+        }, 
+        {
+            "word": "厘米", 
+            "POS": "n"
+        }, 
+        {
+            "word": "码", 
+            "POS": "n"
+        }, 
+        {
+            "word": "米", 
+            "POS": "n"
+        }, 
+        {
+            "word": "千米", 
+            "POS": "n"
+        }, 
+        {
+            "word": "英尺", 
+            "POS": "n"
+        }, 
+        {
+            "word": "英寸", 
+            "POS": "n"
+        }, 
+        {
+            "word": "英里", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "count", 
+            "eName": "Count", 
+            "cName": "数量", 
+            "isCore": true, 
+            "def": "线性长度的计量单位数量。"
+        }, 
+        {
+            "abbrName": "stuff", 
+            "eName": "Stuff", 
+            "cName": "物品", 
+            "isCore": true, 
+            "def": "其线性长度被测量的物品。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": true, 
+            "def": "按照标准化量值测量其他相同种类得出的数值。"
+        }, 
+        {
+            "abbrName": "dimen", 
+            "eName": "Dimension", 
+            "cName": "维度", 
+            "isCore": false, 
+            "def": "该框架元素标注表示被测量物品属性的语言成分。"
+        }
+    ]
+}

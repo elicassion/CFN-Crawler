@@ -1,0 +1,138 @@
+{
+    "fdInfo": {
+        "eName": "Silencing", 
+        "cName": "使安静", 
+        "des": "有时就某个特定主题而言，施动者使说话者安静下来。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "安静", 
+            "POS": "a"
+        }, 
+        {
+            "word": "闭嘴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "沉静", 
+            "POS": "a"
+        }, 
+        {
+            "word": "沉默", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寂静", 
+            "POS": "a"
+        }, 
+        {
+            "word": "缄口", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宁静", 
+            "POS": "a"
+        }, 
+        {
+            "word": "平静", 
+            "POS": "a"
+        }, 
+        {
+            "word": "嘘", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者是进行有意行为的人。"
+        }, 
+        {
+            "abbrName": "expr", 
+            "eName": "Expressor", 
+            "cName": "表达体", 
+            "isCore": true, 
+            "def": "表达体指的是说话者发出的声音，或说话者发出的其他用于交流的声音。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "未传递信息的有感受力实体。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "该框架元素解释对所进行的有意行为的原因。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "进行有意行为所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何不为更具体的框架元素所涵盖的对使安静事件的描述，包括认知调整（可能的，大概的，神秘的），以及比较性事件的一般描述（同样）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者使说话者安静下来所实施的行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "实施有意行为的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "结果指的是说话者的终状态。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "消息所涉及的主题，它通常用“关于”开头的介词短语表述。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "施动者使说话者安静下来的程度。"
+        }
+    ]
+}

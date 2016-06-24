@@ -1,0 +1,61 @@
+{
+    "fdInfo": {
+        "eName": "Harboring", 
+        "cName": "窝藏", 
+        "des": "窝藏是指明知是犯罪的人而为其提供隐藏处所的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "包庇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "窝藏", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "窝藏人", 
+            "isCore": true, 
+            "def": "明知他人犯罪而为其提供隐蔽处所的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "被窝藏人", 
+            "isCore": true, 
+            "def": "犯罪后被他人窝藏，逃避抓捕的人。　"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "处所", 
+            "isCore": true, 
+            "def": "窝藏犯罪人的地方。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "司法机关", 
+            "isCore": true, 
+            "def": "对犯罪事实、证据予以收集、确认，追究犯罪人刑事责任的国家机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "刑罚", 
+            "isCore": true, 
+            "def": "司法机关对犯罪人的窝藏行为所判处的刑罚。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "修饰", 
+            "isCore": false, 
+            "def": "对窝藏行为进行的描述和形容。"
+        }
+    ]
+}

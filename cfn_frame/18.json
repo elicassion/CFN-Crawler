@@ -1,0 +1,116 @@
+{
+    "fdInfo": {
+        "eName": "Remembering_experience", 
+        "cName": "情景记忆", 
+        "des": "该框架指认知者记得或忘记过去发生的事情或某个时间、某个地点存在的事物、情景，在表达时，可能是想起一段经历，也可能只提及曾见到的一个事物或去过的一个地方（突出点）。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "抚今追昔", 
+            "POS": "i"
+        }, 
+        {
+            "word": "后顾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回首", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记忆犹新", 
+            "POS": "i"
+        }, 
+        {
+            "word": "没齿不忘", 
+            "POS": "i"
+        }, 
+        {
+            "word": "缅怀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缅想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忘怀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忆苦思甜", 
+            "POS": "i"
+        }, 
+        {
+            "word": "重温旧梦", 
+            "POS": "i"
+        }, 
+        {
+            "word": "追怀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追忆", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "对过去的经历进行回忆的那个人。"
+        }, 
+        {
+            "abbrName": "experi", 
+            "eName": "Experience", 
+            "cName": "经历", 
+            "isCore": true, 
+            "def": "认知者所回忆的事件。"
+        }, 
+        {
+            "abbrName": "sal", 
+            "eName": "Salient_entity", 
+            "cName": "凸显实体", 
+            "isCore": true, 
+            "def": "认知者回忆的人或实体，这个人或实体所代表的不只是事物本身，而是与之有关的一段经历。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "突出点所具有的特征。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "认知者记忆所持续的时间数量。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "如果一个对事件（或状态）的描述不属于更具体的框架元素时，它就是修饰，包括可能性（大概，也许）、其它通用的比较事件异同的描述（同样），还包括认知者影响认知活动的突出特点（认真地），等等。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "认知者回忆的时间。"
+        }
+    ]
+}

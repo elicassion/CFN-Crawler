@@ -1,0 +1,118 @@
+{
+    "fdInfo": {
+        "eName": "Becoming_attached", 
+        "cName": "联结", 
+        "des": "某物体通过一个连接器连接到一个终点上，在物体的连接点和终点（或终点的某一部分）之间形成一种连结。或者说，多个物体彼此之间可以形成一种连结。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "扣", 
+            "POS": "v"
+        }, 
+        {
+            "word": "连", 
+            "POS": "v"
+        }, 
+        {
+            "word": "连接", 
+            "POS": "v"
+        }, 
+        {
+            "word": "连结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "连缀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联接", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "套", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "系", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "conn", 
+            "eName": "Connector", 
+            "cName": "连接器", 
+            "isCore": true, 
+            "def": "连接器表示用于连接的工具，通常用“和”引导的介词短语。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "终点表示第一个物体对接的位置。"
+        }, 
+        {
+            "abbrName": "item", 
+            "eName": "Item", 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "和终点粘在一起的实体。"
+        }, 
+        {
+            "abbrName": "items", 
+            "eName": "Items", 
+            "cName": "物体双方", 
+            "isCore": true, 
+            "def": "系在一起的物品的复数，导致他们成为彼此的附属物。"
+        }, 
+        {
+            "abbrName": "handle", 
+            "eName": "Handle", 
+            "cName": "连接点", 
+            "isCore": false, 
+            "def": "连接点表示物体连接在终点上面的附着点。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "物体连接于终点的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "连接事件发生的地点"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "连接事件的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "连接事件发生的时间。"
+        }
+    ]
+}

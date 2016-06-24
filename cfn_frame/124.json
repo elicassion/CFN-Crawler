@@ -1,0 +1,214 @@
+{
+    "fdInfo": {
+        "eName": "Attention ", 
+        "cName": "注意", 
+        "des": "该框架表示感知者的心理活动或意识在某一时刻所处状态，表现为对某一背景中的一个现象的集中思考与处理，而感知者通常并不知道这个现象是否真的存在于背景。该框架还可能提及意识集中的程度。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "不敢旁骛", 
+            "POS": "i"
+        }, 
+        {
+            "word": "放在心上", 
+            "POS": "i"
+        }, 
+        {
+            "word": "顾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "关心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "关注", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兼顾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "检点", 
+            "POS": "v"
+        }, 
+        {
+            "word": "经心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "经意", 
+            "POS": "v"
+        }, 
+        {
+            "word": "警觉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "警觉", 
+            "POS": "a"
+        }, 
+        {
+            "word": "警省", 
+            "POS": "v"
+        }, 
+        {
+            "word": "警省", 
+            "POS": "a"
+        }, 
+        {
+            "word": "警惕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "警醒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "警醒", 
+            "POS": "a"
+        }, 
+        {
+            "word": "理会", 
+            "POS": "v"
+        }, 
+        {
+            "word": "留神", 
+            "POS": "v"
+        }, 
+        {
+            "word": "留心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "留意", 
+            "POS": "v"
+        }, 
+        {
+            "word": "上心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "小心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "小心", 
+            "POS": "a"
+        }, 
+        {
+            "word": "在心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "在意", 
+            "POS": "v"
+        }, 
+        {
+            "word": "注意", 
+            "POS": "v"
+        }, 
+        {
+            "word": "专心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "专注", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "感知者注意力所集中的实体，存在于背景之中。"
+        }, 
+        {
+            "abbrName": "perc", 
+            "eName": "Perceiver", 
+            "cName": "感知者", 
+            "isCore": true, 
+            "def": "对背景产生注意的人。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": false, 
+            "def": "感知者所关注的感知区域或这个区域的一部分。"
+        }, 
+        {
+            "abbrName": "expr", 
+            "eName": "Expressor", 
+            "cName": "表达体", 
+            "isCore": false, 
+            "def": "指与感知者有关的一个实体或事件，为感知者提供注意的线索或迹象。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "感知者集中注意力时所处的环境条件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "表示感知者对于现象或背景给予了多少关注。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "表示事件所处的状态，该元素是一个杂类，用来概括那些无法归入其他更具体的框架元素的语义成分。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素并不表示目标词在本句之内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是重复前面的动作，或仅仅是假想目标词动作是一系列相似事件或状态的重复，常用\"序数词语＋动量词\"、副词\"又\"、\"再\"（＋数量短语）等表示。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "完成事件所依靠的方法。"
+        }, 
+        {
+            "abbrName": "sco_perc", 
+            "eName": null, 
+            "cName": "感知者范围", 
+            "isCore": false, 
+            "def": "感知者所属的社会团体。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "注意所发生的处所。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": null, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述感知者或形象所处的状态。"
+        }
+    ]
+}

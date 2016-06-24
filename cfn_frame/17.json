@@ -1,0 +1,135 @@
+{
+    "fdInfo": {
+        "eName": "Destroying", 
+        "cName": "破坏", 
+        "des": "破坏者（有意识的实体）或致因（事件或卷入该事件中的实体）给经历体造成了消极影响，从而使该经历体不复存在。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "拆除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拆卸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摧毁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毁害", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毁坏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毁灭", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毁损", 
+            "POS": "v"
+        }, 
+        {
+            "word": "破坏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "损毁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "夷为平地", 
+            "POS": "i"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "造成经历体毁坏的事件或实体。"
+        }, 
+        {
+            "abbrName": "destr", 
+            "eName": "Destroyer", 
+            "cName": "破坏者", 
+            "isCore": true, 
+            "def": "导致经历体受到破坏的有意识的实体。"
+        }, 
+        {
+            "abbrName": "undgo", 
+            "eName": "Undergoer", 
+            "cName": "经历体", 
+            "isCore": true, 
+            "def": "被破坏者或致因破坏的实体。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "破坏者为破坏经历体所使用的器物。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述破坏活动的特征或所处状态的成分，都归入该元素"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "破坏者为实施破坏所采取的行为。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "即经历体受到破坏的程度。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "破坏者对经历体实施破坏的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "破坏者对经历体实施破坏行为的目的。 "
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "破坏者对经历体实施破坏行为的原因。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "破坏行为对经历体造成直接影响的具体部位。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "破坏者破坏经历体的时间。"
+        }
+    ]
+}

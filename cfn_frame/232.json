@@ -1,0 +1,89 @@
+{
+    "fdInfo": {
+        "eName": "Extradition", 
+        "cName": "引渡", 
+        "des": "指一国把在该国境内而被他国追捕、通缉或判刑的人，根据有关国家的请求移交给请求国审判或处罚。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "引渡", 
+            "POS": "n"
+        }, 
+        {
+            "word": "引渡", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "auth", 
+            "eName": "Authorities", 
+            "cName": "官方", 
+            "isCore": true, 
+            "def": "代表当前司法机构，将嫌犯送往刑事司法机构的机构。"
+        }, 
+        {
+            "abbrName": "cri_juris", 
+            "eName": "Crime_jurisdiction", 
+            "cName": "刑事司法机构", 
+            "isCore": true, 
+            "def": "请求引渡嫌犯并将对其进行审判的机构(一般是一个国家)。"
+        }, 
+        {
+            "abbrName": "cur_juris", 
+            "eName": "Current_jurisdiction", 
+            "cName": "当前司法机构", 
+            "isCore": true, 
+            "def": "嫌犯出发时所在的司法机构（通常是一个国家）。"
+        }, 
+        {
+            "abbrName": "suspect", 
+            "eName": "Suspect", 
+            "cName": "嫌疑人", 
+            "isCore": true, 
+            "def": "被怀疑实施了犯罪，请求国要求对其引渡并审判的人。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对引渡过程中权威机构或嫌犯的描述。"
+        }, 
+        {
+            "abbrName": "leg_basis", 
+            "eName": "Legal_Basis", 
+            "cName": "法律依据", 
+            "isCore": false, 
+            "def": "引渡所依据的条约、协定等。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对引渡方式的描述."
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "权威机构引渡嫌犯的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "权威机构引渡嫌犯的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "嫌犯被引渡的时间。"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "fdInfo": {
+        "eName": "Employing", 
+        "cName": "雇用", 
+        "des": "该框架表示一个雇主雇用一个雇员，该雇员通过担任某个职位或完成某项任务来获取报酬。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "雇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "雇佣", 
+            "POS": "v"
+        }, 
+        {
+            "word": "雇用", 
+            "POS": "v"
+        }, 
+        {
+            "word": "聘用", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "empee", 
+            "eName": "Employee", 
+            "cName": "雇员", 
+            "isCore": true, 
+            "def": "雇员表示通过完成某项任务来得到报酬的人。"
+        }, 
+        {
+            "abbrName": "emper", 
+            "eName": "Employer", 
+            "cName": "雇主", 
+            "isCore": true, 
+            "def": "雇主是指付给雇员报酬的人或某个机构。"
+        }, 
+        {
+            "abbrName": "field", 
+            "eName": "Field", 
+            "cName": "领域", 
+            "isCore": true, 
+            "def": "指雇员的工作领域。"
+        }, 
+        {
+            "abbrName": "posit", 
+            "eName": "Position", 
+            "cName": "职位", 
+            "isCore": true, 
+            "def": "表示某一特定职业类别的名称。"
+        }, 
+        {
+            "abbrName": "task", 
+            "eName": "Task", 
+            "cName": "任务", 
+            "isCore": true, 
+            "def": "任务表示雇员所应为雇主所做的行动或职责。"
+        }, 
+        {
+            "abbrName": "compense", 
+            "eName": "Compensation", 
+            "cName": "报酬", 
+            "isCore": false, 
+            "def": "报酬指的是雇员完成任务后得到的报酬。"
+        }, 
+        {
+            "abbrName": "cb", 
+            "eName": "Contract_basis", 
+            "cName": "合同类型", 
+            "isCore": false, 
+            "def": "合同类型是雇员与雇主间签订的或口头的协议所属的类型，一般指“全日制，半日制，试用，正式”等类型。这种类型跟雇员的职位、工作时间及报酬有关。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "这个框架元素表示在雇佣过程中雇员工作的时间长度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "这个框架元素表示雇主雇用雇员工作的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示雇主雇用雇员的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "这个框架元素表示雇主通过雇用雇员希望达到的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这个框架元素表示雇主雇用雇员工作的时间。"
+        }
+    ]
+}

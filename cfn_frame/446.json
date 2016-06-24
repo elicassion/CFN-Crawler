@@ -1,0 +1,203 @@
+{
+    "fdInfo": {
+        "eName": "Competition", 
+        "cName": "比赛", 
+        "des": "这个框架指的是人们(参与者_1、参与者_2或参与者)为了获得某种有利结果(通常为奖励)，参与有组织、有规则的活动(比赛)。排名和得分是判断获得有利结果的程度所依据的两个不同的标准。?"
+    }, 
+    "lexElmt": [
+        {
+            "word": "比赛", 
+            "POS": "n"
+        }, 
+        {
+            "word": "比赛", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打", 
+            "POS": "v"
+        }, 
+        {
+            "word": "敌手", 
+            "POS": "n"
+        }, 
+        {
+            "word": "对局", 
+            "POS": "v"
+        }, 
+        {
+            "word": "对抗赛", 
+            "POS": "n"
+        }, 
+        {
+            "word": "对垒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "对擂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "对手", 
+            "POS": "n"
+        }, 
+        {
+            "word": "对阵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交锋", 
+            "POS": "v"
+        }, 
+        {
+            "word": "较量", 
+            "POS": "v"
+        }, 
+        {
+            "word": "竞答", 
+            "POS": "v"
+        }, 
+        {
+            "word": "竞渡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "竞岗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "竞争", 
+            "POS": "v"
+        }, 
+        {
+            "word": "球员", 
+            "POS": "n"
+        }, 
+        {
+            "word": "挑战", 
+            "POS": "v"
+        }, 
+        {
+            "word": "运动员", 
+            "POS": "n"
+        }, 
+        {
+            "word": "争猜", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "compt", 
+            "eName": "Competition", 
+            "cName": "比赛", 
+            "isCore": true, 
+            "def": "该框架元素用于指比赛的名称。"
+        }, 
+        {
+            "abbrName": "partic-1", 
+            "eName": "Participant_1", 
+            "cName": "参与者_1", 
+            "isCore": true, 
+            "def": "该框架元素表示比赛中的第一个（或唯一）参与者。"
+        }, 
+        {
+            "abbrName": "ppartic-2", 
+            "eName": "Participant_2", 
+            "cName": "参与者_2", 
+            "isCore": true, 
+            "def": "该框架元素表示比赛中的第二个参与者。"
+        }, 
+        {
+            "abbrName": "partic-S", 
+            "eName": "Participants", 
+            "cName": "参与者", 
+            "isCore": true, 
+            "def": "该框架元素指的是用复数形式的名词短语表达的比赛参与者。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素描述比赛的强度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "该框架元素用于描述进行比赛的时间长度。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素表达比赛进行的频率。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "参与者比赛的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "参与者(或参与者_1)参与的、构成比赛的行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的地点。可标注为处所的语言成分可能会出现在两者情况下。"
+        }, 
+        {
+            "abbrName": "prize", 
+            "eName": "Prize", 
+            "cName": "奖励", 
+            "isCore": false, 
+            "def": "该框架元素表示比赛中荣获的奖品。?"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素是用于描述参加比赛想要达到的预期效果。"
+        }, 
+        {
+            "abbrName": "rank", 
+            "eName": "Rank", 
+            "cName": "排名", 
+            "isCore": false, 
+            "def": "该框架元素是用于指比赛的排名结果,并可转换成一个数值。"
+        }, 
+        {
+            "abbrName": "score", 
+            "eName": "Score", 
+            "cName": "得分", 
+            "isCore": false, 
+            "def": "该框架元素用于指比赛的分数。?"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "比赛所进行的时间。"
+        }, 
+        {
+            "abbrName": "venue", 
+            "eName": "Venue", 
+            "cName": "场地", 
+            "isCore": false, 
+            "def": "该框架元素用于指有特定名称的比赛场馆,尤其是当时该场所的修建是以比赛为目的的。"
+        }
+    ]
+}

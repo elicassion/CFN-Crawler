@@ -1,0 +1,75 @@
+{
+    "fdInfo": {
+        "eName": "Fire_by_imprudence", 
+        "cName": "失火", 
+        "des": "失火罪是指行为人由于过失引起火灾，造成严重后果，危害公共安全的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "失火", 
+            "POS": "n"
+        }, 
+        {
+            "word": "失火罪", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "由于自己的过失引起火灾，造成严重后果，危害公共安全的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "危害后果", 
+            "isCore": true, 
+            "def": "犯罪人引起火灾造成的严重后果。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "司法机关", 
+            "isCore": true, 
+            "def": "对犯罪人的行为予以认定，并追究其刑事责任的国家机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法律", 
+            "isCore": true, 
+            "def": "认定犯罪人的行为构成失火罪所依据的法律。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "刑罚", 
+            "isCore": true, 
+            "def": "犯罪人由于其犯罪行为所受到的法律惩罚。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "火灾发生的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "火灾发生的地点。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "过失", 
+            "isCore": false, 
+            "def": "犯罪人对发生火灾所持的疏忽大意或过于自信的心理。"
+        }
+    ]
+}

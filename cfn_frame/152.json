@@ -1,0 +1,87 @@
+{
+    "fdInfo": {
+        "eName": "Trafficking_in_women_and_children", 
+        "cName": "拐卖妇女儿童", 
+        "des": "拐卖妇女、儿童是指以出卖为目的，拐骗、绑架、收买、贩卖、接送、中转妇女、儿童的行为。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "实施了拐卖妇女儿童行为的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "被害人", 
+            "isCore": true, 
+            "def": "被犯罪人拐卖的妇女、儿童。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "国家机关", 
+            "isCore": true, 
+            "def": "依据法律对犯罪人进行打击、惩罚的国家机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "刑罚", 
+            "isCore": true, 
+            "def": "犯罪人因其犯罪行为所受到的惩罚。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "犯罪人实施拐卖妇女、儿童犯罪的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "犯罪人实施拐卖妇女、儿童犯罪的地点。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "起始地点", 
+            "isCore": false, 
+            "def": "犯罪人最初将妇女、儿童拐骗到手的地点。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "终点地点", 
+            "isCore": false, 
+            "def": "犯罪人将妇女、儿童最终拐骗到的地点。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "犯罪人实施拐卖妇女、儿童行为的目的。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "手段", 
+            "isCore": false, 
+            "def": "犯罪\t人实施拐卖妇女、儿童行为的方式，方法。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "修饰", 
+            "isCore": false, 
+            "def": "对拐卖行为进行的描述和形容。"
+        }
+    ]
+}

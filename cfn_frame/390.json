@@ -1,0 +1,104 @@
+{
+    "fdInfo": {
+        "eName": "Exercising", 
+        "cName": "锻炼", 
+        "des": "施动者积极维持或改善其身体健康水平。该行为可能是针对某一个特定的身体部位，或者通过一种特定的方法进行。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "锻炼", 
+            "POS": "v"
+        }, 
+        {
+            "word": "健", 
+            "POS": "v"
+        }, 
+        {
+            "word": "健身", 
+            "POS": "v"
+        }, 
+        {
+            "word": "运动", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "设法维持或改善身体健康水平的人。"
+        }, 
+        {
+            "abbrName": "bodp", 
+            "eName": "Body_part", 
+            "cName": "身体部位", 
+            "isCore": false, 
+            "def": "锻炼活动直接指向的施动者身体的某个部位"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "施动者锻炼健身的频繁度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "一般性描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者锻炼时所使用的器材。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "施动者锻炼时的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者希望通过锻炼所达到的目的。"
+        }, 
+        {
+            "abbrName": "sub", 
+            "eName": "Subtype", 
+            "cName": "子类", 
+            "isCore": false, 
+            "def": "该框架元素描述了一个更为概括的运动范畴的子类。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者锻炼的时间。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件描述的是独立于事件本身及其参与者的特定(即在特定时间和地点)世界状态。"
+        }, 
+        {
+            "abbrName": "benefs", 
+            "eName": "Benefits", 
+            "cName": "益处", 
+            "isCore": false, 
+            "def": "该框架元素指的是锻炼事件可能给施动者的身体部位带来的好处。"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "fdInfo": {
+        "eName": "Employment_scenario", 
+        "cName": "雇佣场景", 
+        "des": "指雇主和雇员双方存在雇佣关系，其中雇员被雇用一定的持续时间并最终因某些原因（雇员离开或雇主解雇雇员）结束这种雇佣关系。对每一个雇佣关系来说，都会伴有一些相关的事情，比如签订工作合同、工作的薪水及其业绩、雇佣关系的终止；许多情况下还包括雇主的前期工作（发布职位招聘公告）、雇员的前期准备（找工作）或者兼有两者（面试）。除此之外，在雇佣期内，雇主和雇员之间的关系也可能发生变化，如职位的变化（升职或降职）、报酬的变化（加薪或减薪）。\r\n该框架是抽象的上位框架，主要用于建立相关的继承关系。\r\n"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "empee", 
+            "eName": "Employee", 
+            "cName": "雇员", 
+            "isCore": true, 
+            "def": "指完成某些任务来获取报酬的人。"
+        }, 
+        {
+            "abbrName": "emper", 
+            "eName": "Employer", 
+            "cName": "雇主", 
+            "isCore": true, 
+            "def": "指付报酬给雇员的人或机构。"
+        }, 
+        {
+            "abbrName": "task", 
+            "eName": "Task", 
+            "cName": "任务", 
+            "isCore": true, 
+            "def": "任务指雇员需要为雇主工作的行为。"
+        }, 
+        {
+            "abbrName": "compense", 
+            "eName": "Compensation", 
+            "cName": "报酬", 
+            "isCore": false, 
+            "def": "报酬是雇员完成某任务而获得的相应报偿。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员被雇用的持续时间。"
+        }, 
+        {
+            "abbrName": "field", 
+            "eName": "Field", 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员工作的领域。"
+        }, 
+        {
+            "abbrName": "posit", 
+            "eName": "Position", 
+            "cName": "职位", 
+            "isCore": false, 
+            "def": "指雇佣关系中，某类工种的名称。"
+        }
+    ]
+}

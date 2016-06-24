@@ -1,0 +1,137 @@
+{
+    "fdInfo": {
+        "eName": "Commerce_buy", 
+        "cName": "商业购买", 
+        "des": "该框架以买方为透视点，涉及买方和卖方进行钱物交易的基本买卖行为，个别词语依它们框架元素的配价模式发生变化。例如，动词\"买\"的典型模式是：买方通过钱从卖方购买商品：李南花了90000元从金宾那里买了一辆汽车。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "购", 
+            "POS": "v"
+        }, 
+        {
+            "word": "购买", 
+            "POS": "v"
+        }, 
+        {
+            "word": "购物", 
+            "POS": "v"
+        }, 
+        {
+            "word": "买", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租赁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租用", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "byr", 
+            "eName": "Buyer", 
+            "cName": "买方", 
+            "isCore": true, 
+            "def": "买方需要商品并且向卖方支付金钱进行交换。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "可用金钱交换的任何东西（包括劳动和时间等）。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "买方目前（或曾经）拥有商品的时间的长度。（该框架元素一般只与临时性交换所有权的动词\"租\"和\"赁\"有关）"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。也可以表示买方影响活动的突显特点（专横地、冰冷地、故意地、热心地、小心地）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指进行商业交易的手段。"
+        }, 
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "cName": "货币", 
+            "isCore": false, 
+            "def": "金钱是用来在商品交易过程中与商品进行交换的东西。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "指商品交易事件发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "指商品交易事件发生的目的。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "cName": "比率", 
+            "isCore": false, 
+            "def": "有些情况下，用每单位的商品量对价格或付款情况进行描述。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "指商品交易事件发生的原因。"
+        }, 
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": false, 
+            "def": "接受买方购买的商品的个体。"
+        }, 
+        {
+            "abbrName": "slr", 
+            "eName": "Seller", 
+            "cName": "卖方", 
+            "isCore": false, 
+            "def": "拥有商品并且与买方进行金钱交换的个体。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指商品交易事件发生的时间。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "可以衡量商品或服务的任何单位，一般以介词短语出现"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "fdInfo": {
+        "eName": "Visitor_departure ", 
+        "cName": "访客_离开", 
+        "des": "拜访结束之后，施动者离开起点，通常是前往其常住地。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "该框架元素描述的是自主转移体。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "任何能表达出施动者起始位置的语言成分都可以称之为访问起点。起点这个框架元素经常需要通过上下文理解。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "施动者拜访时途经的距离。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": false, 
+            "def": "该框架元素描述的是施动者离开起点，最终到达或要到达的地方。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "方式描述的是与运动轨迹并不直接相关的运动属性，比如姿态，稳定性 及其他相关运动属性，但速度和方法在本框架中会作为一个具体的框架元素来对待。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素描述的是使施动者离开的一种行为。"
+        }, 
+        {
+            "abbrName": "mot", 
+            "eName": "Mode_of_transportation", 
+            "cName": "移动模式", 
+            "isCore": false, 
+            "def": "出行方式这个框架元素能表达出作用于施动者的运动模式，即通过施动者的身体或所乘坐交通工具而实现传送。交通工具可以以任何方式在任何介质中运动。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "该框架元素路径描述的既不是起点也不是目的地而是离开的运动轨迹。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所在这里指的是离开的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素描述的是施动者离开起点的目的。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "该框架元素描述的是施动者移动的速度。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "离开的时间。"
+        }
+    ]
+}

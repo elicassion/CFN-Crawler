@@ -1,0 +1,100 @@
+{
+    "fdInfo": {
+        "eName": "Adjusting", 
+        "cName": "调整", 
+        "des": "指致动者根据某些属性改变某复合实体的一部分。复合实体通常是设备或机械装置，也可能是抽象实体，如经济。在实际句子中有可能用完整的实体代替被改变的那一部分。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "调适", 
+            "POS": "v"
+        }, 
+        {
+            "word": "调整", 
+            "POS": "v"
+        }, 
+        {
+            "word": "校准", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "指控制某些属性值的个体。"
+        }, 
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "cName": "属性", 
+            "isCore": true, 
+            "def": "指实体中某些部分所调整的属性。"
+        }, 
+        {
+            "abbrName": "par", 
+            "eName": "Part", 
+            "cName": "部分", 
+            "isCore": true, 
+            "def": "指在调整过程中，复合实体发生变化的部分。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "指初值和终值之间的数量描述。"
+        }, 
+        {
+            "abbrName": "fin_v", 
+            "eName": "Final_value", 
+            "cName": "终值", 
+            "isCore": false, 
+            "def": "指属性在系统调整完成后的数值。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "指致动者用于调整实体部分或属性时所使用的实体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指未被其他框架元素包括的调整动作的描述，其中包括次要作用的描述（安静的，大声的），还有一些事件的总体描述。除此之外，它也可能表示致动者的突出特征，这些特征也会影响致动者的行为（轻率的、冷酷的、故意的、渴望的、小心的）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指致动者为达到目的所采取的行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "指调整活动发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "指通过调整，致动者希望达到的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指调整活动发生的时间。"
+        }
+    ]
+}

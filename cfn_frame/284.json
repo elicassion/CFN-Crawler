@@ -1,0 +1,94 @@
+{
+    "fdInfo": {
+        "eName": "Sentencing", 
+        "cName": "判决", 
+        "des": "法官在审判过程中，基于对证据和事实的判断，对被告人是否有罪、构成何种罪以及应处何种刑罚等做出的决定。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "检举", 
+            "POS": "v"
+        }, 
+        {
+            "word": "命令", 
+            "POS": "v"
+        }, 
+        {
+            "word": "判决", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宣判", 
+            "POS": "n"
+        }, 
+        {
+            "word": "宣判", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "conv", 
+            "eName": "Convict", 
+            "cName": "罪犯", 
+            "isCore": true, 
+            "def": "罪犯就是法院对其做出有罪判决的人。"
+        }, 
+        {
+            "abbrName": "court", 
+            "eName": "Court", 
+            "cName": "法院", 
+            "isCore": true, 
+            "def": "对罪犯做出判决的机构。"
+        }, 
+        {
+            "abbrName": "offense", 
+            "eName": "Offense", 
+            "cName": "罪行", 
+            "isCore": true, 
+            "def": "罪犯实施的严重危害社会的触犯刑法的行为。"
+        }, 
+        {
+            "abbrName": "sent", 
+            "eName": "Sentence", 
+            "cName": "判处", 
+            "isCore": true, 
+            "def": "法官对罪犯的罪行做出决定。"
+        }, 
+        {
+            "abbrName": "tos", 
+            "eName": "Term_of_sentence", 
+            "cName": "刑期", 
+            "isCore": true, 
+            "def": "罪犯服刑的期限"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "罪犯在其被判决时的情形。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "进行审判的地点"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "罪犯被判决的时间。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "判决中对罪犯所做处罚的类型"
+        }
+    ]
+}

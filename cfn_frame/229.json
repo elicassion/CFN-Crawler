@@ -1,0 +1,121 @@
+{
+    "fdInfo": {
+        "eName": "Execution", 
+        "cName": "死刑", 
+        "des": "剥夺犯罪分子生命的刑罚。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "处死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "处斩刑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "断头台", 
+            "POS": "n"
+        }, 
+        {
+            "word": "绞死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "绞刑吏", 
+            "POS": "n"
+        }, 
+        {
+            "word": "侩子手", 
+            "POS": "n"
+        }, 
+        {
+            "word": "死刑", 
+            "POS": "n"
+        }, 
+        {
+            "word": "死刑执行者", 
+            "POS": "n"
+        }, 
+        {
+            "word": "致死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "纵火", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "executed", 
+            "eName": "Executed", 
+            "cName": "死刑犯", 
+            "isCore": true, 
+            "def": "依照判决被剥夺生命的犯罪分子。"
+        }, 
+        {
+            "abbrName": "court", 
+            "eName": "Court", 
+            "cName": "法院", 
+            "isCore": true, 
+            "def": "判处犯罪分子死刑的法院。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对死刑执行情形的描述。"
+        }, 
+        {
+            "abbrName": "action", 
+            "eName": "Execution", 
+            "cName": "死刑", 
+            "isCore": false, 
+            "def": "剥夺犯罪分子生命的刑罚。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "执行死刑所使用的工具，为枪或毒药。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对死刑执行的形容性描写。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "执行死刑的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "执行死刑的地点。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "执行死刑的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "死刑执行的时间。"
+        }
+    ]
+}

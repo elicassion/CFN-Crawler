@@ -1,0 +1,66 @@
+{
+    "fdInfo": {
+        "eName": "Crime", 
+        "cName": "犯罪", 
+        "des": "犯罪者实施的具有严重社会危害性，触犯刑法，应当受到刑罚惩罚的行为。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "crime", 
+            "eName": "Crime", 
+            "cName": "犯罪行为", 
+            "isCore": true, 
+            "def": "犯罪行为是指表现人意志或意识，危害社会的行为。"
+        }, 
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "犯罪主体是指实施危害社会的行为、依法应当负刑事责任的自然人和单位。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "犯罪主体犯罪时所使用的工具"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "以犯罪行为的强度、恶劣性所作的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "犯罪主体实施犯罪所采取的手段、方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "犯罪主体实施犯罪的地方"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "是指犯罪人希望通过实施犯罪行为实现某种危害结果的心里态度。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "是指刺激、促使犯罪人实施犯罪行为的内心起因或思想活动"
+        }
+    ]
+}

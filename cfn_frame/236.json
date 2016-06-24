@@ -1,0 +1,40 @@
+{
+    "fdInfo": {
+        "eName": "Fullness", 
+        "cName": "满", 
+        "des": "一个容器装了一些容纳物，处于满、不满或空的状态。注意该框架与[容纳][倒空]和[填充]框架的区别和联系。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "空", 
+            "POS": "a"
+        }, 
+        {
+            "word": "满", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "container", 
+            "eName": "Container", 
+            "cName": "容器", 
+            "isCore": true, 
+            "def": "容器是被描述为满、不满或空的实体。"
+        }, 
+        {
+            "abbrName": "contents", 
+            "eName": "Contents", 
+            "cName": "容纳物", 
+            "isCore": true, 
+            "def": "容纳物用来做容器中容纳或待填充的物品。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "容器中的容纳物的数量与容器的最大容量之间的差别程度。"
+        }
+    ]
+}

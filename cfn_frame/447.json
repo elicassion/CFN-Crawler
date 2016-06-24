@@ -1,0 +1,65 @@
+{
+    "fdInfo": {
+        "eName": "Being_born", 
+        "cName": "出生", 
+        "des": "指孩子（通常指人类）的生命在特定的时间和地点开始。可能提及其亲属。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "出生", 
+            "POS": "v"
+        }, 
+        {
+            "word": "诞生", 
+            "POS": "v"
+        }, 
+        {
+            "word": "降生", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "child", 
+            "eName": "Child", 
+            "cName": "孩子", 
+            "isCore": true, 
+            "def": "孩子表示可以自移动的新生物。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "孩子来到这个世界时的状态。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "孩子离开子宫的方式，该框架元素通常只使用如自然生产或剖腹产的短语。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "孩子降临这个世界的地点。"
+        }, 
+        {
+            "abbrName": "relat", 
+            "eName": "Relatives", 
+            "cName": "亲属", 
+            "isCore": false, 
+            "def": "与孩子有亲缘关系的个体，包括共同创造出孩子的男性和女性（父母亲），以及在血统或者婚姻上与它们相关的个体。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "出生发生的时间，通常用日期或年份表示。"
+        }
+    ]
+}

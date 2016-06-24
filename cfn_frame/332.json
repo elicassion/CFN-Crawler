@@ -1,0 +1,170 @@
+{
+    "fdInfo": {
+        "eName": "Thwarting", 
+        "cName": "阻挠", 
+        "des": "在该框架中，阻力干扰主体完成计划中的行为。主体可能会在句子中不出现，那么此时的行为便指的是个人或集体所希望实现的目标。需要指出的是，在该框架中主体未能完成行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "挫败", 
+            "POS": "v"
+        }, 
+        {
+            "word": "挡住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抵制", 
+            "POS": "v"
+        }, 
+        {
+            "word": "堵住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "封阻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "干扰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "截留", 
+            "POS": "v"
+        }, 
+        {
+            "word": "截住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拦截", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拦住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拦阻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "破坏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扰乱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "受阻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "先发制人", 
+            "POS": "i"
+        }, 
+        {
+            "word": "制止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻碍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻挡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻遏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻击", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻截", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻拦", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻扰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻止", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "action", 
+            "eName": "Action", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "行为指的是某些人想进行却因受到阻力而未完成的行为或事件。"
+        }, 
+        {
+            "abbrName": "prevnt_cause", 
+            "eName": "Preventing_cause", 
+            "cName": "阻力", 
+            "isCore": true, 
+            "def": "阻力指的是阻止主体完成其计划中行为的施动者或外力因素。"
+        }, 
+        {
+            "abbrName": "prot", 
+            "eName": "Protagonist", 
+            "cName": "主体", 
+            "isCore": true, 
+            "def": "主体是指其计划中的行为因受阻力阻挠而未完成的个人或集体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "行为受挫的程度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指的是主体和（或）行为受阻力所阻挠原因和方法。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素定义了单位时间内阻挠事件发生的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "阻力阻挠主体行为的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所指的是阻挠发生的空间场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指的是阻挠发生的时间。"
+        }
+    ]
+}

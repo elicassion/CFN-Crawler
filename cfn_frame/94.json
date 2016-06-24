@@ -1,0 +1,47 @@
+{
+    "fdInfo": {
+        "eName": "Suspicion ", 
+        "cName": "嫌疑", 
+        "des": "一个人或者一个群体，代表官方，认为某个人，即嫌疑人参与了一个犯罪事件（事故）。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "涉嫌", 
+            "POS": "v"
+        }, 
+        {
+            "word": "嫌疑", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "auth", 
+            "eName": "Authority", 
+            "cName": "官方", 
+            "isCore": true, 
+            "def": "即怀疑嫌疑人犯有罪行的群体或个人。"
+        }, 
+        {
+            "abbrName": "inc", 
+            "eName": "Incident", 
+            "cName": "事故", 
+            "isCore": true, 
+            "def": "事故（尤指犯罪行为）是嫌疑人涉嫌参与的行为。"
+        }, 
+        {
+            "abbrName": "suspect", 
+            "eName": "Suspect", 
+            "cName": "嫌疑人", 
+            "isCore": true, 
+            "def": "\t嫌疑人是官方怀疑的对象。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "怀疑的时间"
+        }
+    ]
+}

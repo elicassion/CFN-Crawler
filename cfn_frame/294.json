@@ -1,0 +1,129 @@
+{
+    "fdInfo": {
+        "eName": "Supply", 
+        "cName": "提供", 
+        "des": "供应者为接收者提供转移体，用以满足接收者的需要或目的（接收目的）。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "供", 
+            "POS": "v"
+        }, 
+        {
+            "word": "供给", 
+            "POS": "v"
+        }, 
+        {
+            "word": "供货", 
+            "POS": "v"
+        }, 
+        {
+            "word": "供应", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提供", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "purp_reci", 
+            "eName": "Purpose_of_recipient", 
+            "cName": "接受者目的", 
+            "isCore": true, 
+            "def": "接收者接受转移体的目的"
+        }, 
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": true, 
+            "def": "指最后持有转移体的个体。"
+        }, 
+        {
+            "abbrName": "suplier", 
+            "eName": "Supplier", 
+            "cName": "供应者", 
+            "isCore": true, 
+            "def": "指一开始持有转移体的人，是他促成了接收者持有转移体。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "指提供给接收者的实体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件描述的是转移体被提供时的外部环境状态，环境条件独立于提供事件本身和事件参与者的状态（在特定的时间和地点），做为一个整体仅仅与事件的外围相关。"
+        }, 
+        {
+            "abbrName": "thm_c", 
+            "eName": "Co_theme", 
+            "cName": "伴随体", 
+            "isCore": false, 
+            "def": "连同主要转移体一起被提供的其他的转移体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "修饰用来概括无法归入其他更具体的框架元素的任何语义成分，包括认知的修饰（如很可能，大概，神秘地），辅助描述（安静地，大声地），和与事件相比较的一般描述（同样的方式）。它可能也指影响供应者行为的典型个性特征（专横地，冷淡地，故意地，热切地，谨慎地）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指供应者提供转移体给接收者的方式、手段。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period_of_iterations", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "指供应者供应行为重复的时间段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "指供应者提供转移体给接收者的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "指供应者提供转移体给接收者的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "指供应者提供转移体给接收者的原因。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": false, 
+            "def": "指转移体的来源。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指供应者提供转移体给接收者的时间。"
+        }
+    ]
+}

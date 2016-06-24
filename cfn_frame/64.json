@@ -1,0 +1,158 @@
+{
+    "fdInfo": {
+        "eName": "Desiring", 
+        "cName": "渴望", 
+        "des": "某个经历者渴望某个事件发生。（注意，一般来说，事件的结果状态代表事件。）在某些情况下，经历者是事件的积极参与者，在这些情况下，常被提及的不是事件本身，而是事件的某个核心参与者。总的来说，此框架中的目标词用来表明具体的事件尚未发生，而经历者认为如果事件发生，便会成为该事件的受益者。有时，不明确提及事件本身，而提及事件发生的时间、目的和处所。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "打算", 
+            "POS": "v"
+        }, 
+        {
+            "word": "渴求", 
+            "POS": "v"
+        }, 
+        {
+            "word": "渴望", 
+            "POS": "n"
+        }, 
+        {
+            "word": "渴望", 
+            "POS": "v"
+        }, 
+        {
+            "word": "盼望", 
+            "POS": "v"
+        }, 
+        {
+            "word": "期待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "热望", 
+            "POS": "v"
+        }, 
+        {
+            "word": "妄想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "希望", 
+            "POS": "n"
+        }, 
+        {
+            "word": "希望", 
+            "POS": "v"
+        }, 
+        {
+            "word": "想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "向往", 
+            "POS": "v"
+        }, 
+        {
+            "word": "要", 
+            "POS": "v"
+        }, 
+        {
+            "word": "愿望", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "经历者想看到的变化。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Experiencer", 
+            "cName": "体验者", 
+            "isCore": true, 
+            "def": "经历者是希望事件发生的人。"
+        }, 
+        {
+            "abbrName": "foc_partipt", 
+            "eName": "Focal_participant", 
+            "cName": "核心参与者", 
+            "isCore": true, 
+            "def": "经历者希望事件所能影响的实体。"
+        }, 
+        {
+            "abbrName": "loc_event", 
+            "eName": "Location_of_Event", 
+            "cName": "事件发生地点", 
+            "isCore": true, 
+            "def": "处所是希望发生的事件所涉及的地点"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "使经历者产生欲望的某个内在因素。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "经历者渴望的程度"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "经历者渴望某事所持续的时段。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "经历者渴望某事的方式. "
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "经历者产生渴望时的地点。注意：此框架元素在这个框架里极少出现。 "
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "渴望事件一旦发生可能带来的结果，这个结果可能会如愿以偿，也可能不会出现."
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "原因用来说明经历者为什么会希望事件发生，这个事件是经历者追求的目标。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "经历者产生某种渴望的时间。"
+        }, 
+        {
+            "abbrName": "tim_evt", 
+            "eName": "Time_of_Event", 
+            "cName": "事件发生的时间", 
+            "isCore": false, 
+            "def": "经历者所希望的事件发生的时间。"
+        }
+    ]
+}

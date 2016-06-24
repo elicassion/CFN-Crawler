@@ -1,0 +1,119 @@
+{
+    "fdInfo": {
+        "eName": "Questioning", 
+        "cName": "询问", 
+        "des": "询问框架指提问者问听话人某种必需的信息（或者是要求听话人做出某种行为。）"
+    }, 
+    "lexElmt": [
+        {
+            "word": "采访", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打探", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打听", 
+            "POS": "v"
+        }, 
+        {
+            "word": "盘问", 
+            "POS": "v"
+        }, 
+        {
+            "word": "审问", 
+            "POS": "v"
+        }, 
+        {
+            "word": "探问", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提问", 
+            "POS": "v"
+        }, 
+        {
+            "word": "问", 
+            "POS": "v"
+        }, 
+        {
+            "word": "问明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "问题", 
+            "POS": "n"
+        }, 
+        {
+            "word": "询问", 
+            "POS": "v"
+        }, 
+        {
+            "word": "质问", 
+            "POS": "v"
+        }, 
+        {
+            "word": "质询", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": true, 
+            "def": "听话者通常是目标动词的宾语，以名词为目标词的例句中，听话者在介词短语中出现，作目标词的定语。"
+        }, 
+        {
+            "abbrName": "msg", 
+            "eName": "Message", 
+            "cName": "信息", 
+            "isCore": true, 
+            "def": "信息是说话人想要获得的内容。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "说话者是想要获知某种信息的人，通常是动词目标词的主语，名词目标词时作为目标词的定语。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "此框架中的关涉表示与信息有关的内容，通常以“对、对于、关于”等介词短语形式表达。"
+        }, 
+        {
+            "abbrName": "in_cause", 
+            "eName": "Internal_cause", 
+            "cName": "内因", 
+            "isCore": false, 
+            "def": "内因是指说话人问话时的精神或是情感状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "询问发出的方式。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "媒介是由说话人用来发出问题的实体或是渠道。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "询问发生的时间。"
+        }
+    ]
+}

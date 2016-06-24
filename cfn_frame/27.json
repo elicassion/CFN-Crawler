@@ -1,0 +1,88 @@
+{
+    "fdInfo": {
+        "eName": "Defraud", 
+        "cName": "诈骗", 
+        "des": "指以非法占有为目的，用虚构的事实或者隐瞒真相的方法，骗取数额较大的公私财物的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "骗得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "骗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "骗得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "骗得", 
+            "POS": "u"
+        }, 
+        {
+            "word": "骗取", 
+            "POS": "v"
+        }, 
+        {
+            "word": "诈骗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "诈取", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "诈骗公私财物或用虚构的事实或者隐瞒真相的方法非法占有公私财物的人。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "被骗取财物的财产所有人。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "被犯罪主体骗取的财物。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "犯罪主体骗取财物所使用的方法。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "指犯罪主体实施诈骗行为所具有的目的，既非法占有他人财物。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "诈骗行为发生的时间。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": " 诈骗行为发生的地点。"
+        }
+    ]
+}

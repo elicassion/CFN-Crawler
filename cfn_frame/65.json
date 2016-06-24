@@ -1,0 +1,68 @@
+{
+    "fdInfo": {
+        "eName": "Objective_influence", 
+        "cName": "客观影响", 
+        "des": "一个施加影响的变量（施影响变量），施加影响的状态（施影响状态），或者一个施加影响的实体（施影响实体），对一个受影响的实体（受影响实体），受影响的变量（受影响变量）或者一个受影响的状态（受影响状态）产生影响。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "影响", 
+            "POS": "n"
+        }, 
+        {
+            "word": "影响", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "dep_e", 
+            "eName": "Dependent_entity", 
+            "cName": "受影响实体", 
+            "isCore": true, 
+            "def": "一个实体（通常是一个物体）在其行为中受到一个施影响实体或者施影响状态的影响。"
+        }, 
+        {
+            "abbrName": "dep_s", 
+            "eName": "Dependent_situation", 
+            "cName": "受影响状态", 
+            "isCore": true, 
+            "def": "一个状态的时间特征或其他特征受到一个施影响实体、施影响状态或者施影响变量的影响。"
+        }, 
+        {
+            "abbrName": "dep_v", 
+            "eName": "Dependent_variable", 
+            "cName": "受影响变量", 
+            "isCore": true, 
+            "def": "该元素表示一种量变，其值取决于施影响实体、施影响变量或施影响状态的影响。"
+        }, 
+        {
+            "abbrName": "inf_e", 
+            "eName": "Influencing_entity", 
+            "cName": "施影响实体", 
+            "isCore": true, 
+            "def": "包括事物和人，其行为对受影响状态、受影响变量或受影响实体产生影响。"
+        }, 
+        {
+            "abbrName": "inf_s", 
+            "eName": "Influencing_situation", 
+            "cName": "施影响状态", 
+            "isCore": true, 
+            "def": "对受影响实体、受影响状态、受影响变量施加影响的实体状态。"
+        }, 
+        {
+            "abbrName": "inf_v", 
+            "eName": "Influencing_variable", 
+            "cName": "施影响变量", 
+            "isCore": true, 
+            "def": "表示没有固定值的变量。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "施影响实体影响受影响实体的程度。"
+        }
+    ]
+}

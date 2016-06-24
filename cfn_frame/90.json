@@ -1,0 +1,117 @@
+{
+    "fdInfo": {
+        "eName": "Death", 
+        "cName": "死亡", 
+        "des": "这个框架描述了死亡的主体，有时也表达出死亡的致因。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "断气", 
+            "POS": "v"
+        }, 
+        {
+            "word": "过世", 
+            "POS": "v"
+        }, 
+        {
+            "word": "溺死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "去世", 
+            "POS": "v"
+        }, 
+        {
+            "word": "死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "死去", 
+            "POS": "v"
+        }, 
+        {
+            "word": "死亡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "死于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "淹死", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "prot", 
+            "eName": "Protagonist", 
+            "cName": "主体", 
+            "isCore": true, 
+            "def": "主体框架元素是指死亡的实体，一般做主语。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "致因框架元素指导致主体死亡的任何实体或不可预测的事件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "程度框架元素是对事件的度量，一般指次数或频率。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容框架元素指主体死亡时的状态。 "
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": false, 
+            "def": "事件框架指主体死亡的事件。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述事件所处的状态，是一个杂类，凡是无法归入其他更加具体的框架元素时，都归入修饰元素；做动词目标词的状语或补语，名词目标词的定语。   "
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "空间框架元素指死亡发生的地点。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "原因框架元素指主体死亡的原因。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "结果框架元素指主体死亡导致的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "时间框架元素指死亡发生的时间。"
+        }
+    ]
+}

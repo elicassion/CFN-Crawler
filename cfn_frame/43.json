@@ -1,0 +1,62 @@
+{
+    "fdInfo": {
+        "eName": "Stage_of_progress", 
+        "cName": "发展阶段", 
+        "des": "某一实体处于特定发展阶段。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "成熟", 
+            "POS": "v"
+        }, 
+        {
+            "word": "成熟", 
+            "POS": "a"
+        }, 
+        {
+            "word": "发达", 
+            "POS": "a"
+        }, 
+        {
+            "word": "先进", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "达到一定发展阶段的实体。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "特定实体取得进步的程度。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "实体相关发展领域。\r\n"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对发展阶段的描述，往往是一种评估。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "发展出现的时间。"
+        }
+    ]
+}

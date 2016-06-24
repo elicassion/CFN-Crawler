@@ -1,0 +1,71 @@
+{
+    "fdInfo": {
+        "eName": "Activity_paused_state", 
+        "cName": "行为相对中止状态", 
+        "des": "致动者在行为的某一阶段暂时停下来的状态."
+    }, 
+    "lexElmt": [
+        {
+            "word": "放置", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搁浅", 
+            "POS": "v"
+        }, 
+        {
+            "word": "徘徊", 
+            "POS": "a"
+        }, 
+        {
+            "word": "停滞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摇摆", 
+            "POS": "a"
+        }, 
+        {
+            "word": "踯躅", 
+            "POS": "a"
+        }, 
+        {
+            "word": "滞留", 
+            "POS": "v"
+        }, 
+        {
+            "word": "滞塞", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "activity", 
+            "eName": "Activity", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "与致动者有关的所有事件。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "处于行为暂停状态的人或机构。"
+        }, 
+        {
+            "abbrName": "dur_fin_st", 
+            "eName": "Duration_of_final_state", 
+            "cName": "结果时量", 
+            "isCore": false, 
+            "def": "致动者动作暂停状态所持续的时间。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致动者停止行为时的时间。"
+        }
+    ]
+}

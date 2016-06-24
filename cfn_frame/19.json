@@ -1,0 +1,81 @@
+{
+    "fdInfo": {
+        "eName": "Perception_body", 
+        "cName": "身体感知", 
+        "des": "该框架所含词语描述的是某一身体部位产生的某种感觉，所含词元一般和表示产生感觉的身体部位的词语一起出现。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "刺痛", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发痒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "麻", 
+            "POS": "a"
+        }, 
+        {
+            "word": "疼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "痛", 
+            "POS": "a"
+        }, 
+        {
+            "word": "痛苦", 
+            "POS": "a"
+        }, 
+        {
+            "word": "痒", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "bodp", 
+            "eName": null, 
+            "cName": "身体部位", 
+            "isCore": true, 
+            "def": "该框架元素指身体体验所发生的具体身体位置，通常用主语表达。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": null, 
+            "cName": "体验者", 
+            "isCore": true, 
+            "def": "体验者元素指某部位获得身体体验的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": null, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是一个杂类，表示的是那些描述身体感知的各种状态特点的成分，是除了程度致因等以外的语义成分。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": null, 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "导致身体有所感受的事件或实体。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "亚区是相对于身体部位来说的更加具体的感知区域，它总是和身体部位元素共现。"
+        }
+    ]
+}

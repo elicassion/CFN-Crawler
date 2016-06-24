@@ -1,0 +1,63 @@
+{
+    "fdInfo": {
+        "eName": "Being_detached", 
+        "cName": "物物分离", 
+        "des": "物体从起点分离，或者物体之间相互分离。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "分", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分开", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分离", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分散", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起锚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "松动", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "item", 
+            "eName": "Item", 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "指与起点分离的实体。"
+        }, 
+        {
+            "abbrName": "items", 
+            "eName": "Items", 
+            "cName": "多个物体", 
+            "isCore": true, 
+            "def": "指彼此分离的多个物体。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "起点表示物体分离的位置。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "这个框架元素确定物体和起点处于分离状态的方式，或两个项目互相分离的方式。"
+        }
+    ]
+}

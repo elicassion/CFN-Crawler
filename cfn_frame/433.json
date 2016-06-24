@@ -1,0 +1,148 @@
+{
+    "fdInfo": {
+        "eName": "Treating_and_mistreating", 
+        "cName": "优待与虐待", 
+        "des": "在该框架中，按施动者以某种方式对受影响方实施的行为对其进行评价,这种方式也许会或也许不会作为目标词元。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "待承", 
+            "POS": "v"
+        }, 
+        {
+            "word": "待理不理", 
+            "POS": "i"
+        }, 
+        {
+            "word": "待遇", 
+            "POS": "n"
+        }, 
+        {
+            "word": "待遇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "对待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "看待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "虐待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "虐俘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "虐囚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "虐杀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "优待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "优抚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "优遇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "招待", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "affected_party", 
+            "eName": "Affected_Party", 
+            "cName": "受影响方", 
+            "isCore": true, 
+            "def": "施动者的行为所针对的对象。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "该框架元素指的是其行为受到评价的人。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": true, 
+            "def": "该框架元素表达的是施动者对待受影响方的方式。如动词词元“虐待”本身就包含该框架元素。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "该框架元素表明的是一种环境条件。在这种环境条件下，施动者以一种特定的方式实行某个行为。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "施动者的行为偏离某种标准或规范的程度（通常指“好”或“坏”）。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "施动者以某种方式实行的行为领域。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "该框架元素表明施动者实施特定行为的原因。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "对待或虐待的行为方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "施动者施实行为的地点。"
+        }, 
+        {
+            "abbrName": "sta", 
+            "eName": "Standard", 
+            "cName": "标准", 
+            "isCore": false, 
+            "def": "对施动者的行为进行比较的一个明确的点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者以某种方式实施行为的时间。"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "fdInfo": {
+        "eName": "State_continue", 
+        "cName": "状态持续", 
+        "des": "实体持续处于某种特定状态。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "保持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "继承", 
+            "POS": "v"
+        }, 
+        {
+            "word": "维持", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "具体或抽象的实体"
+        }, 
+        {
+            "abbrName": "state", 
+            "eName": "State", 
+            "cName": "状态", 
+            "isCore": true, 
+            "def": "实体所处的状态"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "状态得以继续的环境。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述了由目标词引入的事态的参与者在行为中处于某种状态。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "实体持续处于某种状态的时间量。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "状态继续的原因。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "实体处于某种状态的地点。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "说明状态继续的事态。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "状态开始继续的时间。"
+        }
+    ]
+}

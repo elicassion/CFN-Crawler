@@ -1,0 +1,96 @@
+{
+    "fdInfo": {
+        "eName": "Arson", 
+        "cName": "纵火罪", 
+        "des": "故意以放火焚烧公私财物的方法危害公共安全的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "纵火犯人", 
+            "POS": "n"
+        }, 
+        {
+            "word": "纵火罪", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "犯罪者焚烧公私财物的非法放火行为。"
+        }, 
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "实施放火行为的人。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "在放火行为中安全和利益受到损害的人"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "放火行为的严重程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对放火行为的描写和陈述。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "放火事件的持续时间"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": false, 
+            "def": "实体"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "放火行为发生的频率。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对放火行为进行形容。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "实行放火的方法"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "放火事件发生的地点。"
+        }
+    ]
+}

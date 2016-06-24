@@ -1,0 +1,209 @@
+{
+    "fdInfo": {
+        "eName": "Cause_expansion", 
+        "cName": "使伸缩", 
+        "des": "指某一致动者或非人为因素引起某个体改变其物理上的大小。该个体的大小改变可以明确地表示或表现在初始大小和/或结果大小方面。在一般情况下，伸缩沿着所有的维度进行，但有时伸缩的维度并不是所有方面或者有明确的方向。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "放大", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放宽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "加宽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "减小", 
+            "POS": "v"
+        }, 
+        {
+            "word": "精简", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扩充", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扩大", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扩展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扩张", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收缩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缩短", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缩小", 
+            "POS": "v"
+        }, 
+        {
+            "word": "延长", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增补", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增大", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增高", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增设", 
+            "POS": "v"
+        }, 
+        {
+            "word": "壮大", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者引起个体的大小变化。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "该致因是导致个体大小变化的非人为因素。"
+        }, 
+        {
+            "abbrName": "item", 
+            "eName": "Item", 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "指由致动者或致因引起大小变化的实体。如果致动者被表达出来，那么个体一般表现为名词短语宾语的形式。"
+        }, 
+        {
+            "abbrName": "co_var", 
+            "eName": "Correlated_variable", 
+            "cName": "相关变量", 
+            "isCore": false, 
+            "def": "该框架元素表示个体的大小随着何物的变化而变化。"
+        }, 
+        {
+            "abbrName": "dimen", 
+            "eName": "Dimension", 
+            "cName": "维度", 
+            "isCore": false, 
+            "def": "个体的大小变化在某一单一维度上被限制或描述。"
+        }, 
+        {
+            "abbrName": "ela_time", 
+            "eName": "Elapsed_time", 
+            "cName": "耗时", 
+            "isCore": false, 
+            "def": "耗用时间指变化发生的时间量。"
+        }, 
+        {
+            "abbrName": "group", 
+            "eName": "Group", 
+            "cName": "群体", 
+            "isCore": false, 
+            "def": "该框架元素表示个体大小变化所属的群体。"
+        }, 
+        {
+            "abbrName": "ini_size", 
+            "eName": "Initial_size", 
+            "cName": "初始尺寸", 
+            "isCore": false, 
+            "def": "该框架元素指个体大小变化的起始值。除非结果大小是明确的，初始大小很少表述出来。初始大小通常介词短语做状语的形式出现。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者引起个体大小变化所凭借的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述致动者有意识地使个体大小变化的特征或所处状态的成分，都归入该元素。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者引起个体大小变化所使用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者引起个体大小变化的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者引起个体大小变化的目的。"
+        }, 
+        {
+            "abbrName": "rt", 
+            "eName": "Rate", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "速率表示个体变化数值的变化速度。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者引起个体大小变化的原因。"
+        }, 
+        {
+            "abbrName": "resut_size", 
+            "eName": "Result_size", 
+            "cName": "变化后尺寸", 
+            "isCore": false, 
+            "def": "该框架元素表示个体大小变化的结果值。结果大小通常表现为介词短语。"
+        }, 
+        {
+            "abbrName": "size_c", 
+            "eName": "Size_change", 
+            "cName": "尺寸变化", 
+            "isCore": false, 
+            "def": "大小变化表示个体大小变化的范围。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者引起个体大小变化发生的时间。"
+        }
+    ]
+}

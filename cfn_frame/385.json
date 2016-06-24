@@ -1,0 +1,129 @@
+{
+    "fdInfo": {
+        "eName": "Reassuring", 
+        "cName": "宽慰", 
+        "des": "说话者向体验者传达内容，以便让他们对某种状况感到放心；其交际方法和媒介会在表达中出现。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "安慰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "安心", 
+            "POS": "a"
+        }, 
+        {
+            "word": "放心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抚慰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抚慰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宽解", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宽解劝导", 
+            "POS": "f"
+        }, 
+        {
+            "word": "宽慰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宽心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宽心丸", 
+            "POS": "n"
+        }, 
+        {
+            "word": "劝导", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劝导宽解", 
+            "POS": "f"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "内容是指一个命题或者一系列命题，说话者想要让体验者相信这些命题，从而使其消除疑虑。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Experiencer", 
+            "cName": "体验者", 
+            "isCore": true, 
+            "def": "体验者从说话者那里得到宽慰。"
+        }, 
+        {
+            "abbrName": "situ", 
+            "eName": "Situation", 
+            "cName": "状况", 
+            "isCore": true, 
+            "def": "状况是让体验者感到困扰而说话者让其放心的某个问题。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "指以书面或口头形式宽慰他人的有感实体。"
+        }, 
+        {
+            "abbrName": "amt_rea", 
+            "eName": "Amount_of_reassurance", 
+            "cName": "宽慰量", 
+            "isCore": false, 
+            "def": "宽慰的量。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容描述了说话者的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "说话者使体验者安心的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "说话者使体验者安心的方法。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "信息传达时的物质环境或者抽象背景。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "发起宽慰这一行为的时间。"
+        }
+    ]
+}

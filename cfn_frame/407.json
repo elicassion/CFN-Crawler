@@ -1,0 +1,108 @@
+{
+    "fdInfo": {
+        "eName": "Attempt_distant_interaction_scenario", 
+        "cName": "尝试远距离互动场景", 
+        "des": "施动者通过某些工具（也可能是身体的一部分，如“手”）尝试与距离相对较远或者不能直接接触的目标体进行互动。施动者操纵工具并将其置于目标体所处地点的能力令人怀疑。远距离互动最常见的类型包括施动者尝试移动工具，使其接触目标体（例如框架：“射击场景”），或施动者尝试使用某工具来对目标体位置进行观察。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者设法与目标体进行互动。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": true, 
+            "def": "为了与目标体互动,施动者操作的对象。"
+        }, 
+        {
+            "abbrName": "targ_loc", 
+            "eName": "Target_location", 
+            "cName": "目标体位置", 
+            "isCore": true, 
+            "def": "施动者使用工具试图到达的地点。"
+        }, 
+        {
+            "abbrName": "target", 
+            "eName": "Target", 
+            "cName": "目标体", 
+            "isCore": true, 
+            "def": "目标体是施动者可间接到达其所在位置的实体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "独立于施动者所从事的尝试事件的态势（在特定的时间和地点）。\n该框架元素指（某特定时空）的世界状态，该世界状态独立于施动者的努力。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素指尝试进行的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容是描述施动者在事件过程中的描写用语。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "做出单个或多个尝试的时间段。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "施动者做出尝试的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素指做出尝试所用的方法。"
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "尝试的结果是成功还是失败。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "做出尝试的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者试图与目标体进行互动的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指尝试发生的时间。"
+        }
+    ]
+}

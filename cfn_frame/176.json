@@ -1,0 +1,80 @@
+{
+    "fdInfo": {
+        "eName": "Toxic_substance", 
+        "cName": "有毒物质", 
+        "des": "指含有毒性的物质，其被人体或其他有机体吸收会产生毒害作用。如砒霜、氰化钾等。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "毒", 
+            "POS": "n"
+        }, 
+        {
+            "word": "毒素", 
+            "POS": "n"
+        }, 
+        {
+            "word": "毒液", 
+            "POS": "n"
+        }, 
+        {
+            "word": "分泌毒液的", 
+            "POS": "a"
+        }, 
+        {
+            "word": "有毒的", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "tox_subs", 
+            "eName": "Toxic_substance", 
+            "cName": "有毒物质", 
+            "isCore": true, 
+            "def": "指含有毒性的物质，其被人体或其他有机体吸收会产生毒害作用。如砒霜、氰化钾等。"
+        }, 
+        {
+            "abbrName": "tox_src", 
+            "eName": "Toxin_source", 
+            "cName": "毒素源", 
+            "isCore": true, 
+            "def": "有毒物质的来源。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "受到有毒物质损害的人或其他有机体。"
+        }, 
+        {
+            "abbrName": "bodp", 
+            "eName": "Body_part", 
+            "cName": "身体部位", 
+            "isCore": false, 
+            "def": "有毒物质由于其毒性不同，其有害性表现为对人体或有机体某一部位的损伤。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "有毒物质发挥毒性的条件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "有毒物质对受害者的有害程度。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "有毒物质产生毒害作用的机理。"
+        }
+    ]
+}

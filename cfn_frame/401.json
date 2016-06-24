@@ -1,0 +1,55 @@
+{
+    "fdInfo": {
+        "eName": "Source_of_getting", 
+        "cName": "获取起点", 
+        "des": "终点具有从中获得转移体的起点。终点可能是一个积极获取转移体的有感知力的接受者，但它也可能是一个不具感知力的实体。不具感知力的实体获得转移体是由于自然过程或其他不可控制的过程。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "出处", 
+            "POS": "n"
+        }, 
+        {
+            "word": "来源", 
+            "POS": "n"
+        }, 
+        {
+            "word": "起点", 
+            "POS": "n"
+        }, 
+        {
+            "word": "源头", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "从起点处获得了转移体的一个实体或个体。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "终点获得转移体的一个具体或抽象的实体。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体是指终点从起点处获得的抽象的或具体的事物。"
+        }, 
+        {
+            "abbrName": "desc", 
+            "eName": "Descriptor", 
+            "cName": "描述语", 
+            "isCore": false, 
+            "def": "关于起点的评价性或描述性特征，要么与临时性质有关要么与永久性质有关。"
+        }
+    ]
+}

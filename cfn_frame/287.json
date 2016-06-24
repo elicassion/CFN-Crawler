@@ -1,0 +1,37 @@
+{
+    "fdInfo": {
+        "eName": "State", 
+        "cName": "状态", 
+        "des": "实体持续处于某种稳定情形称为状态。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "是", 
+            "POS": "v"
+        }, 
+        {
+            "word": "为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "系", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "具体或抽象的实体"
+        }, 
+        {
+            "abbrName": "state", 
+            "eName": "State", 
+            "cName": "状态", 
+            "isCore": true, 
+            "def": "实体所处的状态。"
+        }
+    ]
+}

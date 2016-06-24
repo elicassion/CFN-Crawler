@@ -1,0 +1,74 @@
+{
+    "fdInfo": {
+        "eName": "Losing_track_of_theme", 
+        "cName": "失", 
+        "des": "该框架指感知者找不到转移体。该框架的描述重点是感知者，其在句子中往往出现在主语的位置。和该框架视角相对的是另一个“摆脱感知者”的框架。（在此框架中感知者作宾语，转移体作主语）。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "看不见", 
+            "POS": "b"
+        }, 
+        {
+            "word": "失", 
+            "POS": "v"
+        }, 
+        {
+            "word": "失掉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "失去", 
+            "POS": "v"
+        }, 
+        {
+            "word": "失群", 
+            "POS": "v"
+        }, 
+        {
+            "word": "失散", 
+            "POS": "v"
+        }, 
+        {
+            "word": "找不到", 
+            "POS": "b"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "perc", 
+            "eName": "Perceiver", 
+            "cName": "感知者", 
+            "isCore": true, 
+            "def": "感知者指弄丢转移体的实体。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体就是被弄丢的对象。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "这个框架元素表示一个在逻辑上可以推断出找不到某物这个事件的命题。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所是感知者丢失转移体的地方。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "时间是感知者失去转移体的时间。"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "fdInfo": {
+        "eName": "Taking", 
+        "cName": "拿走", 
+        "des": "施动者将转移体从起点移开，目的是占为己有。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "霸占", 
+            "POS": "v"
+        }, 
+        {
+            "word": "夺取", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缴获", 
+            "POS": "v"
+        }, 
+        {
+            "word": "没收", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拿", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "拥有转移体的人。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "转移体被拿走之前的位置。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "施动者占有转移体。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "背景事件", 
+            "isCore": false, 
+            "def": "包含拿走事件的更大事件。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "拿走物品的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者拿走转移体的介入行动。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "拿走物品的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "拿走物品的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "拿走物品的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "拿走物品的时间。"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "fdInfo": {
+        "eName": "Surrendering_possession", 
+        "cName": "缴械投降", 
+        "des": "屈服者被迫转让转移体给接受者。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "放弃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放下", 
+            "POS": "f"
+        }, 
+        {
+            "word": "交出", 
+            "POS": "f"
+        }, 
+        {
+            "word": "缴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缴械", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": true, 
+            "def": "最终拥有转移体的实体。"
+        }, 
+        {
+            "abbrName": "sur", 
+            "eName": "Surrenderer", 
+            "cName": "屈服者", 
+            "isCore": true, 
+            "def": "被迫转让转移体给接受者的人。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "所有权发生改变的物体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件描述的是独立于放弃事件本身及其参与者的（在特定的时间和地点）下的世界状态。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "背景事件", 
+            "isCore": false, 
+            "def": "该框架元素是指某时间段内发生的某个事件或持续的某种事态，该事件或事态包含由目标词所指的事件或事态，或者说目标词所指的事件或事态是该框架元素所指的事件或事态的一部分。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "这个框架元素是一些具有层级属性的表述，是对预期值进行限定。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素描述的是由目标词引导的事态的参与者在行动中的某种状态"
+        }, 
+        {
+            "abbrName": "eve_desc", 
+            "eName": "Event_description", 
+            "cName": "事件评价", 
+            "isCore": false, 
+            "def": "该框架元素通常指的是那些从整体角度描述目标词所在从句的语句。有某种程度上截然不同的句子修饰语类型可以起到此作用。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素的定义是一个事件在单位时间内发生的次数。表达“频率”的语句往往可以回答了“多长时间一次”这样的提问。它与“次数”的区别在于：“次数”指的是事件发生的次数，表达“次数”的语句往往可以回答了“多少次”这样的提问。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "方式是指屈服者把转移体给接受者的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "屈服者把转移体给接受者的方法。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素并不表示目标词在本句之内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是重复前面的动作，也就是说，目标词被看作一系列相似事件或状态中的某一次。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period_of_iterations", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "该框架元素对具有迭代意义的从句进行修限定，而从句的迭代意义可能由主要动词的一般现在时表示。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "屈服者给接受者转移体的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "屈服者给接受者转移体的目的。"
+        }, 
+        {
+            "abbrName": "re_encd", 
+            "eName": "Re_encoding", 
+            "cName": "重编码词", 
+            "isCore": false, 
+            "def": "该框架元素将当前框架视为由另一框架所表述的更大概念的一部分。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "该框架元素指的是放弃事件的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "屈服者给接受者转移体的时间。"
+        }, 
+        {
+            "abbrName": "cf", 
+            "eName": "Communicative_force", 
+            "cName": "交流力", 
+            "isCore": false, 
+            "def": "该框架元素指的是与目标词打交道的交流力或当局（通常由“官方”、“正式”、“技术”）。"
+        }
+    ]
+}

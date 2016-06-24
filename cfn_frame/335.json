@@ -1,0 +1,198 @@
+{
+    "fdInfo": {
+        "eName": "Planting", 
+        "cName": "种植", 
+        "des": "该框架形容的是一种情形：施动者为了使转移体生长将其放入背景中。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "播种", 
+            "POS": "v"
+        }, 
+        {
+            "word": "插播", 
+            "POS": "v"
+        }, 
+        {
+            "word": "插秧", 
+            "POS": "v"
+        }, 
+        {
+            "word": "根植", 
+            "POS": "v"
+        }, 
+        {
+            "word": "培植", 
+            "POS": "v"
+        }, 
+        {
+            "word": "移植", 
+            "POS": "v"
+        }, 
+        {
+            "word": "栽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "栽培", 
+            "POS": "v"
+        }, 
+        {
+            "word": "栽植", 
+            "POS": "v"
+        }, 
+        {
+            "word": "栽种", 
+            "POS": "v"
+        }, 
+        {
+            "word": "植", 
+            "POS": "v"
+        }, 
+        {
+            "word": "植根", 
+            "POS": "v"
+        }, 
+        {
+            "word": "植苗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "植树", 
+            "POS": "v"
+        }, 
+        {
+            "word": "种", 
+            "POS": "v"
+        }, 
+        {
+            "word": "种花", 
+            "POS": "v"
+        }, 
+        {
+            "word": "种植", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者种植转移体。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": true, 
+            "def": "背景是施动者在农业活动中所关注的背景或环境。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体是施动者所种植的物体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素标注的是一些层级属性并修改期待值。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该形容描述的是种植行为中的一个参与者。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "施动者种植转移体的时间长度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指一个可逻辑推断出种植行为的命题。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "施动者培育转移体的频率。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "这个外部题元框架元素所标记的语言表述限定了目标词的非重复使用，并表明该种植行为是隐含在一系列的相似事件或状态之中的。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "工具指的是施动者为获得转移体所使用的一种工具（该工具不局限于人工制品，也可是手、手臂及狩猎、捕鱼工具。）。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "施动者种植转移体的较大地理位置。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者意图通过种植转移体而实现的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "种植事件发生的时间。"
+        }, 
+        {
+            "abbrName": "co-part", 
+            "eName": "Co-participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "伴随者是与另一参与者以协作的方式参与种植事件的实体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "施动者种植转移体的方式"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素指的是施动者种植转移体的方法。"
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "种植结果的成或败"
+        }
+    ]
+}

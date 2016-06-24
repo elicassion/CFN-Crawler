@@ -1,0 +1,83 @@
+{
+    "fdInfo": {
+        "eName": "Supplementing", 
+        "cName": "补充", 
+        "des": "在整体之外追加一些成分，以弥补原来整体的不足或使其更加完善。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "补偿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "补充", 
+            "POS": "v"
+        }, 
+        {
+            "word": "补给", 
+            "POS": "v"
+        }, 
+        {
+            "word": "补缺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "补足", 
+            "POS": "v"
+        }, 
+        {
+            "word": "添补", 
+            "POS": "v"
+        }, 
+        {
+            "word": "填补", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增补", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增设", 
+            "POS": "v"
+        }, 
+        {
+            "word": "找齐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追加", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "在整体之外追加某成分的人。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致使追加事件发生的有生命或者无生命的实体、力量或者事件。"
+        }, 
+        {
+            "abbrName": "addpar", 
+            "eName": "Additional_parts", 
+            "cName": "追加成分", 
+            "isCore": true, 
+            "def": "整体之外追加的部分。"
+        }, 
+        {
+            "abbrName": "whl", 
+            "eName": "Whole", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "被补充的实体。"
+        }
+    ]
+}

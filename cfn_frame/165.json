@@ -1,0 +1,61 @@
+{
+    "fdInfo": {
+        "eName": "Offset_guilty_by_merit", 
+        "cName": "立功", 
+        "des": "立功是指自动交待（检举揭发）他人的犯罪事实以及提供重要线索得以侦破其他刑事案件行为，是应当从宽处罚的法定量刑情节。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "立功", 
+            "POS": "n"
+        }, 
+        {
+            "word": "重大立功", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪分子", 
+            "isCore": true, 
+            "def": "实施了犯罪行为的人，其到案后，有立功表现。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法院", 
+            "isCore": true, 
+            "def": "确定犯罪分子立功表现的司法机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "立功的行为。表现为检举、揭发他人犯罪，提供破案线索，阻止他人犯罪等等。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "犯罪分子立功的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "角色事件时间", 
+            "isCore": false, 
+            "def": "发现、确定犯罪分子立功表现的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "立功表现导致的有利于犯罪分子的后果"
+        }
+    ]
+}

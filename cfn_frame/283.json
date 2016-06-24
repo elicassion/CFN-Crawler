@@ -1,0 +1,153 @@
+{
+    "fdInfo": {
+        "eName": "Seeking", 
+        "cName": "寻找", 
+        "des": "一个认知主体试图通过搜查某背景，找到目标实体，其结果可能是成功的也可能是失败的。组织机构尝试通过对事实的考察去找到一些已经被发现的东西。理解该框架应参照[查看]框架，不同的是，[查看]框架首先就把焦点集中在背景上。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "查寻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "查找", 
+            "POS": "v"
+        }, 
+        {
+            "word": "翻寻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "检查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "觅食", 
+            "POS": "v"
+        }, 
+        {
+            "word": "觅寻找", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摸寻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搜捕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搜查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搜索", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搜寻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "探索", 
+            "POS": "v"
+        }, 
+        {
+            "word": "挖掘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寻觅", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寻求", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寻找", 
+            "POS": "v"
+        }, 
+        {
+            "word": "找", 
+            "POS": "v"
+        }, 
+        {
+            "word": "找寻", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog_agt", 
+            "eName": "Cognizer_agent", 
+            "cName": "认知主体", 
+            "isCore": true, 
+            "def": "试图找到目标实体的人。"
+        }, 
+        {
+            "abbrName": "sou_ent", 
+            "eName": "Sought_entity", 
+            "cName": "目标实体", 
+            "isCore": true, 
+            "def": "该实体有可能位于所搜查的背景。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": false, 
+            "def": "认知者注意查找某实体，称为背景，因为它是现象所处的场所或环境。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "某种行为的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "帮助认知主体找到目标实体的行为。"
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "指一个行为是成功还是失败。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "比寻找事件发生的背景更大的空间。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "认知主体通过搜寻调查想要实现的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这个框架元素表示寻找行为发生的时间。"
+        }
+    ]
+}

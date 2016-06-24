@@ -1,0 +1,121 @@
+{
+    "fdInfo": {
+        "eName": "Existence", 
+        "cName": "存现", 
+        "des": "表示实体的存在，一般不考虑它的位置或者有无具体指定什么位置的可能性。这里会提及时间、持续期、内在目的和状态。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存有", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存在", 
+            "POS": "v"
+        }, 
+        {
+            "word": "没有", 
+            "POS": "v"
+        }, 
+        {
+            "word": "生存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "是", 
+            "POS": "v"
+        }, 
+        {
+            "word": "无", 
+            "POS": "v"
+        }, 
+        {
+            "word": "现存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "有", 
+            "POS": "v"
+        }, 
+        {
+            "word": "在", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "存在的某个抽象的抑或是具体的实体。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致使实体存在的有意识的人。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "导致实体存在的无意识的环境、力。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "表示实体存在状态的环境表达。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "实体存在的时期。"
+        }, 
+        {
+            "abbrName": "inh_purp", 
+            "eName": "Inherent_purpose", 
+            "cName": "内在目的", 
+            "isCore": false, 
+            "def": "实体得以存在的原因。一般指实体创造的具体原因。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "实体存在的地点。"
+        }, 
+        {
+            "abbrName": "pov", 
+            "eName": "Point_of_view", 
+            "cName": "视角", 
+            "isCore": false, 
+            "def": "判断实体或势态存在与否的某个个体的视角。"
+        }, 
+        {
+            "abbrName": "state", 
+            "eName": "State", 
+            "cName": "状态", 
+            "isCore": false, 
+            "def": "实体存在的情形。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实体存在的时间。"
+        }
+    ]
+}

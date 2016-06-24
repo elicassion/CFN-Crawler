@@ -1,0 +1,108 @@
+{
+    "fdInfo": {
+        "eName": "Setting_fire", 
+        "cName": "放火", 
+        "des": "该框架描述了纵火者燃起的火焰，或纵火者对易燃物点燃。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "点燃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放火", 
+            "POS": "v"
+        }, 
+        {
+            "word": "燃点", 
+            "POS": "v"
+        }, 
+        {
+            "word": "烧", 
+            "POS": "v"
+        }, 
+        {
+            "word": "纵火", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致使着火的原因。"
+        }, 
+        {
+            "abbrName": "flame", 
+            "eName": "Flame", 
+            "cName": "火焰", 
+            "isCore": true, 
+            "def": "火焰是由纵火者燃起的。"
+        }, 
+        {
+            "abbrName": "flambls", 
+            "eName": "Flammables", 
+            "cName": "易燃物", 
+            "isCore": true, 
+            "def": "易燃物是指纵火者点燃的物体。"
+        }, 
+        {
+            "abbrName": "kindler", 
+            "eName": "Kindler", 
+            "cName": "纵火者", 
+            "isCore": true, 
+            "def": "纵火者是执行有意行为的人。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "上位事件", 
+            "isCore": false, 
+            "def": "该框架元素指的是比目标词事件发生的时间范围更广的事件或或比目标词状态所持续时间更长的状态，或者说目标词所指的事件或状态只是该框架元素所指的事件或状态的一部分。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素描述了纵火者在行动中的状态。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指能从逻辑上推理出（目标词所在的）主句的命题。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何不被更具体的框架元素所包含的有意行为的描述，包括次级效应修饰语（平静地，大声地）和对比较事件的一般性描述（同样的方式）。除此之外，它可能表明影响纵火者行为的显著特征（如放肆地、冷酷地、谨慎地、急切地，小心地）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "由致因或纵火者所引发的实际使易燃物着火的事件。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "这个框架元素描述了事件发生的处所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这个框架元素描述了事件发生的时间。"
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "fdInfo": {
+        "eName": "Sending", 
+        "cName": "发送", 
+        "des": "发送者规划转移体的路径（连同起点和终点），然后将其置于一定的环境中，以使其在一些实体而不是发送者的作用下沿着路径行进。这个框架也包含有别于终点的接受者，这是因为二者在该框架中能同时出现。这个框架包含双宾结构的动词（其中接受者是直接宾语），如：在这个框架中某些动词专注于最初的发送动作，而另一些则不是。例如，“我快速地发送”既是快速启动发送动作的意思，也可以是传送过程快速的意思。然而，在下面句子中：“我把它快速出口/派送出去”，意味着这个动作开始的很快。可见，该框架中，两种类型的动词都包含在内。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "传", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传递", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传送带", 
+            "POS": "n"
+        }, 
+        {
+            "word": "传真", 
+            "POS": "v"
+        }, 
+        {
+            "word": "递", 
+            "POS": "v"
+        }, 
+        {
+            "word": "递给", 
+            "POS": "f"
+        }, 
+        {
+            "word": "发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发给", 
+            "POS": "f"
+        }, 
+        {
+            "word": "发送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "汇寄", 
+            "POS": "f"
+        }, 
+        {
+            "word": "寄", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寄给", 
+            "POS": "f"
+        }, 
+        {
+            "word": "快递", 
+            "POS": "n"
+        }, 
+        {
+            "word": "派遣", 
+            "POS": "v"
+        }, 
+        {
+            "word": "配送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "输出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "输送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "送出", 
+            "POS": "f"
+        }, 
+        {
+            "word": "送达", 
+            "POS": "v"
+        }, 
+        {
+            "word": "送到", 
+            "POS": "f"
+        }, 
+        {
+            "word": "送给", 
+            "POS": "f"
+        }, 
+        {
+            "word": "送交", 
+            "POS": "v"
+        }, 
+        {
+            "word": "速递", 
+            "POS": "n"
+        }, 
+        {
+            "word": "速递", 
+            "POS": "v"
+        }, 
+        {
+            "word": "速寄", 
+            "POS": "f"
+        }, 
+        {
+            "word": "邮寄", 
+            "POS": "v"
+        }, 
+        {
+            "word": "运送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "专递", 
+            "POS": "n"
+        }, 
+        {
+            "word": "转寄", 
+            "POS": "f"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "路径的终点和发送的预定终点。"
+        }, 
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": true, 
+            "def": "所发转移体的接受者。。"
+        }, 
+        {
+            "abbrName": "sender", 
+            "eName": "Sender", 
+            "cName": "发送者", 
+            "isCore": true, 
+            "def": "发送者指的是让转移体开始移动的人，与“携带”框架不同的是，发送者并不与转移体始终在一起。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "被发送的对象。"
+        }, 
+        {
+            "abbrName": "transport_means", 
+            "eName": "Transport_means", 
+            "cName": "转移方法", 
+            "isCore": true, 
+            "def": "发送采用的方式。"
+        }, 
+        {
+            "abbrName": "container", 
+            "eName": "Container", 
+            "cName": "容器", 
+            "isCore": false, 
+            "def": "发送转移体时所用的容器。"
+        }, 
+        {
+            "abbrName": "thm_c", 
+            "eName": "Cotheme", 
+            "cName": "伴随体", 
+            "isCore": false, 
+            "def": "与主转移体一起发送的其它转移体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述发送者或者转移体的描述性短语。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "该框架元素描述的是转移体移动的范围。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "实施发送行为的方式。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "移动所经过的路径。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "发送事件所发生的空间场所（包含起点位置）。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "发送的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "发送的原因。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": false, 
+            "def": "路径的开始部分，与起点相似，除非其用来限定路径。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "发送的时间。"
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "fdInfo": {
+        "eName": "Location_of_light", 
+        "cName": "发光", 
+        "des": "现象由于光亮在其上面闪亮而从背景处突显出来。阳光映在她的脸上。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发（光）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发光", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发亮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反光", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "返照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放（光）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辐射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "光照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辉映", 
+            "POS": "v"
+        }, 
+        {
+            "word": "普照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "散射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪光", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪亮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪闪发光", 
+            "POS": "i"
+        }, 
+        {
+            "word": "闪射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪烁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪耀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "斜射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "衍射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "耀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照亮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照临", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照耀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "折射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "烛（火光烛天）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "烛照", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "从某背景处感知到的事物。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": true, 
+            "def": "光亮出现之处，用处所短语或表示地点的介词短语表示。\r\n      \t\r\n"
+        }, 
+        {
+            "abbrName": "lit", 
+            "eName": "Light", 
+            "cName": "光亮", 
+            "isCore": true, 
+            "def": "发出的光亮。"
+        }
+    ]
+}

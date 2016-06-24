@@ -1,0 +1,95 @@
+{
+    "fdInfo": {
+        "eName": "Emotion_heat", 
+        "cName": "情感之热度", 
+        "des": "此框架既包含描述情感体验的动词也包括参与位置性论元易位的动词，例如：尽管这些词语似乎象是用于诸如“愤怒”等情感名词的支撑词，同样的动词在没有此类名词时也可使用，如：\r他的话燃起我内心的激情。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "火", 
+            "POS": "v"
+        }, 
+        {
+            "word": "火急火燎", 
+            "POS": "i"
+        }, 
+        {
+            "word": "火辣辣", 
+            "POS": "a"
+        }, 
+        {
+            "word": "火热", 
+            "POS": "a"
+        }, 
+        {
+            "word": "火性", 
+            "POS": "n"
+        }, 
+        {
+            "word": "闷闷不乐", 
+            "POS": "i"
+        }, 
+        {
+            "word": "燃烧", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "emot", 
+            "eName": "Emotion", 
+            "cName": "情感", 
+            "isCore": true, 
+            "def": "通常限于象愤怒、生气、狂暴、热情）这类体验到的情感可以外部论元的形式出现或出现在介词短语之中，或者也可以没有与目标词相分离的情感表达语:"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Experiencer", 
+            "cName": "体验者", 
+            "isCore": true, 
+            "def": "体验者是体验情感的个体。"
+        }, 
+        {
+            "abbrName": "sea", 
+            "eName": "Seatofemotion", 
+            "cName": "情感位置", 
+            "isCore": true, 
+            "def": "此框架中的词元可与表达情感所在地的语句一起出现。该框架元素以介词短语形式呈现："
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "情感的致因可以用介词短语表达。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "expr", 
+            "eName": "Expression", 
+            "cName": "表达方式", 
+            "isCore": false, 
+            "def": "情感表达所凭借的词语或行为。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "实施行为的方式"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "主题是命题或所表达的命题与之相关的实体。"
+        }
+    ]
+}

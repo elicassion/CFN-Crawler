@@ -1,0 +1,81 @@
+{
+    "fdInfo": {
+        "eName": "Losing", 
+        "cName": "丢失", 
+        "des": "该框架描述了物主失去其财物的情形。物主未能保持其财物的所有权（如碰到抢劫或赌博）或无意中将财物乱放而导致后来找不见了。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "丢", 
+            "POS": "v"
+        }, 
+        {
+            "word": "丢掉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "丢失", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弄丢", 
+            "POS": "v"
+        }, 
+        {
+            "word": "丧失", 
+            "POS": "v"
+        }, 
+        {
+            "word": "损失", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遗失", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "owner", 
+            "eName": "Owner", 
+            "cName": "物主", 
+            "isCore": true, 
+            "def": "财物原本的物主"
+        }, 
+        {
+            "abbrName": "possio", 
+            "eName": "Possession", 
+            "cName": "财物", 
+            "isCore": true, 
+            "def": "物主持有的物品。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "该框架元素指在逻辑上可推断出丢失财物这个事件的命题。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素描述了物主失去财物的方式方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "财物丢失的空间处所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "财物丢失的时间。"
+        }
+    ]
+}

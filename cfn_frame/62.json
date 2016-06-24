@@ -1,0 +1,77 @@
+{
+    "fdInfo": {
+        "eName": "Awakening", 
+        "cName": "觉醒", 
+        "des": "表示认知者对事物的认识由模糊到清醒的变化。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "大梦初醒", 
+            "POS": "i"
+        }, 
+        {
+            "word": "恍然大悟", 
+            "POS": "i"
+        }, 
+        {
+            "word": "憬悟", 
+            "POS": "v"
+        }, 
+        {
+            "word": "觉悟", 
+            "POS": "n"
+        }, 
+        {
+            "word": "觉悟", 
+            "POS": "v"
+        }, 
+        {
+            "word": "觉醒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "清醒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "如梦初醒", 
+            "POS": "i"
+        }, 
+        {
+            "word": "如银醍醐", 
+            "POS": "i"
+        }, 
+        {
+            "word": "省悟", 
+            "POS": "v"
+        }, 
+        {
+            "word": "醍醐灌顶", 
+            "POS": "i"
+        }, 
+        {
+            "word": "醒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "醒悟", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "表示有意识主体。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "认知者的认识内容。"
+        }
+    ]
+}

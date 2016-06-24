@@ -1,0 +1,95 @@
+{
+    "fdInfo": {
+        "eName": "Becoming_dry", 
+        "cName": "变干", 
+        "des": "实体失去水分，呈现一种干燥的状态。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "干涸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "干枯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "干涩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "干燥", 
+            "POS": "v"
+        }, 
+        {
+            "word": "枯竭", 
+            "POS": "v"
+        }, 
+        {
+            "word": "枯萎", 
+            "POS": "a"
+        }, 
+        {
+            "word": "脱水", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "实体是失去水分变干的某个物体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "实体变干所处的环境。"
+        }, 
+        {
+            "abbrName": "cncesiv", 
+            "eName": "Concessive", 
+            "cName": "转折后事态", 
+            "isCore": false, 
+            "def": "该框架元素指由主句（包含目标词）所表达的事件或事态。以及从让步从句所表达的事态所推断出的事态之外的其他情况。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "实体变干的强度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "实体变干的方式。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素表明，变干事件是一系列重复变干事件中一个特定实例。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "实体变干的空间场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实体变干的时间。"
+        }
+    ]
+}

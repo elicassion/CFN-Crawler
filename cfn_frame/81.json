@@ -1,0 +1,73 @@
+{
+    "fdInfo": {
+        "eName": "Cause－coming_to_be", 
+        "cName": "使形成", 
+        "des": "致动者致使一个实体存在于精确的时间和空间。实体出现有致因。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "产", 
+            "POS": "v"
+        }, 
+        {
+            "word": "产生", 
+            "POS": "v"
+        }, 
+        {
+            "word": "成形", 
+            "POS": "v"
+        }, 
+        {
+            "word": "形成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "涌现", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "事件发生前所不存在的具体或抽象的实体。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致使实体出现的有意识的人。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致使实体出现的无意识的事件或事物。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "指新实体出现的地点。"
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "cName": "身份", 
+            "isCore": false, 
+            "def": "新实体出现的形式。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致使新实体出现的时间。"
+        }
+    ]
+}

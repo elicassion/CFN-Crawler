@@ -1,0 +1,110 @@
+{
+    "fdInfo": {
+        "eName": "Sign", 
+        "cName": "迹象", 
+        "des": "也不是象似性的一种。指示现象是所示现象的一种线索。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "暗示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "标志", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "迹象", 
+            "POS": "v"
+        }, 
+        {
+            "word": "前兆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "显示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "显现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "象征", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引领", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预兆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "征兆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "症状", 
+            "POS": "v"
+        }, 
+        {
+            "word": "指向", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "indicated", 
+            "eName": "Indicated", 
+            "cName": "所示现象", 
+            "isCore": true, 
+            "def": "指示现象所显示出的现象。\n"
+        }, 
+        {
+            "abbrName": "indicator", 
+            "eName": "Indicator", 
+            "cName": "指示现象", 
+            "isCore": true, 
+            "def": "能显示出所示现象的现象。\n"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "这个框架元素表明指示现象指示所示现象的程度。\n"
+        }, 
+        {
+            "abbrName": "desc", 
+            "eName": "Descriptor", 
+            "cName": "描述语", 
+            "isCore": false, 
+            "def": "对指示现象进行描述，而这种描述尚未被一个更为具体的框架元素所说明。\n"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "这个框架元素描述的是所示现象显现的频率。\n"
+        }
+    ]
+}

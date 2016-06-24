@@ -1,0 +1,95 @@
+{
+    "fdInfo": {
+        "eName": "Abundance", 
+        "cName": "丰富", 
+        "des": "定义：\r在某处所聚集物的数量达到特定度量值。聚集物的度量值只是指与特定类型聚集物的标准值的偏差。程度可以进一步细化这种度量值和标准值之间的关系。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "充溢", 
+            "POS": "a"
+        }, 
+        {
+            "word": "充盈", 
+            "POS": "a"
+        }, 
+        {
+            "word": "充裕", 
+            "POS": "a"
+        }, 
+        {
+            "word": "充足", 
+            "POS": "a"
+        }, 
+        {
+            "word": "大量", 
+            "POS": "a"
+        }, 
+        {
+            "word": "丰富", 
+            "POS": "a"
+        }, 
+        {
+            "word": "丰富多彩", 
+            "POS": "i"
+        }, 
+        {
+            "word": "丰满", 
+            "POS": "a"
+        }, 
+        {
+            "word": "丰沛", 
+            "POS": "a"
+        }, 
+        {
+            "word": "丰饶", 
+            "POS": "a"
+        }, 
+        {
+            "word": "丰盛", 
+            "POS": "a"
+        }, 
+        {
+            "word": "丰实", 
+            "POS": "a"
+        }, 
+        {
+            "word": "丰裕", 
+            "POS": "a"
+        }, 
+        {
+            "word": "丰足", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件是指明显独立于事件本身和事件参与者的（在特定的时间和地点）状态。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "表达度量值和标准值或其他聚集物的值背离的修饰语。"
+        }, 
+        {
+            "abbrName": "mea", 
+            "eName": "Measure", 
+            "cName": "度量值", 
+            "isCore": false, 
+            "def": "词元所包含的数量之度量。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "聚集物的数量具有特定的度量值的时间。"
+        }
+    ]
+}

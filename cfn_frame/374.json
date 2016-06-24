@@ -1,0 +1,89 @@
+{
+    "fdInfo": {
+        "eName": "Fire_burning", 
+        "cName": "燃烧", 
+        "des": "火苗燃着燃料，导致燃料烧毁，也有可能完全烧毁。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "燃烧", 
+            "POS": "v"
+        }, 
+        {
+            "word": "着", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "fire", 
+            "eName": "Fire", 
+            "cName": "火苗", 
+            "isCore": true, 
+            "def": "参与燃烧的全部材料，包括正在经历化学变化的部分燃料，也包括在该过程中产生的气体。"
+        }, 
+        {
+            "abbrName": "fuel", 
+            "eName": "Fuel", 
+            "cName": "燃料", 
+            "isCore": true, 
+            "def": "发生可致其损坏或毁灭的快速化学变化的实体。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述火的描述性短语。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "火苗燃烧的时间量。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述燃烧事件的语言成分都可归入该元素。包括一些修饰语（安静地，大声地），以及对比较事件的一般性描述（以相同的方式）。"
+        }, 
+        {
+            "abbrName": "name", 
+            "eName": "Name", 
+            "cName": "名字", 
+            "isCore": false, 
+            "def": "给所燃之火所取的名字。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素指火苗燃烧的处所。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "燃烧之后受影响实体的状态或范畴 。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "经历由目标词所激起的燃烧过程的受影响实体的组成部分。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指火苗燃烧的时间。"
+        }
+    ]
+}

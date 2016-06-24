@@ -1,0 +1,38 @@
+{
+    "fdInfo": {
+        "eName": "Visit_host", 
+        "cName": "拜访_东道主", 
+        "des": "访客出于某种目的跟随东道主到达与东道主及其相关的处所即接待场所（通常是与居住、工作或管理相关的空间场所）。东道主允许访客使用其资源。这种造访通常是社交性的。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "host", 
+            "eName": "Host", 
+            "cName": "东道主", 
+            "isCore": true, 
+            "def": "访客出于某种目的跟随东道主到达与东道主及其相关的处所即接待场所（通常是与居住、工作或管理相关的空间场所）。东道主允许访客使用其资源。这种造访通常是社交性的。"
+        }, 
+        {
+            "abbrName": "vis", 
+            "eName": "Visitor", 
+            "cName": "访客", 
+            "isCore": true, 
+            "def": "为了实现某种目的才前往，并与东道主临时呆在一起的感觉实体。"
+        }, 
+        {
+            "abbrName": "nor_loc", 
+            "eName": "Normal_location", 
+            "cName": "常住地", 
+            "isCore": false, 
+            "def": "访客通常生活或（长期）与其相关的场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "访客希望参与，东道主也愿意款待，才得以进行的活动。"
+        }
+    ]
+}

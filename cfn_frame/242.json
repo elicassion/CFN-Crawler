@@ -1,0 +1,111 @@
+{
+    "fdInfo": {
+        "eName": "Importing", 
+        "cName": "进口", 
+        "des": "进口者从出口地越境把商品转移到进口地。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "进口", 
+            "POS": "v"
+        }, 
+        {
+            "word": "输入", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引进", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引入", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "exp_area", 
+            "eName": "Exporting_area", 
+            "cName": "出口地", 
+            "isCore": true, 
+            "def": "商品出口前所在的地方。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "即将改变位置具有价值的物品。"
+        }, 
+        {
+            "abbrName": "impr", 
+            "eName": "Importer", 
+            "cName": "进口方", 
+            "isCore": true, 
+            "def": "把商品进口到进口地的有意识的实体。"
+        }, 
+        {
+            "abbrName": "imp_area", 
+            "eName": "Importing_area", 
+            "cName": "进口地", 
+            "isCore": true, 
+            "def": "进口地是商品进口终结之地。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "进口者在行动过程中的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何对进口活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "进口者为实施目标行为而采取的有意识的行动。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "路径是商品在离开出口地之后到达进口地之前所经过的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "进口者进口商品的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "说明进口者进口商品的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "进口者进口商品的时间。"
+        }, 
+        {
+            "abbrName": "veh", 
+            "eName": "Vehicle", 
+            "cName": "交通工具", 
+            "isCore": false, 
+            "def": "进口者把商品从出口地运至进口地所凭借的工具。"
+        }
+    ]
+}

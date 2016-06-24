@@ -1,0 +1,117 @@
+{
+    "fdInfo": {
+        "eName": "Justifying", 
+        "cName": "辩解", 
+        "des": "施动者采取或未采取某种行为,亦或是导致了某种事态的发生,这些被判断者认为是未履行职责或违反道德准则。可是,施动者会给出了一个理由来说明采取该行为或未采取该行为以及导致该事态的发生都是合理合法的。注意：和“辩护”框架一样，“辩解”框架也存在着隐喻性理解。“辩解”框架中的词元也可以出现在“辩护”框架中。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "辩白", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辩护", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辩解", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解释", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抗辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "申辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "声辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "说明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "证明", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "act", 
+            "eName": "Act", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "施动者所采取的并负有责任的一种行为,该行为通常是由施动者自己所执行的."
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "对先前的行为或事态负责的个人或组织。"
+        }, 
+        {
+            "abbrName": "soa", 
+            "eName": "State_of_affairs", 
+            "cName": "事态", 
+            "isCore": true, 
+            "def": "施动者负有责任的事态。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "辩解的程度。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "施动者在为行为或事态辩解时所用到的一般推理范围."
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素表明行为或事态被辩解的次数."
+        }, 
+        {
+            "abbrName": "judge", 
+            "eName": "Judge", 
+            "cName": "判断者", 
+            "isCore": false, 
+            "def": "认为施动者对行为或事态负有责任的个人或机构。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "一种刻意的行为，通常是施动者为证明其采取某行为或导致某事态的合法性时的言语行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "进行辩解的时间。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "施动者在解释他们先前的行为或事态时中所提供的一系列事实或情况。"
+        }
+    ]
+}

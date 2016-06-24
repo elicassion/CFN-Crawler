@@ -1,0 +1,61 @@
+{
+    "fdInfo": {
+        "eName": "Achieve", 
+        "cName": "实现", 
+        "des": "实现框架指的是致动者或致因致使理想、计划等（即内容）成为事实。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "实现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "市场化", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者是使计划或理想成为现实的个体。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "指实现的理想和计划。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致因使得计划或理想实现的事件或实体。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "上位事件", 
+            "isCore": false, 
+            "def": "所属事件元素把该框架所表示的事件置于一个更大的事件过程中，使之成为其中的一部分。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "计划或理想实现的方式。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "计划或理想实现的时间。"
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "fdInfo": {
+        "eName": "Change_of_leadership ", 
+        "cName": "职权变更", 
+        "des": "这个框架表示新负责人上任或旧负责人离任，这种职权变更既包括由上级任命或免职的情况，也包括公众选举或推翻某个职位或政权的情况。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "罢免", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兵变", 
+            "POS": "v"
+        }, 
+        {
+            "word": "剥夺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传位", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弹劾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "登基", 
+            "POS": "v"
+        }, 
+        {
+            "word": "废黜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "革命", 
+            "POS": "v"
+        }, 
+        {
+            "word": "继任", 
+            "POS": "v"
+        }, 
+        {
+            "word": "加冕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "接管", 
+            "POS": "v"
+        }, 
+        {
+            "word": "接任", 
+            "POS": "v"
+        }, 
+        {
+            "word": "免职", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起义", 
+            "POS": "n"
+        }, 
+        {
+            "word": "起义", 
+            "POS": "v"
+        }, 
+        {
+            "word": "任命", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推倒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推翻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "选举", 
+            "POS": "v"
+        }, 
+        {
+            "word": "政变", 
+            "POS": "n"
+        }, 
+        {
+            "word": "指定", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "slctr", 
+            "eName": "Selector", 
+            "cName": "选择者", 
+            "isCore": true, 
+            "def": "选择者决定旧负责人的离职或新负责人的产生，既可能是拥有选举权的公众，也可能是上级主管，还有可能是推翻旧秩序的反叛者。"
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "cName": "身份", 
+            "isCore": true, 
+            "def": "角色指就任或离任的职位。该框架元素可以与旧负责人或新负责人共同出现，做兼语补语，也可以单独做宾语。"
+        }, 
+        {
+            "abbrName": "func", 
+            "eName": "Function", 
+            "cName": "职能", 
+            "isCore": true, 
+            "def": "职能是新负责人将要承担的工作任务,该元素与角色不同，角色只是指明职位的名称，而职能说明在某个职位下具体要完成的任务。"
+        }, 
+        {
+            "abbrName": "bod", 
+            "eName": "Body", 
+            "cName": "机构", 
+            "isCore": true, 
+            "def": "履行管理职能的机构。"
+        }, 
+        {
+            "abbrName": "ldr_n", 
+            "eName": "New_leader", 
+            "cName": "新负责人", 
+            "isCore": true, 
+            "def": "新负责人是新任命的负责某项任务或担任某职位的人，一般做目标动词的宾语。"
+        }, 
+        {
+            "abbrName": "ldr_o", 
+            "eName": "Old_leader", 
+            "cName": "旧负责人", 
+            "isCore": true, 
+            "def": "旧负责人是有意离任或被迫离任的人，一般做目标动词的宾语，或以介词短语的形式做状语。"
+        }, 
+        {
+            "abbrName": "ord_ord", 
+            "eName": "Old_order", 
+            "cName": "旧秩序", 
+            "isCore": true, 
+            "def": "旧秩序指政权改变前存在着的政治秩序。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "该元素指的是使职权改变的外部环境状况。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "上位事件", 
+            "isCore": false, 
+            "def": "该元素的作用是把目标词所表示的事件置于一个更大的事件过程中，使目标词成为其中的一部分。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容表现的是某位行动参与者的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "实施某个行动的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指选择者为实现职权变更的所采取的行动。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "职权改变发生的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "表示事件的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "职权变更发生的时间。"
+        }
+    ]
+}

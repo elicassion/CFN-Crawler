@@ -1,0 +1,114 @@
+{
+    "fdInfo": {
+        "eName": "Commerce_transaction", 
+        "cName": "商业情境", 
+        "des": "指买方和卖方用货币进行商品交换的场景。交易的方式可以是直接付款、事后筹措资金或撤销交易等。\r\n通常情况下，商品交换的过程是从卖方开始的，卖方首先采取一定的方法表达出商品交换的意愿，如在货架上贴价格标签、发布广告等，进而与有购买意向人实现沟通，在双方达成交易协议的情况下，买方给卖方货币，卖方将商品交给买方。当然，有时商品交易过程也可能从买方开始的，买方向有可能实现交易的卖主表达购买意愿，再进行一系列交易活动。\r\n"
+    }, 
+    "lexElmt": [
+        {
+            "word": "货主", 
+            "POS": "n"
+        }, 
+        {
+            "word": "价格", 
+            "POS": "n"
+        }, 
+        {
+            "word": "价钱", 
+            "POS": "n"
+        }, 
+        {
+            "word": "零售商", 
+            "POS": "n"
+        }, 
+        {
+            "word": "买方", 
+            "POS": "n"
+        }, 
+        {
+            "word": "买主", 
+            "POS": "n"
+        }, 
+        {
+            "word": "卖方", 
+            "POS": "n"
+        }, 
+        {
+            "word": "卖主", 
+            "POS": "n"
+        }, 
+        {
+            "word": "商家", 
+            "POS": "n"
+        }, 
+        {
+            "word": "商品", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "byr", 
+            "eName": "Buyer", 
+            "cName": "买方", 
+            "isCore": true, 
+            "def": "付钱购买商品的一方。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "该框架元素包括可用钱交易的物品，包括劳动和时间等。"
+        }, 
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "cName": "货币", 
+            "isCore": true, 
+            "def": "货币是用于在交易中支付的特殊商品。"
+        }, 
+        {
+            "abbrName": "slr", 
+            "eName": "Seller", 
+            "cName": "卖方", 
+            "isCore": true, 
+            "def": "用商品换取货币的销售方。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何对交易活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "进行交易的手段。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "买方、卖方希望通过交易达到的目的。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "cName": "单位价格", 
+            "isCore": false, 
+            "def": "单位商品的价格。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "该框架元素指可以衡量商品或服务的任何单位，汉语通常用介词“按”、“以” 、“论”等介引。"
+        }
+    ]
+}

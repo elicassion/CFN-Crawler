@@ -1,0 +1,252 @@
+{
+    "fdInfo": {
+        "eName": "Cause_motion", 
+        "cName": "使位移", 
+        "des": "致动者或致因使转移体发生定向运动。该运动可能与源点、路径或目标有关。相对于[放置]框架，本框架不强调运动的目标。对于许多这样的词（投掷，扔，抛等），致动者只在运动的源点控制转移体，不会经历运动的全过程。对于其它一些词（如拖、推、挤等），致动者在运动整个过程中始终控制转移体。对于这些词，转移体与所沿路径的表面发生摩擦，阻碍运动。（这也是该框架不同于[搬运]框架的所在，转移体是在这个表面的支撑下运动的，而不是搬运者）。该框架又区别于以下这些描述致动者改变转移体相对位置（源点或目标）的框架，在[放置]框架中，转移体终止于目标。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "拔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赶跑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赶走", 
+            "POS": "v"
+        }, 
+        {
+            "word": "挤", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抛", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抛掷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "牵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倾斜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "驱赶", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投掷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推倒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "卸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "移动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拽", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者是使转移体发生位移的人。"
+        }, 
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "cName": "区域", 
+            "isCore": true, 
+            "def": "当运动轨迹是不规则的或非直线位移时，转移体所处的区域。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致因是引起转移体发生位移的没有意识的实体、力量或者事件。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "目标是作为位移结果的转移体的最终位置。"
+        }, 
+        {
+            "abbrName": "i_state", 
+            "eName": "Initial_state", 
+            "cName": "初状态", 
+            "isCore": true, 
+            "def": "转移体开始运动之前所处的状态。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "表示转移体的运动轨迹，但不覆盖源点和目标。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": true, 
+            "def": "转移体在运动结束时的结果状态。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "源点是转移体开始运动的位置。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "位置发生变化的物体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "描述事件有层级差别的属性。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描写事件参与者的形容词短语。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "距离是转移体运动长度的表述。"
+        }, 
+        {
+            "abbrName": "handle", 
+            "eName": "Handle", 
+            "cName": "连接点", 
+            "isCore": false, 
+            "def": "致动者对转移体的操纵可能被进一步具体化为对转移体某一部分的操纵，即连接点，通常表述为一个介词短语。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "用来把致动者的力量传递给转移体的实体，它是致动者身体的一部分，或者是某种设备。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "方法表示致动者为引起转移体运动所采取的方式、手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "空间指与转移体运动的相对位置（包括源点，路线或者目标）有关的地点背景。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "亚区表示与转移体结果场所相关联的事件参与者自身的一部分。当存在亚区的表述时，通常没有目标的表述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "转移体发生运动的时间。"
+        }
+    ]
+}

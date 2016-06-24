@@ -1,0 +1,186 @@
+{
+    "fdInfo": {
+        "eName": "Change_posture ", 
+        "cName": "姿势变化", 
+        "des": "角色改变整个身体的位置或姿势。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "蹲下", 
+            "POS": "v"
+        }, 
+        {
+            "word": "蹲坐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弓起", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跪下", 
+            "POS": "v"
+        }, 
+        {
+            "word": "卷缩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "靠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起身", 
+            "POS": "v"
+        }, 
+        {
+            "word": "蜷缩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "伸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "伸展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "躺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "躺下", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弯曲", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弯腰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "站", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坐起", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坐下", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "undgo", 
+            "eName": "Undergoer", 
+            "cName": "经历体", 
+            "isCore": true, 
+            "def": "姿势发生变化的个体。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "在变化姿势的整个时间段内角色的状态。"
+        }, 
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "cName": "方向", 
+            "isCore": false, 
+            "def": "该框架元素用于表示姿势改变的方向。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "这一框架元素指身体（部分）在姿势改变期间移动的范围。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": false, 
+            "def": "这一框架元素指姿势改变的终点。通常这一地点给姿势提供支撑。"
+        }, 
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "角色姿势改变发生的位置或场所。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述事件所处的状态，是一个杂类，凡是无法归入其他更加具体的框架元素时，都归入修饰元素；做动词目标词的状语或补语，名词目标词的定语。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "路径指动作的路线，而不必提及动作的源点或目标。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "角色做出某一姿势的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "角色改变姿势后的最终状态。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": false, 
+            "def": "源点用于表示姿势改变的起始点。"
+        }, 
+        {
+            "abbrName": "sbp", 
+            "eName": "Supporting_body_part", 
+            "cName": "支撑身体部位", 
+            "isCore": false, 
+            "def": "支撑角色某个姿势的身体部分。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "角色改变姿势的时间。"
+        }
+    ]
+}

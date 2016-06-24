@@ -1,0 +1,52 @@
+{
+    "fdInfo": {
+        "eName": "Law", 
+        "cName": "法律", 
+        "des": "法律是国家制定或认可的，以国家强制力保障实施的，以权利义务为内容的行为规范的总称。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "law", 
+            "eName": "Law", 
+            "cName": "法律", 
+            "isCore": true, 
+            "def": "这个框架元素表明规则是用于指导行为，反对一些行为和/或要求其他的行为。"
+        }, 
+        {
+            "abbrName": "cre", 
+            "eName": "Creator", 
+            "cName": "创造者", 
+            "isCore": false, 
+            "def": "法律的制定机关"
+        }, 
+        {
+            "abbrName": "term", 
+            "eName": "Term", 
+            "cName": "条款", 
+            "isCore": false, 
+            "def": "涉及到法律的条款。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "法律产生的时间。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": " 法律部门。"
+        }, 
+        {
+            "abbrName": "use", 
+            "eName": "Use", 
+            "cName": "用途", 
+            "isCore": false, 
+            "def": "法律旨在起到的作用。"
+        }
+    ]
+}

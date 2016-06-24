@@ -1,0 +1,235 @@
+{
+    "fdInfo": {
+        "eName": "Research  ", 
+        "cName": "研究", 
+        "des": "研究者（个人，组织或机构）试图通过参考和问题所在领域相关的文献、观察或实验来解答问题。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "辨析", 
+            "POS": "v"
+        }, 
+        {
+            "word": "调查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分析", 
+            "POS": "v"
+        }, 
+        {
+            "word": "根究", 
+            "POS": "v"
+        }, 
+        {
+            "word": "钩深致远", 
+            "POS": "i"
+        }, 
+        {
+            "word": "考察", 
+            "POS": "v"
+        }, 
+        {
+            "word": "离析", 
+            "POS": "v"
+        }, 
+        {
+            "word": "刨根", 
+            "POS": "v"
+        }, 
+        {
+            "word": "剖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "剖解", 
+            "POS": "v"
+        }, 
+        {
+            "word": "剖析", 
+            "POS": "v"
+        }, 
+        {
+            "word": "穷源竟委", 
+            "POS": "i"
+        }, 
+        {
+            "word": "深究", 
+            "POS": "v"
+        }, 
+        {
+            "word": "顺藤摸瓜", 
+            "POS": "i"
+        }, 
+        {
+            "word": "探究", 
+            "POS": "v"
+        }, 
+        {
+            "word": "探索", 
+            "POS": "v"
+        }, 
+        {
+            "word": "探讨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "探赜索隐", 
+            "POS": "i"
+        }, 
+        {
+            "word": "条分缕析", 
+            "POS": "i"
+        }, 
+        {
+            "word": "推本溯源", 
+            "POS": "i"
+        }, 
+        {
+            "word": "推究", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推敲", 
+            "POS": "v"
+        }, 
+        {
+            "word": "析", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寻根究底", 
+            "POS": "i"
+        }, 
+        {
+            "word": "沿波讨源", 
+            "POS": "i"
+        }, 
+        {
+            "word": "研", 
+            "POS": "v"
+        }, 
+        {
+            "word": "研究", 
+            "POS": "v"
+        }, 
+        {
+            "word": "原始要终", 
+            "POS": "i"
+        }, 
+        {
+            "word": "追本穷源", 
+            "POS": "i"
+        }, 
+        {
+            "word": "追根究底", 
+            "POS": "i"
+        }, 
+        {
+            "word": "追究", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追溯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "琢磨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "钻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "钻研", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "que", 
+            "eName": "Question", 
+            "cName": "问题", 
+            "isCore": true, 
+            "def": "针对一个重要命题，有一些未知问题，需要研究者去解决。"
+        }, 
+        {
+            "abbrName": "reseach", 
+            "eName": "Researcher", 
+            "cName": "研究者", 
+            "isCore": true, 
+            "def": "致力于研究活动的人。"
+        }, 
+        {
+            "abbrName": "dur_act", 
+            "eName": null, 
+            "cName": "动作时间量", 
+            "isCore": false, 
+            "def": "指研究活动进行的时间长度"
+        }, 
+        {
+            "abbrName": "field", 
+            "eName": "Field", 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "研究范围。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "包括表示主观认识的修饰语（可能，大概），一般的表示事件类比的成分（同样），表示认知者获得新知识的容易程度的词语（容易），等等，只要是对事件的描述，而又不属于其他具体框架元素的，都归入修饰元素，也表示研究者可能影响行为的显著特征 (故意地，谨慎地)。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "为找出问题的答案，研究人所做的实验、观察及其它行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "开展研究的具体地点。"
+        }, 
+        {
+            "abbrName": "popula", 
+            "eName": "Population", 
+            "cName": "被研究人群", 
+            "isCore": false, 
+            "def": "指研究人为解答问题研究的实体群，其成员不一定是都能对解答问题提供有用证据。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "目的指研究人通过做研究想要完成的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "研究所处的时间。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "研究的类型或子集"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "问题所涉及的现象或观点。"
+        }
+    ]
+}

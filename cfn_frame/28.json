@@ -1,0 +1,294 @@
+{
+    "fdInfo": {
+        "eName": "perception_description_holistic", 
+        "cName": "知觉特征", 
+        "des": "现象在可感知的属性上具有某种特征。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "暗", 
+            "POS": "a"
+        }, 
+        {
+            "word": "暗淡", 
+            "POS": "a"
+        }, 
+        {
+            "word": "黯淡", 
+            "POS": "a"
+        }, 
+        {
+            "word": "黯然", 
+            "POS": "a"
+        }, 
+        {
+            "word": "擦黑", 
+            "POS": "a"
+        }, 
+        {
+            "word": "惨淡", 
+            "POS": "a"
+        }, 
+        {
+            "word": "灿灿", 
+            "POS": "a"
+        }, 
+        {
+            "word": "灿烂", 
+            "POS": "a"
+        }, 
+        {
+            "word": "刺目", 
+            "POS": "a"
+        }, 
+        {
+            "word": "刺眼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "动听", 
+            "POS": "a"
+        }, 
+        {
+            "word": "夺目", 
+            "POS": "a"
+        }, 
+        {
+            "word": "好看", 
+            "POS": "a"
+        }, 
+        {
+            "word": "好听", 
+            "POS": "a"
+        }, 
+        {
+            "word": "皓皓", 
+            "POS": "a"
+        }, 
+        {
+            "word": "黑糊糊", 
+            "POS": "a"
+        }, 
+        {
+            "word": "黑黝黝", 
+            "POS": "a"
+        }, 
+        {
+            "word": "晃眼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "灰暗", 
+            "POS": "a"
+        }, 
+        {
+            "word": "灰蒙蒙", 
+            "POS": "a"
+        }, 
+        {
+            "word": "辉煌", 
+            "POS": "a"
+        }, 
+        {
+            "word": "晦暗", 
+            "POS": "a"
+        }, 
+        {
+            "word": "晦冥", 
+            "POS": "a"
+        }, 
+        {
+            "word": "昏暗", 
+            "POS": "a"
+        }, 
+        {
+            "word": "昏沉", 
+            "POS": "a"
+        }, 
+        {
+            "word": "昏黄", 
+            "POS": "a"
+        }, 
+        {
+            "word": "皎皎", 
+            "POS": "a"
+        }, 
+        {
+            "word": "皎洁", 
+            "POS": "a"
+        }, 
+        {
+            "word": "金灿灿", 
+            "POS": "a"
+        }, 
+        {
+            "word": "金光光", 
+            "POS": "a"
+        }, 
+        {
+            "word": "炯炯", 
+            "POS": "a"
+        }, 
+        {
+            "word": "剌耳", 
+            "POS": "a"
+        }, 
+        {
+            "word": "亮", 
+            "POS": "a"
+        }, 
+        {
+            "word": "亮光光", 
+            "POS": "a"
+        }, 
+        {
+            "word": "亮闪闪", 
+            "POS": "a"
+        }, 
+        {
+            "word": "亮堂", 
+            "POS": "a"
+        }, 
+        {
+            "word": "亮堂堂", 
+            "POS": "a"
+        }, 
+        {
+            "word": "亮锃锃", 
+            "POS": "a"
+        }, 
+        {
+            "word": "亮铮铮", 
+            "POS": "a"
+        }, 
+        {
+            "word": "浏亮", 
+            "POS": "a"
+        }, 
+        {
+            "word": "麻麻黑", 
+            "POS": "a"
+        }, 
+        {
+            "word": "朦胧", 
+            "POS": "a"
+        }, 
+        {
+            "word": "明", 
+            "POS": "a"
+        }, 
+        {
+            "word": "明快", 
+            "POS": "a"
+        }, 
+        {
+            "word": "明亮", 
+            "POS": "a"
+        }, 
+        {
+            "word": "难听", 
+            "POS": "a"
+        }, 
+        {
+            "word": "清亮", 
+            "POS": "a"
+        }, 
+        {
+            "word": "通亮", 
+            "POS": "a"
+        }, 
+        {
+            "word": "透亮", 
+            "POS": "a"
+        }, 
+        {
+            "word": "娓娓动听", 
+            "POS": "a"
+        }, 
+        {
+            "word": "鲜亮", 
+            "POS": "a"
+        }, 
+        {
+            "word": "炫目", 
+            "POS": "a"
+        }, 
+        {
+            "word": "雪亮", 
+            "POS": "a"
+        }, 
+        {
+            "word": "耀眼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "阴暗", 
+            "POS": "a"
+        }, 
+        {
+            "word": "阴沉", 
+            "POS": "a"
+        }, 
+        {
+            "word": "阴晦", 
+            "POS": "a"
+        }, 
+        {
+            "word": "幽暗", 
+            "POS": "a"
+        }, 
+        {
+            "word": "幽冥", 
+            "POS": "a"
+        }, 
+        {
+            "word": "幽幽", 
+            "POS": "a"
+        }, 
+        {
+            "word": "悦耳", 
+            "POS": "a"
+        }, 
+        {
+            "word": "铮亮", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "知觉特征所描述的事物。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "现象可感的时间。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "描述事件有层级差别的属性，表示达到什么水平。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": false, 
+            "def": "人在感知客观世界时，总是有选择地把少数事物当成知觉的对象（即现象），而把它们与其他事物当成知觉的背景，以便更清晰地感知一定的现象。该元素由表示处所的词（或短语）充当。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "现象能够被感受的外部环境状况。"
+        }
+    ]
+}

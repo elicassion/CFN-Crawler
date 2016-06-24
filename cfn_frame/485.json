@@ -1,0 +1,110 @@
+{
+    "fdInfo": {
+        "eName": "Take_place_of", 
+        "cName": "代替", 
+        "des": "旧实体失去其身份，由新实体代替其履行职责或功能。很多情况下，其身份和功能是隐含在语句中的。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "代", 
+            "POS": "v"
+        }, 
+        {
+            "word": "代表", 
+            "POS": "v"
+        }, 
+        {
+            "word": "代替", 
+            "POS": "v"
+        }, 
+        {
+            "word": "顶替", 
+            "POS": "v"
+        }, 
+        {
+            "word": "取代", 
+            "POS": "v"
+        }, 
+        {
+            "word": "取而代之", 
+            "POS": "i"
+        }, 
+        {
+            "word": "替", 
+            "POS": "v"
+        }, 
+        {
+            "word": "替代", 
+            "POS": "v"
+        }, 
+        {
+            "word": "替换", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "func", 
+            "eName": "Function", 
+            "cName": "职能", 
+            "isCore": true, 
+            "def": "新实体与旧实体共同参与所产生的事态（通常是理想的状况）。"
+        }, 
+        {
+            "abbrName": "new", 
+            "eName": "New", 
+            "cName": "新实体", 
+            "isCore": true, 
+            "def": "代替旧实体的新角色填充项。"
+        }, 
+        {
+            "abbrName": "old", 
+            "eName": "Old", 
+            "cName": "旧实体", 
+            "isCore": true, 
+            "def": "在新实体出现之前履行其身份职责和功能的实体。"
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "cName": "身份", 
+            "isCore": true, 
+            "def": "新实体与旧实体按其功能所属的范畴。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "取代的程度通常是新实体在多种情况下取代了旧实体才可能出现。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指的是一个命题，从逻辑上可以由该命题可推断出（包含目标词）的主句。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "方式是指任何没有被包含在更为具体框架元素中的对事件的描写，包括对认知修正，次级影响（如平静地、大声地），以及对事物进行比较的概括性描写（如同样地）。取代的速度也是方式的一种。"
+        }, 
+        {
+            "abbrName": "tex", 
+            "eName": "Textual_location", 
+            "cName": "文本性领域", 
+            "isCore": false, 
+            "def": "新实体与旧实体履行其功能的领域。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "新实体履行之前旧实体职责的时间。"
+        }
+    ]
+}

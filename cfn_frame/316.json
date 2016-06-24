@@ -1,0 +1,38 @@
+{
+    "fdInfo": {
+        "eName": "Visiting_scenario", 
+        "cName": "拜访场景", 
+        "des": "在拜访情景中，施动者与实体有相对位置变化。施动者为了实现某种目的临时与实体在一起，然后又离开，通常是返回到其常住地。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "为了实现某种目的而前往拜访并临时与实体在一起的有知觉实体。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": false, 
+            "def": "与实体长期相关，或者说与施动者为了某种目的想利用的一些具体特征长期相关的空间场所。\n"
+        }, 
+        {
+            "abbrName": "nor_loc", 
+            "eName": "Normal_location", 
+            "cName": "常住地", 
+            "isCore": false, 
+            "def": "施动者通常生活居住或是说与之（长期）相关的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "实体能够满足条件，而且施动者也想进行的活动。"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "fdInfo": {
+        "eName": "Memorization", 
+        "cName": "记", 
+        "des": "认知者把一个现象储存在自己的大脑中，这样就能在以后识别出该现象的实例，或者能够再造该现象的模式。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "背", 
+            "POS": "v"
+        }, 
+        {
+            "word": "背诵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记牢", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记取", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记忆", 
+            "POS": "n"
+        }, 
+        {
+            "word": "记忆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "刻（刻在脑子里）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "牢记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "铭记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "默背", 
+            "POS": "v"
+        }, 
+        {
+            "word": "默记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "切记", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "将注意力集中在现象上，试图把现象储存在记忆当中有意识主体。"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "认知者观察并储存在记忆中的现象 "
+        }, 
+        {
+            "abbrName": "compl", 
+            "eName": "Completeness", 
+            "cName": "完整性", 
+            "isCore": false, 
+            "def": "表示认知者的记忆和客观存在的现象相匹配的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是对事件本身的描述，实际上是一个杂类，在无法归入其他元素的时候都归入该元素，包括表示主观认识的修饰语（大概，不可思议），表示容易程度的词语（容易、难以），等等；做状语或补语。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "认知者通过采取某种行为或凭借某种行为以获取记忆，这个行为就是方法。 "
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "记忆活动发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "认知者通过记忆某现象所要达到的目标。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "记忆活动发生的时间。"
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "fdInfo": {
+        "eName": "Building", 
+        "cName": "构建", 
+        "des": "该框架用以描述装配或建筑行为，致动者把成分连结并构成一个创造物，该创造物被形式化并作为动词的宾语。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "成立", 
+            "POS": "v"
+        }, 
+        {
+            "word": "创立", 
+            "POS": "v"
+        }, 
+        {
+            "word": "构建", 
+            "POS": "v"
+        }, 
+        {
+            "word": "构造", 
+            "POS": "v"
+        }, 
+        {
+            "word": "构筑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "架起", 
+            "POS": "v"
+        }, 
+        {
+            "word": "建", 
+            "POS": "v"
+        }, 
+        {
+            "word": "建立", 
+            "POS": "v"
+        }, 
+        {
+            "word": "建造", 
+            "POS": "v"
+        }, 
+        {
+            "word": "设", 
+            "POS": "v"
+        }, 
+        {
+            "word": "设立", 
+            "POS": "v"
+        }, 
+        {
+            "word": "始建", 
+            "POS": "v"
+        }, 
+        {
+            "word": "新建", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兴建", 
+            "POS": "v"
+        }, 
+        {
+            "word": "修", 
+            "POS": "v"
+        }, 
+        {
+            "word": "造", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增建", 
+            "POS": "v"
+        }, 
+        {
+            "word": "制造", 
+            "POS": "v"
+        }, 
+        {
+            "word": "装配", 
+            "POS": "v"
+        }, 
+        {
+            "word": "组合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "组装", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "是致动者构造了这个创造物。"
+        }, 
+        {
+            "abbrName": "crent", 
+            "eName": "Created_entity", 
+            "cName": "创造物", 
+            "isCore": true, 
+            "def": "创造物指构建行为创造的实体。"
+        }, 
+        {
+            "abbrName": "cmpnt", 
+            "eName": "Components", 
+            "cName": "成分", 
+            "isCore": true, 
+            "def": "该框架元素指构造创造物的组成部分。"
+        }, 
+        {
+            "abbrName": "benef", 
+            "eName": "Beneficiary", 
+            "cName": "受益人", 
+            "isCore": false, 
+            "def": "表示从事件中获益的参与者。与接受者不同的是，受益人并不得到某物，而只是得到帮助，或者使受益人从劳动中解脱。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "动作行为本身持续的时间数量或者动作重复进行所用的时间数量。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素表示单独看目标词所在句子，并没有动作的重复，但把目标词置于上下文中，则认为目标词所表示的动作是重复前面的动作。另外，大部分的特殊重复框架的词语都表明那些事件或情景与之相关。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容表示描述参与方构建行为的短语。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者构建创造物时所凭借的工具。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者构建创造物时所使用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示构建行为发生的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "该框架元素表示构建行为的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示构建行为发生的时间。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表示某一有意行动实施的目的。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述致动者有意识地构建创造物活动的特征或所处状态的成分，都归入该元素。注意，修饰元素是对事件本身的描述，而形容元素是对事件参与者的描述。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period of interance", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "从被目标词标记的事件开始重复到停止的一段时间。"
+        }
+    ]
+}

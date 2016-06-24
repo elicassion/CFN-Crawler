@@ -1,0 +1,111 @@
+{
+    "fdInfo": {
+        "eName": "Detaching", 
+        "cName": "使分开", 
+        "des": "这个框架包含两个场景：一是有人将一物体从另一物体上拆卸下来；二是有人将两件物体彼此分离。在第一个场景中，框架包括从起点中分离物体的致动者，在物体和起点之间产生了一种不对称的关系。在第二个场景中，致动者将两个物体彼此联系起来，互相作为对方的起点，使两物体之间产生了一种对称关系。注意两种情况下，断开连接之后，先前连接在一起的两个物体重新成为两个单独实体或始终是潜在的单独实体。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "分离", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起锚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "脱钩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "脱离", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "致动者", 
+            "isCore": true, 
+            "def": "通过操作连接物使物体和起点分离出去的人。"
+        }, 
+        {
+            "abbrName": "item", 
+            "eName": "Item", 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "该框架元素表示施动者从起点中分离出来的物体。"
+        }, 
+        {
+            "abbrName": "items", 
+            "eName": "Items", 
+            "cName": "多个物体", 
+            "isCore": true, 
+            "def": "该框架元素表示彼此分离的多个物体。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "起点表示原本连接中的物体脱离的位置。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素表示物体最后分离的程度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "该框架元素表示施动者分离物体或物体集的工具。通常，施动者所用的力有它来传递，而且它在结果状态中作为参与者未被遗弃。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指分离事件中未包括在特定框架元素中的表述，包括认知修饰（可能地，大概地，神秘地），次级效应（静静地，吵闹地），也包括一般的表示事件之间的比较的描述（同样）。此外，该元素也表示对行为产生影响的致动者的突出特征（专横地，冷酷地，故意地，急切地，小心地）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表示施动者分离物体或物体集的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示施动者分离物体或物体集的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表示施动者故意分离物体或物体集的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "该框架元素表示分离事件的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示施动者从起点中分离物体的时间。"
+        }
+    ]
+}

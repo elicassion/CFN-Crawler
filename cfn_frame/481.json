@@ -1,0 +1,134 @@
+{
+    "fdInfo": {
+        "eName": "Inspecting", 
+        "cName": "检查", 
+        "des": "检查员将他/她的注意力放到背景上，以确定背景是否完整无缺或者是否有不想要的实体存在。或者说，检查所希望的结果可以被呈现为目的。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "复查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "复核", 
+            "POS": "v"
+        }, 
+        {
+            "word": "核对", 
+            "POS": "v"
+        }, 
+        {
+            "word": "检查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "审查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "视察", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搜身", 
+            "POS": "v"
+        }, 
+        {
+            "word": "校对", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "des_state", 
+            "eName": "Desired_state", 
+            "cName": "理想状态", 
+            "isCore": true, 
+            "def": "当检查员检查背景时希望获得的理想状态。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": true, 
+            "def": "检查员用感官检查以确定它是否完整无缺的的实体。"
+        }, 
+        {
+            "abbrName": "inspec", 
+            "eName": "Inspector", 
+            "cName": "检查员", 
+            "isCore": true, 
+            "def": "检查背景察看它是否完整无缺的人。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": true, 
+            "def": "这个框架中的一些词元与表达检查所期望的结果同时出现。通常这种成分是由“为了...”“以便...”引导的介词短语或动词短语。"
+        }, 
+        {
+            "abbrName": "unw_entity", 
+            "eName": "Unwanted_entity", 
+            "cName": "可恶体", 
+            "isCore": true, 
+            "def": "其存在会影响背景可接受性和可用性的实体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "检查员检查背景时所处的环境。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "这个框架元素表示检查员检查背景的程度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "检查员仔细检查背景使用的实体。"
+        }, 
+        {
+            "abbrName": "loc_prot", 
+            "eName": "Location_of_protagonist", 
+            "cName": "主体位置", 
+            "isCore": false, 
+            "def": "该框架元素是在感知行为过程中感知者的位置，通常情况下，它是在一个“从...,在...,隔着...等”介词短语表达中。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素表示检查员检查背景的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素用于说明检查员检查背景使用的方法。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "这个外部题元框架元素所标记的语言表述限定了目标词的非重复使用，并表明该目标词是隐含在一系列的相似事件或状态之中的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "检查员检查背景的时间。"
+        }
+    ]
+}

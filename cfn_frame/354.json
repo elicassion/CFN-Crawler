@@ -1,0 +1,114 @@
+{
+    "fdInfo": {
+        "eName": "Labeling", 
+        "cName": "贴标签", 
+        "des": "说话者用某一标签指代一个实体，该标签并不是实体的常用名，而是通过对实体进行范畴化描述所表达出的一种判断。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "比为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "称号", 
+            "POS": "v"
+        }, 
+        {
+            "word": "称为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "叫作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "叫做", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "译文", 
+            "POS": "v"
+        }, 
+        {
+            "word": "誉为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赞为", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "说话者把其与某个特定的语言符号联系在一起的,或具体或抽象的事物。"
+        }, 
+        {
+            "abbrName": "label", 
+            "eName": "Label", 
+            "cName": "标签", 
+            "isCore": true, 
+            "def": "说话者用来指代某个实体的语言符号。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "媒介是一种文本，在该文本中，其作者使用某一特定标签来标记实体。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "说话者通常指使用某一语言符号去指代特定实体的人。"
+        }, 
+        {
+            "abbrName": "dur_fin_st", 
+            "eName": "Duration_Of_Final_State", 
+            "cName": "结果时量", 
+            "isCore": false, 
+            "def": "结果时量表示目标词所指活动所造成的结果状态从开始到结束所持续的时间长度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指的是一个命题，由该命题可推断出（包含目标词）的主句。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "使用标签来指代实体的人所处的空间场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "说话者使用某一标签的时间。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素并不表示目标词在本句之内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是重复前面的动作，也就是说，目标词被看作一系列相似事件或事态中的某一次。 该框架元素常用“序数词语＋动量词”、副词“又”、“再”（＋数量短语）等表示。"
+        }
+    ]
+}

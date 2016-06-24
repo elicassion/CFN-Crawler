@@ -1,0 +1,82 @@
+{
+    "fdInfo": {
+        "eName": "Prison", 
+        "cName": "监狱", 
+        "des": "该框架与刑事机构有关。这些机构由管理者来管理,收容犯人。刑事机构会有专用的名称,其所在场所也会可能会表现出来。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "班房", 
+            "POS": "n"
+        }, 
+        {
+            "word": "大牢", 
+            "POS": "n"
+        }, 
+        {
+            "word": "监牢", 
+            "POS": "n"
+        }, 
+        {
+            "word": "监狱", 
+            "POS": "n"
+        }, 
+        {
+            "word": "看守所", 
+            "POS": "n"
+        }, 
+        {
+            "word": "牢狱", 
+            "POS": "n"
+        }, 
+        {
+            "word": "囚牢", 
+            "POS": "n"
+        }, 
+        {
+            "word": "铁窗", 
+            "POS": "n"
+        }, 
+        {
+            "word": "铁栏杆", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "该框架元素说明刑事机构所在的场所。"
+        }, 
+        {
+            "abbrName": "name", 
+            "eName": "Name", 
+            "cName": "名称", 
+            "isCore": false, 
+            "def": "该框架元素说明刑事机构的名称。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "类型表明刑事机构中收容的人群。"
+        }, 
+        {
+            "abbrName": "prisoner", 
+            "eName": "Prisoner", 
+            "cName": "犯人", 
+            "isCore": false, 
+            "def": "犯人是被监禁在监狱的人。"
+        }, 
+        {
+            "abbrName": "operator", 
+            "eName": "Operator", 
+            "cName": "管理者", 
+            "isCore": false, 
+            "def": "该框架元素说明哪级政府在管理刑事机构。"
+        }
+    ]
+}

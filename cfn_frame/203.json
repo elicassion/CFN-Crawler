@@ -1,0 +1,166 @@
+{
+    "fdInfo": {
+        "eName": "Chatting", 
+        "cName": "交谈", 
+        "des": "指一群人（交谈双方或者交谈者1，交谈者2等）在一起交谈。其中人们不仅是说话者也是倾听者。也就是说在交谈过程中交谈者们既听又说，这是一个相互的过程。在这个框架中，交谈的目的是社会性的，而不是要通过交谈去作出某个特别的决定，也不是为了交换信息或是争论某个问题（参见[讨论]和[争吵]框架）。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "吹牛", 
+            "POS": "v"
+        }, 
+        {
+            "word": "对话", 
+            "POS": "n"
+        }, 
+        {
+            "word": "对话", 
+            "POS": "v"
+        }, 
+        {
+            "word": "访谈", 
+            "POS": "v"
+        }, 
+        {
+            "word": "会话", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交谈", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开玩笑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "空谈", 
+            "POS": "v"
+        }, 
+        {
+            "word": "唠叨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "聊天", 
+            "POS": "v"
+        }, 
+        {
+            "word": "说话", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谈话", 
+            "POS": "n"
+        }, 
+        {
+            "word": "谈话", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闲话", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闲聊", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闲谈", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "inter_1", 
+            "eName": "Interlocutor_1", 
+            "cName": "交谈者1", 
+            "isCore": true, 
+            "def": "指在交谈过程中，居于主导地位的一个人或几个人（与交谈者2相对）。也就是说，交谈者1一般为主语，目的、方法等外围元素往往是针对交谈者1说的，而不是针对交谈者2或进行交谈的交谈双方。"
+        }, 
+        {
+            "abbrName": "inter_2", 
+            "eName": "Interlocutor_2", 
+            "cName": "交谈者2", 
+            "isCore": true, 
+            "def": "指在交谈过程中语义上（语法上）居于次要地位的人群。该元素通常表现为介词短语。"
+        }, 
+        {
+            "abbrName": "interlocs", 
+            "eName": "Interlocutors", 
+            "cName": "交谈双方", 
+            "isCore": true, 
+            "def": "指参与交谈的人群。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "指交谈双方（或交谈者1）在交谈时的状态描述。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "指交谈持续的时间。"
+        }, 
+        {
+            "abbrName": "lan", 
+            "eName": "Language", 
+            "cName": "语言", 
+            "isCore": false, 
+            "def": "指交谈中使用的语言或方言。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指对没有被其他框架元素包含的交谈活动的描述，包括子效果（安静的、大声的）,或是总体描述。它也可能包括交谈双方（交谈者1）明显特点，这些特点对行为产生影响（专横的、冷酷的、故意的、热切的、小心的）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指交谈双方交谈的方式。"
+        }, 
+        {
+            "abbrName": "moc", 
+            "eName": "Means_of_communication", 
+            "cName": "交谈方法", 
+            "isCore": false, 
+            "def": "指交谈双方用于交流的工具。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "指交谈活动发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "指交谈双方（交谈者1）希望通过交谈得到的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指交谈活动发生的时间。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "指交谈双方在对话中要陈述的话题。"
+        }
+    ]
+}

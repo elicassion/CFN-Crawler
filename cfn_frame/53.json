@@ -1,0 +1,86 @@
+{
+    "fdInfo": {
+        "eName": "Planing", 
+        "cName": "计划", 
+        "des": "认知者预先拟定某种行动内容、步骤和方法。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "打算", 
+            "POS": "v"
+        }, 
+        {
+            "word": "合谋", 
+            "POS": "v"
+        }, 
+        {
+            "word": "计划", 
+            "POS": "n"
+        }, 
+        {
+            "word": "计划", 
+            "POS": "v"
+        }, 
+        {
+            "word": "密谋", 
+            "POS": "n"
+        }, 
+        {
+            "word": "密谋", 
+            "POS": "v"
+        }, 
+        {
+            "word": "企图", 
+            "POS": "v"
+        }, 
+        {
+            "word": "妄图", 
+            "POS": "v"
+        }, 
+        {
+            "word": "蓄谋", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阴谋", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "action", 
+            "eName": "Action", 
+            "cName": "行动", 
+            "isCore": true, 
+            "def": "计划的内容。"
+        }, 
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "拟定行动计划的有意识的人或代表认知者的组织机构。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "描述事件有层级差别的属性，表示事件所达到的水平。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该元素描述活动的参与者，注意和修饰的不同之处在于，形容是对活动的参与者的描述，而修饰是对活动本身的描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "认知者预先拟定某种行动的时间。"
+        }
+    ]
+}

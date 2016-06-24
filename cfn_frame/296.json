@@ -1,0 +1,233 @@
+{
+    "fdInfo": {
+        "eName": "Text_creation", 
+        "cName": "文本创作", 
+        "des": "作者创造文本的行为，作者可能在大脑中已经确定了具体的听话者。文本可能包含有关其主题的信息，但后者并不是这个框架的框架元素。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "编排", 
+            "POS": "v"
+        }, 
+        {
+            "word": "编写", 
+            "POS": "v"
+        }, 
+        {
+            "word": "编著", 
+            "POS": "v"
+        }, 
+        {
+            "word": "编纂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "草拟", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出版", 
+            "POS": "v"
+        }, 
+        {
+            "word": "创作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打印", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打字", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发表", 
+            "POS": "v"
+        }, 
+        {
+            "word": "合著", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记录", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记载", 
+            "POS": "v"
+        }, 
+        {
+            "word": "刊载", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谱写", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起草", 
+            "POS": "v"
+        }, 
+        {
+            "word": "签名", 
+            "POS": "v"
+        }, 
+        {
+            "word": "签署", 
+            "POS": "v"
+        }, 
+        {
+            "word": "签约", 
+            "POS": "v"
+        }, 
+        {
+            "word": "书写", 
+            "POS": "v"
+        }, 
+        {
+            "word": "写", 
+            "POS": "v"
+        }, 
+        {
+            "word": "写稿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "写作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "印刷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "载", 
+            "POS": "v"
+        }, 
+        {
+            "word": "再版", 
+            "POS": "v"
+        }, 
+        {
+            "word": "著述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "撰稿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "撰写", 
+            "POS": "v"
+        }, 
+        {
+            "word": "撰著", 
+            "POS": "v"
+        }, 
+        {
+            "word": "作", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "author", 
+            "eName": "Author", 
+            "cName": "作者", 
+            "isCore": true, 
+            "def": "作者是创造具体文本的人。"
+        }, 
+        {
+            "abbrName": "text", 
+            "eName": "Text", 
+            "cName": "文本", 
+            "isCore": true, 
+            "def": "由写或说的行为而产生的实体。"
+        }, 
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": false, 
+            "def": "指传达信息的对象。"
+        }, 
+        {
+            "abbrName": "cmpnt", 
+            "eName": "Components", 
+            "cName": "成分", 
+            "isCore": false, 
+            "def": "成分是作者用来构建文本的小文本。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述参与者的短语。"
+        }, 
+        {
+            "abbrName": "form", 
+            "eName": "Form", 
+            "cName": "形式", 
+            "isCore": false, 
+            "def": "文本被表达的形式。"
+        }, 
+        {
+            "abbrName": "hon", 
+            "eName": "Honoree", 
+            "cName": "受众", 
+            "isCore": false, 
+            "def": "受众表明文本为谁而写。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "作者创作文本所使用的工具。如：用钢笔写/用墨水写"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是特描述创作活动的特征或所处状态的成分，都归入该元素。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "文本被创作的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "作者创作文本的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "作者创作文本的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "作者创作文本的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "文本被创作的时间。"
+        }
+    ]
+}

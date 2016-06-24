@@ -1,0 +1,48 @@
+{
+    "fdInfo": {
+        "eName": "Crime_completion", 
+        "cName": "犯罪既遂", 
+        "des": "犯罪既遂是故意犯罪的完成形态，是指行为人所故意实施的行为已经具备了某种犯罪构成的全部要件。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "犯罪既遂", 
+            "POS": "n"
+        }, 
+        {
+            "word": "犯罪未遂", 
+            "POS": "n"
+        }, 
+        {
+            "word": "犯罪预备", 
+            "POS": "n"
+        }, 
+        {
+            "word": "犯罪中止", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "实施犯罪行为的人"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪行为", 
+            "isCore": true, 
+            "def": "犯罪人实施的危害社会的行为"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "主观或客观上的原因，由于该原因使得犯罪行为未达到既遂状态。"
+        }
+    ]
+}

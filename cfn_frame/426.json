@@ -1,0 +1,153 @@
+{
+    "fdInfo": {
+        "eName": "Enforcing", 
+        "cName": "执行法规", 
+        "des": "施动者采取行动以确保（通常是约束行为的）规则被遵循。施动者的行为根据规则的总体规划（为了确保规则被遵守，实体对规则的承受能力在规则中是蕴含着的）。对规则生效的时量可能也会予以明确。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "奉行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "践诺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "履行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "施行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "实施", 
+            "POS": "v"
+        }, 
+        {
+            "word": "实行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "执", 
+            "POS": "v"
+        }, 
+        {
+            "word": "执法", 
+            "POS": "v"
+        }, 
+        {
+            "word": "执纪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "执行", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者实施规则，通常为机构、政府组织或武军队。?"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "该框架元素描述的是规则实施所凭借的媒介。它可能出现在与施动者一样的句法位置上。"
+        }, 
+        {
+            "abbrName": "rule", 
+            "eName": "Rule", 
+            "cName": "规则", 
+            "isCore": true, 
+            "def": "规则指对施动者实施行为的一整套约束。（即强迫他人遵守或直面后果）。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "施动者使规则生效的事态。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素是对规则执行圆满程度的描述。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "规则生效或无效的时间长度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "执行规则的致因，原因或其他解释。"
+        }, 
+        {
+            "abbrName": "foc_partipt", 
+            "eName": "Focal_participant", 
+            "cName": "核心参与者", 
+            "isCore": false, 
+            "def": "有义务遵循规则的个人或群体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "方式描述施动者某种状态，或对事件的额外特点进行描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "方法是施动者为执行规则而采取的中间行为"
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "成败指执行规则的结果：成功或失败。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "规则被执行或未被执行的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素是对施动者执行规则的目的的进行描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者执行规则的时间。"
+        }
+    ]
+}

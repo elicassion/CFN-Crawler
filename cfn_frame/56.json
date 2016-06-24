@@ -1,0 +1,191 @@
+{
+    "fdInfo": {
+        "eName": "Education_teaching", 
+        "cName": "教育教学", 
+        "des": "学生学习的或是有关某个主题、技能、规则或事实，这些都是教师教育的结果。该框架的有些名词（如，校长）是有关行政管理岗位的，因此没有相关的框架元素，故而不包括在内。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "辅导", 
+            "POS": "v"
+        }, 
+        {
+            "word": "教导", 
+            "POS": "n"
+        }, 
+        {
+            "word": "教导", 
+            "POS": "v"
+        }, 
+        {
+            "word": "教学", 
+            "POS": "v"
+        }, 
+        {
+            "word": "教育", 
+            "POS": "n"
+        }, 
+        {
+            "word": "教育", 
+            "POS": "v"
+        }, 
+        {
+            "word": "学", 
+            "POS": "v"
+        }, 
+        {
+            "word": "学习", 
+            "POS": "v"
+        }, 
+        {
+            "word": "训练", 
+            "POS": "n"
+        }, 
+        {
+            "word": "训练", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "course", 
+            "eName": "Course", 
+            "cName": "课程", 
+            "isCore": true, 
+            "def": "与主题有关的课程或其他。"
+        }, 
+        {
+            "abbrName": "fact", 
+            "eName": "Fact", 
+            "cName": "事实", 
+            "isCore": true, 
+            "def": "教师传授给学生的内容。"
+        }, 
+        {
+            "abbrName": "instit", 
+            "eName": "Institution", 
+            "cName": "机构", 
+            "isCore": true, 
+            "def": "指教育机构，如学校学院。"
+        }, 
+        {
+            "abbrName": "mat", 
+            "eName": "Material", 
+            "cName": "材料", 
+            "isCore": true, 
+            "def": "指教师或学生为获得技能或知识所使用的书、磁带或光盘等教学材料"
+        }, 
+        {
+            "abbrName": "precept", 
+            "eName": "Precept", 
+            "cName": "规则", 
+            "isCore": true, 
+            "def": "正确行为的指导原则。在很多情况下，涉及道德或社会要求的理想行为。"
+        }, 
+        {
+            "abbrName": "qualif", 
+            "eName": "Qualification", 
+            "cName": "资格", 
+            "isCore": true, 
+            "def": "指正式的资格，如学位、文凭。"
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "cName": "身份", 
+            "isCore": true, 
+            "def": "主要指职业上的角色，是学生接受教育的结果。"
+        }, 
+        {
+            "abbrName": "ski", 
+            "eName": "Skill", 
+            "cName": "技能", 
+            "isCore": true, 
+            "def": "学生接受教育结果的行为。"
+        }, 
+        {
+            "abbrName": "studnt", 
+            "eName": "Student", 
+            "cName": "学生", 
+            "isCore": true, 
+            "def": "从教师那里接受技能或知识的人。"
+        }, 
+        {
+            "abbrName": "subject", 
+            "eName": "Subject", 
+            "cName": "科目", 
+            "isCore": true, 
+            "def": "指教师教授或传授给学生的知识或技能的领域。"
+        }, 
+        {
+            "abbrName": "teacher", 
+            "eName": "Teacher", 
+            "cName": "教师", 
+            "isCore": true, 
+            "def": "在某个知识或技能领域教授学生的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描写动作行为者的描述性短语。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "动作行为本身持续的时间数量或动作重复进行所用的时间数量。"
+        }, 
+        {
+            "abbrName": "lvl", 
+            "eName": "Level", 
+            "cName": "层次", 
+            "isCore": false, 
+            "def": "表现学生受教育的层次。与学生所正在攻读的目标（资格）或希望达到的资格不同。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "实施行为的方式"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "行为者（根据用词的突显指 学生或老师）所实施的有意识的行为，使其获得教育或学习。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "实施教育行为的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "教育事件的结果"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实施教育行为的时间。"
+        }
+    ]
+}

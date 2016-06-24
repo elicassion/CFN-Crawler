@@ -1,0 +1,172 @@
+{
+    "fdInfo": {
+        "eName": "Bringing", 
+        "cName": "运送", 
+        "des": "该框架表示转移体、致动者和载体协调移动。致动者在使转移体移动时控制着整个移动过程；载体可能是一个单独的实体，也可能是致动者的身体部位。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "搬", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搬运", 
+            "POS": "v"
+        }, 
+        {
+            "word": "带", 
+            "POS": "v"
+        }, 
+        {
+            "word": "空运", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "送入", 
+            "POS": "v"
+        }, 
+        {
+            "word": "携带", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引进", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引入", 
+            "POS": "v"
+        }, 
+        {
+            "word": "运", 
+            "POS": "v"
+        }, 
+        {
+            "word": "运输", 
+            "POS": "v"
+        }, 
+        {
+            "word": "运送", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者是借助载体控制转移体移动的有意识的人。"
+        }, 
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "cName": "区域", 
+            "isCore": true, 
+            "def": "在转移体不是沿着规则的直线移动的情况下，位移经过的空间范围。"
+        }, 
+        {
+            "abbrName": "carrier", 
+            "eName": "Carrier", 
+            "cName": "载体", 
+            "isCore": true, 
+            "def": "载体支撑转移体，帮助转移体移动。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "目的地表示位移路径的终点。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "路径是运输过程所经由的地段。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "源点指转移体移动路径的起始点。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "被运送之物"
+        }, 
+        {
+            "abbrName": "c_loc", 
+            "eName": "Constant_location", 
+            "cName": "固定场所", 
+            "isCore": false, 
+            "def": "固定场所表示转移体依附于载体或致动者身体的具体位置，在整个位移过程中，这种位置关系都不改变。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对载体、致动者或转移体的描述。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "运输转移体的路途长度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "载体或致动者运送转移体的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者为移动转移体所采取的行动"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "载体或致动者运输转移体的目的"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "表示转移体移动的快慢。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "转移体移动的时间。"
+        }
+    ]
+}

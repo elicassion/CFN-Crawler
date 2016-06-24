@@ -1,0 +1,132 @@
+{
+    "fdInfo": {
+        "eName": "Practice", 
+        "cName": "练习", 
+        "des": "致动者反复练习某种想要在以后的场合中一次或多次执行的行动，练习的目的是确保行动在以后的场合中完美地完成。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "彩排", 
+            "POS": "v"
+        }, 
+        {
+            "word": "操练", 
+            "POS": "v"
+        }, 
+        {
+            "word": "操演", 
+            "POS": "v"
+        }, 
+        {
+            "word": "苦练", 
+            "POS": "v"
+        }, 
+        {
+            "word": "练", 
+            "POS": "v"
+        }, 
+        {
+            "word": "练习", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排练", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排演", 
+            "POS": "v"
+        }, 
+        {
+            "word": "试演", 
+            "POS": "v"
+        }, 
+        {
+            "word": "演习", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预演", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "action", 
+            "eName": "Action", 
+            "cName": "行动", 
+            "isCore": true, 
+            "def": "致动者为了给以后的场合作好准备而有意执行的动作行为。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "执行行动的人，此行动作为稍后同类型行为的准备。"
+        }, 
+        {
+            "abbrName": "occa", 
+            "eName": "Occasion", 
+            "cName": "场合", 
+            "isCore": true, 
+            "def": "表示致动者练习某种技能是为了在何种场合下使用。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": true, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。包括表示主观认识的修饰语（大概，不可思议），表示容易程度的词语（容易、难以），等等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者练习所采取的方法、形式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "致动者练习行为发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者执行故意行为的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致动者练习的时间。"
+        }, 
+        {
+            "abbrName": "co_part", 
+            "eName": "Co_participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "和致动者一起参加练习的非核心参与者。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "练习行为重复进行所用的时间数量。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iteration", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "表示练习重复发生的次数。"
+        }
+    ]
+}

@@ -1,0 +1,220 @@
+{
+    "fdInfo": {
+        "eName": "Giving", 
+        "cName": "给予", 
+        "des": "这个框架中的\"捐赠者\"是否可以改为\"给予者\"。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "传递", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赐予", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赋予", 
+            "POS": "v"
+        }, 
+        {
+            "word": "给", 
+            "POS": "v"
+        }, 
+        {
+            "word": "给", 
+            "POS": "p"
+        }, 
+        {
+            "word": "给予", 
+            "POS": "v"
+        }, 
+        {
+            "word": "供给", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回赠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交给", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交上", 
+            "POS": "v"
+        }, 
+        {
+            "word": "捐献", 
+            "POS": "v"
+        }, 
+        {
+            "word": "捐赠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "捐助", 
+            "POS": "v"
+        }, 
+        {
+            "word": "捐资", 
+            "POS": "v"
+        }, 
+        {
+            "word": "款待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "馈送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "馈赠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "塞给", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赏赐", 
+            "POS": "n"
+        }, 
+        {
+            "word": "赏赐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "送给", 
+            "POS": "v"
+        }, 
+        {
+            "word": "颂扬", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提供", 
+            "POS": "v"
+        }, 
+        {
+            "word": "献给", 
+            "POS": "v"
+        }, 
+        {
+            "word": "移交", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遗赠", 
+            "POS": "n"
+        }, 
+        {
+            "word": "遗赠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赠送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赠予", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赠与", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "donor", 
+            "eName": "Donor", 
+            "cName": "捐赠者", 
+            "isCore": true, 
+            "def": "指拥有转移体并把它送给接受者的人或机构。"
+        }, 
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": true, 
+            "def": "最终拥有转移体的实体。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "变换了拥有者的物体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "转移体被捐赠时的情形。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "捐赠者把转移体捐赠给接受者的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "捐赠者把转移体捐赠给接受者所采取的方法形式"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "捐赠者把转移体捐赠给接受者的处所"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "捐赠者把转移体捐赠给接受者的目的。"
+        }, 
+        {
+            "abbrName": "por", 
+            "eName": "Purpose_of_Reciving", 
+            "cName": "接受目的", 
+            "isCore": false, 
+            "def": "接受者接受转移体的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "捐赠者把转移体捐赠给接受者的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "捐赠者把转移体捐赠给接受者的时间。"
+        }
+    ]
+}

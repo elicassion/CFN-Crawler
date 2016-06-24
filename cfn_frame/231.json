@@ -1,0 +1,125 @@
+{
+    "fdInfo": {
+        "eName": "Exporting", 
+        "cName": "出口", 
+        "des": "出口者跨境把商品从出口地输出到进口地。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "出口", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出口品", 
+            "POS": "n"
+        }, 
+        {
+            "word": "出口物", 
+            "POS": "n"
+        }, 
+        {
+            "word": "输出", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "epr", 
+            "eName": "Exporter", 
+            "cName": "出口方", 
+            "isCore": true, 
+            "def": "出口方是有意识的实体，通常情况下指人。出口方把商品越境输出，出口地通常暗指直接负责商品输出的人。这种情况下，如果句子中除了这个表示处所的词语，还另外有一个指人词语，则将指人词语标为出口方；如果并没有出现指人词语，相应的表处所的词语则标为出口方。"
+        }, 
+        {
+            "abbrName": "exp_area", 
+            "eName": "Exporting_area", 
+            "cName": "出口地", 
+            "isCore": true, 
+            "def": "商品最初所在的位置，即在出口者转移商品之前商品所在的位置。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "即将改变地理位置、具有价值的物品。"
+        }, 
+        {
+            "abbrName": "imp_area", 
+            "eName": "Importing_area", 
+            "cName": "进口地", 
+            "isCore": true, 
+            "def": "进口地是商品转移终结之地。 "
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "指动作过程中参与者的状态。"
+        }, 
+        {
+            "abbrName": "amt_goods", 
+            "eName": "Amount_of_goods", 
+            "cName": "商品数量", 
+            "isCore": false, 
+            "def": "表示出口商品的数量、重量或规模。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "说明出口者越境输出商品的缘由。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何对出口活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "出口者为实施目标行为而采取的有意识的行动。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "路径是商品在离开出口地之后到达进口地之前所经过的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "出口者出口商品的目的。 "
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "出口者出口商品的时间。"
+        }, 
+        {
+            "abbrName": "veh", 
+            "eName": "Vehicle", 
+            "cName": "交通工具", 
+            "isCore": false, 
+            "def": "出口者把商品从出口地运到进口地所凭借的交通工具。"
+        }, 
+        {
+            "abbrName": "unit_time", 
+            "eName": "Unit_time", 
+            "cName": "单位时间", 
+            "isCore": false, 
+            "def": "用以说明出口量的时间单元。"
+        }
+    ]
+}

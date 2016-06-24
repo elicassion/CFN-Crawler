@@ -1,0 +1,31 @@
+{
+    "fdInfo": {
+        "eName": "Risk_scenario", 
+        "cName": "风险场景", 
+        "des": "在特定情形下，价值体有可能导致或引起危害性事件，危害性事件将会对价值体有负面影响。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "表达实际安全级别与目标词本身所表达的价值体、情形和状态预期值背离的修饰语。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "保持安全程度的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "保持安全程度的时间。"
+        }
+    ]
+}

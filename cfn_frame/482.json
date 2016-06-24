@@ -1,0 +1,148 @@
+{
+    "fdInfo": {
+        "eName": "Gathering_up", 
+        "cName": "集合", 
+        "des": "该框架描述一个致动者使群体（人或实体）聚集为一个群，即聚集体，是按相似度定义的。比较一下该框架与“聚集”框架的相似点，与“融合”框架的不同点。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "汇集", 
+            "POS": "v"
+        }, 
+        {
+            "word": "集合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "聚集", 
+            "POS": "v"
+        }, 
+        {
+            "word": "聚拢", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收集", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搜集", 
+            "POS": "v"
+        }, 
+        {
+            "word": "召集", 
+            "POS": "v"
+        }, 
+        {
+            "word": "组建", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "致动者", 
+            "isCore": true, 
+            "def": "致动者是指将个体集合起来的人。"
+        }, 
+        {
+            "abbrName": "agg", 
+            "eName": "Aggregate", 
+            "cName": "集合后实体", 
+            "isCore": true, 
+            "def": "该框架元素表示由集和事件形成的集合体。它既可以由修饰性结果短语表达，也可以由目标动词的直接宾语表达。"
+        }, 
+        {
+            "abbrName": "indivs", 
+            "eName": "Individuals", 
+            "cName": "集合前实体", 
+            "isCore": true, 
+            "def": "该框架元素表示集合成集合体的实体。"
+        }, 
+        {
+            "abbrName": "co_part", 
+            "eName": "Co_participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "伴随者作为主要主体协同参与到同一事件中。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "背景事件", 
+            "isCore": false, 
+            "def": "该框架元素表示某个时发生的事件或持续的事态，这个时间既包括集合事件发生的期间时段，也包括集合事件作为其一部分的时点。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该元素表示集合事件在单位时间内发生的次数。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": false, 
+            "def": "终点指的是群体最终可能要到达的位置。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "致动者将个体集合在一起所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "个体被集合起来的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者完成聚集活动所采取的行动。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "路径是指群体运动的轨迹。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该元素表示集合事件发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者通过聚集活动想要产生的事态。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": false, 
+            "def": "起点是指群体在集合事件之初所在的位置。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示集合事件发生的时间。"
+        }
+    ]
+}

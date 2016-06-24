@@ -1,0 +1,117 @@
+{
+    "fdInfo": {
+        "eName": "Amalgamation", 
+        "cName": "结合", 
+        "des": "该框架中的词元表示由部分结合成为一个整体。（部分也可能表现为部分_1和部分_2。）在整个结合过程中组成部分之间的关系是对等的，结合之后的部分不能轻易地从整体中被区分开。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "掺和", 
+            "POS": "v"
+        }, 
+        {
+            "word": "归并", 
+            "POS": "v"
+        }, 
+        {
+            "word": "合并", 
+            "POS": "v"
+        }, 
+        {
+            "word": "混合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "结合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "熔合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "融合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "组合", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "part_1", 
+            "eName": "Part_1", 
+            "cName": "部分1", 
+            "isCore": true, 
+            "def": "指与部分_2组成一个整体的主要实体。"
+        }, 
+        {
+            "abbrName": "part_2", 
+            "eName": "Part_2", 
+            "cName": "部分2", 
+            "isCore": true, 
+            "def": "指与部分_1结合的非主要实体。"
+        }, 
+        {
+            "abbrName": "parts", 
+            "eName": "Parts", 
+            "cName": "部分", 
+            "isCore": true, 
+            "def": "指结合成为一个整体的实体。"
+        }, 
+        {
+            "abbrName": "tot", 
+            "eName": "Total", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "指结合之后形成的单个的无差别的实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素表示整个结合过程的进行程度，例如，结合成的整体的无差别程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "指部分_1或者部分的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指任何未被其他框架元素描述的部分，包括认知上的修饰（大概、可能、神秘地），强制性（用力地、温柔地），次要的效果（安静地、吵闹地），以及事物之间比较的一般性描述（以相同的方式）。在这个框架中，还包括对事件进行速度的修饰。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "指结合发生的场所。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "指结合之后各部分的状态。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指部分结合成为整体的时间"
+        }
+    ]
+}

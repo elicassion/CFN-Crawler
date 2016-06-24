@@ -1,0 +1,85 @@
+{
+    "fdInfo": {
+        "eName": "Explosion", 
+        "cName": "爆炸", 
+        "des": "爆炸是指故意引发爆炸物，杀伤不特定多数人或者破坏公私财物，危害公共安全的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "爆炸", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "实施爆炸行为的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "爆炸物", 
+            "isCore": true, 
+            "def": "犯罪人用以引发爆炸的物品，如炸药、汽油箱等。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪对象", 
+            "isCore": true, 
+            "def": "爆炸所指向的不特定多数人或公司财产。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "司法机关", 
+            "isCore": true, 
+            "def": "认定犯罪人罪行，追究其刑事责任的国家机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "犯罪人实施爆炸行为的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "犯罪人实施爆炸的地点。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪结果", 
+            "isCore": false, 
+            "def": "爆炸所造成的损害结果，由于爆炸威力较大，所以经常造成较大伤害。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "手段", 
+            "isCore": false, 
+            "def": "犯罪人实施爆炸行为的方法。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "犯罪人实施爆炸行为的目的。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对爆炸事件进行的描述。"
+        }
+    ]
+}

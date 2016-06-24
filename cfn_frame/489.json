@@ -1,0 +1,60 @@
+{
+    "fdInfo": {
+        "eName": "Measure_mass", 
+        "cName": "质量测量", 
+        "des": "该框架与表示测量质量的计量单位名词相关。框架元素包括计量单位、数量和物品。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "盎司", 
+            "POS": "n"
+        }, 
+        {
+            "word": "磅", 
+            "POS": "n"
+        }, 
+        {
+            "word": "吨", 
+            "POS": "n"
+        }, 
+        {
+            "word": "公斤", 
+            "POS": "n"
+        }, 
+        {
+            "word": "斤", 
+            "POS": "n"
+        }, 
+        {
+            "word": "克", 
+            "POS": "n"
+        }, 
+        {
+            "word": "千克", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "count", 
+            "eName": "Count", 
+            "cName": "数量", 
+            "isCore": true, 
+            "def": "测量质量的计量单位的数量。"
+        }, 
+        {
+            "abbrName": "stuff", 
+            "eName": "Stuff", 
+            "cName": "物品", 
+            "isCore": true, 
+            "def": "质量被测量的物品。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": true, 
+            "def": "按照标准化量值测量其他相同种类得出的数值。"
+        }
+    ]
+}

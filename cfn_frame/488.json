@@ -1,0 +1,70 @@
+{
+    "fdInfo": {
+        "eName": "Sufficiency", 
+        "cName": "足够", 
+        "des": "处于衡量标度上的物体，该衡量标度与由某一超越后情景决定的临界值相关。通常，当没有对超越后情景进行表述时，超越后情景被理解为被置于衡量标度内的物体具有有利条件。该框架有许多形容词，衡量标度通常不会被明确提到。尽管在词元足够的例子中，衡量标度指的是质量，但是在衡量标度不被明确提及的情况下，衡量标度通常是数量，与目标词本身的含义相结合。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "充足", 
+            "POS": "a"
+        }, 
+        {
+            "word": "很", 
+            "POS": "d"
+        }, 
+        {
+            "word": "太", 
+            "POS": "d"
+        }, 
+        {
+            "word": "足", 
+            "POS": "a"
+        }, 
+        {
+            "word": "足够", 
+            "POS": "v"
+        }, 
+        {
+            "word": "足以", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "en_situ", 
+            "eName": "Enabled_situation", 
+            "cName": "超越后情景", 
+            "isCore": true, 
+            "def": "超越后情景是判定临界值的依据。"
+        }, 
+        {
+            "abbrName": "item", 
+            "eName": "Item", 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "标量属性明确的实体。"
+        }, 
+        {
+            "abbrName": "scale", 
+            "eName": "Scale", 
+            "cName": "衡量标度", 
+            "isCore": true, 
+            "def": "衡量标度是被描述的物体的属性。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件描述的是独立于事件本身及其参与者的特定(即在特定时间和地点)世界状态。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "程度指目标词所指的价值改变。"
+        }
+    ]
+}

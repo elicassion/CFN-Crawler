@@ -1,0 +1,84 @@
+{
+    "fdInfo": {
+        "eName": "Agency", 
+        "cName": "代理", 
+        "des": "代理人接受被代理人的委托，以被代理人名义参加诉讼，由被代理人承担代理行为法律后果的一项法律制度。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "代办", 
+            "POS": "n"
+        }, 
+        {
+            "word": "代表", 
+            "POS": "n"
+        }, 
+        {
+            "word": "代理人", 
+            "POS": "n"
+        }, 
+        {
+            "word": "法定代理人", 
+            "POS": "n"
+        }, 
+        {
+            "word": "委托代理人", 
+            "POS": "n"
+        }, 
+        {
+            "word": "指定代理人", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "代理人", 
+            "isCore": true, 
+            "def": "接受当事人及其法定代理人的委托，代其进行诉讼活动的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "被代理人", 
+            "isCore": true, 
+            "def": "委托代理人代为参加诉讼的人。（通常指刑事案件的被害人）"
+        }, 
+        {
+            "abbrName": "chrgs", 
+            "eName": "Charges", 
+            "cName": "指控", 
+            "isCore": false, 
+            "def": "对被告人进行的有罪控诉。"
+        }, 
+        {
+            "abbrName": "court", 
+            "eName": "Court", 
+            "cName": "法院", 
+            "isCore": false, 
+            "def": "被告进行辩护的地方，通常是法庭。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "受权委托书", 
+            "isCore": false, 
+            "def": "代理关系成立的依据。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "代理地点。通常在法院。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "代理时间"
+        }
+    ]
+}

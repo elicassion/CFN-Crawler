@@ -1,0 +1,155 @@
+{
+    "fdInfo": {
+        "eName": "Piracy", 
+        "cName": "劫持", 
+        "des": "是指犯罪者以暴力、胁迫或其他方法，控制正在运行的汽车、船只、航空器等交通工具的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "海盗行为", 
+            "POS": "n"
+        }, 
+        {
+            "word": "劫持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劫持汽车", 
+            "POS": "n"
+        }, 
+        {
+            "word": "劫机", 
+            "POS": "n"
+        }, 
+        {
+            "word": "劫机", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劫机的", 
+            "POS": "a"
+        }, 
+        {
+            "word": "劫机者", 
+            "POS": "n"
+        }, 
+        {
+            "word": "掠夺", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "以暴力、胁迫或其他方法，控制正在运行的汽车、船只、航空器等交通工具的人。"
+        }, 
+        {
+            "abbrName": "veh", 
+            "eName": "Vehicle", 
+            "cName": "交通工具", 
+            "isCore": true, 
+            "def": "犯罪者控制的汽车、船只、航空器等"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "因交通工具被劫持而安全受到威胁的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "劫持事件的严重程度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "事情持续的时间"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": false, 
+            "def": "犯罪者对交通工具的非法控制。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "单位时间内交通工具被劫持的次数。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": false, 
+            "def": "交通工具所要到达的地点。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "犯罪者通常控制交通工具所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对劫持行为的形容和描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "犯罪人控制交通工具的手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事情发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "事情发生的地点。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "促使犯罪人实施劫持行动的原因。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": false, 
+            "def": "交通工具被劫持的地方。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }
+    ]
+}

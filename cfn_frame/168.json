@@ -1,0 +1,64 @@
+{
+    "fdInfo": {
+        "eName": "Accident", 
+        "cName": "意外事件", 
+        "des": "行为人虽然在客观上造成了损害结果，但不是出于行为人的故意或者过失，而是由于不能预见的原因所引起的，不认为是犯罪，这种情况就是意外事件。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "意外事件", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "行为人", 
+            "isCore": true, 
+            "def": "做出一定行为，造成危害后果，但不是出于其主观故意或过失的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "行为人做出的行为，这一行为由于行为人不能预见的原因导致了危害后果。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "危害后果", 
+            "isCore": true, 
+            "def": "由于行为人的行为，导致的人身或财产损害。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "原因", 
+            "isCore": true, 
+            "def": "行为人不能预见的导致危害后果的原因"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对意外事件的描述和修饰。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "发生意外事件的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "发生意外事件的地点。"
+        }
+    ]
+}

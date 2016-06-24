@@ -1,0 +1,138 @@
+{
+    "fdInfo": {
+        "eName": "Reasoning", 
+        "cName": "论证", 
+        "des": "辩论者提出内容，通过支持传达给信息接收者。内容略微涉及行为过程或涉及信息接收者相信的陈述。一些词元，例如“证明”表示了说话人相信的内容。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "驳斥", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反驳", 
+            "POS": "v"
+        }, 
+        {
+            "word": "论点", 
+            "POS": "n"
+        }, 
+        {
+            "word": "论据", 
+            "POS": "n"
+        }, 
+        {
+            "word": "论证", 
+            "POS": "v"
+        }, 
+        {
+            "word": "实证", 
+            "POS": "n"
+        }, 
+        {
+            "word": "推论", 
+            "POS": "n"
+        }, 
+        {
+            "word": "推论", 
+            "POS": "v"
+        }, 
+        {
+            "word": "证明", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "arg", 
+            "eName": "Arguer", 
+            "cName": "辩论者", 
+            "isCore": true, 
+            "def": "向信息接收者提出内容的人。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "辩论者希望信息接收者接收内容，内容是建立在支持提供的基础上可信的建议或是采取的行为过程。"
+        }, 
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": false, 
+            "def": "接收辩论者提出的内容的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "表示辩论事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容表示描述辩论者的短语。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "辩论者向信息接收者提出论证的时间段。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "辩论者论辩的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "辩论者将内容传达给信息接受者的方法。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "传达内容的物质的或抽象的媒介。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "辩论事件的结果。"
+        }, 
+        {
+            "abbrName": "suprt", 
+            "eName": "Support", 
+            "cName": "支持", 
+            "isCore": false, 
+            "def": "支持给与要求认识上的支持，或是提供给行为过程一个原因。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "辩论者进行辩论的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "辩论者为内容辩论的时间。"
+        }
+    ]
+}

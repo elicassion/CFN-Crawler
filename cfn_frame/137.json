@@ -1,0 +1,89 @@
+{
+    "fdInfo": {
+        "eName": "Equating", 
+        "cName": "等同", 
+        "des": "表示两个实体具有相等、相同、同等看待等的关系。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "等同", 
+            "POS": "v"
+        }, 
+        {
+            "word": "等同于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "等于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "对等", 
+            "POS": "a"
+        }, 
+        {
+            "word": "是", 
+            "POS": "v"
+        }, 
+        {
+            "word": "为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "相当于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "相等", 
+            "POS": "a"
+        }, 
+        {
+            "word": "相同", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ents", 
+            "eName": "Entities", 
+            "cName": "实体集", 
+            "isCore": true, 
+            "def": "具有同等关系的两个或多个实体"
+        }, 
+        {
+            "abbrName": "ent_1", 
+            "eName": "Entity1", 
+            "cName": "实体1", 
+            "isCore": true, 
+            "def": "与实体2具有等同关系的实体"
+        }, 
+        {
+            "abbrName": "ent_2", 
+            "eName": "Entity2", 
+            "cName": "实体2", 
+            "isCore": true, 
+            "def": "与实体1具有等同关系的实体"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "判断实体集具有同等关系的人。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "修饰用来概括无法归入其他更具体的框架元素的任何语义成分，包括认知的修饰（如很可能，大概，神秘地），辅助描述（安静地，大声地），和与事件相比较的一般描述（同样的方式）。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实体之间具有等同关系的时间"
+        }
+    ]
+}

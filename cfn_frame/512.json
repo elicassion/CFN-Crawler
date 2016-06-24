@@ -1,0 +1,129 @@
+{
+    "fdInfo": {
+        "eName": "Commitment", 
+        "cName": "承诺", 
+        "des": "说话者向信息接收者承诺实施某个未来行为。这对于信息接收者来说，可能是一个想得到的行为(当与承诺一起使用)或不想要的行为(当与威胁一起使用)。该框架中的一些词元允许将信息接收者表达出来，如：\r你向我许诺过你会来参加我的毕业典礼。\r其它词元通常不能和信息接收者同时出现，如\r金承诺六月份结束该项目。\r"
+    }, 
+    "lexElmt": [
+        {
+            "word": "保证", 
+            "POS": "v"
+        }, 
+        {
+            "word": "承诺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "答应", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发誓", 
+            "POS": "v"
+        }, 
+        {
+            "word": "然诺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "誓言", 
+            "POS": "n"
+        }, 
+        {
+            "word": "誓约", 
+            "POS": "n"
+        }, 
+        {
+            "word": "威胁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "许诺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "许愿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "应承", 
+            "POS": "v"
+        }, 
+        {
+            "word": "允诺", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": true, 
+            "def": "说话者的承诺可以对信息接收者做出。与这些能使该框架元素被表达出的词元一起使用。信息接收者通常由“向...”，“对...”引导的介词短语或动词的(间接)宾语表示:"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "与交流域内的其它框架一样,交流的媒介可能被表达出来。媒介是用于传输消息的物质实体或渠道。"
+        }, 
+        {
+            "abbrName": "msg", 
+            "eName": "Message", 
+            "cName": "信息", 
+            "isCore": true, 
+            "def": "说话者承诺时所说的话表达了该框架元素。信息通常是一个限定性的或非限定性的从句或作宾语的名词短语:"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "说话者是承诺做某事的人。说话者通常是目标词作谓语时的外部论元或名词的属格修饰语:"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "在本框架中，表主题的词语并不常见。它们可以与名词目标词一起出现。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "做出承诺的方式。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period_of_iterations", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "该框架元素是用于指从承诺事件从重复开始到重复结束的时间长度。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "讲话者做出承诺的地点。?"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "一讲话者想通过实现承诺而达到的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "讲话者做出承诺的时间段。"
+        }
+    ]
+}

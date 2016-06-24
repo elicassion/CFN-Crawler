@@ -1,0 +1,122 @@
+{
+    "fdInfo": {
+        "eName": "Becoming_aware", 
+        "cName": "发现", 
+        "des": "该框架表示认知者发现某现象。[发现]与[获知]框架相似，但后者表示的是最终达到了完全的认识和理解，而[发现]只涉及认识过程的起点，[发现]表示对实体的认识，而无需给出这个认识的具体内容；[发现]的词语与[感知觉]词语也有关联，因为人总是通过感知事物来认识事物的。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "察觉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发觉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发现", 
+            "POS": "n"
+        }, 
+        {
+            "word": "发现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "觉察", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认知者是发现现象的人，通常做主语。"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "现象是认知者发现的一个实体或状况，通常做宾语。\r\n"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "认知者使用某工具来认识现象。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该元素表示认知者通过什么行为认识现象。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该元素描述事件有层级差别的属性,表示事件所达到的水平。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": "Evidence", 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "协助认知者发现某事物的实体或事件，通常用介词短语\"从/根据…\"等表示。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": false, 
+            "def": "被认知者发现的现象所处的背景或环境，通常用表示处所的介词短语表示。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述发现活动的特征或所处状态的成分，都归入该元素，如\"容易、轻易\"等。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "表示认知者发出认知活动的目标，认知者认为通过认识某现象可以实现这个目标。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "表示现象或认知者在事件过程中所处的状态。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该元素表示认知者认识现象的时间。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "表示现象所属的范围。  "
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": null, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "表示外部世界的状态，通常是事件发生所需的事理、物理条件（\"在高温下\"等）、社会状况等。通常用介词短语\"在……情况下\"、\"在……条件下\"等表示。"
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "fdInfo": {
+        "eName": "Fighting_activity", 
+        "cName": "打斗", 
+        "des": "通常一大群人，即打斗者，参与到一场他们之间的混乱且暴力性持久的打斗中。无明显的对立双方，通常也没有特定的目标（进一步理解本框架可参阅“敌对冲突”框架）。打斗的方式或暴力程度可能有所描述。时间和处所也会表达出来。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "搏斗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打斗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打架", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打群架", 
+            "POS": "i"
+        }, 
+        {
+            "word": "斗殴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "混战", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cmbtnt", 
+            "eName": "Combatants", 
+            "cName": "打斗者", 
+            "isCore": true, 
+            "def": "打斗者作为战士参与打斗。"
+        }, 
+        {
+            "abbrName": "fight", 
+            "eName": "Fight", 
+            "cName": "打斗", 
+            "isCore": true, 
+            "def": "暴力活动。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "打斗的暴力程度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "打斗持续的时间长度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "打斗者使用的武器或其他工具。"
+        }, 
+        {
+            "abbrName": "issue", 
+            "eName": "Issue", 
+            "cName": "问题", 
+            "isCore": false, 
+            "def": "引发打斗的问题。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "打斗的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "打斗者进行打斗的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "打斗发生的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "（一些）打斗者希望通过打斗实现的事态。"
+        }, 
+        {
+            "abbrName": "sal_act", 
+            "eName": "Salient_activity", 
+            "cName": "凸显活动", 
+            "isCore": false, 
+            "def": "打斗者进行打斗时所从事的活动。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "打斗发生的时间。"
+        }
+    ]
+}

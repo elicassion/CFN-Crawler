@@ -1,0 +1,110 @@
+{
+    "fdInfo": {
+        "eName": "Abusing", 
+        "cName": "虐待", 
+        "des": "虐待是指经常以打骂、冻饿、禁闭、有病不治、强迫过度劳动或者限制人身自由、凌辱人格等方法，从肉体上或精神上对他人进行摧残迫害的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "虐待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "施虐", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "abu", 
+            "eName": "Abuser", 
+            "cName": "虐待者", 
+            "isCore": true, 
+            "def": "经常对受害者施以打骂、冻饿、禁闭等行为的人。一般来讲，虐待者在经济上或社会关系上占有优势地位。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "被虐待者施以虐待行为的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "指虐待行为的强度和严重度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "虐待行为所持续的时间"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "虐待行为发生的频率"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "虐待者施以虐待行为时使用的物品。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对虐待行为进行的描述，表明虐待行为的特征。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "虐待者实施虐待行为使用的方法"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "虐待行为发生的地点"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "虐待者实施虐待行为所追求的目标。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "虐待者实施虐待行为的心理动因。 "
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指虐待行为发生的时间"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "指虐待者在哪方面对受害者施以虐待行为。"
+        }
+    ]
+}

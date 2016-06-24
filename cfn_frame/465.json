@@ -1,0 +1,68 @@
+{
+    "fdInfo": {
+        "eName": "Endangering", 
+        "cName": "危害", 
+        "des": "施动者或致因是将有价体置于危险之中。?危害行为，处所，时间，原因以及环境条件可能也会提及。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "危害", 
+            "POS": "v"
+        }, 
+        {
+            "word": "危及", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "对有价体造成危险的有意识实体。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "为有价体带来危险的（无意识的）实体或事态。"
+        }, 
+        {
+            "abbrName": "valu_e", 
+            "eName": "Valued_entity", 
+            "cName": "有价体", 
+            "isCore": true, 
+            "def": "由于置于险境而受到负面影响的实体。"
+        }, 
+        {
+            "abbrName": "endgact", 
+            "eName": "Endangering_act", 
+            "cName": "危害行为", 
+            "isCore": false, 
+            "def": "施动者或致因造成的，危及到有价体的特定事件或事态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "方式描述的是与致因，中间活动或所涉实体没有直接关系的危害行为的一个方面。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "有价体处于危险中的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "有价体处于危险中的时间。"
+        }
+    ]
+}

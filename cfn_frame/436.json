@@ -1,0 +1,150 @@
+{
+    "fdInfo": {
+        "eName": "Feeling", 
+        "cName": "感觉", 
+        "des": "该框架描述体验者经历了某种情感或处于某种情感状态，也可以是内部经验状态的一种评价。体验者不可分割的部分经常代替体验者。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "备感", 
+            "POS": "f"
+        }, 
+        {
+            "word": "倍感", 
+            "POS": "f"
+        }, 
+        {
+            "word": "发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发觉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "感", 
+            "POS": "v"
+        }, 
+        {
+            "word": "感触", 
+            "POS": "n"
+        }, 
+        {
+            "word": "感到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "感动", 
+            "POS": "n"
+        }, 
+        {
+            "word": "感愤", 
+            "POS": "v"
+        }, 
+        {
+            "word": "感怀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "感觉", 
+            "POS": "n"
+        }, 
+        {
+            "word": "感觉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "感情", 
+            "POS": "n"
+        }, 
+        {
+            "word": "感人", 
+            "POS": "a"
+        }, 
+        {
+            "word": "感受", 
+            "POS": "n"
+        }, 
+        {
+            "word": "经验", 
+            "POS": "n"
+        }, 
+        {
+            "word": "觉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "觉得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "情感", 
+            "POS": "n"
+        }, 
+        {
+            "word": "情绪", 
+            "POS": "n"
+        }, 
+        {
+            "word": "深感", 
+            "POS": "f"
+        }, 
+        {
+            "word": "体会", 
+            "POS": "n"
+        }, 
+        {
+            "word": "体验", 
+            "POS": "v"
+        }, 
+        {
+            "word": "痛感", 
+            "POS": "v"
+        }, 
+        {
+            "word": "心得", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "emot", 
+            "eName": "Emotion", 
+            "cName": "情感", 
+            "isCore": true, 
+            "def": "情感是体验者体验到的感觉。"
+        }, 
+        {
+            "abbrName": "emo_s", 
+            "eName": "Emotional_state", 
+            "cName": "情感状态", 
+            "isCore": true, 
+            "def": "情感状态是体验者所处的状态。"
+        }, 
+        {
+            "abbrName": "eva", 
+            "eName": "Evaluation", 
+            "cName": "评价", 
+            "isCore": true, 
+            "def": "评价是有关体验者情感状态的一种积极或消极的评定。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Experiencer", 
+            "cName": "体验者", 
+            "isCore": true, 
+            "def": "体验者经历了某种情感或处于某种情感状态。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "导使体验者体验到某种情感或情感状态的事物或事态。"
+        }
+    ]
+}

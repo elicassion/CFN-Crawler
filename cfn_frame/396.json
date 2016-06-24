@@ -1,0 +1,180 @@
+{
+    "fdInfo": {
+        "eName": "Recording", 
+        "cName": "记录", 
+        "des": "施动者将现象的发生以长久信息的形式记录下来。换言之，施动者记录了实体就其某属性而言具有一特定值。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "登记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记功", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记过", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记号", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记录", 
+            "POS": "n"
+        }, 
+        {
+            "word": "记录", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记名", 
+            "POS": "n"
+        }, 
+        {
+            "word": "记名制", 
+            "POS": "n"
+        }, 
+        {
+            "word": "记事", 
+            "POS": "n"
+        }, 
+        {
+            "word": "记述", 
+            "POS": "n"
+        }, 
+        {
+            "word": "记叙", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记载", 
+            "POS": "v"
+        }, 
+        {
+            "word": "纪录", 
+            "POS": "n"
+        }, 
+        {
+            "word": "纪录", 
+            "POS": "v"
+        }, 
+        {
+            "word": "纪录片", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "为现象创造永久性记录的有感知力的实体。"
+        }, 
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "cName": "属性", 
+            "isCore": true, 
+            "def": "实体的被讨论的特征。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "施动者为其记录属性值。"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "亚当斯采取了一些很好的建议，并且仔细地记录了之后发生的事件。"
+        }, 
+        {
+            "abbrName": "value", 
+            "eName": "Value", 
+            "cName": "值", 
+            "isCore": true, 
+            "def": "被记录为特定属性的实体的值。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "现象被记录的程度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "时量指的是（由目标词所表示）的事态从开始到结束所用的时间长度。在许多情况下，事态也可以是一个正在进行的动态行为，而在其他情况下它仅仅处于一个未分化的状态。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "施动者在单位时间内记录的事件发生的频次。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "施动者记录时使用的符号体系。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指的是未被其他更明确的框架元素所涵盖的任何对记录事件的描述。该描述既包括次生效应（安静地），也包括在比较事件时所做的一般描述（如“同样”），甚至也包括对影响施动者行为的显著特征（如“专横”、“冷冷”、“故意”、“急切”、“谨慎”）的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者记录现象时所用的方法行为。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period_of_iterations", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "所记录事件在重新复发前所持续的时间。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "施动者记录事实的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者记录现象的内心目标。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者记录现象的时间。"
+        }
+    ]
+}

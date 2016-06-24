@@ -1,0 +1,189 @@
+{
+    "fdInfo": {
+        "eName": "Surpassing", 
+        "cName": "超出", 
+        "des": "框架中，凸显物在某些属性方面比标准物在标度上更高，凸显物和标准物之间的差异幅度也会被提及。此外，标准物属性和凸显物属性可能会分别表明标准物或凸显物在特定衡量标度范围内的特定值。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "超", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超编", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超标", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超产", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超常", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超尘出俗", 
+            "POS": "i"
+        }, 
+        {
+            "word": "超出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超等", 
+            "POS": "a"
+        }, 
+        {
+            "word": "超额", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超凡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超购", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超过", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超耗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超龄", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超群", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超人", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超生", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超收", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超速", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超限", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超一流", 
+            "POS": "a"
+        }, 
+        {
+            "word": "超越", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超载", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超支", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超重", 
+            "POS": "v"
+        }, 
+        {
+            "word": "超卓超尘拔俗", 
+            "POS": "i"
+        }, 
+        {
+            "word": "卓异", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "cName": "属性", 
+            "isCore": true, 
+            "def": "属性指物体在与标准物相比较后能使物体在衡量标度范围内接近一个极端值的特性。"
+        }, 
+        {
+            "abbrName": "v_item", 
+            "eName": "Profiled_attribute", 
+            "cName": "凸显物属性", 
+            "isCore": true, 
+            "def": "凸显物属性指的是被用来和属性或标准物进行比较后衡量标度方面显示的特定值。"
+        }, 
+        {
+            "abbrName": "item", 
+            "eName": "Profiled_item", 
+            "cName": "凸显物", 
+            "isCore": true, 
+            "def": "凸显物是指在某属性方面接近衡量标度范围内一个极端值的实体。"
+        }, 
+        {
+            "abbrName": "v_standard", 
+            "eName": "Standard_attribute", 
+            "cName": "标准物属性", 
+            "isCore": true, 
+            "def": "标准物属性是用来说明标准物在一衡量标度范围内所处的特定值。"
+        }, 
+        {
+            "abbrName": "standard", 
+            "eName": "Standard_item", 
+            "cName": "标准物", 
+            "isCore": true, 
+            "def": "框架元素标准物指的是示在某属性方面超越物体的实体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件描述了（在特定的时间和地点）独立于事件本身和其他的参与者的世界状态。"
+        }, 
+        {
+            "abbrName": "comp_set", 
+            "eName": "Comparison_set", 
+            "cName": "比较项", 
+            "isCore": false, 
+            "def": "比较项包括标准及评判物体的任何形式标准。"
+        }, 
+        {
+            "abbrName": "extent", 
+            "eName": "Extent", 
+            "cName": "幅度", 
+            "isCore": false, 
+            "def": "幅度是指物体超过标准的程度。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iteration", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "次数用来表达指出（由从句中目标词所表示的）事件或状态发生的次数。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指物体在衡量标度范围内比标准更高的时间。"
+        }
+    ]
+}

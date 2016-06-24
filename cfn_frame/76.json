@@ -1,0 +1,249 @@
+{
+    "fdInfo": {
+        "eName": "Experiencer_subj", 
+        "cName": "情感体验", 
+        "des": "这个框架描述体验者对某些内容的情感表达。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "爱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "爱慕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "担忧", 
+            "POS": "v"
+        }, 
+        {
+            "word": "烦恼", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反感", 
+            "POS": "v"
+        }, 
+        {
+            "word": "愤恨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "高兴", 
+            "POS": "a"
+        }, 
+        {
+            "word": "害怕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "恨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "后悔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "激动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "嫉妒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "紧张", 
+            "POS": "v"
+        }, 
+        {
+            "word": "惧怕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "绝望", 
+            "POS": "v"
+        }, 
+        {
+            "word": "渴望", 
+            "POS": "v"
+        }, 
+        {
+            "word": "恐惧", 
+            "POS": "v"
+        }, 
+        {
+            "word": "酷爱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "快乐", 
+            "POS": "a"
+        }, 
+        {
+            "word": "怜悯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "满意", 
+            "POS": "v"
+        }, 
+        {
+            "word": "难过", 
+            "POS": "a"
+        }, 
+        {
+            "word": "恼怒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "轻视", 
+            "POS": "v"
+        }, 
+        {
+            "word": "伤心", 
+            "POS": "a"
+        }, 
+        {
+            "word": "生气", 
+            "POS": "v"
+        }, 
+        {
+            "word": "失望", 
+            "POS": "v"
+        }, 
+        {
+            "word": "讨厌", 
+            "POS": "v"
+        }, 
+        {
+            "word": "同情", 
+            "POS": "v"
+        }, 
+        {
+            "word": "痛恨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "喜爱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "嫌恶", 
+            "POS": "v"
+        }, 
+        {
+            "word": "羡慕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "心烦", 
+            "POS": "v"
+        }, 
+        {
+            "word": "欣喜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "厌恶", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遗憾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忧伤", 
+            "POS": "v"
+        }, 
+        {
+            "word": "愉快", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怨恨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "憎恶", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "exp", 
+            "eName": "Experiencer", 
+            "cName": "体验者", 
+            "isCore": true, 
+            "def": "体验者经历了情感或其他内在的状态。"
+        }, 
+        {
+            "abbrName": "expr", 
+            "eName": "Expressor", 
+            "cName": "表达体", 
+            "isCore": true, 
+            "def": "表达体元素指能够表现体验者的情感的身体动作、手势等。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "内容即体验者的感情或体验所依赖的基础。内容不同于刺激物，因为内容并不直接引起情感上的反应。"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "事件就是体验者在某种情感状态下发生的动作或事件。"
+        }, 
+        {
+            "abbrName": "state", 
+            "eName": "State", 
+            "cName": "状态", 
+            "isCore": true, 
+            "def": "状态是抽象名词，对体验者的体验进行一般性的概括，通常由\"感情、情绪、情感\"等词语表达。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件表示的是体验者体验情感的环境或外部状态，与内容元素不同的是，它并不给出情感的具体内容，但内容常常可以通过环境条件推导出来。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "所体验到的情感的深刻程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。包括表示主观认识的修饰语（大概，不可思议），表示容易程度的词语（容易、难以），等等。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "该框架元素指体验者体验到某种情感的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指体验者体验某种情感的时间。"
+        }
+    ]
+}

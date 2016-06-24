@@ -1,0 +1,68 @@
+{
+    "fdInfo": {
+        "eName": "Process_completed_state", 
+        "cName": "过程完成状态", 
+        "des": "过程结束并不再继续。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "完", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完毕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完稿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完工", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完竣", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完了", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完事", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "proce", 
+            "eName": "Process", 
+            "cName": "过程", 
+            "isCore": true, 
+            "def": "该框架元素指出了过程的名称。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的处所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }
+    ]
+}

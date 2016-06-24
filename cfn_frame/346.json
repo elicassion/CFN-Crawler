@@ -1,0 +1,128 @@
+{
+    "fdInfo": {
+        "eName": "Releasing", 
+        "cName": "释放", 
+        "des": "捕捉者结束对转移体的监禁，将其从监禁位置释放出来。该释放符合捕捉者的计划。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "出狱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放虎归山", 
+            "POS": "i"
+        }, 
+        {
+            "word": "放还", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放生", 
+            "POS": "v"
+        }, 
+        {
+            "word": "恢复自由", 
+            "POS": "i"
+        }, 
+        {
+            "word": "获释", 
+            "POS": "v"
+        }, 
+        {
+            "word": "假释", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开释", 
+            "POS": "v"
+        }, 
+        {
+            "word": "释放", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "captor", 
+            "eName": "Captor", 
+            "cName": "捕捉者", 
+            "isCore": true, 
+            "def": "捕捉者指结束对转移体监禁的个体。对转移体的释放符合捕捉者的计划。"
+        }, 
+        {
+            "abbrName": "loc_conf", 
+            "eName": "Location_of_confinement", 
+            "cName": "监禁位置", 
+            "isCore": true, 
+            "def": "转移体在移动受限期间所处的位置。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体是被捕捉者释放的可移动的人或物。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "释放事件所发生的世界状态。"
+        }, 
+        {
+            "abbrName": "cncesiv", 
+            "eName": "Concessive", 
+            "cName": "让步转折后事态", 
+            "isCore": false, 
+            "def": "该框架元素指的是由主句(包含目标词)所表达事态或事件，以及其它非让步从句所期待的事态或事件。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释表明了捕捉者释放转移体的理由。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何未被更为具体的框架元素所包括的对释放行为所进行的描述，包括次要影响（如：安静地、大声地）），以及对事件进行比较所作出的一概括性描述（如：相同地）。此外，该描述也可以是影响捕捉者行为的某些明显特征（如：可能、冷漠、急切、谨慎）"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "能让捕捉者产生释放行为的行动。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "转移体被释放的位置。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "目的指捕捉者释放转移体的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "捕捉者释放转移体的时间。"
+        }
+    ]
+}

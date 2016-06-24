@@ -1,0 +1,59 @@
+{
+    "fdInfo": {
+        "eName": "Summon_by_warrant", 
+        "cName": "拘传", 
+        "des": "拘传是指公安机关、人民检察院、人民法院对于没有拘留、逮捕的犯罪嫌疑人、被告人强制其到指定地点接受讯问的方法，这是强制措施中最轻微的一种。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "chrgs", 
+            "eName": "Charges", 
+            "cName": "指控", 
+            "isCore": true, 
+            "def": "是指被告人或犯罪嫌疑人涉嫌的罪名。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪分子", 
+            "isCore": true, 
+            "def": "是指被指控犯罪而被拘传的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "官方", 
+            "isCore": true, 
+            "def": "是指对犯罪分子进行拘传的机构或人。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "拘传持续的时间，最长不得超过12个小时。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对于拘传活动所做的描述。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "拘传发生的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "拘传发生的时间。"
+        }
+    ]
+}

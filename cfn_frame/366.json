@@ -1,0 +1,135 @@
+{
+    "fdInfo": {
+        "eName": "Participation", 
+        "cName": "参与", 
+        "des": "某事件有多名参与者。在该事件中，多名参与者或以同等重要的地位出现，或以参与者_1比参与者_2更为重要的形式出现。如果参与者参与该事件是有意图的，那么在多名参与者之间通常还存在一个共同目的。然而，有可能所表达出来的目的只适用于参与者_1。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "参加", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参评", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参赛", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参审", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参选", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参议", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参与", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参战", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参政", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "该框架元素指有多名参与者有目的或无目的参与的事件。"
+        }, 
+        {
+            "abbrName": "instit", 
+            "eName": "Institution", 
+            "cName": "机构", 
+            "isCore": true, 
+            "def": "依照惯例，与事件相关的团体，场所，或者机构。"
+        }, 
+        {
+            "abbrName": "partic1", 
+            "eName": "Participant_1", 
+            "cName": "参与者_1", 
+            "isCore": true, 
+            "def": "从语法的角度来说，参与者_1在有多名参与者参与的事件中要比其它参与者更为重要一些。"
+        }, 
+        {
+            "abbrName": "partic2", 
+            "eName": "Participant_2", 
+            "cName": "参与者_2", 
+            "isCore": true, 
+            "def": "从语法上讲，参与者_2在有多名参与者参与的事件中重要性相对弱些。"
+        }, 
+        {
+            "abbrName": "partic", 
+            "eName": "Participants", 
+            "cName": "参与者", 
+            "isCore": true, 
+            "def": "参与某事件的一些人或实体集。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree_of_involvement", 
+            "cName": "参与程度", 
+            "isCore": false, 
+            "def": "参与者_1参与事件的程度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "这个框架元素描述了参与事件的时间长度（通常作为一个介词短语出现）。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对于没有被一些更为具体的框架元素所涵盖的事件(或状态)的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "参与者_1或参与者的一个有意行为，该行为有助于完成该事件。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "有多名参与者参与的事件所发生的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "参与者或参与者_1试图通过实施与事件相关的行为来达到的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "有多名参与者参与的事件发生的时间。"
+        }
+    ]
+}

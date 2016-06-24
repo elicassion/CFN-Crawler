@@ -1,0 +1,87 @@
+{
+    "fdInfo": {
+        "eName": "Triggering", 
+        "cName": "触发", 
+        "des": "致因触发系统按预期目标运转。或者说，参与者(自愿或不自愿地)参与致因，代替致因。系统通常能探测出和警示对象的存在(如金属)或事件的发生(如地震)。该对象也可能是个爆炸装置或包含一个爆炸装置。致因激活系统的方法也可能是明确的。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "触发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "触碰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引爆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引起", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "actor", 
+            "eName": "Actor", 
+            "cName": "参与者", 
+            "isCore": true, 
+            "def": "该框架元素指自愿或不自愿地参与致因的实体。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致因与系统相互作用，达到了系统启动的条件。"
+        }, 
+        {
+            "abbrName": "sys", 
+            "eName": "System", 
+            "cName": "系统", 
+            "isCore": true, 
+            "def": "系统与致因相互作用或者探测到致因并被激活。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何对事件的整体性描述，包括总体描述（同样）以及有关参与者或者致因对事件特点的影响的描述（急切地，安静地）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "方法指致因或者参与者触发系统的子事件。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "触发发生的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "参与者引发系统的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "触发动作发生的时间。"
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "fdInfo": {
+        "eName": "Ingestion", 
+        "cName": "摄取", 
+        "des": "摄取者消费食物、饮料或烟草（摄取物），可涉及到工具的运用。但此框架不包括把食物提供给他人的句子。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "吃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "喝", 
+            "POS": "v"
+        }, 
+        {
+            "word": "会餐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "咀嚼", 
+            "POS": "v"
+        }, 
+        {
+            "word": "啃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "狼吞虎咽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "舔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吞咽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吸收", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吸吮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "消费", 
+            "POS": "v"
+        }, 
+        {
+            "word": "咬", 
+            "POS": "v"
+        }, 
+        {
+            "word": "饮", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ingible", 
+            "eName": "Ingestibles", 
+            "cName": "摄取物", 
+            "isCore": true, 
+            "def": "摄取者可以消费的实体。"
+        }, 
+        {
+            "abbrName": "ingest", 
+            "eName": "Ingestor", 
+            "cName": "摄取者", 
+            "isCore": true, 
+            "def": "指吃喝东西或吸烟的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "摄取者消费食物的程度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "施行有意行为所用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对摄取行为的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "摄取者施行的使自己完成整个摄取过程的行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "摄取行为发生的地点。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": false, 
+            "def": "摄取者取食的地方。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "摄取行为发生的时间。"
+        }
+    ]
+}

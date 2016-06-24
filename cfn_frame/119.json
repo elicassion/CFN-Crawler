@@ -1,0 +1,270 @@
+{
+    "fdInfo": {
+        "eName": "Awareness ", 
+        "cName": "知道", 
+        "des": "一个有感知能力的人（认知者）对于某事物（关涉）具有一定的认识（内容）。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "不详", 
+            "POS": "v"
+        }, 
+        {
+            "word": "不知就里", 
+            "POS": "i"
+        }, 
+        {
+            "word": "不知所以", 
+            "POS": "i"
+        }, 
+        {
+            "word": "猜测", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洞见症结", 
+            "POS": "i"
+        }, 
+        {
+            "word": "洞烛其奸", 
+            "POS": "i"
+        }, 
+        {
+            "word": "分晓", 
+            "POS": "v"
+        }, 
+        {
+            "word": "见多识广", 
+            "POS": "i"
+        }, 
+        {
+            "word": "了解", 
+            "POS": "v"
+        }, 
+        {
+            "word": "了如指掌", 
+            "POS": "i"
+        }, 
+        {
+            "word": "明察秋毫", 
+            "POS": "i"
+        }, 
+        {
+            "word": "明知", 
+            "POS": "v"
+        }, 
+        {
+            "word": "情知", 
+            "POS": "n"
+        }, 
+        {
+            "word": "情知", 
+            "POS": "v"
+        }, 
+        {
+            "word": "认", 
+            "POS": "v"
+        }, 
+        {
+            "word": "认得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "认识", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谂悉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "识", 
+            "POS": "v"
+        }, 
+        {
+            "word": "熟悉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "似懂非懂", 
+            "POS": "i"
+        }, 
+        {
+            "word": "相识", 
+            "POS": "v"
+        }, 
+        {
+            "word": "相知", 
+            "POS": "v"
+        }, 
+        {
+            "word": "详", 
+            "POS": "v"
+        }, 
+        {
+            "word": "详悉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "晓", 
+            "POS": "v"
+        }, 
+        {
+            "word": "晓得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "心中有数", 
+            "POS": "i"
+        }, 
+        {
+            "word": "胸有成竹", 
+            "POS": "i"
+        }, 
+        {
+            "word": "胸中有数", 
+            "POS": "i"
+        }, 
+        {
+            "word": "一无所知", 
+            "POS": "i"
+        }, 
+        {
+            "word": "一知半解", 
+            "POS": "i"
+        }, 
+        {
+            "word": "意识", 
+            "POS": "v"
+        }, 
+        {
+            "word": "有底", 
+            "POS": "v"
+        }, 
+        {
+            "word": "有数", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预感", 
+            "POS": "v"
+        }, 
+        {
+            "word": "知", 
+            "POS": "v"
+        }, 
+        {
+            "word": "知道", 
+            "POS": "v"
+        }, 
+        {
+            "word": "知底", 
+            "POS": "v"
+        }, 
+        {
+            "word": "知己知彼", 
+            "POS": "i"
+        }, 
+        {
+            "word": "知其一，不知其二", 
+            "POS": "i"
+        }, 
+        {
+            "word": "知情", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认知者是知道某事物的人，一般做主语。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "内容是认知者所知道的事物，常做述宾结构的宾语。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "认知内容所关涉的主题，用介词短语\"关于/至于/对于……\"表示。"
+        }, 
+        {
+            "abbrName": "expr", 
+            "eName": "Expressor", 
+            "cName": "表达体", 
+            "isCore": false, 
+            "def": "表达体是认知者的身体部位。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "此框架元素表示事件发生的程度。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": "Evidence", 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "根据是意识或知识的来源，可作介词宾语。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "表示事件所处的状态，该元素是一个杂类，用来概括那些无法归入其他更具体的框架元素的语义成分。"
+        }, 
+        {
+            "abbrName": "paradigm", 
+            "eName": "Paradigm", 
+            "cName": "范式", 
+            "isCore": false, 
+            "def": "表示由诸多概念、假设与方法构成的系统，在其中科学共同体的成员从事着他们的研究，认知者也以此为基础认识事物。"
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "cName": "身份", 
+            "isCore": false, 
+            "def": null
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "认知者知道内容的时间。"
+        }, 
+        {
+            "abbrName": "eve_desc", 
+            "eName": "Event_description", 
+            "cName": "事件评价", 
+            "isCore": false, 
+            "def": "对整个句子所描述的事件进行评价：有的表示说话者对于事件，感到在意料之中还是意料之外，有的表示对情况的推测和估计（看来，看起来，想来，看样子，说不定），有的表示肯定、强调等特定的口气（毫无疑问，没问题，不用说，不可否认，说真的，说实在的，老实说，不错）。"
+        }, 
+        {
+            "abbrName": "sco_role", 
+            "eName": "Scop_of_role", 
+            "cName": "角色范围", 
+            "isCore": false, 
+            "def": "范围副词（全、总共、都、就、只等）表示。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "表示认知内容的一部分。"
+        }
+    ]
+}

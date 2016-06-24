@@ -1,0 +1,157 @@
+{
+    "fdInfo": {
+        "eName": "Resolve_problem", 
+        "cName": "解决", 
+        "des": "致动者面临某个问题，通过查找解决办法、寻求合理解释或答案等，使之得到处理；或某个非智能的致因使问题得到解决。除了致动者、致因和问题以外，该框架也涉及方法、程度、时间、空间。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "裁处", 
+            "POS": "v"
+        }, 
+        {
+            "word": "处理", 
+            "POS": "v"
+        }, 
+        {
+            "word": "处置", 
+            "POS": "v"
+        }, 
+        {
+            "word": "措置", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解决", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者针对某问题，找到解决办法或合理解释的人。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致因是使问题得到处理的事件或状态，它是非智能的，这一点与致动者不同。"
+        }, 
+        {
+            "abbrName": "prob", 
+            "eName": "Problem", 
+            "cName": "问题", 
+            "isCore": true, 
+            "def": "问题指的是需要解决的困境或谜团。"
+        }, 
+        {
+            "abbrName": "benef", 
+            "eName": "Beneficiary", 
+            "cName": "受益人", 
+            "isCore": false, 
+            "def": "该框架元素指的是从问题的解决中获益的人。"
+        }, 
+        {
+            "abbrName": "co_part", 
+            "eName": "Co_participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "在解决问题的过程中伴随致动者参与事件的人。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_Event", 
+            "cName": "上位事件", 
+            "isCore": false, 
+            "def": "该框架元素表示在问题的解决过程中，另一事件或状态已经发生或正在持续。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "问题解决的程度。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "该框架元素表示解决某一问题所花费的时间长度。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素表示单位时间内问题解决的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "用现代电脑解决一些模糊问题。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者为解决问题所采取的行动、方法或某种形式。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "Medium "
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "该框架元素表示解决问题的成或败。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示问题解决的场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者通过解决某问题试图达到的状态。"
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "cName": "身份", 
+            "isCore": false, 
+            "def": "该框架元素表示在解决问题的过程中致动者所处的地位或问题所担当的角色，一般用“以”引导的介词短语表示。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示问题得以解决的时间。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "表示解决问题时所处的外部环境或条件。"
+        }
+    ]
+}

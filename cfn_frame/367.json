@@ -1,0 +1,45 @@
+{
+    "fdInfo": {
+        "eName": "Inclusion_scenario", 
+        "cName": "包括情景", 
+        "des": "部分可以是构成整体的物品集的一个子集，也可以是某单一整体的组成部分。该框架既包括超集-子集关系也包括部分-整体关系。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "par", 
+            "eName": "Part", 
+            "cName": "部分", 
+            "isCore": true, 
+            "def": "部分是整体的一个子集或组成部分。"
+        }, 
+        {
+            "abbrName": "whl", 
+            "eName": "Whole", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "整体是包含部分的更大实体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指的是任何对包含事件的描述，而该描述又无法归入其他更为明确的框架元素。该描述包括次级效应（如安静地，大声地）也包括对比事件时一般描述（同样）。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "包含关系所处的空间场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "保持包含关系状态的时间。"
+        }
+    ]
+}

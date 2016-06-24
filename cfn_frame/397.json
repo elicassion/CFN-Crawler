@@ -1,0 +1,142 @@
+{
+    "fdInfo": {
+        "eName": "Firing", 
+        "cName": "解雇", 
+        "des": "雇主终结了与雇员之间的雇佣关系。通常会给出采取这种行动的原因。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "裁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "裁减", 
+            "POS": "v"
+        }, 
+        {
+            "word": "裁汰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "裁员", 
+            "POS": "v"
+        }, 
+        {
+            "word": "炒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "炒鱿鱼", 
+            "POS": "i"
+        }, 
+        {
+            "word": "辞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辞退", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解雇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解聘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解职", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "免职", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停职", 
+            "POS": "v"
+        }, 
+        {
+            "word": "下岗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "下课", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "empee", 
+            "eName": "Employee", 
+            "cName": "雇员", 
+            "isCore": true, 
+            "def": "雇主解雇的人。"
+        }, 
+        {
+            "abbrName": "emper", 
+            "eName": "Employer", 
+            "cName": "雇主", 
+            "isCore": true, 
+            "def": "终结与雇员之间雇佣关系的人（或机构）。"
+        }, 
+        {
+            "abbrName": "posit", 
+            "eName": "Position", 
+            "cName": "职位", 
+            "isCore": true, 
+            "def": "一个特定类型职位的名称。"
+        }, 
+        {
+            "abbrName": "task", 
+            "eName": "Task", 
+            "cName": "任务", 
+            "isCore": true, 
+            "def": "是指雇员被免除的为雇主所做的活动。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指的是雇主解雇雇员的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "雇主解雇雇员的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表明雇主解雇雇员的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表明雇主解雇雇员的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表明雇主解雇雇员的时间。"
+        }
+    ]
+}

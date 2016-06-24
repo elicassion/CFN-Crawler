@@ -1,0 +1,51 @@
+{
+    "fdInfo": {
+        "eName": "Subsisting", 
+        "cName": "维持生活", 
+        "des": "实体依靠某种远低于预期的通常水平或标准水平的支撑物度过困境生存下来。 实体对支撑物的依赖程度以及困境持续的时量可能会被提及。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "度命", 
+            "POS": "v"
+        }, 
+        {
+            "word": "度日", 
+            "POS": "v"
+        }, 
+        {
+            "word": "生存", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "需要支撑物存活下来的生物体。"
+        }, 
+        {
+            "abbrName": "suprt", 
+            "eName": "Support", 
+            "cName": "支撑物", 
+            "isCore": true, 
+            "def": "实体度过困境所依靠的资源。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "支撑物对实体生存下来所起的作用大小。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "实体靠支撑物生存的时间量。"
+        }
+    ]
+}

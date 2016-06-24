@@ -1,0 +1,98 @@
+{
+    "fdInfo": {
+        "eName": "Revenge", 
+        "cName": "复仇", 
+        "des": "该框架指以惩报冤。由于冒犯者之前的伤害行为，复仇者对冒犯者做出惩罚。复仇者给予的惩罚不需要与遭受伤害的受害方一致，然而复仇者的确要认同冒犯者的行为是错误。对冒犯者已经造成伤害的判断是未考虑法律的。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "报仇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "报复", 
+            "POS": "v"
+        }, 
+        {
+            "word": "报怨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "复仇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "雪恨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "雪恨", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素指事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容指描述行动者行为的词组。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "复仇者为伤害而寻求报复的时间长度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "该框架元素指出了实行复仇所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指复仇者要向冒犯者复仇的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素描述了复仇发生的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素描述了进行复仇的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "该框架元素指因遭受冤屈而施加惩罚的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指复仇发生的时间。"
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "fdInfo": {
+        "eName": "Part_whole", 
+        "cName": "整体之部分", 
+        "des": "该框架涉及表示某一整体实体的一部分或者多个部分的名词。部分的定义与次序与整体的方位，即中心或边缘无关。我们也会对部分的属性进行注释，如其尺寸等。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "半边", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半边天", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半价", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半截儿", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半路", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半票", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半生", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半世", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半数", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半天", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半天", 
+            "POS": "n"
+        }, 
+        {
+            "word": "半途", 
+            "POS": "n"
+        }, 
+        {
+            "word": "部分", 
+            "POS": "n"
+        }, 
+        {
+            "word": "部件", 
+            "POS": "n"
+        }, 
+        {
+            "word": "部首", 
+            "POS": "n"
+        }, 
+        {
+            "word": "部位一半", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "par", 
+            "eName": "Part", 
+            "cName": "部分", 
+            "isCore": true, 
+            "def": "一个更大整体的一部分。"
+        }, 
+        {
+            "abbrName": "whl", 
+            "eName": "Whole", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "拥有所有部分的某一完整实体。"
+        }, 
+        {
+            "abbrName": "name", 
+            "eName": "Name", 
+            "cName": "名称", 
+            "isCore": false, 
+            "def": "为识别某系统中的部分而把某一整体的某一部分贴上标签。"
+        }, 
+        {
+            "abbrName": "orient", 
+            "eName": "Orientation", 
+            "cName": "方位", 
+            "isCore": false, 
+            "def": "决定某一部分份额的部分属性。"
+        }, 
+        {
+            "abbrName": "part_prop", 
+            "eName": "Part_Prop", 
+            "cName": "部分属性", 
+            "isCore": false, 
+            "def": "与某整体的部分相关的属性。"
+        }, 
+        {
+            "abbrName": "system", 
+            "eName": "System", 
+            "cName": "体系", 
+            "isCore": false, 
+            "def": "某整体中部分的组织系统，每一部分在其中都以某一名称来标识。"
+        }
+    ]
+}

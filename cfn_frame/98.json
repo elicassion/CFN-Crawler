@@ -1,0 +1,59 @@
+{
+    "fdInfo": {
+        "eName": "Activity ", 
+        "cName": "行为过程", 
+        "des": "该框架是一个抽象框架,用于描述持续的行为。实体进入行为的进行状态，并持续一段时间，通过完成或停止该行为结束前一状态。实体可能作为执行某一有意识的行为的致动者进行具体地实施。该结构主要是为了研究共同的框架元素的继承性，并且提供某一行为开始、进行、完成或处于静止状态的框架结构，每个阶段都可以构成该框架的一个分结构。这种框架结构可以看作过程框架。"
+    }, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "activity", 
+            "eName": "Activity", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "致动者参与的行为。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "参与行为的致动者。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "行为中心分析的实体。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "行为施行的时间量。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对行动的描述未包括在具体的框架元素中，这些具体的框架元素包括认识上的修正(也许、大概、秘密地)、次生效应（悄悄地、大声地）和比较事件使用的一般描述（同样方式）。它可表现出致动者突显的特点及其对行为产生的影响（专横、冷冰冰、故意、渴望、小心）。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "行为发生的空间。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "行为发生的时间。"
+        }
+    ]
+}

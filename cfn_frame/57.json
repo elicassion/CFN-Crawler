@@ -1,0 +1,116 @@
+{
+    "fdInfo": {
+        "eName": "Activity_ongoing", 
+        "cName": "行为进行", 
+        "des": "施动者所从事的处于动态稳定性的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "保持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "持续", 
+            "POS": "v"
+        }, 
+        {
+            "word": "继续", 
+            "POS": "n"
+        }, 
+        {
+            "word": "继续", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坚持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "进行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "维持", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者指参与了某一正在进行的行为的有意识的实体。"
+        }, 
+        {
+            "abbrName": "activity", 
+            "eName": "Activity", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "这个框架元素指施动者参与的正在进行的行为。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "造成行为处于动态稳定性的无意识的事件或事物。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素是用于描述动作行为者或经历者的描述性的短语。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "某一行为持续时间的长短。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "致动者进行某一正在进行的行为的表现样式（修饰）"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者所进行某一正在进行的行为所凭借的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "正在进行的行为发生的空间。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者所从事正在进行的行为的目的。"
+        }, 
+        {
+            "abbrName": "subv", 
+            "eName": "Subevent", 
+            "cName": "亚事件", 
+            "isCore": false, 
+            "def": "施动者继续某一行为的亚事件。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "正在进行的行为发生的时间。"
+        }
+    ]
+}

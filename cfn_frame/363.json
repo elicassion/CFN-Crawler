@@ -1,0 +1,199 @@
+{
+    "fdInfo": {
+        "eName": "Hiding_objects", 
+        "cName": "隐藏_物品", 
+        "des": "某施动者通过将藏匿品放置在某藏匿处或放置一个能将藏匿品遮挡起来的遮掩物，使其难以被潜在的察觉者察觉到。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "暗藏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "藏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "藏匿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "藏掖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "潜伏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掩蔽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掩藏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掩盖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掩护", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掩埋", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掩体", 
+            "POS": "v"
+        }, 
+        {
+            "word": "隐蔽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "隐藏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "隐伏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "隐匿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "隐身", 
+            "POS": "v"
+        }, 
+        {
+            "word": "隐形", 
+            "POS": "v"
+        }, 
+        {
+            "word": "障壁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遮蔽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遮挡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遮盖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遮羞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遮羞布", 
+            "POS": "n"
+        }, 
+        {
+            "word": "遮掩", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者是指使藏匿品不能被潜在的察觉者察觉到的人。"
+        }, 
+        {
+            "abbrName": "hid_obj", 
+            "eName": "Hidden_object", 
+            "cName": "藏匿品", 
+            "isCore": true, 
+            "def": "藏匿品是指不让察觉到的实体。"
+        }, 
+        {
+            "abbrName": "hid_place", 
+            "eName": "Hiding_place", 
+            "cName": "藏匿处", 
+            "isCore": true, 
+            "def": "指藏匿品被藏匿的地点。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指的是一个能从逻辑上推出隐藏事件的命题。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是对有意识行为的描述，它既包括对次级效应的描述（如“悄悄的”，“大声的”），也包括对比较性事件的一般描述（如“同样”），甚至还包括对施动者的显著特征（如“专横”、“冷冷”、“故意”、“急切”、“谨慎”）的描述，但由于这些描述都没有被更为具体的框架元素所涵盖，故将其标记为方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者隐藏藏匿品所采取的行动。"
+        }, 
+        {
+            "abbrName": "obs", 
+            "eName": "Obstruction", 
+            "cName": "遮掩物", 
+            "isCore": false, 
+            "def": "施动者用来遮掩藏匿品的实体。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所指的是隐藏事件发生的空间场所。"
+        }, 
+        {
+            "abbrName": "poo", 
+            "eName": "Potential_observer", 
+            "cName": "潜在察觉者", 
+            "isCore": false, 
+            "def": "潜在察觉者是指如果藏匿品未被藏匿，有可能会看到藏匿品的人。诸如“看不见”和\"望不见\" 这种短语是被用来表示藏匿品是任何潜在观察者都看不到的。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者希望通过隐藏藏匿品来达到的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "时间是指施动者隐藏藏匿品时所经历的时间长度。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "藏匿品难以被发现的程度。"
+        }
+    ]
+}

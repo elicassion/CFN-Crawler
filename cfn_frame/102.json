@@ -1,0 +1,56 @@
+{
+    "fdInfo": {
+        "eName": "Activity_done_state ", 
+        "cName": "行为完成状态", 
+        "des": "致动者完成某一行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "从头至尾的", 
+            "POS": "a"
+        }, 
+        {
+            "word": "停当", 
+            "POS": "a"
+        }, 
+        {
+            "word": "停妥", 
+            "POS": "a"
+        }, 
+        {
+            "word": "妥当", 
+            "POS": "a"
+        }, 
+        {
+            "word": "完成的", 
+            "POS": "a"
+        }, 
+        {
+            "word": "圆满", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "activity", 
+            "eName": "Activity", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "致动者所参与的行为。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "处于行为完成状态下的致动者。"
+        }, 
+        {
+            "abbrName": "state", 
+            "eName": "State", 
+            "cName": "状态", 
+            "isCore": true, 
+            "def": "表现行为的状态。"
+        }
+    ]
+}

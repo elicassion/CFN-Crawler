@@ -1,0 +1,189 @@
+{
+    "fdInfo": {
+        "eName": "Change_position_on_a_scal", 
+        "cName": "量变", 
+        "des": "该框架表示实体在某个维度上（即某属性）的相对位置发生变化，其属性值从初值变至终值。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "波动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "加", 
+            "POS": "v"
+        }, 
+        {
+            "word": "减", 
+            "POS": "v"
+        }, 
+        {
+            "word": "减少", 
+            "POS": "v"
+        }, 
+        {
+            "word": "降", 
+            "POS": "v"
+        }, 
+        {
+            "word": "降低", 
+            "POS": "v"
+        }, 
+        {
+            "word": "攀升", 
+            "POS": "v"
+        }, 
+        {
+            "word": "上升", 
+            "POS": "v"
+        }, 
+        {
+            "word": "升", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提高", 
+            "POS": "v"
+        }, 
+        {
+            "word": "下降", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增加", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "在某属性上具有一定量值的事物。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "cName": "属性", 
+            "isCore": true, 
+            "def": "实体的有数量变化的属性。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "ini_v", 
+            "eName": "Initial_value", 
+            "cName": "初值", 
+            "isCore": true, 
+            "def": "实体的属性值变化的起点。 "
+        }, 
+        {
+            "abbrName": "fin_v", 
+            "eName": "Final_value", 
+            "cName": "终值", 
+            "isCore": true, 
+            "def": "实体最后达到的量值。\r\n      \t\r\n"
+        }, 
+        {
+            "abbrName": "i_state", 
+            "eName": "Initial_state", 
+            "cName": "初状态", 
+            "isCore": true, 
+            "def": "实体经历属性值的变化之后所达到的状态。\r\n"
+        }, 
+        {
+            "abbrName": "fin_v", 
+            "eName": "Final_value", 
+            "cName": "终值", 
+            "isCore": true, 
+            "def": "实体经历属性值的变化之后所达到的状态。"
+        }, 
+        {
+            "abbrName": "diff", 
+            "eName": "Difference", 
+            "cName": "变幅", 
+            "isCore": true, 
+            "def": "实体在某维度上变动的幅度。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "val_range", 
+            "eName": "Value_range", 
+            "cName": "值区间", 
+            "isCore": true, 
+            "def": "属性值的变动范围。\r\n"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "该元素既不是事件过程本身的状态，也不是事件参与者的状态，而是对事件所赖以发生的外部环境的描述，指事件发生时所处的事理、物理环境或所需要的条件。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "cor", 
+            "eName": "Correlate", 
+            "cName": "倚变因素", 
+            "isCore": false, 
+            "def": "属性值往往随着某一因素的变化而增加或减少，这种因素或者表示出某种变化趋势，或者由一系列有序数值组成，还有可能仅仅是一个时间的推移。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "量变持续的时间数量。"
+        }, 
+        {
+            "abbrName": "ini_cor", 
+            "eName": "Initial_correlate", 
+            "cName": "倚变起点", 
+            "isCore": false, 
+            "def": "与初值相对应的时间、地点、状况等因素。"
+        }, 
+        {
+            "abbrName": "fin_cor", 
+            "eName": "Final_correlate", 
+            "cName": "倚变终点", 
+            "isCore": false, 
+            "def": "和终值相对应的时间、地点、状况等因素。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "表示在起点和终点之间所经的变化方向。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "量变发生的地点。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "属性值变化的速度。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "量变发生的时间。"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "fdInfo": {
+        "eName": "Intercepting", 
+        "cName": "拦截", 
+        "des": "在未得到发送者授权的情况下，拦截者控制发送者正发送给接受者的转移体的有意行为。拦截者（或那些实施拦截行为的人）认为转移体到达其终点会有悖于他们的利益。转移体可能是被转移的物体，如自移体，也可能是被传播的信息。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "拦", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拦挡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拦堵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拦击", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拦截", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "itceptr", 
+            "eName": "Interceptor", 
+            "cName": "拦截者", 
+            "isCore": true, 
+            "def": "拦截者是指在未得到发送者或接受者的授权的情况下，对去往目的地途中的转移体进行有意控制的施动者。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体可以被识解为在从发送者到终点位置的移动过程中被拦截者拦截（该拦截行为未得到发送者允许）的物质或抽象实体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "拦截发生的环境条件。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素描述在行动过程中处于某种状态的拦截事件的参与者。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指的是未被其他更明确的框架元素所涵盖的任何对拦截事件的描述。该描述既包括认知修正(如“可能”、“大概”、“神秘”)，和在比较不同事件时所做的概括性描述（如“同样”），甚至也包括对影响拦截者行为的显著特征（如“谨慎”）的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "拦截者取得成功所实施的行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "拦截者拦截转移体的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "拦截者希望通过拦截而产生的事态。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "拦截者拦截转移体的时间。"
+        }
+    ]
+}

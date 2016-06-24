@@ -1,0 +1,40 @@
+{
+    "fdInfo": {
+        "eName": "Bearing_arms", 
+        "cName": "携带武器", 
+        "des": "主体拥有（或没有）武器。主体武装的程度也可能被描述。主体通常是一个人，但是也可能是具有附属武器的设备。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "武装", 
+            "POS": "v"
+        }, 
+        {
+            "word": "装备", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "主体拥有武器的总量（相对于某项标准）。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "主体携带武器的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "主体携带武器的时间。"
+        }
+    ]
+}

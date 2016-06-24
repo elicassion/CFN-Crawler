@@ -1,0 +1,67 @@
+{
+    "fdInfo": {
+        "eName": "Part_ordered_segments", 
+        "cName": "部分之有序性", 
+        "des": "该框架中，整体是由部分按照特定顺序排列而构成的。部分可能按时间顺序（从刚开第一个始到最后一个，反之亦然）排列或空间垂直顺序（从下到上，反之亦然）排列。部分可以受部分属性的限定。部分的数量由序号词说明。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "本", 
+            "POS": "q"
+        }, 
+        {
+            "word": "单元", 
+            "POS": "n"
+        }, 
+        {
+            "word": "节", 
+            "POS": "q"
+        }, 
+        {
+            "word": "幕", 
+            "POS": "q"
+        }, 
+        {
+            "word": "套", 
+            "POS": "q"
+        }, 
+        {
+            "word": "章", 
+            "POS": "q"
+        }, 
+        {
+            "word": "章节", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ord", 
+            "eName": "Ordinality", 
+            "cName": "序号词", 
+            "isCore": true, 
+            "def": "指部分的序列号码。"
+        }, 
+        {
+            "abbrName": "par", 
+            "eName": "Part", 
+            "cName": "部分", 
+            "isCore": true, 
+            "def": "较大整体的一个部分。"
+        }, 
+        {
+            "abbrName": "whl", 
+            "eName": "Whole", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "拥有其所有部分的完整实体。"
+        }, 
+        {
+            "abbrName": "parpro", 
+            "eName": "Part_Prop", 
+            "cName": "部分属性", 
+            "isCore": false, 
+            "def": "与整体的部分相关的性质。"
+        }
+    ]
+}

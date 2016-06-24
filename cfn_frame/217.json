@@ -1,0 +1,61 @@
+{
+    "fdInfo": {
+        "eName": "Dereliction_of_duty", 
+        "cName": "玩忽职守", 
+        "des": "玩忽职守是指国家机关工作人员严重不负责任，不履行或者不认真履行职责，致使公共财产、国家和人民利益遭到重大损失的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "滥用职权", 
+            "POS": "n"
+        }, 
+        {
+            "word": "玩忽职守", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "严重不负责任，不履行或者不认真履行职责，致使公共财产、国家和人民利益遭到重大损失的国家机关工作人员。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "职责", 
+            "isCore": true, 
+            "def": "犯罪人负有的工作职责。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "危害后果", 
+            "isCore": true, 
+            "def": "由于犯罪人玩忽职守所导致的公共财产、国家和人民利益的严重损失。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "司法机关", 
+            "isCore": true, 
+            "def": "对犯罪事实、证据予以收集、确认，追究犯罪人刑事责任的国家机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "刑罚", 
+            "isCore": true, 
+            "def": "对犯罪人的犯罪行为所给予的刑事惩罚。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "犯罪人玩忽职守、不履行职责的时间。"
+        }
+    ]
+}

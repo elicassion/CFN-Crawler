@@ -1,0 +1,99 @@
+{
+    "fdInfo": {
+        "eName": "Import_export", 
+        "cName": "进出口", 
+        "des": "致动者从出口地越境将商品（或者其他物品）移动到另外的地方，即进口地。该框架由[出口]和[进口]两个子框架，涵盖了出口、进口两个不同视角的动作行为，如词元“出口”是在动作的开始以出口地为视角观察致动者的行为；词元“进口”则是在动作的结尾以进口地为视角观察致动者的行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "进出口", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "指越境进出口商品的有意识的实体。"
+        }, 
+        {
+            "abbrName": "exp_area", 
+            "eName": "Exporting_area", 
+            "cName": "出口地", 
+            "isCore": true, 
+            "def": "商品最初所在的位置，即在出口者移动之前商品所在的位置。"
+        }, 
+        {
+            "abbrName": "imp_area", 
+            "eName": "Importing_area", 
+            "cName": "进口地", 
+            "isCore": true, 
+            "def": "进口地是商品转移终结之地。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "即将改变位置的具有价值的物品。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "指动作过程中参与者的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何对进出口活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者为实施目标行为而采取的有意识的行动。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "路经指商品转移过程中所经过的地方，即离开出口地之后到达进口地之前的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者进出口商品的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "致动者进出口商品的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致动者进出口商品的时间。"
+        }, 
+        {
+            "abbrName": "veh", 
+            "eName": "Vehicle", 
+            "cName": "交通工具", 
+            "isCore": false, 
+            "def": "致动者把商品从出口地运到进口地所凭借的工具。"
+        }
+    ]
+}

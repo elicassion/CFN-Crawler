@@ -1,0 +1,170 @@
+{
+    "fdInfo": {
+        "eName": "Win_prize", 
+        "cName": "获奖", 
+        "des": "竞争者因其参与比赛的结果而获得奖励。比赛需进行广义识解，它既包括对参与者不进行排名的情况也包括不需要有技能的情况,而且甚至是确实不需要有多个参与者参与或不需要有可确定的比赛结果的情况，如在狂欢节游戏中获得奖品。这种类型的比赛所要求的是要有某种确定竞争者是否会得到奖励的方式。\r   我们在有奖销售活动中中了一辆车。\r在这个框架中动词词元“赢得”的用法类似于“比赛结束”框架,但也有诸多不同。首先,获奖框架聚焦的是竞争者因为参与一过程而获得的东西。与“比赛结束”框架不同，“获奖”框架未必提供任何竞争者相对于其他竞争者的排名信息，即便有任何对竞争者排名的制度,或任何被定义为输赢的过程结果。如果要有任何制度的话，“获奖”框架只需要一个确定哪种奖励颁给竞争者的制度。这就是为什么与“获奖”框架中的“我中了”相反的不是“我输了”,而是“我没有获得任何东西。”"
+    }, 
+    "lexElmt": [
+        {
+            "word": "得到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "获", 
+            "POS": "v"
+        }, 
+        {
+            "word": "中奖", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "comptr", 
+            "eName": "Competitor", 
+            "cName": "竞争者", 
+            "isCore": true, 
+            "def": "参与比赛的个体或群体。"
+        }, 
+        {
+            "abbrName": "prize", 
+            "eName": "Prize", 
+            "cName": "奖励", 
+            "isCore": true, 
+            "def": "按得分或排名给与竞争者的具有社会或金钱意义的实体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "竞争者比赛获胜时的外界状态。"
+        }, 
+        {
+            "abbrName": "cf", 
+            "eName": "Communicative_force", 
+            "cName": "交际力量", 
+            "isCore": false, 
+            "def": "这个框架元素表示获胜事件进行时所凭借的交际力量或官方(通常用“正式”“从技术上讲,等词语表示)。"
+        }, 
+        {
+            "abbrName": "compet", 
+            "eName": "Competition", 
+            "cName": "比赛", 
+            "isCore": false, 
+            "def": "竞争者所参与的比赛事件。"
+        }, 
+        {
+            "abbrName": "eve_desc", 
+            "eName": "Event_description", 
+            "cName": "事件评价", 
+            "isCore": false, 
+            "def": "该框架元素用于评估事件,特别是判断对事件的预期,或描述获胜事件引发的事态。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "竞争者比赛获胜的原因。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iterations", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "次数框架元素是用于表达竞争者比赛获胜次数的词语。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指的是未被其他更明确的框架元素所涵盖的任何对竞争者事件的描述。该描述既包括认知修正(如“可能”、“大概”、“神秘”)、力度（如“坚强”、“柔软”）、次生效应（“安静”、“大声”），和在比较不同事件时所做的概括性描述（如“同样”），甚至也包括对影响竞争者行为的显著特征（如“专横”、“冷冷”、“故意”、“急切”、“谨慎”）的描述。"
+        }, 
+        {
+            "abbrName": "marg", 
+            "eName": "Margin", 
+            "cName": "差额", 
+            "isCore": false, 
+            "def": "竞争者得分的差数。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "导致比赛结果的竞争者行为。"
+        }, 
+        {
+            "abbrName": "opp", 
+            "eName": "Opponent", 
+            "cName": "对手", 
+            "isCore": false, 
+            "def": "竞争者一直与之竞争的个体。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素指的并不是目标词在所在句子内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是在重复前面的动作。该框架元素可以暗示出目标词是一系列相似事件或状态中的某一次。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period_of_iterations", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "获胜事件从重复开始到其结束的时间长度。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "比赛发生的地点。"
+        }, 
+        {
+            "abbrName": "rank", 
+            "eName": "Rank", 
+            "cName": "排名", 
+            "isCore": false, 
+            "def": "竞争者（按得分）取得的排名。"
+        }, 
+        {
+            "abbrName": "re_enc", 
+            "eName": "Re-encoding", 
+            "cName": "重编码词", 
+            "isCore": false, 
+            "def": "由目标词所表述的框架通常相当于由重编码词所表述框架内的方法，但也并不总是这样。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "竞争者比赛获胜的事态。"
+        }, 
+        {
+            "abbrName": "score", 
+            "eName": "Score", 
+            "cName": "得分", 
+            "isCore": false, 
+            "def": "比赛中通过它衡量成绩，衡量赛后授予竞争者的排名和奖励的数量。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "比赛发生的时间。"
+        }, 
+        {
+            "abbrName": "venue", 
+            "eName": "Venue", 
+            "cName": "场地", 
+            "isCore": false, 
+            "def": "该框架元素用于指有特定名称的比赛场馆,尤其是当时该场所的修建是以比赛为目的的。"
+        }
+    ]
+}

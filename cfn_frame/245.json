@@ -1,0 +1,134 @@
+{
+    "fdInfo": {
+        "eName": "Inhibit_movement", 
+        "cName": "限制行动", 
+        "des": "指某一致动者把客体的行动限制在某控制区域，而不考虑客体的意愿、计划或者运动趋势；致动者也可能使用工具。对一些词元，客体必须是一个有意识的实体。当客体是有意识的实体时，这些词元中的一些词元可能被用于描述惩罚的情况。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "关押", 
+            "POS": "v"
+        }, 
+        {
+            "word": "监禁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "禁闭", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拘留", 
+            "POS": "v"
+        }, 
+        {
+            "word": "囚禁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "限定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "限制", 
+            "POS": "v"
+        }, 
+        {
+            "word": "约束", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者指实施此有意行为的人。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致因指导致限制客体运动或客体区域的无意识实体。"
+        }, 
+        {
+            "abbrName": "hold_loc", 
+            "eName": "Holding_location", 
+            "cName": "限制地点", 
+            "isCore": true, 
+            "def": "指客体被限制在的区域。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "指被限制的实体。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者维持客体被限制的时间长度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "指实施限制所凭借的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指任何没有被其它框架元素所涵盖的关于事件（或情况）的描述，包括认知的修饰（如可能地，大概，神秘地），力量的修饰（如猛烈地，温柔地），次要的描述（如静静地，大声地），以及与事件相比较的一般描述（如以同样的方式）。它可能也指影响到致动者行为的显著个性特征（如专横地，冷淡地，故意地，热心地，谨慎地）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "限制行动行为所采取的方法、形式。"
+        }, 
+        {
+            "abbrName": "motive", 
+            "eName": "Motivation", 
+            "cName": "动机", 
+            "isCore": false, 
+            "def": "指限制的原因。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示事件发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "指限制的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "指致动者实施行为的事件状况。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示事件发生的时间。"
+        }
+    ]
+}

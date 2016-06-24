@@ -1,0 +1,108 @@
+{
+    "fdInfo": {
+        "eName": "Change_event_time", 
+        "cName": "事件发生时间改变", 
+        "des": "在这个框架中，致动者或原因可改变事件发生的时间，事件继而发生在目标-时间或目标-事件。其实现要借助某种手段、表现出某种方式（修饰）或达到某种程度。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "提前", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推迟", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推延", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拖延", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者指改变事件发生时间的有生命的实体。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致因是改变事件发生时间的非人为因素。这种因素往往是不可预料的"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "事件指发生时间改变的事件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "指事件时间改变的程度。"
+        }, 
+        {
+            "abbrName": "destin_event", 
+            "eName": "Destination_event", 
+            "cName": "目标-事件", 
+            "isCore": false, 
+            "def": "目标-事件是事件实际发生时间的参照情况或事件。"
+        }, 
+        {
+            "abbrName": "destin_time", 
+            "eName": "Destination_time", 
+            "cName": "目标-时间", 
+            "isCore": false, 
+            "def": "指事件真正发生的时间。"
+        }, 
+        {
+            "abbrName": "interval", 
+            "eName": "Interval", 
+            "cName": "间隔时间", 
+            "isCore": false, 
+            "def": "表现原时间和目标-时间的间隔时间。"
+        }, 
+        {
+            "abbrName": "landmark_time", 
+            "eName": "Landmark_time", 
+            "cName": "原时间", 
+            "isCore": false, 
+            "def": "原时间指原本事件要发生的时间。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "致动者改变时间时的状态。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "描述时间改变的方式，或使时间改变的方法。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "原因是对事件发生时间改变的解释，多指主观猜测、或事后人为的解释。"
+        }
+    ]
+}

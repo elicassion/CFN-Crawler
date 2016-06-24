@@ -1,0 +1,49 @@
+{
+    "fdInfo": {
+        "eName": "Being_dry", 
+        "cName": "干燥", 
+        "des": "物体处于干燥状态。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "干", 
+            "POS": "a"
+        }, 
+        {
+            "word": "干旱", 
+            "POS": "a"
+        }, 
+        {
+            "word": "干燥", 
+            "POS": "a"
+        }, 
+        {
+            "word": "焦", 
+            "POS": "a"
+        }, 
+        {
+            "word": "焦枯", 
+            "POS": "a"
+        }, 
+        {
+            "word": "脱水", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素指物体干燥的程度。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "亚区指较大的整体中受影响部分。"
+        }
+    ]
+}

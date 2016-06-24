@@ -1,0 +1,104 @@
+{
+    "fdInfo": {
+        "eName": "Suation", 
+        "cName": "劝服", 
+        "des": "说话者通过语言将他的意愿表达给听话者，使听话者意图做出某种行为。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "感化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "鼓舞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "激发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劝", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劝服", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劝告", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劝说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劝诱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劝止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "劝阻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "说服", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": true, 
+            "def": "说话人寻找并影响其行为的人。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "说话人表示的希望听话者做出某种行为的意愿。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "说话者通过对语言的使用想要听话者做出某种行为。"
+        }, 
+        {
+            "abbrName": "text", 
+            "eName": "Text", 
+            "cName": "文本", 
+            "isCore": true, 
+            "def": "使听话者改变想法的一部分书面或口头材料。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "说话者表达的信息内容焦点所在。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "说话者实现劝服的行为。"
+        }
+    ]
+}

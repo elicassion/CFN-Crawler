@@ -1,0 +1,69 @@
+{
+    "fdInfo": {
+        "eName": "Aging", 
+        "cName": "老化", 
+        "des": "实体在年龄上正经历变化，特别与一些状态上的退化或改变相关。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "老", 
+            "POS": "a"
+        }, 
+        {
+            "word": "老大", 
+            "POS": "a"
+        }, 
+        {
+            "word": "老化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "老迈", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "正在老化的实体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "说明实体经历老化事件所处的环境条件。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "修饰", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入更具体框架元素的情况下，凡是描述事件或状态的成分，都归入该元素，包括力量（猛烈地,轻柔地），次生效应（安静地，大声地），以及对比较事件的一般性描述（同样地）。在施事框架中，它还可以表示对行为产生影响的有意转移体的显著地特征（自以为是地，冷淡地，故意地、渴望地、仔细地）。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架表示实体所处的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "实体老化的最终结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实体老化经历的时间。"
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "fdInfo": {
+        "eName": "Make_cognitive_connection", 
+        "cName": "联想", 
+        "des": "认知者以一定的根据认为或者证明概念1同另一个概念，即概念2，有联系，两个概念元素可以合起来用复数概念集表示。 "
+    }, 
+    "lexElmt": [
+        {
+            "word": "不能", 
+            "POS": "v"
+        }, 
+        {
+            "word": "承", 
+            "POS": "v"
+        }, 
+        {
+            "word": "承接", 
+            "POS": "v"
+        }, 
+        {
+            "word": "承前启后", 
+            "POS": "i"
+        }, 
+        {
+            "word": "承上启下", 
+            "POS": "i"
+        }, 
+        {
+            "word": "割断", 
+            "POS": "v"
+        }, 
+        {
+            "word": "割裂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "隔断", 
+            "POS": "v"
+        }, 
+        {
+            "word": "沟通", 
+            "POS": "v"
+        }, 
+        {
+            "word": "挂钩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "关联", 
+            "POS": "n"
+        }, 
+        {
+            "word": "关联", 
+            "POS": "v"
+        }, 
+        {
+            "word": "关系", 
+            "POS": "n"
+        }, 
+        {
+            "word": "关系", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交接", 
+            "POS": "v"
+        }, 
+        {
+            "word": "接合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "结合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "连贯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "连通", 
+            "POS": "v"
+        }, 
+        {
+            "word": "连属", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联系", 
+            "POS": "n"
+        }, 
+        {
+            "word": "联系", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "通连", 
+            "POS": "v"
+        }, 
+        {
+            "word": "维系", 
+            "POS": "v"
+        }, 
+        {
+            "word": "衔接", 
+            "POS": "v"
+        }, 
+        {
+            "word": "属（前后相属）", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": null, 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认识到事物联系的那个有意识实体。"
+        }, 
+        {
+            "abbrName": "cnpt_1", 
+            "eName": "Concept1", 
+            "cName": "概念1", 
+            "isCore": true, 
+            "def": "概念1是被认为和概念2有联系的那个现象，语序上在概念2之前"
+        }, 
+        {
+            "abbrName": "cnpt_2", 
+            "eName": "Concept2", 
+            "cName": "概念2", 
+            "isCore": true, 
+            "def": "被认为和概念1有联系的现象，语序上在概念1之后。"
+        }, 
+        {
+            "abbrName": "cnpts", 
+            "eName": "Concepts", 
+            "cName": "概念集", 
+            "isCore": true, 
+            "def": "被认为是有联系的多个现象。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": null, 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "证明存在因果联系的那个事实或事物。"
+        }
+    ]
+}

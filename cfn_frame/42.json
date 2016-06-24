@@ -1,0 +1,223 @@
+{
+    "fdInfo": {
+        "eName": "Invention", 
+        "cName": "发明", 
+        "des": "该框架的含义是，一个认知者用他的智慧创造出一种新的实体，即发明。该框架所含词元与那些表示体力创造的词语意义相近，如建造、制作，[发明]框架的部分词语就是在体力创造词语的基础上引申出来的，不同的是，[发明]框架所得到的发明比较突出抽象的概念化的性质，请比较Being_first框架。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "编", 
+            "POS": "v"
+        }, 
+        {
+            "word": "编制", 
+            "POS": "v"
+        }, 
+        {
+            "word": "标新立异", 
+            "POS": "i"
+        }, 
+        {
+            "word": "草创", 
+            "POS": "v"
+        }, 
+        {
+            "word": "策划", 
+            "POS": "v"
+        }, 
+        {
+            "word": "初创", 
+            "POS": "v"
+        }, 
+        {
+            "word": "创", 
+            "POS": "v"
+        }, 
+        {
+            "word": "创设", 
+            "POS": "v"
+        }, 
+        {
+            "word": "创始", 
+            "POS": "v"
+        }, 
+        {
+            "word": "创造", 
+            "POS": "n"
+        }, 
+        {
+            "word": "创造", 
+            "POS": "v"
+        }, 
+        {
+            "word": "创作", 
+            "POS": "n"
+        }, 
+        {
+            "word": "创作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缔造", 
+            "POS": "v"
+        }, 
+        {
+            "word": "独辟蹊径", 
+            "POS": "i"
+        }, 
+        {
+            "word": "独创", 
+            "POS": "v"
+        }, 
+        {
+            "word": "独树一帜", 
+            "POS": "i"
+        }, 
+        {
+            "word": "发明", 
+            "POS": "n"
+        }, 
+        {
+            "word": "发明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "孵化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "构想", 
+            "POS": "n"
+        }, 
+        {
+            "word": "构想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拿出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "设计", 
+            "POS": "n"
+        }, 
+        {
+            "word": "设计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "设想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "想出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "自我作古", 
+            "POS": "i"
+        }, 
+        {
+            "word": "作出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "作品", 
+            "POS": "n"
+        }, 
+        {
+            "word": "做出", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认知者在大脑中产生一个新概念。"
+        }, 
+        {
+            "abbrName": "inventn", 
+            "eName": "Invention", 
+            "cName": "发明物", 
+            "isCore": true, 
+            "def": "发明是认知者运用智力所得到的创造物，通常做NP宾语。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "在发明创造的过程中，认知者或发明所处的状态。"
+        }, 
+        {
+            "abbrName": "loc_apr", 
+            "eName": "Location_of_appearance", 
+            "cName": "出现地点", 
+            "isCore": false, 
+            "def": "出现地点即第一次发现发明物的地点。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "事件本身所处的状态，该元素是一个杂类，用来概括那些无法归入其他更具体的框架元素的修饰性成分。"
+        }, 
+        {
+            "abbrName": "mat", 
+            "eName": "Material", 
+            "cName": "材料", 
+            "isCore": false, 
+            "def": "该框架在表达时，可能会出现脑力创造时所用的材料。该框架元素在表示体力创造的动词中很常见，但在脑力创造框架中出现，就带有很强的比喻意味。材料元素通常用PP表示，介词为\"用\"等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "认知者为了实现他的创造所做出的事情。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "认知者创造发明的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "表示为了什么而发明创造，通常用PP表示，介词为\"为/为了\"等，或者用带\"去\"等连谓成分表示："
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "事件的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "发明创造的时间。"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "fdInfo": {
+        "eName": "Cause_to_present", 
+        "cName": "使呈现", 
+        "des": "本框架描述的是致动者或致因向感知者展示某种现象。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "表露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "呈露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "呈现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "显露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "显示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "显现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "再现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "展示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "展现", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者是有意识地展现现象的主体。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "使得现象呈现出来的有生命或者无生命的实体、力量或者事件。"
+        }, 
+        {
+            "abbrName": "phen_pl", 
+            "eName": "Phenomena", 
+            "cName": "现象群", 
+            "isCore": true, 
+            "def": "由致动者或致因呈现出来的客观事物。"
+        }, 
+        {
+            "abbrName": "perc", 
+            "eName": "Perceiver", 
+            "cName": "感知者", 
+            "isCore": true, 
+            "def": "感知现象的人。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述陈述活动的特征或所处状态的成分，都归入该元素，如“认真、坦白地”等。注意，修饰元素是对事件本身的描述，而形容元素是对事件参与者的描述。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "现象所处的状态。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": false, 
+            "def": "现象所处的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者或致因展现某现象时所用的方法。"
+        }
+    ]
+}

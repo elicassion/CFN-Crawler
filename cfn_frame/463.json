@@ -1,0 +1,82 @@
+{
+    "fdInfo": {
+        "eName": "Losing_someone", 
+        "cName": "失去某人", 
+        "des": "该框架描述的是经历了生离死别痛苦的生者。该框架中的词元暗含了一种生者和死者之间非常强烈的感情联系。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "生离死别", 
+            "POS": "i"
+        }, 
+        {
+            "word": "失去", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "deceased", 
+            "eName": "Deceased", 
+            "cName": "死者", 
+            "isCore": true, 
+            "def": "已经死亡的实体。"
+        }, 
+        {
+            "abbrName": "sufferer", 
+            "eName": "Sufferer", 
+            "cName": "生者", 
+            "isCore": true, 
+            "def": "在情感方面经历死者死亡的生命或实体。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "失去某人这个事件发生的时间长度"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "此框架元素描述死者去世的原因。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该事件发生的频率"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指的是未被其他更明确的框架元素所涵盖的任何对该事件的描述。该描述既包括认知修正(如“可能”、“大概”、“神秘”)、力度（如“坚强”、“柔软”）、次生效应（“安静”、“大声”），和在比较不同事件时所做的概括性描述（如“同样”）。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "死者去世的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "死者去世的时间。"
+        }, 
+        {
+            "abbrName": "timespan", 
+            "eName": "Timespan", 
+            "cName": "时段", 
+            "isCore": false, 
+            "def": "失去某人后的时间段"
+        }
+    ]
+}

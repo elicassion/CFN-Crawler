@@ -1,0 +1,91 @@
+{
+    "fdInfo": {
+        "eName": "Tasting", 
+        "cName": "品尝", 
+        "des": "施动者摄食或开始摄食他们以前从未摄食过的食物，其意图在于依据一定标准确定该食物的品质。尝试食物的目的也许会被明确提及。"
+    }, 
+    "lexElmt": [
+        {
+            "word": "尝", 
+            "POS": "v"
+        }, 
+        {
+            "word": "尝试", 
+            "POS": "v"
+        }, 
+        {
+            "word": "品", 
+            "POS": "v"
+        }, 
+        {
+            "word": "品尝", 
+            "POS": "v"
+        }, 
+        {
+            "word": "品评", 
+            "POS": "v"
+        }, 
+        {
+            "word": "品味", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "摄食食物的人。"
+        }, 
+        {
+            "abbrName": "food", 
+            "eName": "Food", 
+            "cName": "食物", 
+            "isCore": true, 
+            "def": "施动者品尝或摄食的实体。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "施动者品尝食物所用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对施动者品尝食物的特征化描述。\n\t"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "器具框架元素之外的食物被食用和饮用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "施动者品尝食物的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "对施动者通过品尝食物所希望做出判断的更具体的描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者品尝食物的时间。"
+        }
+    ]
+}
