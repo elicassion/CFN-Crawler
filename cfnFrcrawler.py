@@ -18,12 +18,13 @@ from bs4 import BeautifulSoup
 urlRoot = "http://sccfn.sxu.edu.cn/portal-zh/frame-details.aspx?id="
 folder = "cfn_frame"
 nonExistenceFilename = "nonexistence.txt"
+staDataFilename = "stadata.txt"
 validFrameNumber = 0
 frameElmtNumber = 0
 coreFrameElmtNumber = 0
 nonCoreFrameElmtNumber = 0
 lexElmtNumber = 0
-
+dictOfPos = {}
 
 
 
@@ -96,6 +97,7 @@ def analyzeLexElmt(lexElmtInfo):
 		lexElmtDic["POS"] = array[1]
 		lexElmtNumber += 1
 		lexElmtDicArray.append(lexElmtDic)
+		dictOfPos[array[1]] = dictOfPos.get(array[1], 0) + 1
 	return lexElmtDicArray
 
 def analyzeContent(content, frameNumber):
@@ -124,9 +126,10 @@ def dealPage(url, frameNumber):
 		analyzeContent(content, frameNumber)
 		return True
 
+
+if not os.path.exists(folder):
+	os.mkdir(folder)
 for frameNumber in range(1, 513):
-	if not os.path.exists(folder):
-		os.mkdir(folder)
 	print "cur: " + str(frameNumber)
 	url = urlRoot + str(frameNumber)
 	if not dealPage(url, frameNumber):
@@ -136,9 +139,32 @@ for frameNumber in range(1, 513):
 		nexfile.close()
 	else:
 		validFrameNumber += 1
+listOfPos = sorted(dictOfPos.iteritems(), key = lambda d:d[1], reverse = True)
+
+validFrameNumberString = "Valid Frame Number: " + str(validFrameNumber)
+frameElmtNumberString = "Frame Element Number: " + str(frameElmtNumber)
+coreFrameElmtNumberString = "Core Frame Element Number: " + str(coreFrameElmtNumber)
+nonCoreFrameElmtNumberString = "Non-Core Frame Element Number: " + str(nonCoreFrameElmtNumber)
+lexElmtNumberString = "Lexical Element Number: " + str(lexElmtNumber)
+posNumberString = "POS Number: " + str(len(dictOfPos))
+posString = "POSs: "
+for (k, v) in listOfPos:
+	posString += k + ":" + str(v) + ", "
+posString = posString[:-2]
+stafile = codecs.open(os.path.join(folder, staDataFilename), "w")
+stafile.write(validFrameNumberString+"\n")
+stafile.write(frameElmtNumberString+"\n")
+stafile.write(coreFrameElmtNumberString+"\n")
+stafile.write(nonCoreFrameElmtNumberString+"\n")
+stafile.write(lexElmtNumberString+"\n")
+stafile.write(posNumberString+"\n")
+stafile.write(posString+"\n")
+stafile.close()
 print "-------------FINISHED-------------"
-print "Valid Frame Number: ", validFrameNumber
-print "Frame Element Number: ", frameElmtNumber
-print "Core Frame Element Number: ", coreFrameElmtNumber
-print "Non-Core Frame Element Number: ", nonCoreFrameElmtNumber
-print "Lexical Element Number: ", lexElmtNumber
+print validFrameNumberString
+print frameElmtNumberString
+print coreFrameElmtNumberString
+print nonCoreFrameElmtNumberString
+print lexElmtNumberString
+print posNumberString
+print posString
