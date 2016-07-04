@@ -1,0 +1,58 @@
+{
+    "fdInfo": {
+        "eName": "Traffic_accident", 
+        "cName": "交通肇事", 
+        "des": "交通肇事是指违反交通运输管理法规，因而发生重大事故，致人重伤、死亡或者使公私财产遭受重大损失的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "违反交通法规，致使发生事故，造成人员伤亡或财产损失的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "司法机关", 
+            "isCore": true, 
+            "def": "对犯罪人的犯罪行为进行追究、认定、惩罚的国家机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "危害结果", 
+            "isCore": true, 
+            "def": "交通肇事造成的人员伤亡或财产损失。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "导致发生交通事故的犯罪人主观方面的原因。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "发生交通事故的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "发生交通事故的地点。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "交通肇事", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 159
+}

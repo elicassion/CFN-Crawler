@@ -1,0 +1,230 @@
+{
+    "fdInfo": {
+        "eName": "Quarreling", 
+        "cName": "争论", 
+        "des": "一群争论者（也可表述为争论者1和争论者2）就某一问题表达针锋相对的意见。"
+    }, 
+    "element": [
+        {
+            "abbrName": "arg_1", 
+            "eName": "Arguer1", 
+            "cName": "争论者1", 
+            "isCore": true, 
+            "def": "与争论者2争论的人。"
+        }, 
+        {
+            "abbrName": "arg_2", 
+            "eName": "Arguer2", 
+            "cName": "争论者2", 
+            "isCore": true, 
+            "def": "与争论者1争论的人。"
+        }, 
+        {
+            "abbrName": "args", 
+            "eName": "Arguers", 
+            "cName": "争论双方", 
+            "isCore": true, 
+            "def": "参加争论的一群人。"
+        }, 
+        {
+            "abbrName": "issue", 
+            "eName": "Issue", 
+            "cName": "问题", 
+            "isCore": true, 
+            "def": "争论者所争论的事情。\n"
+        }, 
+        {
+            "abbrName": "amt_disc", 
+            "eName": "Amount_of_discussion", 
+            "cName": "争论量", 
+            "isCore": false, 
+            "def": "争论的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "争论者，争论者1或争论者2的状态，该状态会很明显地影响认知行为。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "争论者争论的时间长度。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "争论者争论的频率。\n"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "没有被更具体的框架元素所涵盖的关于争论的描述，包括次级效应（悄悄的，大声的），以及对比较事件的一般性描述（同样）。该框架元素也可指影响争论者行为的显著特征（如专横、冷冷、故意、急切、谨慎）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "争论者为争论所采取的方法。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "争论者争论时所用的设备、语言或其他实体。\n"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "争论者争论的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "争论者或争论者1希望产生的事态。\n"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "争论发生的时间。\n"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "拌嘴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辨明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辩驳", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辩称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辩护", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辩解", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辩论", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吵架", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吵嘴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "斗嘴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "狡辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "理论", 
+            "POS": "v"
+        }, 
+        {
+            "word": "论辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "论难", 
+            "POS": "v"
+        }, 
+        {
+            "word": "论战", 
+            "POS": "v"
+        }, 
+        {
+            "word": "论争", 
+            "POS": "v"
+        }, 
+        {
+            "word": "申辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "声辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "说嘴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "争辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "争吵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "争持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "争论", 
+            "POS": "v"
+        }, 
+        {
+            "word": "争鸣", 
+            "POS": "v"
+        }, 
+        {
+            "word": "争议", 
+            "POS": "v"
+        }, 
+        {
+            "word": "争执", 
+            "POS": "v"
+        }, 
+        {
+            "word": "争嘴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "置辩", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 330
+}

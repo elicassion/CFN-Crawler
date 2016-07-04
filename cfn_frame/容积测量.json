@@ -1,0 +1,108 @@
+{
+    "fdInfo": {
+        "eName": "Measure_volume", 
+        "cName": "容积测量", 
+        "des": "该框架涉及表示测量容积的计量单位名词。框架元素是计量单位，数量，物品和尺寸。该框架可细分成两种：一种是由容器派生而来的体积单位（箱、瓶等），另一种是专门描述容积的词（加仑、夸脱等）。如下："
+    }, 
+    "element": [
+        {
+            "abbrName": "count", 
+            "eName": "Count", 
+            "cName": "数量", 
+            "isCore": true, 
+            "def": "受测容积的计量单位的数量。"
+        }, 
+        {
+            "abbrName": "stuff", 
+            "eName": "Stuff", 
+            "cName": "物品", 
+            "isCore": true, 
+            "def": "用容积所测量的物品。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": true, 
+            "def": "按照标准化量值测量其他相同种类得出的数值。"
+        }, 
+        {
+            "abbrName": "size", 
+            "eName": "Size", 
+            "cName": "尺寸", 
+            "isCore": false, 
+            "def": "容器体积的规格。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "包", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杯", 
+            "POS": "n"
+        }, 
+        {
+            "word": "匙", 
+            "POS": "n"
+        }, 
+        {
+            "word": "袋", 
+            "POS": "n"
+        }, 
+        {
+            "word": "羹", 
+            "POS": "n"
+        }, 
+        {
+            "word": "罐", 
+            "POS": "n"
+        }, 
+        {
+            "word": "壶", 
+            "POS": "n"
+        }, 
+        {
+            "word": "加仑", 
+            "POS": "n"
+        }, 
+        {
+            "word": "夸脱", 
+            "POS": "n"
+        }, 
+        {
+            "word": "捆", 
+            "POS": "n"
+        }, 
+        {
+            "word": "盘", 
+            "POS": "n"
+        }, 
+        {
+            "word": "品脱", 
+            "POS": "n"
+        }, 
+        {
+            "word": "勺", 
+            "POS": "n"
+        }, 
+        {
+            "word": "升", 
+            "POS": "n"
+        }, 
+        {
+            "word": "桶", 
+            "POS": "n"
+        }, 
+        {
+            "word": "碗", 
+            "POS": "n"
+        }, 
+        {
+            "word": "箱", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 492
+}

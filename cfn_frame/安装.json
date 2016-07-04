@@ -1,0 +1,185 @@
+{
+    "fdInfo": {
+        "eName": "Installing", 
+        "cName": "安装", 
+        "des": "施动者在某固定位置装设部件，使部件相互联系，并发挥其功能。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "安装部件的人（或其他力量）。"
+        }, 
+        {
+            "abbrName": "com", 
+            "eName": "Component", 
+            "cName": "部件", 
+            "isCore": true, 
+            "def": "被安装在固定位置的部件。"
+        }, 
+        {
+            "abbrName": "fix_loc", 
+            "eName": "Fixed_location", 
+            "cName": "固定位置", 
+            "isCore": true, 
+            "def": "部件安装以便使用的固定位置。"
+        }, 
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "cName": "区域", 
+            "isCore": false, 
+            "def": "多种部件或一种复杂部件安装的区域。"
+        }, 
+        {
+            "abbrName": "co-part", 
+            "eName": "Co_participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "被安装在主要部件旁的次要组件，或一个与施动者共同完成组装过程的个体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "安装完成的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素标注的是对所安装部件或施动者进行描述的语句。"
+        }, 
+        {
+            "abbrName": "dur_fin_st", 
+            "eName": "Duration_of_final_state", 
+            "cName": "结果时量", 
+            "isCore": false, 
+            "def": "结果时量指的是部件成为系统一部分所持续的时间量"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "该框架元素描述的是安装的原因。"
+        }, 
+        {
+            "abbrName": "loc_prot", 
+            "eName": "Location_of_protagonist", 
+            "cName": "主体位置", 
+            "isCore": false, 
+            "def": "该框架元素指明了施动者（或其身体部位）的位置，尤其是施动者在安装过程中不能直接操作部件时的位置。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是对安装事件的描述，却无法归入更详细的框架元素。该框架元素也可以指一些次级效应（如：“安静地”，“大声地”），或在比较不同事件时的概括性描述（如：“同样”）。另外，它也可能指的是在安装活动中影响施动者行为的显著特征（如：“慎重”，“急切”，“仔细”）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者完成部件安装的具体方法行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "安装发生的空间处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者打算通过安装事件来实现的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "部件安装完成的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "安", 
+            "POS": "v"
+        }, 
+        {
+            "word": "安设", 
+            "POS": "v"
+        }, 
+        {
+            "word": "安装", 
+            "POS": "v"
+        }, 
+        {
+            "word": "部件", 
+            "POS": "n"
+        }, 
+        {
+            "word": "机件", 
+            "POS": "n"
+        }, 
+        {
+            "word": "零部件", 
+            "POS": "n"
+        }, 
+        {
+            "word": "配件", 
+            "POS": "n"
+        }, 
+        {
+            "word": "器件", 
+            "POS": "n"
+        }, 
+        {
+            "word": "设置", 
+            "POS": "v"
+        }, 
+        {
+            "word": "原装", 
+            "POS": "a"
+        }, 
+        {
+            "word": "装", 
+            "POS": "v"
+        }, 
+        {
+            "word": "装机", 
+            "POS": "v"
+        }, 
+        {
+            "word": "装配", 
+            "POS": "v"
+        }, 
+        {
+            "word": "装置", 
+            "POS": "v"
+        }, 
+        {
+            "word": "组件", 
+            "POS": "n"
+        }, 
+        {
+            "word": "组建", 
+            "POS": "v"
+        }, 
+        {
+            "word": "组装", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 425
+}

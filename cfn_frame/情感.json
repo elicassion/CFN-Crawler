@@ -1,0 +1,95 @@
+{
+    "fdInfo": {
+        "eName": "Emotions", 
+        "cName": "情感", 
+        "des": "体验者体验特定的情感状态。该状态可以由引起它的特定刺激物或将此刺激物归类范畴化的主题来描述。该框架并不直接表达体验者，而可能是通过转喻方法把某一特定事件的参与者看作是情感的体验者或把体验者状态暗示给外部观察者的动作姿势的身体部分看作是表达体。"
+    }, 
+    "element": [
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "事件是处于一定情感状态的体验者参与的场合或事件。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Experiencer", 
+            "cName": "体验者", 
+            "isCore": true, 
+            "def": "体验者是指体验或感受情感的人或有知觉的实体。"
+        }, 
+        {
+            "abbrName": "expr", 
+            "eName": "Expressor", 
+            "cName": "表达体", 
+            "isCore": true, 
+            "def": "反映体验者情感状态的身体部分、动作姿势等表达形式。是针对由形容词或名词表示的经历或情感表达的描述。"
+        }, 
+        {
+            "abbrName": "state", 
+            "eName": "State", 
+            "cName": "状态", 
+            "isCore": true, 
+            "def": "状态就是描述体验者一种较持久感受的抽象名词。"
+        }, 
+        {
+            "abbrName": "stim", 
+            "eName": "Stimulus", 
+            "cName": "刺激物", 
+            "isCore": true, 
+            "def": "刺激物是唤起体验者情感反应的人，事件或事态等。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "主题是情感产生的大致区域，它表示一系列可能的刺激。"
+        }, 
+        {
+            "abbrName": "et", 
+            "eName": "Empathy_target", 
+            "cName": "共鸣体", 
+            "isCore": true, 
+            "def": "共鸣目标是指体验者在情感上与其产生了共鸣，并从而产生同样情感反应的个体或群体。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释是用于解释刺激物引起特定情感反映原因的表达。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "不被更具体框架元素所包括的任何对体验者经历刺激的方式描述，包括次生效应（安静地、大声地），以及与事件进行比较的一般性描述（同样地）。方式还可以描述影响情感经历细节的体验者状态。"
+        }, 
+        {
+            "abbrName": "parameter", 
+            "eName": "Parameter", 
+            "cName": "范围", 
+            "isCore": false, 
+            "def": "范围是指体验者经历刺激时所处的领域。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件是刺激物引起反应所处的状况，有些情况下，在没有明确的刺激时它也可能出现，这种情况的刺激常常由环境条件来推断。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "体验者的情感偏离情感标准的程度。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 470
+}

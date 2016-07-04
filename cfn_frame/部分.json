@@ -1,0 +1,34 @@
+{
+    "fdInfo": {
+        "eName": "Partitive", 
+        "cName": "部分", 
+        "des": "子集相对于其所属群体范围是凸显的。子集可由某单一成员组成。很多情况下，群体实际为完整整体中的一个通用样本，子集表示与其的相对比例。"
+    }, 
+    "element": [
+        {
+            "abbrName": "group", 
+            "eName": "Group", 
+            "cName": "群体", 
+            "isCore": true, 
+            "def": "包含有子集的实体群体。"
+        }, 
+        {
+            "abbrName": "subset", 
+            "eName": "Subset", 
+            "cName": "子集", 
+            "isCore": true, 
+            "def": "隶属于群体的一个子集。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "一些", 
+            "POS": "n"
+        }, 
+        {
+            "word": "中", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 474
+}

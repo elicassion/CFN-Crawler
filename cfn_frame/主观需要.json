@@ -1,0 +1,101 @@
+{
+    "fdInfo": {
+        "eName": "Needing", 
+        "cName": "主观需要", 
+        "des": "认知者要成功实现某个事态（依存项），就得具备某些事态或必需品（需求）。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认知者是为了成功实现依存项，而要求得到需求的个体。"
+        }, 
+        {
+            "abbrName": "dep", 
+            "eName": "Dependent", 
+            "cName": "依存项", 
+            "isCore": true, 
+            "def": "认知者缺乏需求就不能实现的事态。"
+        }, 
+        {
+            "abbrName": "requir", 
+            "eName": "Requirement", 
+            "cName": "需求", 
+            "isCore": true, 
+            "def": "认知者为成功实现依存项而要求得到的某实体或事态。"
+        }, 
+        {
+            "abbrName": "conseq", 
+            "eName": "Consequences", 
+            "cName": "后果", 
+            "isCore": false, 
+            "def": "该框架元素表示需求未得到满足时所产生的不好的事态。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件是指明显独立于事件本身和事件参与者的状态（在特定的时间和地点）。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "依存项取决于需求是否出现的程度。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "表示认知者在单位时间内有某种需求的次数。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iteration", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "表示事件或状态重复发生的次数。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素并不表示目标词在本句之内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是重复前面的动作，或仅仅是假想目标词动作是一系列相似事件或状态的重复，常用“序数词语＋动量词”、副词“又”、“再”（＋数量短语）等表示。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "认知者需要需求时的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "认知者需要需求的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "必需", 
+            "POS": "v"
+        }, 
+        {
+            "word": "急需", 
+            "POS": "v"
+        }, 
+        {
+            "word": "需要", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 258
+}

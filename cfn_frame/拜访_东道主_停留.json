@@ -1,0 +1,95 @@
+{
+    "fdInfo": {
+        "eName": "Visit_host_stay", 
+        "cName": "拜访_东道主_停留", 
+        "des": "访客进行拜访时与东道主在一起。"
+    }, 
+    "element": [
+        {
+            "abbrName": "host", 
+            "eName": "Host", 
+            "cName": "东道主", 
+            "isCore": true, 
+            "def": "东道主欢迎访客到其接待场所，并允许访客使用其资源来达成目的。拜访期间，访客把接待场所与东道主联系在一起。"
+        }, 
+        {
+            "abbrName": "hos_loc", 
+            "eName": "Host_location", 
+            "cName": "待客场所", 
+            "isCore": true, 
+            "def": "接待场所在这里指与东道主长期相关的场所，也是访客为了实现某种目的而短暂停留的场所。"
+        }, 
+        {
+            "abbrName": "vis", 
+            "eName": "Visitor", 
+            "cName": "访客", 
+            "isCore": true, 
+            "def": "为了实现某种目的而临时与东道主在一起的有感实体。"
+        }, 
+        {
+            "abbrName": "dep_state", 
+            "eName": "Dependent_state", 
+            "cName": "依存状态", 
+            "isCore": false, 
+            "def": "访客与东道主在一起时所产生的一种状态"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "访客与东道主在一起的时间量。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "频率是对一段时间内平均拜访次数的特征化描述."
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iterations", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "所描述事件发生的次数"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "访客为了拜访能够成行而采取的一种行动。"
+        }, 
+        {
+            "abbrName": "nor_loc", 
+            "eName": "Normal_location", 
+            "cName": "常住地", 
+            "isCore": false, 
+            "def": "访客通常生活居住或是说与之（长期）相关的地方。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "对拜访期间访客所处位置的描述。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "东道主能够满足条件，而且访客也想进行的活动\n "
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "进行拜访的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 315
+}

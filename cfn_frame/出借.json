@@ -1,0 +1,76 @@
+{
+    "fdInfo": {
+        "eName": "Lending", 
+        "cName": "出借", 
+        "des": "借出方把转移体借给借入方，期望借入方能在一定时量后归还转移体，这个框架不同于“借入”框架，因为该框架以主动句描述借出方，而“借入”框架着重描述的是借入方。\r截至目前,该框架包括转移事件本身和事件的最终状态,如下列前两个例子所示：\r"
+    }, 
+    "element": [
+        {
+            "abbrName": "borr", 
+            "eName": "Borrower", 
+            "cName": "借入方", 
+            "isCore": true, 
+            "def": "一定时量内从出借人手里接受到某转移体的单位或个人。?"
+        }, 
+        {
+            "abbrName": "lender", 
+            "eName": "Lender", 
+            "cName": "出借人", 
+            "isCore": true, 
+            "def": "一定时量内把转移体给予借入方的单位或者个人。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "一定时量内从借出方转移到借入方的物体。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "借入方拥有的这个转移体的时间量。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "借出方借出转移体的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "借出方把转移体借给借入方的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "出借人相信他们的目的将会通过把转移体借给借入方来实现。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "出借事件发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "出借", 
+            "POS": "v"
+        }, 
+        {
+            "word": "借", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 476
+}

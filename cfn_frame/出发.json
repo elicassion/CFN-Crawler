@@ -1,0 +1,254 @@
+{
+    "fdInfo": {
+        "eName": "Setting_out", 
+        "cName": "出发", 
+        "des": "自移体从起点位置沿特定方向开始一段旅行，通常在出发时心里已有预期终点。"
+    }, 
+    "element": [
+        {
+            "abbrName": "s_mov", 
+            "eName": "Self_mover", 
+            "cName": "自移体", 
+            "isCore": true, 
+            "def": "凭借自身力量移动的实体。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "任何隐含明确运动起点的描述都是框架元素起点的表达。在介词短语中,介词宾语表达运动的起点。在小品词中，出发点要通过上下文理解来得出。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件描述的是独立于事件本身及其参与者的特定(即在特定时间和地点)世界状态。"
+        }, 
+        {
+            "abbrName": "new_situ", 
+            "eName": "New_situation", 
+            "cName": "新情况", 
+            "isCore": false, 
+            "def": "影响施动者（通常是自移体）的预期外事件，出发事件能使该事件发生，该事件通常发生在出发事件之后。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "背景事件", 
+            "isCore": false, 
+            "def": "该框架元素指的是在出发时发生的事件或事态，出发事件被看作是该框架元素所指事件的一部分。"
+        }, 
+        {
+            "abbrName": "co_even", 
+            "eName": "Coordinated_event", 
+            "cName": "并行事件", 
+            "isCore": false, 
+            "def": "并行事件(不包含任何事态)指的是与出发事件并行发生的事件。(该事件进一步要求出发事件应该是重复的)。并行事件被认为是独立于目标词所指事件而发生，而目标词所指事件甚至并不是并行事件的一个偶然或可选部分。"
+        }, 
+        {
+            "abbrName": "thm_c", 
+            "eName": "Cotheme", 
+            "cName": "伴随体", 
+            "isCore": false, 
+            "def": "跟随自移体移动的第二个移动体。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "自移体在整个行动中的状态。"
+        }, 
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "cName": "方向", 
+            "isCore": false, 
+            "def": "自移体移动的方向。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "自移体结束旅行时与起点位置的距离。"
+        }, 
+        {
+            "abbrName": "dur_fin_st", 
+            "eName": "Duration_of_final_state", 
+            "cName": "结果时量", 
+            "isCore": false, 
+            "def": "自移体离开起点花费的时长。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释自移体的特定运动或其运动方式某个因素。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "在给定时间内运动发生的次数。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Intended_goal", 
+            "cName": "预期终点", 
+            "isCore": false, 
+            "def": "预期终点就是自移体想要结束运动的最终地点。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "方式框架元素描述运动的属性，这种属性与运动轨迹没有直接关系。对移动的稳定性、姿势、方式等其它属性的描述都可以看作是方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "与自移体相关的，且致使自移体以特定方式移动的事件。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "该框架元素描述的是与地标的关系，即移动中的轨迹（既不是起点，也不是预期终点）。"
+        }, 
+        {
+            "abbrName": "p_shape", 
+            "eName": "Path_shape", 
+            "cName": "路径形状", 
+            "isCore": false, 
+            "def": "自移体在移动时的整个路径所形成的构型。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所是移动(指定了起点,路径或终点)所进行的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "自移体希望产生的事态。"
+        }, 
+        {
+            "abbrName": "re_encd", 
+            "eName": "Re_encoding", 
+            "cName": "重编码词", 
+            "isCore": false, 
+            "def": "该框架元素将当前框架视为由另一框架所表述的更大概念的一部分。由目标词所表述的框架通常相当于由重编码词所表述框架内的方法。"
+        }, 
+        {
+            "abbrName": "recip", 
+            "eName": "Reciprocation", 
+            "cName": "回应事件", 
+            "isCore": false, 
+            "def": "该框架元素指的是与移动事件成对出现的事件，它解释了移动事件被期待的原因。该框架元素的特别之处在于，回应事件是用来指出受移动事件奖励或惩罚的行为。该框架元素作为协定的另一方面与移动事件成对出现。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "自移体在事件终点的状态。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "自移体移动的速率。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "运动发生的时间。"
+        }, 
+        {
+            "abbrName": "veh", 
+            "eName": "Vehicle", 
+            "cName": "交通工具", 
+            "isCore": false, 
+            "def": "帮助自移体移动的设备或身体部分。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "出发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出航", 
+            "POS": "v"
+        }, 
+        {
+            "word": "登程", 
+            "POS": "v"
+        }, 
+        {
+            "word": "动身", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开拔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开航", 
+            "POS": "v"
+        }, 
+        {
+            "word": "启程", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起程", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起航", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起锚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起身", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "上路", 
+            "POS": "v"
+        }, 
+        {
+            "word": "首途", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扬帆", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 417
+}

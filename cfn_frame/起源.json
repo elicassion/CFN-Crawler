@@ -1,0 +1,122 @@
+{
+    "fdInfo": {
+        "eName": "Origin", 
+        "cName": "起源", 
+        "des": "某一实体开始存在的地方即起源，此起源可能是一个地方，一种文明、一个文本等。"
+    }, 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "发源于某处的事物。"
+        }, 
+        {
+            "abbrName": "ori", 
+            "eName": "Origin", 
+            "cName": "起源", 
+            "isCore": true, 
+            "def": "实体出现的地点或文明。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "本源", 
+            "POS": "n"
+        }, 
+        {
+            "word": "发端", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发端于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发祥", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发祥地", 
+            "POS": "n"
+        }, 
+        {
+            "word": "发祥于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发源", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发源地", 
+            "POS": "n"
+        }, 
+        {
+            "word": "发源于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "根源", 
+            "POS": "n"
+        }, 
+        {
+            "word": "根源于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "来源", 
+            "POS": "n"
+        }, 
+        {
+            "word": "来源", 
+            "POS": "v"
+        }, 
+        {
+            "word": "来源于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "来自", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起源", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起源于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "渊源", 
+            "POS": "n"
+        }, 
+        {
+            "word": "源流", 
+            "POS": "n"
+        }, 
+        {
+            "word": "源泉", 
+            "POS": "n"
+        }, 
+        {
+            "word": "源头", 
+            "POS": "n"
+        }, 
+        {
+            "word": "源于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追朔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追溯", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 260
+}

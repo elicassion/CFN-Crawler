@@ -1,0 +1,58 @@
+{
+    "fdInfo": {
+        "eName": "Urgent_danger_prevention", 
+        "cName": "紧急避险", 
+        "des": "紧急避险是指为了使国家、公共利益、本人或者他人的人身、财产和其他权利免受正在发生的危险，不得已而采取的损害另一较小合法权益的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "主体", 
+            "isCore": true, 
+            "def": "实施紧急避险的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "目的", 
+            "isCore": true, 
+            "def": "为了使国家、公共利益、本人或者他人的人身、财产和其他权利免受正在发生的危险。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "主体采取的损害另一较小合法权益的行为"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "危险", 
+            "isCore": true, 
+            "def": "正在发生的危及国家、公共利益、本人或者他人的人身、财产和其他权利的危险。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "采取紧急避险的方法"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "描述", 
+            "isCore": false, 
+            "def": "对主体实施紧急避险时行为、心理、环境等进行的描写。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "紧急避险", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 161
+}

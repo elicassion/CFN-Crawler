@@ -1,0 +1,90 @@
+{
+    "fdInfo": {
+        "eName": "Progress", 
+        "cName": "进展", 
+        "des": "一个实体在事件的发展过程中，由前状态变为后状态。"
+    }, 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "指经历变化的事物。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "使实体发生变化的事件或状态。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": false, 
+            "def": "使实体得以发展的个人或团体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "实体的进展程度。"
+        }, 
+        {
+            "abbrName": "dur_fin_st", 
+            "eName": "Duration_of_final_state", 
+            "cName": "结果时量", 
+            "isCore": false, 
+            "def": "进展结果保持的时间。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述事件所处的状态，是一个杂类，凡是无法归入其他更加具体的框架元素时，都归入修饰元素；做动词目标词的状语或补语，名词目标词的定语。"
+        }, 
+        {
+            "abbrName": "post_s", 
+            "eName": "Post_state", 
+            "cName": "后状态", 
+            "isCore": false, 
+            "def": "实体发展之后的状态。"
+        }, 
+        {
+            "abbrName": "pri_s", 
+            "eName": "Prior_state", 
+            "cName": "前状态", 
+            "isCore": false, 
+            "def": "实体以前的状态。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequence", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "表示事件在单位时间内所发生的次数。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "变化发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "发展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "进展", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 58
+}

@@ -1,0 +1,79 @@
+{
+    "fdInfo": {
+        "eName": "Permitting", 
+        "cName": "许可", 
+        "des": "在该框架中，一个事件受某项原则许可。在该框架中经常提出释义。该框架与授予许可框架的区别是该框架指法律和权威机构许可的情况。"
+    }, 
+    "element": [
+        {
+            "abbrName": "prin", 
+            "eName": "Principle", 
+            "cName": "原则", 
+            "isCore": true, 
+            "def": "原则是允许事件（发生）的法律或权威机构。"
+        }, 
+        {
+            "abbrName": "soa", 
+            "eName": "State_of_affairs", 
+            "cName": "事态", 
+            "isCore": true, 
+            "def": "事件是由原则所准许存在的情形。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "情节是指事件在什么条件下被许可。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "地点是指事件被许可的地方。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "时间是指事件被许可的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "继续", 
+            "POS": "v"
+        }, 
+        {
+            "word": "批准", 
+            "POS": "v"
+        }, 
+        {
+            "word": "认可", 
+            "POS": "v"
+        }, 
+        {
+            "word": "同意", 
+            "POS": "v"
+        }, 
+        {
+            "word": "许可", 
+            "POS": "v"
+        }, 
+        {
+            "word": "允许", 
+            "POS": "n"
+        }, 
+        {
+            "word": "允许", 
+            "POS": "v"
+        }, 
+        {
+            "word": "支持", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 261
+}

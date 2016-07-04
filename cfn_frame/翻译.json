@@ -1,0 +1,190 @@
+{
+    "fdInfo": {
+        "eName": "Translating", 
+        "cName": "翻译", 
+        "des": "认知者以目标呈现格式创造出目标符号，该目标符号表示的是按源呈现格式以源符号的形式事先存在的一项内容。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "指进行翻译的人。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "由源符号和目标符号表示的信息。"
+        }, 
+        {
+            "abbrName": "sorrep", 
+            "eName": "Source_representation", 
+            "cName": "源呈现", 
+            "isCore": true, 
+            "def": "内容事先存在的表示体系。"
+        }, 
+        {
+            "abbrName": "sorsym", 
+            "eName": "Source_symbol", 
+            "cName": "源符号", 
+            "isCore": true, 
+            "def": "以源呈现格式表示内容的一个或一套符号。"
+        }, 
+        {
+            "abbrName": "tgtrep", 
+            "eName": "Target_representation", 
+            "cName": "目标呈现", 
+            "isCore": true, 
+            "def": "认知者将内容译入的表示体系。"
+        }, 
+        {
+            "abbrName": "tars", 
+            "eName": "Target_symbol", 
+            "cName": "目标符号", 
+            "isCore": true, 
+            "def": "以目标呈现格式表示内容的一个或一套符号。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件是翻译完成的一系列外部条件。"
+        }, 
+        {
+            "abbrName": "equ", 
+            "eName": "Equivalence", 
+            "cName": "等值", 
+            "isCore": false, 
+            "def": "对于源呈现和目标呈现对等程度的评估。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何不包含在其他特定框架元素下的有关翻译事件的描述，包括修饰语（平静地，大声地）和对比较事件的一般性描述（同样的方式），除此之外，它可能表明认知者的显著特征并影响行动（故意地，急切地，小心地）"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "完成内容翻译的认知者所进行的刻意行动。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "媒介是认知者创造的一个文本，在该文本中她用目标符号来表达源呈现系统体系中的内容。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "翻译事件发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "认知者通过翻译希望产生的事态。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这个框架元素标识各种表示特定分类完成的时间表达。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "笔译", 
+            "POS": "v"
+        }, 
+        {
+            "word": "翻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "翻译", 
+            "POS": "n"
+        }, 
+        {
+            "word": "翻译", 
+            "POS": "v"
+        }, 
+        {
+            "word": "口译", 
+            "POS": "v"
+        }, 
+        {
+            "word": "译", 
+            "POS": "v"
+        }, 
+        {
+            "word": "译本", 
+            "POS": "n"
+        }, 
+        {
+            "word": "译笔", 
+            "POS": "n"
+        }, 
+        {
+            "word": "译介", 
+            "POS": "v"
+        }, 
+        {
+            "word": "译名", 
+            "POS": "n"
+        }, 
+        {
+            "word": "译文", 
+            "POS": "n"
+        }, 
+        {
+            "word": "译音", 
+            "POS": "n"
+        }, 
+        {
+            "word": "译音", 
+            "POS": "v"
+        }, 
+        {
+            "word": "译员", 
+            "POS": "n"
+        }, 
+        {
+            "word": "译制", 
+            "POS": "v"
+        }, 
+        {
+            "word": "译注", 
+            "POS": "v"
+        }, 
+        {
+            "word": "译著", 
+            "POS": "n"
+        }, 
+        {
+            "word": "译著", 
+            "POS": "v"
+        }, 
+        {
+            "word": "译作", 
+            "POS": "n"
+        }, 
+        {
+            "word": "直译", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 416
+}

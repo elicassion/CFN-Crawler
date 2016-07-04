@@ -1,0 +1,39 @@
+{
+    "fdInfo": {
+        "eName": "Pre_getting", 
+        "cName": "获得前", 
+        "des": "接受者在得到或拥有某转移体之前的状态。"
+    }, 
+    "element": [
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": true, 
+            "def": "即将获得转移体的个人。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "即将被接受者获得的某实体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述的是接受者得到转移体的方式。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素可表明“得到后”事件发生的时间"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 499
+}

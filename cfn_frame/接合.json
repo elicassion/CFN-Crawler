@@ -1,0 +1,199 @@
+{
+    "fdInfo": {
+        "eName": "Attaching", 
+        "cName": "接合", 
+        "des": "该框架涵盖两种情况：一种是某人把一个东西在物理上粘附到其它东西上，另一种是某人使两个东西彼此接合在一起。在第一种情况下，框架包括一个致动者借助某种连接介质接合个体与目标，在个体与目标之间形成一种不对称的关系。在第二种情况下，致动者把两个个体彼此接合在一起，一方作为另一方的目标，在群体之间存在一种对称的关系。在两种情况下，连接介质用来粘合两个实体。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "指操作物体使其连接的人，这一角色也可以由无生命的机械或物体充当。"
+        }, 
+        {
+            "abbrName": "conn", 
+            "eName": "Connector", 
+            "cName": "连接介质", 
+            "isCore": true, 
+            "def": "连接介质保持个体或者群体在某一固定位置的接合。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "目标表示个体被连接到的地方。"
+        }, 
+        {
+            "abbrName": "item", 
+            "eName": "Item", 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "该框架元素表示致动者连接到目标上的物体。"
+        }, 
+        {
+            "abbrName": "items", 
+            "eName": "Items", 
+            "cName": "多个物体", 
+            "isCore": true, 
+            "def": "该框架元素表示互相接合的复数个体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素表示个体表面被接合的程度。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "指接合维持的时间。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素定义为接合事件在某单位时间里发生的次数。"
+        }, 
+        {
+            "abbrName": "handle", 
+            "eName": "Handle", 
+            "cName": "连接点", 
+            "isCore": false, 
+            "def": "连接点是致动者连接个体的连接点。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者连接个体或群体所用的工具。典型地说，它传递由致动者施放的力量，而且没有被留下作为接合框架结果的参与者。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素用来描述各种具体的接合行为。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者接合个体或群体的方法。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period_of_iterations", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "指接合事件从开始重复到停止的时间长度。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "绑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "别", 
+            "POS": "v"
+        }, 
+        {
+            "word": "钉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分开", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缝合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "钩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "焊接", 
+            "POS": "v"
+        }, 
+        {
+            "word": "接合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "结合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "铐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "捆绑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "捆扎", 
+            "POS": "v"
+        }, 
+        {
+            "word": "连接", 
+            "POS": "v"
+        }, 
+        {
+            "word": "连结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "铆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "熔合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "束缚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "系", 
+            "POS": "v"
+        }, 
+        {
+            "word": "粘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "粘合", 
+            "POS": "v"
+        }, 
+        {
+            "word": "粘贴", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 185
+}

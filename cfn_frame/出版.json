@@ -1,0 +1,62 @@
+{
+    "fdInfo": {
+        "eName": "Publishing", 
+        "cName": "出版", 
+        "des": "出版商公开发行一位或多位作家的作品。作品供读者娱乐，备考和复习参考。作品的媒介多种多样，比如书、电视节目、电影或者广播节目。出版活动往往包括一系列其它的事件，诸如作品的编辑，广告、批量生产及其销售，因此比较详细的出版活动往往也会包括其它潜在的角色，如编辑人员，广告人员、销售人员，印刷人员等，但是对于该框架里的词元而言这些角色都不是独立的角色。"
+    }, 
+    "element": [
+        {
+            "abbrName": "author", 
+            "eName": "Author", 
+            "cName": "作者", 
+            "isCore": true, 
+            "def": "创作作品内容的个人或实体。作者与出版商通常交替出现，有时也会与出版商同时出现在句子中。"
+        }, 
+        {
+            "abbrName": "pub", 
+            "eName": "Publisher", 
+            "cName": "出版商", 
+            "isCore": true, 
+            "def": "代表作者向公众发表作品的实体。"
+        }, 
+        {
+            "abbrName": "work", 
+            "eName": "Work", 
+            "cName": "作品", 
+            "isCore": true, 
+            "def": "通过出版商出版的作家创作的作品。"
+        }, 
+        {
+            "abbrName": "aud", 
+            "eName": "Audience", 
+            "cName": "听者", 
+            "isCore": false, 
+            "def": "作品发布所针对的人群集合。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "作家创造作品所使用的格式。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "作品预期出版的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "出版", 
+            "POS": "v"
+        }, 
+        {
+            "word": "初版", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 455
+}

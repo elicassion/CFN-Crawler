@@ -1,0 +1,46 @@
+{
+    "fdInfo": {
+        "eName": "Post_giving", 
+        "cName": "给予后", 
+        "des": "该框架描述的是捐赠者给予接受者转移体之后的阶段，也就是当接受者已经拥有转移体，而捐赠者不再拥有的时候。"
+    }, 
+    "element": [
+        {
+            "abbrName": "donor", 
+            "eName": "Donor", 
+            "cName": "捐赠者", 
+            "isCore": true, 
+            "def": "把转移体给予接受者并且不再拥有转移体的个体。"
+        }, 
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": true, 
+            "def": "刚刚拥有转移体的个体。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "捐赠者给予接受者的实体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "捐赠者给予转移体的方式。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示“给予后”事件发生的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 359
+}

@@ -1,0 +1,124 @@
+{
+    "fdInfo": {
+        "eName": "Hiring", 
+        "cName": "招聘", 
+        "des": "雇主招聘雇员，按工作情况承诺给雇员一定的报酬，既可以给雇员一定的任务，也可以赋予他一定的职位。"
+    }, 
+    "element": [
+        {
+            "abbrName": "empee", 
+            "eName": "Employee", 
+            "cName": "雇员", 
+            "isCore": true, 
+            "def": "雇员是受雇主雇用的人，为换取报酬必须按规定完成一定的任务。"
+        }, 
+        {
+            "abbrName": "emper", 
+            "eName": "Employer", 
+            "cName": "雇主", 
+            "isCore": true, 
+            "def": "雇主是雇用雇员并付出报酬的人或机构。 "
+        }, 
+        {
+            "abbrName": "field", 
+            "eName": "Field", 
+            "cName": "领域", 
+            "isCore": true, 
+            "def": "指雇员替雇主工作的领域。"
+        }, 
+        {
+            "abbrName": "posit", 
+            "eName": "Position", 
+            "cName": "职位", 
+            "isCore": true, 
+            "def": "指特定类型的职业。"
+        }, 
+        {
+            "abbrName": "task", 
+            "eName": "Task", 
+            "cName": "任务", 
+            "isCore": true, 
+            "def": "雇主分配给雇员的工作。"
+        }, 
+        {
+            "abbrName": "compense", 
+            "eName": "Compensation", 
+            "cName": "报酬", 
+            "isCore": false, 
+            "def": "雇员完成指派的任务而得到的补偿。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "雇主雇用雇员使用的东西，一般指钱。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "雇主雇用雇员的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "雇主雇用雇员的手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "雇主雇用雇员的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "指雇主雇用雇员的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指雇主雇用雇员的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "雇请", 
+            "POS": "v"
+        }, 
+        {
+            "word": "聘请", 
+            "POS": "v"
+        }, 
+        {
+            "word": "聘任", 
+            "POS": "v"
+        }, 
+        {
+            "word": "聘用", 
+            "POS": "v"
+        }, 
+        {
+            "word": "请", 
+            "POS": "v"
+        }, 
+        {
+            "word": "招", 
+            "POS": "v"
+        }, 
+        {
+            "word": "招聘", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 240
+}

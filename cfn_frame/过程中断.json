@@ -1,0 +1,133 @@
+{
+    "fdInfo": {
+        "eName": "Process_pause", 
+        "cName": "过程中断", 
+        "des": "过程中断，但会恢复并继续进行。"
+    }, 
+    "element": [
+        {
+            "abbrName": "proce", 
+            "eName": "Process", 
+            "cName": "过程", 
+            "isCore": true, 
+            "def": "中断的过程。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述动作行为人的修饰性短语。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "过程中断的时间量。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "该框架元素解释中断的原因。"
+        }, 
+        {
+            "abbrName": "fin_subev", 
+            "eName": "Final_subevent", 
+            "cName": "最终子事件", 
+            "isCore": false, 
+            "def": "一个事件的最终子事件。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iterations", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "过程中断的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "动作行为的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "中断发生的空间场所。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "中断的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "过程中断的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "间断", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停顿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停灵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停留", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停牌", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停业", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停职", 
+            "POS": "v"
+        }, 
+        {
+            "word": "中辍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "中断", 
+            "POS": "v"
+        }, 
+        {
+            "word": "中休", 
+            "POS": "v"
+        }, 
+        {
+            "word": "中止", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 431
+}

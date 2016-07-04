@@ -1,0 +1,63 @@
+{
+    "fdInfo": {
+        "eName": "Proportion", 
+        "cName": "比例", 
+        "des": "标准用来判定某一群体的子集是成员还是非成员。在该框架中，比较关系被表述为比率，通过对子集大小与群体大小的比较来决定。"
+    }, 
+    "element": [
+        {
+            "abbrName": "crit", 
+            "eName": "Criteria", 
+            "cName": "标准", 
+            "isCore": true, 
+            "def": "一些条件的表述，根据这些条件，可决定子集和群体的从属关系。"
+        }, 
+        {
+            "abbrName": "ratio", 
+            "eName": "Ratio", 
+            "cName": "比例数值", 
+            "isCore": true, 
+            "def": "子集大小相对于群体大小的数值表示。"
+        }, 
+        {
+            "abbrName": "subset", 
+            "eName": "Subset", 
+            "cName": "子集", 
+            "isCore": true, 
+            "def": "群体中的成员满足某一特定标准，从属于群体中的某个子集。"
+        }, 
+        {
+            "abbrName": "desc", 
+            "eName": "Descriptor", 
+            "cName": "描述语", 
+            "isCore": false, 
+            "def": "与预期相比，对比例数值进行的描述。"
+        }, 
+        {
+            "abbrName": "group", 
+            "eName": "Group", 
+            "cName": "群体", 
+            "isCore": false, 
+            "def": "群体是某种实体的总集合，并参照一定标准来决定某一子集的成员身份。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "比例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "比率", 
+            "POS": "n"
+        }, 
+        {
+            "word": "比值", 
+            "POS": "n"
+        }, 
+        {
+            "word": "比重", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 457
+}

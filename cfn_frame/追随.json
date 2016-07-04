@@ -1,0 +1,230 @@
+{
+    "fdInfo": {
+        "eName": "Cotheme", 
+        "cName": "追随", 
+        "des": "此框架表示两个不同物体的移动，其中转移体一般是有生命的，做目标动词的主语，伴随体可以是有生命的也可能是无生命的，一般做宾语，该框架还常出现源点、路径、目标及其他位移场景常用的框架元素。"
+    }, 
+    "element": [
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "cName": "区域", 
+            "isCore": true, 
+            "def": "转移体和伴随体进行移动的区域。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体通常是有生命的实体，一般做主语。"
+        }, 
+        {
+            "abbrName": "thm_c", 
+            "eName": "Cotheme", 
+            "cName": "伴随体", 
+            "isCore": true, 
+            "def": "伴随者是另一个移动物体，做宾语。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "目标是指转移体或伴随体移动结束的地方。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "路径描述了转移体和伴随体的移动轨迹，路径既不能表示源点也不能表示目标，路径可以包括表示方向的词语。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "源点是指伴随体开始移动的地方。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "这个框架元素是对转移体的描写。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "任何表示转移体和伴随体运动的宽度、长度、范围的都归为距离框架元素。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "追随事件所用的时间量。"
+        }, 
+        {
+            "abbrName": "f_d", 
+            "eName": "Following_distance", 
+            "cName": "跟随距离", 
+            "isCore": false, 
+            "def": "跟随距离是指转移体与伴随体之间的距离。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。包括表示主观认识的修饰语（大概，不可思议），表示容易程度的词语（容易、难以），等等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "有意识的转移体追随伴随体时所使用的方法，常用\"以/用/通过\"等介词引导。"
+        }, 
+        {
+            "abbrName": "mot", 
+            "eName": "Mode_of_Transportation", 
+            "cName": "移动模式", 
+            "isCore": false, 
+            "def": "转移体移动时所用的运输工具，可能是交通工具，也可能是转移体自己的身体（如双脚）。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "转移体移动的目的"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "促使转移体跟随伴随体的事件或状态。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "移动后伴随体所达到的状态。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "转移体移动的速度，通常用\"以……的速度\"表示，也可以用\"快、慢\"等词语进行描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "移动所发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "伴随", 
+            "POS": "v"
+        }, 
+        {
+            "word": "带领", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跟从", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跟进", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跟随", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跟着", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跟踪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "紧随", 
+            "POS": "v"
+        }, 
+        {
+            "word": "领", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陪伴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陪同", 
+            "POS": "v"
+        }, 
+        {
+            "word": "随", 
+            "POS": "v"
+        }, 
+        {
+            "word": "随从", 
+            "POS": "v"
+        }, 
+        {
+            "word": "随军", 
+            "POS": "v"
+        }, 
+        {
+            "word": "随同", 
+            "POS": "v"
+        }, 
+        {
+            "word": "随着", 
+            "POS": "v"
+        }, 
+        {
+            "word": "尾随", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追赶", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追随", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追逐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "追踪", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 127
+}

@@ -1,0 +1,111 @@
+{
+    "fdInfo": {
+        "eName": "Reading", 
+        "cName": "阅读", 
+        "des": "读者留意一篇文本并阅读它的信息，有时是探寻文本中的一种特定的现象。"
+    }, 
+    "element": [
+        {
+            "abbrName": "reader", 
+            "eName": "Reader", 
+            "cName": "读者", 
+            "isCore": true, 
+            "def": "阅读一篇文本并理解它的人。"
+        }, 
+        {
+            "abbrName": "text", 
+            "eName": "Text", 
+            "cName": "文本", 
+            "isCore": true, 
+            "def": "包含一些语言符号的实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "进行阅读动作的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "读者以特定的方式阅读的一种动作。"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": false, 
+            "def": "读者意图处理的一个特有的特征或事情。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "阅读事件发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "读者读取文本的目的所在。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "阅读事件开始的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "拜读", 
+            "POS": "v"
+        }, 
+        {
+            "word": "读", 
+            "POS": "v"
+        }, 
+        {
+            "word": "读者", 
+            "POS": "n"
+        }, 
+        {
+            "word": "浏览", 
+            "POS": "v"
+        }, 
+        {
+            "word": "熟读", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贪看", 
+            "POS": "v"
+        }, 
+        {
+            "word": "细读", 
+            "POS": "v"
+        }, 
+        {
+            "word": "细看", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阅读", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 273
+}

@@ -1,0 +1,86 @@
+{
+    "fdInfo": {
+        "eName": "Evoking", 
+        "cName": "唤起", 
+        "des": "某刺激物因为和过去的某现象有相似点，从而引发认知者去回忆这个现象。该框架和[记忆]在语义上几乎相同，只不过多了一个元素--刺激物，使得认知者的回忆是由刺激物所引发的，\"刺激物\"是必有元素，一旦没有刺激物，就属于一般的记忆框架。注意，该框架不包含\"使……想起\"一类的兼语结构，表示这种结构应该是\"致使\"框架和\"记忆\"框架的复合。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认知者是对现象有记忆的人。但是认知者通常不作支配词的直接从属成分，而是包含在现象元素所在的名词性短语中，作定语，这时把它和定语中心语一起看作现象，而不单独表示，认知者元素为有定零形式，标记为\"dni\"。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "现象是认知者大脑中记得的内容。 "
+        }, 
+        {
+            "abbrName": "stim", 
+            "eName": "Stimulus", 
+            "cName": "刺激物", 
+            "isCore": true, 
+            "def": "引发认知者想起现象的实体或过程。"
+        }, 
+        {
+            "abbrName": "feat", 
+            "eName": "Feature", 
+            "cName": "特征项", 
+            "isCore": false, 
+            "def": "对现象产生相似感知的刺激物的特征。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "描述事件有层级差别的属性，表示达到了什么水平。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "动作持续的时间数量。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素，包括表示主观认识的修饰语（大概，不可思议），表示容易程度的词语（容易、难以），等等。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "刺激物唤起现象的原因"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "认识者回忆起现象的时间。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "刺激物唤起认知者记忆的工具或方法。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "唤起", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 51
+}

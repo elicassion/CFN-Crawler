@@ -1,0 +1,39 @@
+{
+    "fdInfo": {
+        "eName": "Post_getting", 
+        "cName": "获得后", 
+        "des": "接受者获得转移体之后的阶段。"
+    }, 
+    "element": [
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": true, 
+            "def": "刚刚得到转移体的个体。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "刚刚由接受者拥有的实体"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "接受者拥有转移体的方式。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指获得后事件发生的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 391
+}

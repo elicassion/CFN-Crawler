@@ -1,0 +1,48 @@
+{
+    "fdInfo": {
+        "eName": "Criminal_purpose", 
+        "cName": "犯罪目的", 
+        "des": "犯罪目的是指犯罪人希望通过实施犯罪行为达到某种危害社会结果的心理态度，也就是犯罪结果在犯罪人主观上的表现。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "为追求某种危害社会结果，实施犯罪行为的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "目的", 
+            "isCore": true, 
+            "def": "犯罪人追求的某种危害社会结果，如盗窃犯罪的目的是非法占有他人财物，故意杀人的目的是非法剥夺他人生命。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪行为", 
+            "isCore": true, 
+            "def": "犯罪人实施的危害社会的行为。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对犯罪目的的描述"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "犯罪目的", 
+            "POS": "n"
+        }, 
+        {
+            "word": "目的", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 144
+}

@@ -1,0 +1,122 @@
+{
+    "fdInfo": {
+        "eName": "Expectation", 
+        "cName": "预期", 
+        "des": "表示认知者认为某事会在将来发生。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "该元素指认为某现象会在将来发生的人，通常用主语表示。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "该元素指认知者大脑中对将来要发生的那个事的预期。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描绘行为参与者的描述性短语。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": "Evidence", 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "本框架中的词可以带由\"从、根据\"等引导的介词短语，表示认识或想法所依赖的根据。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "表示目标词所表示的动作行为所处的状态，该元素是一个杂类，用来概括那些无法归入其他更具体的框架元素的语义成分。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "承望", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谅（～他不会来）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料及", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料想到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逆料", 
+            "POS": "v"
+        }, 
+        {
+            "word": "意想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预测", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预料", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预期", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预言", 
+            "POS": "n"
+        }, 
+        {
+            "word": "预言", 
+            "POS": "v"
+        }, 
+        {
+            "word": "展望", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 115
+}

@@ -1,0 +1,67 @@
+{
+    "fdInfo": {
+        "eName": "Getting_triggered", 
+        "cName": "被触发物", 
+        "des": "系统与环境(其中可能包括一个自主性施动者)相互作用，并按照其预期的目的开始工作。"
+    }, 
+    "element": [
+        {
+            "abbrName": "sys", 
+            "eName": "System", 
+            "cName": "系统", 
+            "isCore": true, 
+            "def": "系统与环境相互作用并启动。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "在一个特定期间触发事件发生的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对事件的任何整体性描述,包括总体性描述(同样地)以及与系统相关的描述(安静地)。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "系统启动的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "系统触发的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "触发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "触及", 
+            "POS": "v"
+        }, 
+        {
+            "word": "响", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引爆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "走火", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 441
+}

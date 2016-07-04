@@ -1,0 +1,113 @@
+{
+    "fdInfo": {
+        "eName": "Repel", 
+        "cName": "抵制", 
+        "des": "防卫者成功抵制了敌人进行侵略的举动。"
+    }, 
+    "element": [
+        {
+            "abbrName": "defend", 
+            "eName": "Defender", 
+            "cName": "防卫者", 
+            "isCore": true, 
+            "def": "防卫者是指敌人未能征服的国家、政府及其人民。"
+        }, 
+        {
+            "abbrName": "ene", 
+            "eName": "Enemy", 
+            "cName": "敌人", 
+            "isCore": true, 
+            "def": "敌人是未能取代防卫者的实体。"
+        }, 
+        {
+            "abbrName": "act", 
+            "eName": "Invasion_act", 
+            "cName": "入侵行为", 
+            "isCore": true, 
+            "def": "这个框架元素指的是敌人所实施的入侵行为。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "这个框架元素描述了抵御事件的强度和范围。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "工具被防卫者用来抵御敌人。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "防卫者抗击敌人的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "通过防卫者的努力，抵制事件成为可能。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "防卫者抗击敌人的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "防卫者对敌人进行抗击的原因。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "这个框架元素描述了抵制事件的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "防卫者成功抵制敌人的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "抵抗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抵御", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抵制", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反抗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抗击", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抗战", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 504
+}

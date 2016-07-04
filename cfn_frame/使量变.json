@@ -1,0 +1,145 @@
+{
+    "fdInfo": {
+        "eName": "Cause_change_of_position_on_a_scale", 
+        "cName": "使量变", 
+        "des": "此框架的词元表示某个致动者或某种致因在某种量级上（属性）影响某个实体，使之从原始值（值1）变化为最终值（值2）。其变化表现在方向（路径）和大小（变幅）上。价值变化速度（速度）和第二量级（倚变量）可能会偶尔出现，值与值之间是相关的。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "使某个实体(物项) 在量级上发生性质（变量）变化的人"
+        }, 
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "cName": "属性", 
+            "isCore": true, 
+            "def": "实体的有数量变化的属性。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致使变化发生的物质力量，而不是人的主动因素。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "在量级位置上发生变化的实体。"
+        }, 
+        {
+            "abbrName": "cor", 
+            "eName": "Correlate", 
+            "cName": "倚变因素", 
+            "isCore": false, 
+            "def": "属性值往往随着某一因素的变化而增加或减少，这种因素或者表示出某种变化趋势，或者由一系列有序数值组成，还有可能仅仅是一个时间的推移。"
+        }, 
+        {
+            "abbrName": "diff", 
+            "eName": "Difference", 
+            "cName": "变幅", 
+            "isCore": false, 
+            "def": "实体的原始值与最终值之间在量级上（变量）的差异。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者采取的导致实体量级位置变化的行为。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "实体在原始值和最终值之间的移动方向。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "致动者使属性值发生变化的地方"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施行有意行为的目的 "
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "实体量级位置发生变化的速度"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "动作发生的时间"
+        }, 
+        {
+            "abbrName": "ini_v", 
+            "eName": "Initial_value", 
+            "cName": "初值", 
+            "isCore": false, 
+            "def": "实体的原始值。"
+        }, 
+        {
+            "abbrName": "fin_v", 
+            "eName": "Final_value", 
+            "cName": "终值", 
+            "isCore": false, 
+            "def": "实体的最终值。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "减少", 
+            "POS": "v"
+        }, 
+        {
+            "word": "简化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "降低", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抬高", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提高", 
+            "POS": "v"
+        }, 
+        {
+            "word": "消减", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增加", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 192
+}

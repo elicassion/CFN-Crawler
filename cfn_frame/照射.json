@@ -1,0 +1,179 @@
+{
+    "fdInfo": {
+        "eName": "Light_movement", 
+        "cName": "照射", 
+        "des": "发光体从源点发射出光亮，光亮沿着一定路径射向目的地。实质上，这个框架描述不完整的想象的光束运动。"
+    }, 
+    "element": [
+        {
+            "abbrName": "beam", 
+            "eName": "Beam", 
+            "cName": "光亮", 
+            "isCore": true, 
+            "def": "从源点发出的沿着一定的路径到达目的地的光。"
+        }, 
+        {
+            "abbrName": "emit", 
+            "eName": "Emitter", 
+            "cName": "发光体", 
+            "isCore": true, 
+            "def": "在源点产生光亮的实体。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "光亮最后到达的区域。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "光亮经过的地方或介质。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "光亮在改变位置之前最初所在的位置。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "光亮发生运动的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "发光体或者光亮所处的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述陈述活动的特征或所处状态的成分，都归入该元素，如“认真、坦白地”等。注意，修饰元素是对事件本身的描述，而形容元素是对事件参与者的描述。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "光亮照射的结果。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "反射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "返照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辐射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "光照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辉映", 
+            "POS": "v"
+        }, 
+        {
+            "word": "普照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "散射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "斜射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "衍射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "耀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照亮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照临", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照耀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "折射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "烛照", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 256
+}

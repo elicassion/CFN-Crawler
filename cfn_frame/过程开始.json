@@ -1,0 +1,98 @@
+{
+    "fdInfo": {
+        "eName": "Process_start", 
+        "cName": "过程开始", 
+        "des": "事件在某一个确定的时间和空间展开。事件的原因有可能被提及。"
+    }, 
+    "element": [
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "所要发生的事件的名称,该事件也可指因某种原因呈动态变化的事件，如天气、工程、会议、物价等，有别于致动者发出的具体的行为动作；有时该框架元素是分裂"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对事件参与者状态的描述。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "动作行为本身持续的时间数量或者动作重复进行所用的时间数量。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "表示事件在单位时间内所发生的次数，一般可以用（\"每\"＋时间单位＋\"多少次\"）提问"
+        }, 
+        {
+            "abbrName": "ini_suevt", 
+            "eName": "Initial_subevent", 
+            "cName": "起始亚事件", 
+            "isCore": false, 
+            "def": "发生在事件发生开端的事件，它从属于事件。事件的发生以起始亚事件为开端。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。包括表示主观认识的修饰语（大概，不可思议），表示容易程度的词语（容易、难以），等等"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件、状态发生的空间、场所"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "表示引起目标动词所表示的动作行为和性质状态的原因。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "事件的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "爆发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开始", 
+            "POS": "v"
+        }, 
+        {
+            "word": "肇端", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 36
+}

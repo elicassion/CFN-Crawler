@@ -1,0 +1,44 @@
+{
+    "fdInfo": {
+        "eName": "Huge_property_unidentified", 
+        "cName": "巨额财产来源不明", 
+        "des": "巨额财产来源不明是指国家工作人员的财产或者支出明显超过合法收入，且差额巨大，经责令说明来源而本人不能说明来源是合法的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "财产或者支出明显超过合法收入，差额巨大，不能说明来源合法的国家工作人员。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "财产", 
+            "isCore": true, 
+            "def": "犯罪人不能说明合法来源的巨额财产。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "司法机关", 
+            "isCore": true, 
+            "def": "对犯罪事实、证据予以收集、确认，追究犯罪人刑事责任的国家机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "刑罚", 
+            "isCore": true, 
+            "def": "对犯罪人的犯罪行为所给予的刑事惩罚。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "巨额财产来源不明", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 163
+}

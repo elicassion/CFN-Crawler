@@ -1,0 +1,37 @@
+{
+    "fdInfo": {
+        "eName": "Crime_subject", 
+        "cName": "犯罪主体", 
+        "des": "犯罪主体是指实施危害社会的行为，依法应当负刑事责任的自然人和单位。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "罪名", 
+            "isCore": true, 
+            "def": "高度概括具体犯罪本质特征，对具体所谓的称谓"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "主体", 
+            "isCore": true, 
+            "def": "符合罪名对身份要求的人，包括单位和自然人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法条", 
+            "isCore": true, 
+            "def": "刑法中的法律条文"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "犯罪主体", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 145
+}

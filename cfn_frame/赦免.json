@@ -1,0 +1,70 @@
+{
+    "fdInfo": {
+        "eName": "Pardon", 
+        "cName": "赦免", 
+        "des": "赦免是国家宣告对犯罪人免除其罪、免除其刑的一种法律制度，包括大赦和特赦。我国现仅规定有特赦。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "实施了犯罪行为的人。在我国特赦实践中，其多为战争罪犯。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "决定机关", 
+            "isCore": true, 
+            "def": "决定对犯罪人特赦的权力机关。我国为全国人大常委会。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "宣布机关", 
+            "isCore": true, 
+            "def": "向犯罪人宣布特赦令的机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "对犯罪人实行特赦的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "对犯罪人实行特赦的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "宣布时间", 
+            "isCore": false, 
+            "def": "对犯罪人宣布特赦的时间"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "大赦", 
+            "POS": "v"
+        }, 
+        {
+            "word": "计划", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赦免", 
+            "POS": "v"
+        }, 
+        {
+            "word": "特赦", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 171
+}

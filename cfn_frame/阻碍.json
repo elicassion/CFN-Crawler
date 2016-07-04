@@ -1,0 +1,167 @@
+{
+    "fdInfo": {
+        "eName": "Hindering", 
+        "cName": "阻碍", 
+        "des": "该框架中，阻碍体使主体完成预定行为的难度有所增加，或者说，阻碍体直接影响行为，此处的行为可指个体行为，也可指集体行为。关键是，该框架里词元不包括主体未能完成预定行为的情况和行为并未发生的情况。阻碍体可表明主体或行动的自然进展难以实现或者遇到阻碍。"
+    }, 
+    "element": [
+        {
+            "abbrName": "action", 
+            "eName": "Action", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "该框架元素指阻碍体使主体要做的事情更为困难的行为。该行为可指与显性主体无关的自然行为或集体行为。\n"
+        }, 
+        {
+            "abbrName": "hindr", 
+            "eName": "Hindrance", 
+            "cName": "阻碍体", 
+            "isCore": true, 
+            "def": "阻碍体可指使行为更为困难或更加难以完成的阻力, 也可指推动力的缺乏。"
+        }, 
+        {
+            "abbrName": "prot", 
+            "eName": "Protagonist", 
+            "cName": "主体", 
+            "isCore": true, 
+            "def": "主体是计划某种行为的实体，而阻碍体使该行为更为困难。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件描述了（在特定时间和地点的）世界状态，这种状态与事件本身和事件参与者无关。\n"
+        }, 
+        {
+            "abbrName": "cncesiv", 
+            "eName": "Concessive", 
+            "cName": "让步转折后事态", 
+            "isCore": false, 
+            "def": "该框架元素指（包含目标词的）主句所表述的事态，以及与让步状语从句中所表达的事态不同的事物。换言之，这些表达出让步的事实可能会使主句中所描述的事态朝相反方向发展。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "程度指阻碍体影响主体或行为的程度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "阻碍持续的时间长度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "该框架元素用来标注产生阻碍体的原因。\n"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "此框架元素指单位时间内事件发生的次数。\n"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "阻碍行为发生的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素描述的是阻碍方法。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指的是阻碍体影响主体或行为的时间。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所指阻碍体影响主体或行为的空间场所。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "碍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "绊脚石", 
+            "POS": "n"
+        }, 
+        {
+            "word": "妨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "妨碍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "干碍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "干扰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "干涉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "困扰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拦路虎", 
+            "POS": "n"
+        }, 
+        {
+            "word": "影响", 
+            "POS": "v"
+        }, 
+        {
+            "word": "障碍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遮挡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻碍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻挡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻隔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻滞", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 329
+}

@@ -1,0 +1,71 @@
+{
+    "fdInfo": {
+        "eName": "Comparison", 
+        "cName": "比较", 
+        "des": "该框架表示认知者通过对两组现象的某项特征加以对照，以辨别其异同。这两个现象可能用一个语言单位合起来表示，也可能分开表示。注意，[比较]框架和[辨别]不同，前者所比较的两组现象都突显出来，后者可以出现两组对比现象，也可以只出现现象之一，此时有另一个核心框架元素背景，表示从背景中辨别某一个现象，此时与之对比的其他现象并不突显出来。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认知者是人（或其它有意识主体），对两种现象进行比较。"
+        }, 
+        {
+            "abbrName": "phen_pl", 
+            "eName": "Phenomena", 
+            "cName": "现象群", 
+            "isCore": true, 
+            "def": "被比较的两组现象，在表达中合起来用一个成分表示。"
+        }, 
+        {
+            "abbrName": "phen_1", 
+            "eName": "Phenomenon_1", 
+            "cName": "现象1", 
+            "isCore": true, 
+            "def": "被比较的现象可以用不同的成分分别表示，其中语序靠前的为现象1，另一个为现象2。"
+        }, 
+        {
+            "abbrName": "phen_2", 
+            "eName": "Phenomenon_2", 
+            "cName": "现象2", 
+            "isCore": true, 
+            "def": "被比较的现象可以用不同的成分分别表示，其中语序靠前的为现象1，另一个为现象2。"
+        }, 
+        {
+            "abbrName": "feat", 
+            "eName": "Feature", 
+            "cName": "特征项", 
+            "isCore": true, 
+            "def": "认知者比较现象所依据的特征，通常用\"从，根据，通过\"等介词短语表示。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "比", 
+            "POS": "v"
+        }, 
+        {
+            "word": "比较", 
+            "POS": "v"
+        }, 
+        {
+            "word": "对比", 
+            "POS": "v"
+        }, 
+        {
+            "word": "较", 
+            "POS": "v"
+        }, 
+        {
+            "word": "类比", 
+            "POS": "v"
+        }, 
+        {
+            "word": "相比", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 33
+}

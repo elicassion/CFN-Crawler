@@ -1,0 +1,44 @@
+{
+    "fdInfo": {
+        "eName": "Measure_by_action", 
+        "cName": "用动作行为测量", 
+        "des": "该框架中的词元包含通过提及在某一事件中对某一并未明确阐释的（物质）实体进行测量。通常参与该事件的实体典型数量（或时长）是明确的。该实体不一定是物质实体，也可能是一并未明确阐释的事件类型（如噪音或活动）。"
+    }, 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "用事件来测量的某一抽象或者具体的未明确阐释的实体。"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "该事件有实体参与，该实体有限定性数量或时量。"
+        }, 
+        {
+            "abbrName": "count", 
+            "eName": "Count", 
+            "cName": "数量", 
+            "isCore": false, 
+            "def": "事件反复的次数数量。"
+        }, 
+        {
+            "abbrName": "part-iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特殊次数", 
+            "isCore": false, 
+            "def": "该题元外部的框架元素指的并不是目标词在所在句子内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是在重复前面的动作。该框架元素可以暗示出目标词是一系列相似事件或状态中的某一次。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "撮", 
+            "POS": "q"
+        }
+    ], 
+    "frameId": 484
+}

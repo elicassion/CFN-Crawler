@@ -1,0 +1,67 @@
+{
+    "fdInfo": {
+        "eName": "Being_located", 
+        "cName": "位置", 
+        "des": "表示一个主题的固定位置的地点"
+    }, 
+    "element": [
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "cName": "地点", 
+            "isCore": true, 
+            "def": "主题的一个代表性的具体的地点"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": true, 
+            "def": "能够代表主题的地点的一片地方"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "位于特殊位置的一个实体"
+        }, 
+        {
+            "abbrName": "dep_state", 
+            "eName": "Dependent_state", 
+            "cName": "依存状态", 
+            "isCore": false, 
+            "def": "主题位于此位置造成的后果和相关的情形"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "主题第一次出现在此处的时间"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "处于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "地处", 
+            "POS": "v"
+        }, 
+        {
+            "word": "位于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "位置", 
+            "POS": "n"
+        }, 
+        {
+            "word": "坐落", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 188
+}

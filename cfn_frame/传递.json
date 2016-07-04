@@ -1,0 +1,168 @@
+{
+    "fdInfo": {
+        "eName": "Passing", 
+        "cName": "传递", 
+        "des": "施动者用肢体将转移体传递给接受者。在转移体转移后，施动者便不再掌控它的运动。比较一下“运送”和“发送”这两个框架。在前者中，“运送者”这个框架元素会持续控制转移体（甚至是身体接触）。在后者中，“派送者”这个框架元素规划转移体的运动，并将它放置到由另一个体掌控的沿特定路径转移的（或有特定目的地的）路线中。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者是传递转移体的人。施动者一般被认为是外部论元。"
+        }, 
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "cName": "区域", 
+            "isCore": true, 
+            "def": "框架元素区域描述的是当传递被理解为是不规律的，或不是由单一、线性路径构成时，传递行为所进行的一般区域。该区域里的环境附属物也可以被指定为该框架元素。"
+        }, 
+        {
+            "abbrName": "i_state", 
+            "eName": "Initial_state", 
+            "cName": "初状态", 
+            "isCore": true, 
+            "def": "转移体在开始移动之前所处的状态。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "框架元素路径描述的是移动轨迹，它既不是起点，也不是终点。"
+        }, 
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": true, 
+            "def": "接受者是传递结束后拥有转移体的实体。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": true, 
+            "def": "由转移体转移后的状态。\n"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "框架元素起点是传递动作开始的起点。\n"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "框架元素转移体一般来说是一个名词性短语，指的是传递给接受者的物体。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "传递期间参与者的状态。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "框架元素距离是表明转移体活动范围的任何表述。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "这个框架元素表示的是一个命题，从逻辑上推断，该命题之后应有一个主句。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "一个实体明显地参与了从施动者到转移体力的传递。它可能是施动者的身体部分，也可能是某种装置。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "框架元素方式描述的是转移体的运动属性，而转移体与运动轨迹并不直接相关。比如对姿态，稳定性及其他相关运动属性的描述是都可以认为是属于方式这个框架元素。\n"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "框架元素方法指的是使转移体转移而采取的行动。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所是为具体运动提供背景场所的一般区域（具有起点，路径和终点）。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "转移体的转移所发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "传", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传递", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传观", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传看", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "递", 
+            "POS": "v"
+        }, 
+        {
+            "word": "递交", 
+            "POS": "v"
+        }, 
+        {
+            "word": "递送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投递", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转交", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转送", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 324
+}

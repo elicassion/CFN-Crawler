@@ -1,0 +1,102 @@
+{
+    "fdInfo": {
+        "eName": "Visiting_scenario_stay", 
+        "cName": "拜访场景_停留", 
+        "des": "施动者为了某种目的到达实体所在地，而这种目的常常是社交性的或娱乐性的。该场景无观点倾向性。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "为实现某种目的，与实体临时在一起的感知体。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "该客观体与实体长期相关，或者说与施动者为了某种目的想利用的一些具体特征长期相关。拜访过程中，施动者到达实体所在地。"
+        }, 
+        {
+            "abbrName": "dep_state", 
+            "eName": "Dependent_state", 
+            "cName": "依存状态", 
+            "isCore": false, 
+            "def": "施动者与实体在一起时所产生的一种状态"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "施动者与实体在一起的时间长短"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "描述在一段时间内拜访发生的平均次数。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iterations", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "频率是对一段时间内平均拜访次数的特征化描述。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对于拜访细节的整体描述，要么就它与其它事件的联系而言，要么就施动者的行为状态而言。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者为了拜访能够成行而采取的一种行动。"
+        }, 
+        {
+            "abbrName": "nor_loc", 
+            "eName": "Normal_location", 
+            "cName": "常住地", 
+            "isCore": false, 
+            "def": "施动者通常生活居住或是说与之（长期）相关的地方。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "对拜访期间施动者所处位置的描述。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "实体能够满足条件，而且施动者也想进行的活动"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "进行拜访的时间点。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": false, 
+            "def": "该框架元素描述的是施动者离开起点，最终到达或要到达的地方。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 319
+}

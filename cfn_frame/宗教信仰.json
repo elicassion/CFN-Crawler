@@ -1,0 +1,99 @@
+{
+    "fdInfo": {
+        "eName": "Religious_belief", 
+        "cName": "宗教信仰", 
+        "des": "信徒相信一个宗教信仰中的某内容，宗教信仰是一个由许多信条组成的系统，其中，内容不一定是客观世界真实存在的事物，但却是被某个社会团体成员所共同信奉的。"
+    }, 
+    "element": [
+        {
+            "abbrName": "blv", 
+            "eName": "Believer", 
+            "cName": "信徒", 
+            "isCore": true, 
+            "def": "信徒指宗教信仰的持有者。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "内容是信徒所坚信的事物，可以表现为限定性从句或在介词短语补足于中表达。"
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "cName": "身份", 
+            "isCore": false, 
+            "def": "角色指一个元素在信仰中所承担的功能。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素指信徒相信其宗教信仰价值与正确性的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指信徒知道或相信某事的方式。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "崇奉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "笃信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "奉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "皈依", 
+            "POS": "v"
+        }, 
+        {
+            "word": "迷信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "深信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "相信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "信奉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "信教", 
+            "POS": "v"
+        }, 
+        {
+            "word": "信仰", 
+            "POS": "n"
+        }, 
+        {
+            "word": "信仰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "尊奉", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 130
+}

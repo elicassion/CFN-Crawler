@@ -1,0 +1,183 @@
+{
+    "fdInfo": {
+        "eName": "Separating", 
+        "cName": "使分离", 
+        "des": "该框架里的词元指将一个整体分为各部分，或将一部分与另一部分分离。分离行为由施动者或致因实施或基于一定标准而实施。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "通过对这些动词词元的使役使用，施动者分离或分割某物。施动者通常是外部论元。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "该致因是引起分离的非施动者。"
+        }, 
+        {
+            "abbrName": "part_1", 
+            "eName": "Part_1", 
+            "cName": "部分1", 
+            "isCore": true, 
+            "def": "部分1是所提及的两个部分中的第一个部分。这通常是一个动词的宾语。"
+        }, 
+        {
+            "abbrName": "part_2", 
+            "eName": "Part_2", 
+            "cName": "部分2", 
+            "isCore": true, 
+            "def": "部分2是所提及的两个部分中的第二个部分。这个通常是介词短语作补足语的情况。首先，"
+        }, 
+        {
+            "abbrName": "parts", 
+            "eName": "Parts", 
+            "cName": "组成部分", 
+            "isCore": true, 
+            "def": "指的是从整体中分离出来的所有组成部分。"
+        }, 
+        {
+            "abbrName": "whl", 
+            "eName": "Whole", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "该整体是分为部分的一个单一的实体或者一个实体的集合。它通常是目标动词的对象。"
+        }, 
+        {
+            "abbrName": "crit", 
+            "eName": "Criterion", 
+            "cName": "标准", 
+            "isCore": false, 
+            "def": "这个框架元素表述的是组成部分的属性或作为分离基础的整体的组成成分。标准是由“按”所引导的介词短语所表达，或者是“以……为基础”的复合形式的介词短语。如：研究人员将受试者按眼睛的颜色分组。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "这个框架元素指的是任何描述施动者分离行为或经受分离的经历体的形容性短语。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "造成分离所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "执行一个行为的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者实现分离的行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "分离发生的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者的分离整体的意图。"
+        }, 
+        {
+            "abbrName": "recis", 
+            "eName": "Recipients", 
+            "cName": "接受者", 
+            "isCore": false, 
+            "def": "接受者是拥有整体的部分的群体。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "该框架元素指一事件的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这个框架元素之分离发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "分包", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分成儿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分肥", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分割", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分隔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分开", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分栏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分离", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分流", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分馏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分账", 
+            "POS": "v"
+        }, 
+        {
+            "word": "划分", 
+            "POS": "v"
+        }, 
+        {
+            "word": "平分", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 420
+}

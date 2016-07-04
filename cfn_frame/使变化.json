@@ -1,0 +1,145 @@
+{
+    "fdInfo": {
+        "eName": "Cause_change", 
+        "cName": "使变化", 
+        "des": "致动者致使一个实体的所属范畴或属性值发生了变化。所属范畴的变化以初范畴和终范畴表达，属性值的变化以初值和终值来表达。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致使实体变化的有意识的实体。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "造成实体变化的无意识的事件或事物。"
+        }, 
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "cName": "属性", 
+            "isCore": true, 
+            "def": "实体的特征，可通过计算、测量或观测来为其赋值。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "经历变化的具体的或抽象的实体。"
+        }, 
+        {
+            "abbrName": "ini_cat", 
+            "eName": "Initial_category", 
+            "cName": "初范畴", 
+            "isCore": true, 
+            "def": "在致动者致使实体变化前，实体所属的范畴。"
+        }, 
+        {
+            "abbrName": "finc", 
+            "eName": "Final_category", 
+            "cName": "终范畴", 
+            "isCore": true, 
+            "def": "在经历变化后实体所属的范畴。"
+        }, 
+        {
+            "abbrName": "ini_v", 
+            "eName": "Initial_value", 
+            "cName": "初值", 
+            "isCore": true, 
+            "def": "实体变化发生之前的属性值。"
+        }, 
+        {
+            "abbrName": "fin_v", 
+            "eName": "Final_value", 
+            "cName": "终值", 
+            "isCore": true, 
+            "def": "实体变化发生之后的属性值。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "初值区别于终值或初范畴区别于终范畴的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "致动者致使实体变化的原因"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者通过使实体改变来达到的目的。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者为使实体发生变化而采取的行动。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "致动者致使实体发生变化所持续的时间"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致动者致使实体发生变化的时间。 "
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "变", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变换", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "改", 
+            "POS": "v"
+        }, 
+        {
+            "word": "改变", 
+            "POS": "v"
+        }, 
+        {
+            "word": "改成", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 20
+}

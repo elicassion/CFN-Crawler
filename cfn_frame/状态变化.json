@@ -1,0 +1,115 @@
+{
+    "fdInfo": {
+        "eName": "Change_of_phase", 
+        "cName": "状态变化", 
+        "des": "在这个框架中，经历体经历一个物理或化学状态的变化。"
+    }, 
+    "element": [
+        {
+            "abbrName": "undgo", 
+            "eName": "Undergoer", 
+            "cName": "经历体", 
+            "isCore": true, 
+            "def": "经历体指经历状态变化的实体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "状态变化发生的环境。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "经历体经历状态变化的程度。"
+        }, 
+        {
+            "abbrName": "i_state", 
+            "eName": "Initial_state", 
+            "cName": "初状态", 
+            "isCore": false, 
+            "def": "经历体起始的状态。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "经历体经历状态变化的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "结果指状态变化的结果。\t"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "速度指状态变化的速度。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "亚区指受影响的经历体的部分。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "经历体经历状态变化的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "变硬", 
+            "POS": "v"
+        }, 
+        {
+            "word": "纯化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "冻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "结冰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解冻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "冷冻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "凝固", 
+            "POS": "v"
+        }, 
+        {
+            "word": "溶解", 
+            "POS": "v"
+        }, 
+        {
+            "word": "融化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "蒸发", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 125
+}

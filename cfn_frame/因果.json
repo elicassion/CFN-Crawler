@@ -1,0 +1,129 @@
+{
+    "fdInfo": {
+        "eName": "Causation", 
+        "cName": "因果", 
+        "des": "某种致因引起某种结果。作为致因的固有参与者，应该处于致因中。继承原因框架的框架，把一些事件应该为其他事件（或状态）的出现负责的思想，作为它们的背景。在继承框架里，一个典型的框架元素如致动者或者是引起者出现在参与者的位置，但在子框架里，正如本框架，参与者在语义上依赖参与者所参与的致因（事件或事态）。"
+    }, 
+    "element": [
+        {
+            "abbrName": "actor", 
+            "eName": "Actor", 
+            "cName": "参与者", 
+            "isCore": true, 
+            "def": "参与某种致因的人，可能是自愿的，也可能不是。"
+        }, 
+        {
+            "abbrName": "affected", 
+            "eName": "Affected", 
+            "cName": "受影响人", 
+            "isCore": true, 
+            "def": "在一个合作的或者相互作用的行动中的代理人。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致因是能产生结果的有生命或者无生命的实体，力量或者事件。意志不是致因的必有特征。"
+        }, 
+        {
+            "abbrName": "effect", 
+            "eName": "Effect", 
+            "cName": "结果", 
+            "isCore": true, 
+            "def": "对现象肯定或者否定的评价。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的处所。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "事件发生的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这个框架元素指出事件发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "产生", 
+            "POS": "v"
+        }, 
+        {
+            "word": "促使", 
+            "POS": "v"
+        }, 
+        {
+            "word": "导致", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发生", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发泄", 
+            "POS": "v"
+        }, 
+        {
+            "word": "理由", 
+            "POS": "n"
+        }, 
+        {
+            "word": "派遣", 
+            "POS": "v"
+        }, 
+        {
+            "word": "迫使", 
+            "POS": "v"
+        }, 
+        {
+            "word": "让", 
+            "POS": "v"
+        }, 
+        {
+            "word": "惹起", 
+            "POS": "v"
+        }, 
+        {
+            "word": "使", 
+            "POS": "v"
+        }, 
+        {
+            "word": "送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引起", 
+            "POS": "v"
+        }, 
+        {
+            "word": "原因", 
+            "POS": "n"
+        }, 
+        {
+            "word": "原因的", 
+            "POS": "a"
+        }, 
+        {
+            "word": "造成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "致使", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 116
+}

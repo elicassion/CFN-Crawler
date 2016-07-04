@@ -1,0 +1,121 @@
+{
+    "fdInfo": {
+        "eName": "Process_initial_state", 
+        "cName": "过程初始状态", 
+        "des": "实体在事件中的初始状态;事件X—图式的一部分。注:参考“事件”框架。"
+    }, 
+    "element": [
+        {
+            "abbrName": "proce", 
+            "eName": "Process", 
+            "cName": "过程", 
+            "isCore": true, 
+            "def": "即将开始的整个过程。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "过程初始状态所持续的时间长度。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "过程开始的时间点。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "开场", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开初", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开春", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开端", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开工", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开讲", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开拍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开盘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开赛", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开始", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开市", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开题", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开头", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开学", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开演", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开业", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开印", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开映", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开仗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开征", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 434
+}

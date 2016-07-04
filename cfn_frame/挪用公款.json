@@ -1,0 +1,58 @@
+{
+    "fdInfo": {
+        "eName": "Misappropriate_public_funds", 
+        "cName": "挪用公款", 
+        "des": "挪用公款是指国家工作人员利用职务上的便利，挪用公款归个人使用，进行非法活动的，或者挪用公款数额较大，进行营利活动的，或者挪用公款数额较大，超过三个月不还的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "实施挪用公款犯罪行为的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "公款数额", 
+            "isCore": true, 
+            "def": "被犯罪人挪用的公有钱款。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "司法机关", 
+            "isCore": true, 
+            "def": "对犯罪事实、证据予以收集、确认，追究犯罪人刑事责任的国家机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "刑罚", 
+            "isCore": true, 
+            "def": "司法机关对犯罪人的故意伤害行为所判处的刑罚。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "犯罪人挪用公款的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "目的"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "挪用公款", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 166
+}

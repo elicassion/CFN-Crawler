@@ -1,0 +1,60 @@
+{
+    "fdInfo": {
+        "eName": "Birth_scenario", 
+        "cName": "出生场景", 
+        "des": "母亲和父亲（总称为父母）生育后代。该事件发生在特定的时间和地点。"
+    }, 
+    "element": [
+        {
+            "abbrName": "fa", 
+            "eName": "Father", 
+            "cName": "父亲", 
+            "isCore": true, 
+            "def": "繁衍后代的男性。"
+        }, 
+        {
+            "abbrName": "mom", 
+            "eName": "Mother", 
+            "cName": "母亲", 
+            "isCore": true, 
+            "def": "繁衍后代的女性。"
+        }, 
+        {
+            "abbrName": "offspr", 
+            "eName": "Offspring", 
+            "cName": "后代", 
+            "isCore": true, 
+            "def": "父母亲生育的生命体。"
+        }, 
+        {
+            "abbrName": "parents", 
+            "eName": "Parents", 
+            "cName": "父母", 
+            "isCore": true, 
+            "def": "母亲和父亲的总称。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "出生事件发生的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "后代出生的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "后代出生的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 472
+}

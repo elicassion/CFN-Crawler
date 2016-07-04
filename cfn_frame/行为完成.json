@@ -1,0 +1,222 @@
+{
+    "fdInfo": {
+        "eName": "Activity_finish", 
+        "cName": "行为完成", 
+        "des": "致动者完成某一从逻辑上讲不能再继续的行为。该框架是行为框架的分框架。"
+    }, 
+    "element": [
+        {
+            "abbrName": "activity", 
+            "eName": "Activity", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "表现致动者所完成的行为。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "表现行为完成的致动者。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "用于描述动作行为者或经历者的描述性的短语。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "致动者完成某一行为的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者完成某一行为的所凭借的手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "致动者完成某一行为的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者完成某一行为的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "表现完成行为的结果。"
+        }, 
+        {
+            "abbrName": "subv", 
+            "eName": "Subevent", 
+            "cName": "亚事件", 
+            "isCore": false, 
+            "def": "表现完成行为最后的亚事件。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "表现行为结束的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "罢笔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罢兵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罢手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罢休", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罢战", 
+            "POS": "v"
+        }, 
+        {
+            "word": "封笔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "封镜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搞颠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搞定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "告罄", 
+            "POS": "v"
+        }, 
+        {
+            "word": "挂靴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "结果", 
+            "POS": "n"
+        }, 
+        {
+            "word": "结束", 
+            "POS": "v"
+        }, 
+        {
+            "word": "杀青", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收场", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收束", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停火", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停课", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停息", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完毕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完稿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完工", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完卷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完了", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完胜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完事儿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "休止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "终结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "终了", 
+            "POS": "v"
+        }, 
+        {
+            "word": "终止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "住手", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 101
+}

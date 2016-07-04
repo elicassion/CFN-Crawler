@@ -1,0 +1,98 @@
+{
+    "fdInfo": {
+        "eName": "Quitting", 
+        "cName": "辞职", 
+        "des": "指雇员自愿离开雇主。"
+    }, 
+    "element": [
+        {
+            "abbrName": "empee", 
+            "eName": "Employee", 
+            "cName": "雇员", 
+            "isCore": true, 
+            "def": "指完成工作并获得报酬的人。"
+        }, 
+        {
+            "abbrName": "emper", 
+            "eName": "Employer", 
+            "cName": "雇主", 
+            "isCore": true, 
+            "def": "指雇用雇员工作的人（或机构）。"
+        }, 
+        {
+            "abbrName": "field", 
+            "eName": "Field", 
+            "cName": "领域", 
+            "isCore": true, 
+            "def": "指雇员工作的领域。"
+        }, 
+        {
+            "abbrName": "posit", 
+            "eName": "Position", 
+            "cName": "职位", 
+            "isCore": true, 
+            "def": "指雇员工作时的职位名称。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述对雇员辞职的特征或所处状态的成分，都归入该元素。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指雇员辞职时使用的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员辞职的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员辞职的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "指雇员辞职的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员辞职的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "辞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辞聘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辞去", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辞职", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 271
+}

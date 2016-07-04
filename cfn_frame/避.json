@@ -1,0 +1,110 @@
+{
+    "fdInfo": {
+        "eName": "Avoiding", 
+        "cName": "避", 
+        "des": "施动者在某些环境条件下避免某种不利情形。这种情形可能是一种活动（如上学），或是对某一活动或情况进行转喻（这只是其中一种可能出现的方式）后的某一实体（如限制措施）。在该框架中，从施动者的观点看，这种情形是不利的（如“逃避”框架里的情形），并与对他人不利的情形（如“克制”框架里的情形）或违反社会道德规范的情形形成反差（如“放弃”框架里的情形）。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者避开某种不利情形。"
+        }, 
+        {
+            "abbrName": "undesr_sit", 
+            "eName": "Undesirable_situation", 
+            "cName": "不利情形", 
+            "isCore": true, 
+            "def": "该框架元素指施动者避开的情况。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "避免不利情形的环境条件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "避的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "避的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "避所采用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "避的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "避的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "避的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "避的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "避", 
+            "POS": "v"
+        }, 
+        {
+            "word": "避免", 
+            "POS": "v"
+        }, 
+        {
+            "word": "躲避", 
+            "POS": "v"
+        }, 
+        {
+            "word": "躲闪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回避", 
+            "POS": "v"
+        }, 
+        {
+            "word": "绕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃避", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 477
+}

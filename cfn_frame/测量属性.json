@@ -1,0 +1,86 @@
+{
+    "fdInfo": {
+        "eName": "Measurable_attributes", 
+        "cName": "测量属性", 
+        "des": "某实体具有特定的标量属性，该属性的值超越了某个特定语境和普遍意义上的标准。除框架元素有差异外，我们把所有具有可测量性的形容词都归于此框架中。注意：当某形容词与数量词时出现时（如：6英尺长），该形容词属于“维度”框架（DimensionFrame）。"
+    }, 
+    "element": [
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": true, 
+            "def": "描述值与标准之间差幅的修饰语。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "指具有层级属性的被测量实体"
+        }, 
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "cName": "属性", 
+            "isCore": true, 
+            "def": "某待测实体的特征。"
+        }, 
+        {
+            "abbrName": "value", 
+            "eName": "Value", 
+            "cName": "值", 
+            "isCore": true, 
+            "def": "就属性而言，实体状态的数量或其他特征。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "该框架元素对某一环境条件进行了规定性描述，在此环境条件下，某实体的某属性具有特定的值。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实体的属性具有特定值的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "长", 
+            "POS": "a"
+        }, 
+        {
+            "word": "低", 
+            "POS": "a"
+        }, 
+        {
+            "word": "高", 
+            "POS": "a"
+        }, 
+        {
+            "word": "高", 
+            "POS": "a"
+        }, 
+        {
+            "word": "厚", 
+            "POS": "a"
+        }, 
+        {
+            "word": "宽", 
+            "POS": "a"
+        }, 
+        {
+            "word": "深", 
+            "POS": "a"
+        }, 
+        {
+            "word": "重", 
+            "POS": "a"
+        }
+    ], 
+    "frameId": 483
+}

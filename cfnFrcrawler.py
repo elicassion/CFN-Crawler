@@ -44,7 +44,7 @@ def analyzeFdInfo(fdInfo):
 	for tr in fdInfo:
 		if not isinstance(tr, type(fdInfo)):
 			continue
-		fdInfoDic[keys[keyNumber]] = tr.td.string
+		fdInfoDic[keys[keyNumber]] = tr.td.string.replace(" ", "")
 		keyNumber += 1
 	return fdInfoDic
 
@@ -102,7 +102,7 @@ def analyzeLexElmt(lexElmtInfo):
 
 def analyzeContent(content, frameNumber):
 	frameDic = {}
-
+	frameDic["frameId"] = frameNumber
 	parsedContent = BeautifulSoup(content, "html.parser")
 	fdInfo =  parsedContent.find("table", id = "fd_box")
 	frameDic["fdInfo"] = analyzeFdInfo(fdInfo)
@@ -113,7 +113,7 @@ def analyzeContent(content, frameNumber):
 	lexElmtInfo = parsedContent.form.contents[14]
 	frameDic["lexElmt"] = analyzeLexElmt(lexElmtInfo)
 
-	file = codecs.open(os.path.join(folder, str(frameNumber)+".json"), "w")
+	file = codecs.open(os.path.join(folder, frameDic["fdInfo"]["cName"]+".json"), "w")
 	file.write(json.dumps(frameDic, ensure_ascii = False, indent = 4))
 	file.close()
 

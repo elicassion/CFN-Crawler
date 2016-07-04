@@ -1,0 +1,147 @@
+{
+    "fdInfo": {
+        "eName": "Opinion", 
+        "cName": "观点", 
+        "des": "一个认知者对某现象持有某一观点。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": null, 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认知者是提出观点的人。"
+        }, 
+        {
+            "abbrName": "opi", 
+            "eName": null, 
+            "cName": "观点", 
+            "isCore": true, 
+            "def": "认知者的想法，这种想法不一定被接受，并且它一般是基于认知者的立场提出的。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": null, 
+            "cName": "现象", 
+            "isCore": false, 
+            "def": "认知者在观点中所考虑的对象。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": null, 
+            "cName": "坚定性", 
+            "isCore": false, 
+            "def": "认知者持有某一观点的坚定程度。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": null, 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "所考虑的观点所属的范畴。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": null, 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "认知者的观点所依赖的事件或事物状态。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "描述认知者如何持有某一观点，这种描述不属于更具体一些的框架元素；是一个杂类，那些无法归入其他元素的外围成分，只要是对事件本身的描述，都属于该元素。 "
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "cName": "身份", 
+            "isCore": false, 
+            "def": "表示认知者或思考对象的身份或所属范畴。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "认知者的观点所涉及的事物，注意在这个框架中，由\"对/对于\"引导的介词短语表示的是现象，不是关涉，典型的关涉是由\"关于\"、\"就\"（如\"就这个问题\"）等引导的介词短语。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "当", 
+            "POS": "v"
+        }, 
+        {
+            "word": "道", 
+            "POS": "v"
+        }, 
+        {
+            "word": "观点", 
+            "POS": "n"
+        }, 
+        {
+            "word": "呼吁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坚持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "觉得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "看法", 
+            "POS": "n"
+        }, 
+        {
+            "word": "力持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "认为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "信念", 
+            "POS": "n"
+        }, 
+        {
+            "word": "信条", 
+            "POS": "n"
+        }, 
+        {
+            "word": "以为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "意见", 
+            "POS": "n"
+        }, 
+        {
+            "word": "执", 
+            "POS": "v"
+        }, 
+        {
+            "word": "主张", 
+            "POS": "n"
+        }, 
+        {
+            "word": "主张", 
+            "POS": "v"
+        }, 
+        {
+            "word": "作如是观", 
+            "POS": "i"
+        }
+    ], 
+    "frameId": 12
+}

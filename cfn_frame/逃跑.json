@@ -1,0 +1,336 @@
+{
+    "fdInfo": {
+        "eName": "Fleeing", 
+        "cName": "逃跑", 
+        "des": "自移体面对（真实的或想像的）危险选择离开来应对。"
+    }, 
+    "element": [
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "cName": "方向", 
+            "isCore": true, 
+            "def": "方向指的是自移体移动的方向。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "路径描述的是移动轨迹，该移动轨迹中会有一个既不是起点也不是终点的地标。“路途中” 这样的表述也属于该框架元素。"
+        }, 
+        {
+            "abbrName": "s_mov", 
+            "eName": "Self_mover", 
+            "cName": "自移体", 
+            "isCore": true, 
+            "def": "自移体是凭借自身力量移动的有生命（或者能自我导向）的实体。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "起点指的是任何隐含确切运动起点的表达。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "终点指的是自移体移动结束的最终地点。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "距离这个框架元素是对运动范围特征的描述。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "自移体移动的时间量。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "致使自移体采取特定移动方式的事态。"
+        }, 
+        {
+            "abbrName": "ex_cause", 
+            "eName": "External_cause", 
+            "cName": "外因", 
+            "isCore": false, 
+            "def": "外因就是引起自移体移动的外部环境中的某些事物。"
+        }, 
+        {
+            "abbrName": "in_cause", 
+            "eName": "Internal_cause", 
+            "cName": "内因", 
+            "isCore": false, 
+            "def": "致使自移体移动或采取特定方式移动的情感或精神状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "方式描述的是与移动轨迹或移动速度并不直接相关的移动属性，如姿态，稳定性，移动方法及其他相关属性都可以认定为方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "自移体实现移动所采取的行为。"
+        }, 
+        {
+            "abbrName": "mns_motion", 
+            "eName": "Means_of_motion", 
+            "cName": "移动工具", 
+            "isCore": false, 
+            "def": "该框架元素指的是自移体为了远离危险离开起点时所使用的实体。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所指的是特定移动所发生的空间场所。任何具体的或隐含的起点、路径或终点都应该位于处所内。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素指的是自移体移动的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "由于自移体的移动而产生的世界状态。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述动作参与者的修饰性短语。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "移动的时间。"
+        }, 
+        {
+            "abbrName": "thm_c", 
+            "eName": "Cotheme", 
+            "cName": "伴随体", 
+            "isCore": false, 
+            "def": "伴随体是一个与自移体的移动相关的实体，它可能是跟随自移体，也可能是被自移体跟随。二者在路径上是伴随关系。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "自移体在特定时间内的位置变化。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "抱头鼠窜", 
+            "POS": "i"
+        }, 
+        {
+            "word": "出逃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出亡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "窜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "窜逃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "东奔西窜", 
+            "POS": "i"
+        }, 
+        {
+            "word": "遁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遁走", 
+            "POS": "v"
+        }, 
+        {
+            "word": "虎口脱险", 
+            "POS": "i"
+        }, 
+        {
+            "word": "金蝉脱壳", 
+            "POS": "i"
+        }, 
+        {
+            "word": "卷逃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "溃散", 
+            "POS": "v"
+        }, 
+        {
+            "word": "溃逃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "临阵脱逃", 
+            "POS": "i"
+        }, 
+        {
+            "word": "溜之大吉", 
+            "POS": "i"
+        }, 
+        {
+            "word": "流窜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "落荒而逃", 
+            "POS": "i"
+        }, 
+        {
+            "word": "叛逃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "潜逃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "如鸟兽散", 
+            "POS": "i"
+        }, 
+        {
+            "word": "逃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃奔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃窜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃遁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃荒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃离", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃命", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃难", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃匿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃跑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃生", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃脱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃亡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃往", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃逸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "逃之夭夭", 
+            "POS": "i"
+        }, 
+        {
+            "word": "逃走", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兔脱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "脱逃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "外逃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "望风而逃", 
+            "POS": "i"
+        }, 
+        {
+            "word": "席卷而逃", 
+            "POS": "i"
+        }, 
+        {
+            "word": "远遁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "远走高飞", 
+            "POS": "i"
+        }, 
+        {
+            "word": "在逃", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 328
+}

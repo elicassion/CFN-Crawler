@@ -1,0 +1,114 @@
+{
+    "fdInfo": {
+        "eName": "Soaking", 
+        "cName": "浸泡", 
+        "des": "在这个框架中，施动者把转移体长时间放置在媒介中，目的是让转移体被影响或吸收一些媒介。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者是执行浸泡的人。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "媒介是浸泡转移体的物质。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体是改变位置的实体。"
+        }, 
+        {
+            "abbrName": "container", 
+            "eName": "Container", 
+            "cName": "容器", 
+            "isCore": false, 
+            "def": "这个框架元素指的是盛放被浸泡的转移体和浸泡转移体的媒介的容器。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "移体被浸泡的时间量。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "施动者浸泡转移体的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者浸泡的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "浸泡发生的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者希望通过浸泡转移体达到的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者浸泡转移体的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "浸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "浸没", 
+            "POS": "v"
+        }, 
+        {
+            "word": "浸泡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "浸染", 
+            "POS": "v"
+        }, 
+        {
+            "word": "浸透", 
+            "POS": "v"
+        }, 
+        {
+            "word": "浸种", 
+            "POS": "v"
+        }, 
+        {
+            "word": "浸渍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "腌", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 370
+}

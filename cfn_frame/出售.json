@@ -1,0 +1,437 @@
+{
+    "fdInfo": {
+        "eName": "Commerce_sell", 
+        "cName": "出售", 
+        "des": "该框架以卖方为视点描述买方和卖方的钱物交易活动，即卖方将商品给买方，并从买方处换取货币。"
+    }, 
+    "element": [
+        {
+            "abbrName": "slr", 
+            "eName": "Seller", 
+            "cName": "卖方", 
+            "isCore": true, 
+            "def": "销售商品的一方。"
+        }, 
+        {
+            "abbrName": "byr", 
+            "eName": "Buyer", 
+            "cName": "买方", 
+            "isCore": true, 
+            "def": "购买商品的一方。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "该元素表示可用钱交易的任何东西，包括劳动、时间等抽象事物。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "卖方销售商品的时间长度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "进行交易的手段。"
+        }, 
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "cName": "货币", 
+            "isCore": false, 
+            "def": "用来进行商品交易所支付的特殊商品。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "指实施销售行为的目的。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "cName": "单位价格", 
+            "isCore": false, 
+            "def": "指单位商品的价格。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "销售事件发生的原因。"
+        }, 
+        {
+            "abbrName": "relay", 
+            "eName": "Relay", 
+            "cName": "转卖", 
+            "isCore": false, 
+            "def": "该框架元素是指，销售行为中包含了一个转手行为，即当前商品的卖主从先前的商家手中购得商品，又把该商品卖给新的买主。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "销售行为发生后卖方的状态。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "销售事件发生的时间。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "该框架元素指可以用来计算商品或服务的任何单位，用“以”、“按”、“论”等介词表达。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "包销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变产", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "标卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拆卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "畅销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "斥卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出倒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出盘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出让", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出脱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "处理", 
+            "POS": "v"
+        }, 
+        {
+            "word": "代销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倒卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倒手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倒腾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "盗卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "典卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兜售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兜销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "返销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贩卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "供销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拐卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "换", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "货", 
+            "POS": "v"
+        }, 
+        {
+            "word": "货卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寄卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寄售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贱卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "叫卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "经售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "经销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "零卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "零售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "零销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "内销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拍卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "盘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "盘店", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抛", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抛售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "配售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "批发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倾销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "让", 
+            "POS": "v"
+        }, 
+        {
+            "word": "上市", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赊销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "售卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "甩卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摊售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "粜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "统销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "脱手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "外销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "惜售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "销售", 
+            "POS": "v"
+        }, 
+        {
+            "word": "销行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "行销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "义卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "鬻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "运销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "展销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "招盘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "折变", 
+            "POS": "v"
+        }, 
+        {
+            "word": "滞销", 
+            "POS": "v"
+        }, 
+        {
+            "word": "专卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转卖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转让", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 303
+}

@@ -1,0 +1,286 @@
+{
+    "fdInfo": {
+        "eName": "Traversing", 
+        "cName": "穿越", 
+        "des": "转移体改变与凸显的路径有关的位置"
+    }, 
+    "element": [
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "这是运动的物体。在许多句子中这个框架元素被认为是在自己的力量下运动的物体。然而，这个框架元素并不必须是有生命的运动者，区分于\"自主运动者\"。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "任何表示运动轨迹但又不是源点和目标的被认为是路径，包括方向的表示。"
+        }, 
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "cName": "区域", 
+            "isCore": true, 
+            "def": "这个框架元素指当运动被认为是不规则的和非直线路线进行时运动发生的区域。"
+        }, 
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "cName": "方向", 
+            "isCore": true, 
+            "def": "转移体转移的方向。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": true, 
+            "def": "任何表示运动长度特征的都归为距离。"
+        }, 
+        {
+            "abbrName": "endpnts", 
+            "eName": "End_points", 
+            "cName": "终结点", 
+            "isCore": true, 
+            "def": "单独或重复运动的源点和目标一起被看作是路径的终点。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "所有的表示转移体的运动终止的地点都被认为是目标。"
+        }, 
+        {
+            "abbrName": "p_shape", 
+            "eName": "Path_shape", 
+            "cName": "路径形状", 
+            "isCore": true, 
+            "def": "转移体的整个路径形成的形状。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "所有暗含运动起点的都被认为是源点。在介词短语中，介词的宾语表示运动的起点。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "独立于穿越事件本身和它的任何参与者的状态（在特定的时间和地点），做为一个整体仅仅与事件的外围相关。"
+        }, 
+        {
+            "abbrName": "consec", 
+            "eName": "Consecutive", 
+            "cName": "后续事件", 
+            "isCore": false, 
+            "def": "一个不可预料的并且影响转移体的事件，通常发生在穿越之后。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "背景事件", 
+            "isCore": false, 
+            "def": "一个发生的事件或穿越发生时事件保持的状态，并且穿越包含此事件。"
+        }, 
+        {
+            "abbrName": "co_even", 
+            "eName": "Coordinated_event", 
+            "cName": "并行事件", 
+            "isCore": false, 
+            "def": "协同事件被用来表示一个与穿越同时发生的事件而不是状态。协同事件是独立的，它的发生与目标事件无关，目标事件不是偶然的也不是协同事件的一部分。"
+        }, 
+        {
+            "abbrName": "thm_c", 
+            "eName": "Cotheme", 
+            "cName": "伴随体", 
+            "isCore": false, 
+            "def": "指第二个运动的物体，做直接或间接宾语。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "穿越事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "用来描述穿越行为的致动者的短语。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "转移体穿越时花费的时间"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释特殊运动或转移体运动方式的因素"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "在单位时间内穿越行为发生的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。包括表示主观认识的修饰语（大概，不可思议），表示容易程度的词语（容易、难以），等等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指转移体穿越的方式。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period_of_iterations", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "发生重复事件所在的时间段"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "转移体希望带来的事件的状态。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "转移体希望带来的事件的状态。"
+        }, 
+        {
+            "abbrName": "re_encd", 
+            "eName": "Re_encoding", 
+            "cName": "重编码词", 
+            "isCore": false, 
+            "def": "一个更大的概念包括做为一个整体的穿越。目标词表示的穿越符合这个大概念下的一个行为。"
+        }, 
+        {
+            "abbrName": "recip", 
+            "eName": "Reciprocation", 
+            "cName": "回应事件", 
+            "isCore": false, 
+            "def": "与运动成对的事件，解释了为什么运动被期待。特别的是，一个往复指出的行为被运动奖励或惩罚，这个与运动成对的行为是协定的另一方面。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "事件结束的转移体的状态。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "速度就是转移体运动的速率"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "运动发生的时间"
+        }, 
+        {
+            "abbrName": "veh", 
+            "eName": "Vehicle", 
+            "cName": "交通工具", 
+            "isCore": false, 
+            "def": "被转移体用来运动的设备或身体部位"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "穿过", 
+            "POS": "v"
+        }, 
+        {
+            "word": "穿越", 
+            "POS": "v"
+        }, 
+        {
+            "word": "横穿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "横过", 
+            "POS": "v"
+        }, 
+        {
+            "word": "环绕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交叉往来", 
+            "POS": "v"
+        }, 
+        {
+            "word": "经过", 
+            "POS": "v"
+        }, 
+        {
+            "word": "爬", 
+            "POS": "v"
+        }, 
+        {
+            "word": "攀登", 
+            "POS": "v"
+        }, 
+        {
+            "word": "上升", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跳", 
+            "POS": "v"
+        }, 
+        {
+            "word": "通过", 
+            "POS": "v"
+        }, 
+        {
+            "word": "通过", 
+            "POS": "p"
+        }, 
+        {
+            "word": "往来", 
+            "POS": "v"
+        }, 
+        {
+            "word": "围绕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "下降", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 38
+}

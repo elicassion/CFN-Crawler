@@ -1,0 +1,60 @@
+{
+    "fdInfo": {
+        "eName": "Entering_of_plea", 
+        "cName": "辩护", 
+        "des": "被告人或其辩护人对指控罪行所进行的反驳和辩解。被告人（包括其辩护人）所做的辩护通常是无罪或罪轻。"
+    }, 
+    "element": [
+        {
+            "abbrName": "acc", 
+            "eName": "Accused", 
+            "cName": "被告", 
+            "isCore": true, 
+            "def": "被指控有罪，进行抗辩的人。（通常被告聘有律师为其辩护）"
+        }, 
+        {
+            "abbrName": "chrgs", 
+            "eName": "Charges", 
+            "cName": "指控", 
+            "isCore": true, 
+            "def": "对被告人进行的有罪控诉。"
+        }, 
+        {
+            "abbrName": "court", 
+            "eName": "Court", 
+            "cName": "法院", 
+            "isCore": true, 
+            "def": "被告进行辩护的地方，通常是法庭。"
+        }, 
+        {
+            "abbrName": "judge", 
+            "eName": "Judge", 
+            "cName": "判断者", 
+            "isCore": true, 
+            "def": "在法庭听取被告辩护的法官。"
+        }, 
+        {
+            "abbrName": "plea", 
+            "eName": "Plea", 
+            "cName": "辩护", 
+            "isCore": true, 
+            "def": "被告或其辩护人做的罪轻或无罪的辩护。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "辩护地点。通常在法院。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "辩护时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 228
+}

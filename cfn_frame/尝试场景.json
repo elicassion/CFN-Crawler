@@ -1,0 +1,74 @@
+{
+    "fdInfo": {
+        "eName": "Attempting_scenario", 
+        "cName": "尝试场景", 
+        "des": "施动者内心有特定目标，并采用其认为可以实现目标的方法。方法行为是否能实现目标将导致施动者的成功或失败。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者是为实现目标而做出努力的人。"
+        }, 
+        {
+            "abbrName": "gl", 
+            "eName": "Goal", 
+            "cName": "目标", 
+            "isCore": true, 
+            "def": "目标是施动者试图实现的事情或事态。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "尝试发生的时间段。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "施动者试图实现目标的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素指施动者为实现目标想要采取的方法行为。"
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "实现目标的努力的结果是成功还是失败。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "做出尝试的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者试图达成目标的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指做出尝试的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 404
+}

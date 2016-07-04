@@ -1,0 +1,114 @@
+{
+    "fdInfo": {
+        "eName": "Robbery", 
+        "cName": "抢劫", 
+        "des": "以非法占有为目的，以暴力、胁迫或者其他方法，强行劫取公私财物的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "使用暴力、胁迫或其他方法劫取他人财物的人。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "遭到抢劫的人"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "抢劫事件发生的次数"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": false, 
+            "def": "受害者所有，被抢劫分子劫取的财物。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对抢劫事件进行的形容和描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "抢劫者实施抢劫行为所使用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "抢劫事件发生的地点"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "抢劫者实施抢劫的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "促使抢劫者实施抢劫的内心动因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "抢劫事件发生的时间 。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "持枪抢劫", 
+            "POS": "n"
+        }, 
+        {
+            "word": "劫匪", 
+            "POS": "n"
+        }, 
+        {
+            "word": "强盗", 
+            "POS": "n"
+        }, 
+        {
+            "word": "抢夺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抢劫", 
+            "POS": "n"
+        }, 
+        {
+            "word": "抢劫", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抢掠", 
+            "POS": "n"
+        }, 
+        {
+            "word": "缺乏判断力", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 282
+}

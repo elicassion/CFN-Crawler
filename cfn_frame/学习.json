@@ -1,0 +1,159 @@
+{
+    "fdInfo": {
+        "eName": "Studying", 
+        "cName": "学习", 
+        "des": "学生注册并留在一个机构中以受到某个科目的教育。他们可能会受到机构中某一特定教师的指导。学习的处所、时间和时量也可能是明确的。"
+    }, 
+    "element": [
+        {
+            "abbrName": "Institu", 
+            "eName": "Institution", 
+            "cName": "机构", 
+            "isCore": true, 
+            "def": "指教育机构，如学校或大学。"
+        }, 
+        {
+            "abbrName": "studnt", 
+            "eName": "Student", 
+            "cName": "学生", 
+            "isCore": true, 
+            "def": "受某教师或者某机构指导的人。"
+        }, 
+        {
+            "abbrName": "teacher", 
+            "eName": "Teacher", 
+            "cName": "教师", 
+            "isCore": true, 
+            "def": "教授学生在某领域知识或者技能的人。"
+        }, 
+        {
+            "abbrName": "subject", 
+            "eName": "Subject", 
+            "cName": "科目", 
+            "isCore": true, 
+            "def": "教授给学生的知识或者技能领域。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述学生在学习过程中的状态。"
+        }, 
+        {
+            "abbrName": "dur", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "学习过程持续的时间长度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "学生学习科目的原因。"
+        }, 
+        {
+            "abbrName": "iac", 
+            "eName": "Intended_academic_credit", 
+            "cName": "学业追求", 
+            "isCore": false, 
+            "def": "学生学习的动机。"
+        }, 
+        {
+            "abbrName": "lvl", 
+            "eName": "Level", 
+            "cName": "层次", 
+            "isCore": false, 
+            "def": "该框架元素表示学生受教育的层次。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "学生学习的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所是学习发生的空间场所。注意：需要考虑表示处所的短语的确是指培训的地点，还是只是对机构的部分描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "学生学习的时间。"
+        }, 
+        {
+            "abbrName": "co_part", 
+            "eName": "Co_participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "伴随者是以协同方式参与学习事件的实体。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "读", 
+            "POS": "v"
+        }, 
+        {
+            "word": "读书", 
+            "POS": "v"
+        }, 
+        {
+            "word": "攻读", 
+            "POS": "v"
+        }, 
+        {
+            "word": "就读", 
+            "POS": "v"
+        }, 
+        {
+            "word": "就学", 
+            "POS": "v"
+        }, 
+        {
+            "word": "念", 
+            "POS": "v"
+        }, 
+        {
+            "word": "念书", 
+            "POS": "v"
+        }, 
+        {
+            "word": "求教", 
+            "POS": "v"
+        }, 
+        {
+            "word": "求学", 
+            "POS": "v"
+        }, 
+        {
+            "word": "深造", 
+            "POS": "v"
+        }, 
+        {
+            "word": "修业", 
+            "POS": "v"
+        }, 
+        {
+            "word": "学", 
+            "POS": "v"
+        }, 
+        {
+            "word": "学习", 
+            "POS": "v"
+        }, 
+        {
+            "word": "专攻", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 355
+}

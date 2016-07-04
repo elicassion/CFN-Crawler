@@ -1,0 +1,60 @@
+{
+    "fdInfo": {
+        "eName": "Attempt_obtain_mineral_scenario", 
+        "cName": "尝试获取矿物场景", 
+        "des": "施动者试图获得某种非再生资源，通常是固体的矿物或金属，但也可能是石油、水和其他的宝贵物质。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者努力去获取矿物。"
+        }, 
+        {
+            "abbrName": "min", 
+            "eName": "Mineral", 
+            "cName": "矿物", 
+            "isCore": true, 
+            "def": "施动者试图去获得的宝贵资源。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "做出尝试持续的时间。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素指施动者为获得矿物想要使用的方法。"
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "成败指的是尝试的结果，即目标实现的成败"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "做出尝试的空间场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指做出尝试的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 405
+}

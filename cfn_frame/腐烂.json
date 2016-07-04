@@ -1,0 +1,47 @@
+{
+    "fdInfo": {
+        "eName": "Being_rotted", 
+        "cName": "腐烂", 
+        "des": "某种有机物，即受事，经历了腐烂和腐朽的自然过程，并可能表达出腐烂发生的程度。"
+    }, 
+    "element": [
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "腐烂发生的程度。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "臭烘烘", 
+            "POS": "a"
+        }, 
+        {
+            "word": "臭乎乎", 
+            "POS": "a"
+        }, 
+        {
+            "word": "腐败", 
+            "POS": "v"
+        }, 
+        {
+            "word": "腐化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "腐烂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坏", 
+            "POS": "a"
+        }, 
+        {
+            "word": "烂", 
+            "POS": "a"
+        }
+    ], 
+    "frameId": 473
+}

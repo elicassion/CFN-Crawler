@@ -1,0 +1,67 @@
+{
+    "fdInfo": {
+        "eName": "Cognition", 
+        "cName": "认知", 
+        "des": "认知（cognition）指人们获得知识或应用知识的过程或信息加工（informationprocessing）的过程，这是人的最基本的心理过程。它包括感觉、知觉、记忆、想像和思维等。人脑接受外界输入的信息，经过头脑的加工处理，转换成内在的心理活动，进而支配人的行为，这个过程就是信息加工的过程，也就是认知过程。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "表示在记忆、思维等需要大脑进行复杂加工的活动中，对事物进行认知的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "是认知活动的对象，其属性作用于人的感官，产生对事物的认识。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "印象", 
+            "isCore": true, 
+            "def": "是感知觉所针对的现象在人脑中的表征。从人的认知过程来说，现象是感知的对象，它存在于外部世界，而印象是现象在人的大脑中的表征，存在于人的意识中。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "是认知者大脑中获得的信息。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "背景", 
+            "isCore": true, 
+            "def": "背景是认知对象所处的认知背景。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "感受", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "看到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "听到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "注意", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 77
+}

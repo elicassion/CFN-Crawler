@@ -1,0 +1,85 @@
+{
+    "fdInfo": {
+        "eName": "Agreeing", 
+        "cName": "同意", 
+        "des": "认为某人的某观点正确或错误。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "对事物进行认知的人。"
+        }, 
+        {
+            "abbrName": "opi", 
+            "eName": "Opinion", 
+            "cName": "观点", 
+            "isCore": true, 
+            "def": "被认知者接受，也可能不被接受。"
+        }, 
+        {
+            "abbrName": "holder", 
+            "eName": "Holder", 
+            "cName": "观点持有者", 
+            "isCore": true, 
+            "def": "观点的所有者，认知者接受或不接受他的观点。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "帮腔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "不敢苟同", 
+            "POS": "i"
+        }, 
+        {
+            "word": "不以为然", 
+            "POS": "i"
+        }, 
+        {
+            "word": "持有异议", 
+            "POS": "i"
+        }, 
+        {
+            "word": "反对", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倾向", 
+            "POS": "v"
+        }, 
+        {
+            "word": "认可", 
+            "POS": "v"
+        }, 
+        {
+            "word": "首肯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "同意", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拥护", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赞成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赞同", 
+            "POS": "v"
+        }, 
+        {
+            "word": "支持", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 92
+}

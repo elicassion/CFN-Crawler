@@ -1,0 +1,116 @@
+{
+    "fdInfo": {
+        "eName": "Visit_host_departure", 
+        "cName": "拜访_东道主_离开", 
+        "des": "访客在拜访完主人之后离开。"
+    }, 
+    "element": [
+        {
+            "abbrName": "hos_loc", 
+            "eName": "Host_location", 
+            "cName": "待客场所", 
+            "isCore": true, 
+            "def": "访客离开与东道主密切相关的待客场所"
+        }, 
+        {
+            "abbrName": "hos_loc", 
+            "eName": "Host_location", 
+            "cName": "待客场所", 
+            "isCore": true, 
+            "def": "访客离开与东道主密切相关的待客场所。"
+        }, 
+        {
+            "abbrName": "host", 
+            "eName": "Host", 
+            "cName": "东道主", 
+            "isCore": true, 
+            "def": "东道主允许访客使用其资源，并且允许访客临时停留在待客场所。"
+        }, 
+        {
+            "abbrName": "host", 
+            "eName": "Host", 
+            "cName": "东道主", 
+            "isCore": true, 
+            "def": "东道主允许访客使用其资源，并且允许访客临时停留在待客场所。"
+        }, 
+        {
+            "abbrName": "vis", 
+            "eName": "Visitor", 
+            "cName": "访客", 
+            "isCore": true, 
+            "def": "访客离开接待场所。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "访客拜访时途经的距离。\n"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": false, 
+            "def": "该框架元素所表达的信息是访客离开拜访地，最终到达或要到达的地方。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "方式描述的是与运动轨迹并不直接相关的运动属性。虽然在本框架中速度和方法是作为一个具体的框架元素来对待，但是对姿态，稳定性等其它相关运动属性所进行的描述都被认为是方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "访客为了离开所采取的行动。"
+        }, 
+        {
+            "abbrName": "mot", 
+            "eName": "Mode_of_transportation", 
+            "cName": "移动模式", 
+            "isCore": false, 
+            "def": "出行方式这个框架元素能表达出作用于施动者的运动模式，即通过施动者的身体或所乘坐的交通工具来实现传送。交通工具可以以任何方式在任何介质中运动。这个框架元素往往会出现在“乘”或“坐”等动词所构成的连谓结构里。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "这个框架元素描述的既不是拜访地也不是目的地而是运动轨迹。在本框架中，路径这个框架元素几乎总是在表达一种“途经”的意思。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所在这里指的是离开这个行为发生的地点。\n"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表达的是访客离开拜访地的目的。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "该框架元素用语描述的是访客的行动速度。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "离开这个行为发生的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 314
+}

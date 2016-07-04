@@ -1,0 +1,155 @@
+{
+    "fdInfo": {
+        "eName": "Expansion", 
+        "cName": "扩展", 
+        "des": "抽象或具体的物体在尺寸上发生了变化。物体的尺寸变化可能会清晰的指明，也可能根据最初尺寸和最终尺寸来辨别。在已有例子中，扩展可以涉及所有维度。但是有时扩展的维度是被合并的或被明确说明。"
+    }, 
+    "element": [
+        {
+            "abbrName": "item", 
+            "eName": "Item", 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "尺寸发生变化的抽象或具体的物体。"
+        }, 
+        {
+            "abbrName": "co_v", 
+            "eName": "Co_variable", 
+            "cName": "同现变量", 
+            "isCore": false, 
+            "def": "同现变量是指随着物体尺寸变化而变化的数量，通常被解释为和尺寸有因果上的联系。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "这一框架元素指扩展的程度。"
+        }, 
+        {
+            "abbrName": "dimen", 
+            "eName": "Dimension", 
+            "cName": "维度", 
+            "isCore": false, 
+            "def": "尺寸的变化可根据某一维度来限定或描述。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "这一框架元素指扩展所持续的时间。"
+        }, 
+        {
+            "abbrName": "group", 
+            "eName": "Group", 
+            "cName": "群体", 
+            "isCore": false, 
+            "def": "这一框架指尺寸变化的个体所属的群体。"
+        }, 
+        {
+            "abbrName": "ini_size", 
+            "eName": "Initial_size", 
+            "cName": "初始尺寸", 
+            "isCore": false, 
+            "def": "最初尺寸是指物体在发生变化前的尺寸。它总是和最终尺寸同时出现。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "这一框架元素用于对扩张修饰的描述，包括外力(坚硬地，柔软地)，次影响（安静地，大声地），以及事件比较时的大体描述（同样地）。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "路径用于表示尺寸的数值范围的信息，表示物体尺寸在最初尺寸与最终尺寸间的穿程。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "cName": "比率", 
+            "isCore": false, 
+            "def": "这一框架元素指值变化的比率。"
+        }, 
+        {
+            "abbrName": "resut_size", 
+            "eName": "Result_size", 
+            "cName": "变化后尺寸", 
+            "isCore": false, 
+            "def": "最终尺寸指物体经历变化后的尺寸。"
+        }, 
+        {
+            "abbrName": "size_c", 
+            "eName": "Size_change", 
+            "cName": "尺寸变化", 
+            "isCore": false, 
+            "def": "这一框架元素指的是物体的尺寸变化。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这一框架元素指扩展的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "变大", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放大", 
+            "POS": "v"
+        }, 
+        {
+            "word": "加宽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扩大", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扩张", 
+            "POS": "v"
+        }, 
+        {
+            "word": "伸展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收缩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缩水", 
+            "POS": "v"
+        }, 
+        {
+            "word": "缩小", 
+            "POS": "v"
+        }, 
+        {
+            "word": "延长", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增长", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增高", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 66
+}

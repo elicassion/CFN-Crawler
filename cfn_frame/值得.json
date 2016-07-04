@@ -1,0 +1,61 @@
+{
+    "fdInfo": {
+        "eName": "Deserving", 
+        "cName": "值得", 
+        "des": "某种事态的存在值得致动者采取某种行动。"
+    }, 
+    "element": [
+        {
+            "abbrName": "soa", 
+            "eName": "State_of_affairs", 
+            "cName": "事态", 
+            "isCore": true, 
+            "def": "值得采取另一行动的事件或实体。"
+        }, 
+        {
+            "abbrName": "action", 
+            "eName": "Action", 
+            "cName": "行动", 
+            "isCore": true, 
+            "def": "根据事态所应采取的行动。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "通过分析事态来采取行动的人。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "不值", 
+            "POS": "v"
+        }, 
+        {
+            "word": "犯不上", 
+            "POS": "v"
+        }, 
+        {
+            "word": "犯不着", 
+            "POS": "v"
+        }, 
+        {
+            "word": "犯得上", 
+            "POS": "v"
+        }, 
+        {
+            "word": "犯得着", 
+            "POS": "v"
+        }, 
+        {
+            "word": "值当", 
+            "POS": "a"
+        }, 
+        {
+            "word": "值得", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 218
+}

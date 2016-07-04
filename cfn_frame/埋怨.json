@@ -1,0 +1,259 @@
+{
+    "fdInfo": {
+        "eName": "Complaining", 
+        "cName": "埋怨", 
+        "des": "埋怨者传递他们在怨言中所提到的某事态的消极情感反应。作为具体怨言的一种替代，说话者的怨言主题可能会被提及到。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cmplnr", 
+            "eName": "Complainer", 
+            "cName": "埋怨者", 
+            "isCore": true, 
+            "def": "埋怨者是进行怨言（以口头或书面形式）的有感知力的实体。"
+        }, 
+        {
+            "abbrName": "complai", 
+            "eName": "Complaint", 
+            "cName": "怨言", 
+            "isCore": true, 
+            "def": "埋怨者向信息接收者所所诉说的令人惋惜的局面。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "媒介是埋怨者传达怨言的物质实体或渠道。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "主题是与怨言相关的话题。"
+        }, 
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": false, 
+            "def": "信息接收者是怨言的倾听者。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述进行怨言的埋怨者的状态。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指的是一个命题，从逻辑上可以由该命题可推断出（包含目标词）的主句。这通常意味着解释这个命题导致了埋怨这个命题的出现，但情况并非全都如此。尤其是在，因果联系较弱的情况下。在这些情况下，原因由行为发出者以复杂的形式进行调整。这些情况用表达直接因果的语言是无法做出解释的。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "事件在单位时间内发生的次数。"
+        }, 
+        {
+            "abbrName": "in_cause", 
+            "eName": "Internal_cause", 
+            "cName": "内因", 
+            "isCore": false, 
+            "def": "导致埋怨者埋怨的情感状态或身体状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何不被具体框架元素包含的怨言的描述，包括二次效应（安静地，大声地），及一般性对比事件描述（以同种方式）。也会指出埋怨者影响行为的的显著特点（专横地，痛苦地，吵闹地）。无法归类为其他框架元素的有关埋怨事件（或状态）的描述，包括次生效应(如“安静地”，“大声地”)，以及对不同事件进行比较的概括性描述(如“同样”)。它可以指某个影响埋怨者行为的显著特征(如“专横”、“刻薄”、“吵闹”)。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "埋怨者做出怨言的行为。"
+        }, 
+        {
+            "abbrName": "occ", 
+            "eName": "Occasion", 
+            "cName": "理由", 
+            "isCore": false, 
+            "def": "理由指公开声明的原因。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素指的并不是目标词在所在句子内的重复，而是对目标词在所在句子内的非重复性进行限定，并表明目标词是一系列类似事件或状态中的某一次。此外，在大多数情况下，特定次数这个框架元素的语言表述可以表明目标词所指的具体是该系列事件或状态中的哪一次。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "埋怨发生的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "埋怨所导致的事件或状态。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "埋怨发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "哀叹", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抱不平", 
+            "POS": "i"
+        }, 
+        {
+            "word": "抱怨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "不满", 
+            "POS": "a"
+        }, 
+        {
+            "word": "僝僽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "嗔怪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "嗔着", 
+            "POS": "v"
+        }, 
+        {
+            "word": "告状", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怪怨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怪罪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "见怪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "见罪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "控诉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "牢骚", 
+            "POS": "n"
+        }, 
+        {
+            "word": "牢骚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "埋怨", 
+            "POS": "n"
+        }, 
+        {
+            "word": "埋怨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "鸣冤", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投诉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怨艾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怨怼", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怨愤", 
+            "POS": "n"
+        }, 
+        {
+            "word": "怨愤", 
+            "POS": "a"
+        }, 
+        {
+            "word": "怨恨", 
+            "POS": "n"
+        }, 
+        {
+            "word": "怨恨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怨气", 
+            "POS": "n"
+        }, 
+        {
+            "word": "怨声载道", 
+            "POS": "i"
+        }, 
+        {
+            "word": "怨天尤人", 
+            "POS": "i"
+        }, 
+        {
+            "word": "怨望", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怨言", 
+            "POS": "n"
+        }, 
+        {
+            "word": "责怪", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 427
+}

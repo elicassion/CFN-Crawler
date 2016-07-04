@@ -1,0 +1,60 @@
+{
+    "fdInfo": {
+        "eName": "Arraignment", 
+        "cName": "传讯", 
+        "des": "指被告人或犯罪嫌疑人被传唤到指定地点接受讯问。"
+    }, 
+    "element": [
+        {
+            "abbrName": "chrgs", 
+            "eName": "Charges", 
+            "cName": "指控", 
+            "isCore": true, 
+            "def": "是指被告人或犯罪嫌疑人涉嫌的罪名。"
+        }, 
+        {
+            "abbrName": "def", 
+            "eName": "Defendant", 
+            "cName": "被告人", 
+            "isCore": true, 
+            "def": "被告人（包括犯罪嫌疑人）是指被指控犯罪而被传讯的人。"
+        }, 
+        {
+            "abbrName": "judge", 
+            "eName": "Judge", 
+            "cName": "判断者", 
+            "isCore": true, 
+            "def": "法官（包括检察官、警官）是指对被告人进行传讯的人。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "传讯持续的时间。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对于传讯活动所做的描述。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "传讯发生的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "传讯发生的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 183
+}

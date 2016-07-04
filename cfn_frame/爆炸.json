@@ -1,0 +1,95 @@
+{
+    "fdInfo": {
+        "eName": "Explosion", 
+        "cName": "爆炸", 
+        "des": "化学、核或其它方面的反应使爆炸物发生爆炸，并可能对周边区域造成破坏。爆炸物通常是武器，但不一定总是武器。"
+    }, 
+    "element": [
+        {
+            "abbrName": "explo", 
+            "eName": "Explosive", 
+            "cName": "爆炸物", 
+            "isCore": true, 
+            "def": "爆炸物释放出巨大能量,摧毁自身并对周边区域造成损害。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "上位事件", 
+            "isCore": false, 
+            "def": "比爆炸事件发生的时间范围更广的事件或状态，或者说爆炸事件只是其中的一部分。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "爆破力度，或所损坏区域或物体的损坏程度。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "爆炸发生的频率。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "不包括在其它更具体的框架元素所涵盖的对爆炸事件的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "爆炸物爆炸的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "爆炸物发生爆炸的空间场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "爆炸物发生爆炸的时间。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": false, 
+            "def": "受害者指的是爆炸所针对的目标人（群）或无辜的受害人。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "爆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "爆破", 
+            "POS": "v"
+        }, 
+        {
+            "word": "爆炸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起爆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引爆", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 368
+}

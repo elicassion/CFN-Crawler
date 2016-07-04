@@ -1,0 +1,153 @@
+{
+    "fdInfo": {
+        "eName": "Estimating", 
+        "cName": "估算", 
+        "des": "认知者进行概略估算,或依据某种根据就某个物件的某些特征项得出近似值。有两种可供选择的解释：一种是特征项以关于这个物件的问题的形式表述出来,而得出的近似值被认为是这个问题的答案；第二种由认知者所进行的完全是命题式估计，该估计表达出了认知者概略估算结果。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "依据某种根据或进行计算得出概略估算值的个体。"
+        }, 
+        {
+            "abbrName": "estim", 
+            "eName": "Estimation", 
+            "cName": "估计", 
+            "isCore": true, 
+            "def": "表达认知者对特征项值估算的命题。"
+        }, 
+        {
+            "abbrName": "feat", 
+            "eName": "Feature", 
+            "cName": "特征项", 
+            "isCore": true, 
+            "def": "特征项指物件的标量属性。"
+        }, 
+        {
+            "abbrName": "item", 
+            "eName": "Item", 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "拥有认知者想估算其特征项值的实体。"
+        }, 
+        {
+            "abbrName": "que", 
+            "eName": "Question", 
+            "cName": "问题", 
+            "isCore": true, 
+            "def": "认知者想估算的变量值的开放命题。"
+        }, 
+        {
+            "abbrName": "value", 
+            "eName": "Value", 
+            "cName": "值", 
+            "isCore": true, 
+            "def": "认知者估算出的物件在特征项等级体系中所处的位置或区域。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": true, 
+            "def": "该框架元素指单位时间内事件发生的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何对估算活动特征的描述都是方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "认知者为了估算所采取的有意行为。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "能使估算发生的事态。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "认知者进行估算时所处的位置。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "认知者对特征项值进行估算的时间。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "该框架元素描述了认知者所进行的估算与现实比照后的情况。表达该框架元素的用语往往是“正确”或“错误”。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "认知者估算时所处的具体环境条件。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": "Evidence", 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "认知者所观察到的一些有助于评估算特征项值的事实。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "估堆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估价", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估价为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估量", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估摸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估算", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估算出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "意料", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 349
+}

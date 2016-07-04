@@ -1,0 +1,49 @@
+{
+    "fdInfo": {
+        "eName": "Attributes", 
+        "cName": "属性", 
+        "des": "指实体具有一些特定的带有一定值的属性。该框架是抽象的上位框架，主要用于建立相关的继承关系。"
+    }, 
+    "element": [
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "cName": "属性", 
+            "isCore": true, 
+            "def": "指用于分析的实体特征。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "指特定属性附属的对象。"
+        }, 
+        {
+            "abbrName": "value", 
+            "eName": "Value", 
+            "cName": "值", 
+            "isCore": true, 
+            "def": "指实体属性的值。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "特点", 
+            "POS": "n"
+        }, 
+        {
+            "word": "特色", 
+            "POS": "n"
+        }, 
+        {
+            "word": "特征", 
+            "POS": "n"
+        }, 
+        {
+            "word": "属性", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 186
+}

@@ -1,0 +1,143 @@
+{
+    "fdInfo": {
+        "eName": "Respond_to_proposal", 
+        "cName": "回应提议", 
+        "des": "说话人回应对话者提出的建议，或者同意或者反对。"
+    }, 
+    "element": [
+        {
+            "abbrName": "interloc", 
+            "eName": "Interlocutor", 
+            "cName": "交谈者", 
+            "isCore": true, 
+            "def": "向说话人提出建议并得到说话人的回应的人。当建议的内容可以通过上下文理解时，句子中可以不出现建议，而用对话者代替。"
+        }, 
+        {
+            "abbrName": "propos", 
+            "eName": "Proposal", 
+            "cName": "建议", 
+            "isCore": true, 
+            "def": "得到回应的信息或行为。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "传达回复或回应的人。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述说话人的描写性短语。"
+        }, 
+        {
+            "abbrName": "group", 
+            "eName": "Group", 
+            "cName": "群体", 
+            "isCore": false, 
+            "def": "团体是回应建议发生时的集体。"
+        }, 
+        {
+            "abbrName": "in_cause", 
+            "eName": "Internal_cause", 
+            "cName": "内因", 
+            "isCore": false, 
+            "def": "回应或是由外部的现象或是由发生促进的，内因是说话人做出行为时的心理或情感的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述发现活动的特征或所处状态的成分，都归入该元素，如“容易、轻易”等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "说话人回应建议的方法。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "在其他的关于信息交流的框架中，媒介表示为用来交流的物质实体或渠道。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "这一元素表示了对目标词非反复性使用，表明它是作为一系列回应事件内含来构思的。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "说话人做出口头回应的地点。 "
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "说话人通过口头回应意图完成的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "说话人做出口头回应的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "驳回", 
+            "POS": "v"
+        }, 
+        {
+            "word": "否定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "否决", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回绝", 
+            "POS": "n"
+        }, 
+        {
+            "word": "回绝", 
+            "POS": "v"
+        }, 
+        {
+            "word": "接受", 
+            "POS": "v"
+        }, 
+        {
+            "word": "警告", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拒绝", 
+            "POS": "v"
+        }, 
+        {
+            "word": "认可", 
+            "POS": "v"
+        }, 
+        {
+            "word": "同意", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 279
+}

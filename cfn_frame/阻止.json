@@ -1,0 +1,86 @@
+{
+    "fdInfo": {
+        "eName": "Preventing", 
+        "cName": "阻止", 
+        "des": "阻力或者施动者（通过其行动）防止事件发生，与“阻挠”框架不同，阻力不直接阻止个人的行动，而是影响环境以使事件不会发生。有些词元如“避免”和“防止”表明若事件发生，则会影响到阻力。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者指的是阻止事件发生的生物体。"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "事件因阻力而没有发生"
+        }, 
+        {
+            "abbrName": "prevnt_cause", 
+            "eName": "Preventing_cause", 
+            "cName": "阻力", 
+            "isCore": true, 
+            "def": "阻力指阻止事件发生的外力因素"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素一般选择使用表达层级属性的用语来调整预期值。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所指阻力阻止事件发生的空间场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "阻力防止事件发生的时间"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "避免", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遏止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "遏阻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "防患未然", 
+            "POS": "i"
+        }, 
+        {
+            "word": "防止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "先发制人", 
+            "POS": "i"
+        }, 
+        {
+            "word": "阻止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阻止住", 
+            "POS": "nz"
+        }
+    ], 
+    "frameId": 408
+}

@@ -1,0 +1,236 @@
+{
+    "fdInfo": {
+        "eName": "Feigning", 
+        "cName": "作假", 
+        "des": "施动者通过这样一种行为方式使目击者对某种事态产生错误的印象。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者指的是通过误导的方式使人们对某种事态产生错误印象的人。"
+        }, 
+        {
+            "abbrName": "copy", 
+            "eName": "Copy", 
+            "cName": "复制品", 
+            "isCore": true, 
+            "def": "在作形容词性目标词或名词性目标词作表语句子中，由创造者所创造的复制品通常是外部论元，如：那幅画是赝品。"
+        }, 
+        {
+            "abbrName": "orig", 
+            "eName": "Original", 
+            "cName": "原件", 
+            "isCore": true, 
+            "def": "被复制的实体，通常是动词之后的名词短语。"
+        }, 
+        {
+            "abbrName": "soa", 
+            "eName": "State_of_affairs", 
+            "cName": "事态", 
+            "isCore": true, 
+            "def": "是指施动者为了让别人相信曾经发生过或正在持续的某个事件、状态或属性。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件描述的是独立于事件本身及其参与者的特定(即在特定时间和地点)世界状态。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述参与者在造假行为中的状态。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "施动者的作假行为所持续的时间长度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指的是一个命题，从逻辑上可以由该命题可推断出作假事件。这"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "施动者从事造假事件的频率。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述蓄意活动的成分，都归入该元素。包括一些修饰语（安静地，大声地），以及对比较事件的一般性描述（以相同的方式）。另外，它可能会描述造假者的显著特征（冒失地，冷淡地，故意地，急切地，仔细地），这些特征也会影响到造假活动。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者完成模仿行为所采取的方法。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period_of_iterations", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "事件从重复发生的开始到结束的时间长度。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "施动者作假的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者想要通过制造一个假的事态来达到的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者作假的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "仿造", 
+            "POS": "v"
+        }, 
+        {
+            "word": "仿制", 
+            "POS": "v"
+        }, 
+        {
+            "word": "复制品", 
+            "POS": "n"
+        }, 
+        {
+            "word": "假案", 
+            "POS": "n"
+        }, 
+        {
+            "word": "假扮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "假币", 
+            "POS": "n"
+        }, 
+        {
+            "word": "假唱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "假钞", 
+            "POS": "n"
+        }, 
+        {
+            "word": "假充", 
+            "POS": "v"
+        }, 
+        {
+            "word": "假发", 
+            "POS": "n"
+        }, 
+        {
+            "word": "假货", 
+            "POS": "n"
+        }, 
+        {
+            "word": "假冒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "假造", 
+            "POS": "v"
+        }, 
+        {
+            "word": "假账", 
+            "POS": "n"
+        }, 
+        {
+            "word": "假装", 
+            "POS": "v"
+        }, 
+        {
+            "word": "冒牌货", 
+            "POS": "n"
+        }, 
+        {
+            "word": "弄虚作假", 
+            "POS": "i"
+        }, 
+        {
+            "word": "伪装", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赝品", 
+            "POS": "n"
+        }, 
+        {
+            "word": "佯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "佯装", 
+            "POS": "v"
+        }, 
+        {
+            "word": "诈", 
+            "POS": "v"
+        }, 
+        {
+            "word": "装", 
+            "POS": "v"
+        }, 
+        {
+            "word": "装假", 
+            "POS": "v"
+        }, 
+        {
+            "word": "装作", 
+            "POS": "f"
+        }, 
+        {
+            "word": "装做", 
+            "POS": "f"
+        }, 
+        {
+            "word": "作假", 
+            "POS": "v"
+        }, 
+        {
+            "word": "作伪", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 432
+}

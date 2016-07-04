@@ -1,0 +1,136 @@
+{
+    "fdInfo": {
+        "eName": "Standing_by", 
+        "cName": "待命", 
+        "des": "主体等待某个预期请求，并准备通过参与某项活动来对该请求作出回应。或者说，该主体等待该请求中涉及到的凸显实体，多数情况下，该凸显实体被认为是作出请求的人。"
+    }, 
+    "element": [
+        {
+            "abbrName": "activiy", 
+            "eName": "Activity", 
+            "cName": "活动", 
+            "isCore": true, 
+            "def": "主体准备进行一项活动，以对预期请求作出回应。"
+        }, 
+        {
+            "abbrName": "exp_request", 
+            "eName": "Expected_request", 
+            "cName": "预期请求", 
+            "isCore": true, 
+            "def": "预期请求是促使主体进行某项适当行为的事。"
+        }, 
+        {
+            "abbrName": "prot", 
+            "eName": "Protagonist", 
+            "cName": "主体", 
+            "isCore": true, 
+            "def": "主体指的是一个延迟某项行为，直到收到预期请求后才开始实施有意识的主体。"
+        }, 
+        {
+            "abbrName": "sal", 
+            "eName": "Salient_entity", 
+            "cName": "凸显实体", 
+            "isCore": true, 
+            "def": "凸显实体是指一个具体或抽象的实体，主体希望其参与到某个预期请求中，通常是对主体提出请求的那一方。"
+        }, 
+        {
+            "abbrName": "co_part", 
+            "eName": "Co_participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "伴随者是指某个以协作的方式与主体共同参与到等待事件的实体。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "这个框架元素描述的是主体在等待中所处的某种状态。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "时量表示的是从等待开始到等待结束的时间长度。"
+        }, 
+        {
+            "abbrName": "endpnt", 
+            "eName": "End_point", 
+            "cName": "终结点", 
+            "isCore": false, 
+            "def": "终结点被定义为要么是某个钟点时间要么是某一事件发生的时间，在此时间点主体结束了等待这一行为。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指的是一个命题，由该命题可推断出等待事件。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指任何没有被包含在更具体的框架元素中的对等待事件进行的描述，包括对同类事件进行比较的概述和对行为有同样影响力的主体的显性特征的概述（如耐心地、焦虑地）。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "主体打算通过等待完成的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "主体等待请求的某个时间段。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "待命", 
+            "POS": "v"
+        }, 
+        {
+            "word": "等", 
+            "POS": "v"
+        }, 
+        {
+            "word": "等待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "等候", 
+            "POS": "v"
+        }, 
+        {
+            "word": "恭候", 
+            "POS": "v"
+        }, 
+        {
+            "word": "静候", 
+            "POS": "v"
+        }, 
+        {
+            "word": "听差", 
+            "POS": "v"
+        }, 
+        {
+            "word": "听候", 
+            "POS": "v"
+        }, 
+        {
+            "word": "听命·", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 389
+}

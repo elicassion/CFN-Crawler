@@ -1,0 +1,108 @@
+{
+    "fdInfo": {
+        "eName": "Shopping", 
+        "cName": "购物", 
+        "des": "购物者以购买为目的找寻商品。"
+    }, 
+    "element": [
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "背景可能包含的实体。"
+        }, 
+        {
+            "abbrName": "shopper", 
+            "eName": "Shopper", 
+            "cName": "购物者", 
+            "isCore": true, 
+            "def": "寻找商品的人。"
+        }, 
+        {
+            "abbrName": "co_part", 
+            "eName": "Co_participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "伴随者指的是以协作的方式和购物者一起参与购物事件的实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素表明购物所投入的精力。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素描述了参与者在购物场景中的行为状态。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": false, 
+            "def": "认知者投入注意力的实体，之所以被称为背景是因为它充当着商品背景或环境。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "购物行为进行的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "能使购物者对商品进行寻找（或购买）的行为。"
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "该框架元素可表示出购买事件的结果是失败的还是成功的。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "购物事件所发生的比背景还要大的一个空间环境。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "购物者旨在通过找寻想要完成的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指的是购物的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "采办", 
+            "POS": "v"
+        }, 
+        {
+            "word": "购", 
+            "POS": "v"
+        }, 
+        {
+            "word": "购买", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 352
+}

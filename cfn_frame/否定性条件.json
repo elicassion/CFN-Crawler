@@ -1,0 +1,46 @@
+{
+    "fdInfo": {
+        "eName": "Negative_conditional", 
+        "cName": "否定性条件", 
+        "des": "如果所强调的可能性发生，则所描述的反向结果就不会发生。"
+    }, 
+    "element": [
+        {
+            "abbrName": "ac", 
+            "eName": "Anti_consequence", 
+            "cName": "反向结果", 
+            "isCore": true, 
+            "def": "该框架元素指的是否定可能性所导致的情形，且如果所强调的可能性成立，则该情形不会发生。"
+        }, 
+        {
+            "abbrName": "pfps", 
+            "eName": "Profiled_possibility", 
+            "cName": "所强调的可能性", 
+            "isCore": true, 
+            "def": "某一情形作为可能性被明确提出，与隐含的否定可能性形成对比。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "不然", 
+            "POS": "c"
+        }, 
+        {
+            "word": "除非", 
+            "POS": "c"
+        }, 
+        {
+            "word": "否则", 
+            "POS": "c"
+        }, 
+        {
+            "word": "唯有", 
+            "POS": "c"
+        }, 
+        {
+            "word": "只有", 
+            "POS": "c"
+        }
+    ], 
+    "frameId": 440
+}

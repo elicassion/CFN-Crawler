@@ -1,0 +1,113 @@
+{
+    "fdInfo": {
+        "eName": "Topic", 
+        "cName": "话题", 
+        "des": "信息传递者提出一个与关涉有关的文本或论文的一部分。"
+    }, 
+    "element": [
+        {
+            "abbrName": "communi", 
+            "eName": "Communicator", 
+            "cName": "信息传递者", 
+            "isCore": true, 
+            "def": "信息传递者是提出与关涉有关的文本的人。"
+        }, 
+        {
+            "abbrName": "text", 
+            "eName": "Text", 
+            "cName": "文本", 
+            "isCore": true, 
+            "def": "有关关涉的连贯的一组陈述。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "关涉是文本涉及的内容。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "文本涉及关涉的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "表示对关涉的处理方式。"
+        }, 
+        {
+            "abbrName": "status", 
+            "eName": "Status", 
+            "cName": "地位", 
+            "isCore": false, 
+            "def": "用来表示对于文本中的其它关涉来说相对重要的那一个。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "信息传递者提出关于某个关涉的文本的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "标题", 
+            "POS": "n"
+        }, 
+        {
+            "word": "关于", 
+            "POS": "p"
+        }, 
+        {
+            "word": "话题", 
+            "POS": "n"
+        }, 
+        {
+            "word": "论及", 
+            "POS": "v"
+        }, 
+        {
+            "word": "论述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "商量", 
+            "POS": "v"
+        }, 
+        {
+            "word": "涉及", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谈论", 
+            "POS": "v"
+        }, 
+        {
+            "word": "讨论", 
+            "POS": "v"
+        }, 
+        {
+            "word": "题目", 
+            "POS": "n"
+        }, 
+        {
+            "word": "围绕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "议论", 
+            "POS": "v"
+        }, 
+        {
+            "word": "主题", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 297
+}

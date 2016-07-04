@@ -1,0 +1,320 @@
+{
+    "fdInfo": {
+        "eName": "Cogitation", 
+        "cName": "思考", 
+        "des": "一位认知者在一段时间内对一个问题进行考虑，可能是这个人将要进行的一系列行动，也可能是比较抽象的事物。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "当框架支配词是动词时，认知者常常作框架承担词的主语。"
+        }, 
+        {
+            "abbrName": "que", 
+            "eName": "Question", 
+            "cName": "问题", 
+            "isCore": true, 
+            "def": "认知者思考的对象，即针对一些未知问题，需要认知者去考虑。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": null
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "描述事件有层级差别的属性，表示事件所达到的水平。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该元素描述活动的参与者，注意和修饰的不同之处在于，形容是对活动的参与者的描述，而修饰是对活动本身的描述。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述事件所处的状态，是一个杂类，凡是无法归入其他更加具体的框架元素时，都归入修饰元素；做动词目标词的状语或补语，名词目标词的定语。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "认知者通过有意行为，使得他们能够思考，这种有意行为就是方法。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "事件的结果。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "参酌", 
+            "POS": "v"
+        }, 
+        {
+            "word": "沉思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "处心积虑", 
+            "POS": "i"
+        }, 
+        {
+            "word": "揣摩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忖量", 
+            "POS": "v"
+        }, 
+        {
+            "word": "殚精竭虑", 
+            "POS": "i"
+        }, 
+        {
+            "word": "殚思竭虑", 
+            "POS": "i"
+        }, 
+        {
+            "word": "动脑筋", 
+            "POS": "i"
+        }, 
+        {
+            "word": "反省", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "费尽心机", 
+            "POS": "i"
+        }, 
+        {
+            "word": "费尽心血", 
+            "POS": "i"
+        }, 
+        {
+            "word": "浮想联翩", 
+            "POS": "i"
+        }, 
+        {
+            "word": "构思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "合计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "机关用尽", 
+            "POS": "i"
+        }, 
+        {
+            "word": "绞尽脑汁", 
+            "POS": "i"
+        }, 
+        {
+            "word": "绞脑汁", 
+            "POS": "i"
+        }, 
+        {
+            "word": "九思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "考虑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "苦思冥想", 
+            "POS": "i"
+        }, 
+        {
+            "word": "虑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "冥思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "冥思苦索", 
+            "POS": "i"
+        }, 
+        {
+            "word": "冥想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "凝思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "呕心沥血", 
+            "POS": "i"
+        }, 
+        {
+            "word": "盘算", 
+            "POS": "v"
+        }, 
+        {
+            "word": "前思后想", 
+            "POS": "i"
+        }, 
+        {
+            "word": "穷竭心计", 
+            "POS": "i"
+        }, 
+        {
+            "word": "三思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "煞费苦心", 
+            "POS": "i"
+        }, 
+        {
+            "word": "设想（替他人设想）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "深思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "深思熟虑", 
+            "POS": "i"
+        }, 
+        {
+            "word": "熟思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "思潮澎湃", 
+            "POS": "i"
+        }, 
+        {
+            "word": "思潮起伏", 
+            "POS": "i"
+        }, 
+        {
+            "word": "思忖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "思考", 
+            "POS": "v"
+        }, 
+        {
+            "word": "思量", 
+            "POS": "v"
+        }, 
+        {
+            "word": "思虑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "思前想后", 
+            "POS": "i"
+        }, 
+        {
+            "word": "思索", 
+            "POS": "v"
+        }, 
+        {
+            "word": "思维", 
+            "POS": "n"
+        }, 
+        {
+            "word": "思维", 
+            "POS": "v"
+        }, 
+        {
+            "word": "思想", 
+            "POS": "n"
+        }, 
+        {
+            "word": "搜索枯肠", 
+            "POS": "i"
+        }, 
+        {
+            "word": "挖空心思", 
+            "POS": "i"
+        }, 
+        {
+            "word": "细想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "心潮翻腾", 
+            "POS": "i"
+        }, 
+        {
+            "word": "心潮澎湃", 
+            "POS": "i"
+        }, 
+        {
+            "word": "寻思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寻味", 
+            "POS": "v"
+        }, 
+        {
+            "word": "用心思", 
+            "POS": "i"
+        }, 
+        {
+            "word": "幽思", 
+            "POS": "v"
+        }, 
+        {
+            "word": "酝酿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "斟酌", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转念头", 
+            "POS": "i"
+        }, 
+        {
+            "word": "着想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "琢磨", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 88
+}

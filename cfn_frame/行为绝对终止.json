@@ -1,0 +1,120 @@
+{
+    "fdInfo": {
+        "eName": "Activity_stop", 
+        "cName": "行为绝对终止", 
+        "des": "致动者未完成某一行为就将其终止。"
+    }, 
+    "element": [
+        {
+            "abbrName": "activity", 
+            "eName": "Activity", 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "这个框架元素指致动者停止的行为"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "这个框架元素指停止行为的有意识的人。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "停止行为的无意识的事件或实体。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素指描述动作行为者或经历者的描述性的短语。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "这个框架元素指表现某一行为停止的时间长短。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "这个框架元素指致动者停止行为的表现形式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "这个框架元素指致动者停止行为所凭借的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "这个框架元素指致动者停止行为的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "这个框架元素指致动者停止行为的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "这个框架元素指所停止的行为的结果。"
+        }, 
+        {
+            "abbrName": "subv", 
+            "eName": "Subevent", 
+            "cName": "亚事件", 
+            "isCore": false, 
+            "def": "这个框架元素指所停止行为最终的亚事件。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这个框架元素指致动者停止行为的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "放弃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "结束", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "终结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "终止", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 105
+}

@@ -1,0 +1,139 @@
+{
+    "fdInfo": {
+        "eName": "Offenses", 
+        "cName": "违法行为", 
+        "des": "违反法律规定，应当受到法律惩罚的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": "offense", 
+            "eName": "Offense", 
+            "cName": "罪行", 
+            "isCore": true, 
+            "def": "违反法律规定，应当受到法律惩罚的行为。"
+        }, 
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "实施了违法行为的人"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "因违法行为而受到利益损害的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "违法行为的严重程度。"
+        }, 
+        {
+            "abbrName": "puni", 
+            "eName": "Punishment", 
+            "cName": "惩罚", 
+            "isCore": false, 
+            "def": "违法行为人应当受到的处罚。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "盗窃罪", 
+            "POS": "n"
+        }, 
+        {
+            "word": "诽谤", 
+            "POS": "n"
+        }, 
+        {
+            "word": "攻击", 
+            "POS": "n"
+        }, 
+        {
+            "word": "拐骗", 
+            "POS": "n"
+        }, 
+        {
+            "word": "劫机", 
+            "POS": "n"
+        }, 
+        {
+            "word": "谋杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "虐待儿童", 
+            "POS": "n"
+        }, 
+        {
+            "word": "殴打", 
+            "POS": "n"
+        }, 
+        {
+            "word": "叛国罪", 
+            "POS": "n"
+        }, 
+        {
+            "word": "欺诈", 
+            "POS": "n"
+        }, 
+        {
+            "word": "强奸", 
+            "POS": "n"
+        }, 
+        {
+            "word": "抢劫", 
+            "POS": "n"
+        }, 
+        {
+            "word": "侵犯版权", 
+            "POS": "n"
+        }, 
+        {
+            "word": "入室行窃", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杀人", 
+            "POS": "n"
+        }, 
+        {
+            "word": "疏忽", 
+            "POS": "n"
+        }, 
+        {
+            "word": "所有权", 
+            "POS": "n"
+        }, 
+        {
+            "word": "同谋", 
+            "POS": "n"
+        }, 
+        {
+            "word": "行窃", 
+            "POS": "n"
+        }, 
+        {
+            "word": "性骚扰", 
+            "POS": "n"
+        }, 
+        {
+            "word": "一般杀人罪", 
+            "POS": "n"
+        }, 
+        {
+            "word": "重罪", 
+            "POS": "n"
+        }, 
+        {
+            "word": "纵火", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 259
+}

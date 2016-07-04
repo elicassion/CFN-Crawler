@@ -1,0 +1,65 @@
+{
+    "fdInfo": {
+        "eName": "Parole", 
+        "cName": "假释", 
+        "des": "假释是指对于被判处有期徒刑、无期徒刑的部分犯罪人，在执行一定刑罚之后，确有悔改表现，不致再危害社会，附条件地予以提前释放的制度。附条件是指被假释的犯罪人，如果遵守一定的条件，就认为原判刑罚已经执行完毕；如果没有遵守一定条件，就收监执行原判刑罚乃至数罪并罚。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "被判处有期徒刑，无期徒刑的犯罪，其确有悔改表现，不致再危害社会。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法院", 
+            "isCore": true, 
+            "def": "根据犯罪人的行为，决定对其假释的司法机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "考察机关", 
+            "isCore": true, 
+            "def": "犯罪人被假释后，对其行为的考察机关为公安机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法律", 
+            "isCore": true, 
+            "def": "犯罪人被假释所依据的法律。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "考察期限", 
+            "isCore": true, 
+            "def": "对假释犯罪人规定的特定期限，在此期限内，如遵守一定的条件，就认为原判刑罚已经执行完毕；如果没有遵守一定条件，就收监执行原判刑罚乃至数罪并罚。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "犯罪人被假释的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "犯罪人被予以假释的条件，一般为表现良好，有悔改表现，不致再危害社会。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "假释", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 157
+}

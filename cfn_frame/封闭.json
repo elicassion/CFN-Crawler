@@ -1,0 +1,192 @@
+{
+    "fdInfo": {
+        "eName": "Closure", 
+        "cName": "封闭", 
+        "des": "致动者用扣件对容纳物进行开或关的操纵。有时候一个容纳物的入口处也可被表达出来。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者打开或关闭容纳物。"
+        }, 
+        {
+            "abbrName": "cont_portal", 
+            "eName": "Container_portal", 
+            "cName": "容器口", 
+            "isCore": true, 
+            "def": "容器可活动的部分或它的开口部分。"
+        }, 
+        {
+            "abbrName": "cont_obj", 
+            "eName": "Containing_object", 
+            "cName": "容纳物", 
+            "isCore": true, 
+            "def": "致动者用系紧物封闭的物品。"
+        }, 
+        {
+            "abbrName": "fastener", 
+            "eName": "Fastener", 
+            "cName": "系紧物", 
+            "isCore": true, 
+            "def": "致动者操纵的扣件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "容器口或容纳物关闭的程度。"
+        }, 
+        {
+            "abbrName": "e_region", 
+            "eName": "Enclosed_region", 
+            "cName": "被封闭区域", 
+            "isCore": false, 
+            "def": "被关闭的容器封闭住的区域。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "致动者操纵的实体，来完成对容纳物或容器口的封闭或开启。"
+        }, 
+        {
+            "abbrName": "manp", 
+            "eName": "Manipulator", 
+            "cName": "操作者", 
+            "isCore": false, 
+            "def": "操纵系紧物的工具或身体某部位。 "
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述事件所处的状态，是一个杂类，凡是无法归入其他更加具体的框架元素时，都归入修饰元素；做动词目标词的状语或补语，名词目标词的定语。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者完成封闭或打开容器口或容纳物的方法、形式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的地点 "
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致动者封闭或打开容器口或容纳物的时间"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "拔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "包", 
+            "POS": "v"
+        }, 
+        {
+            "word": "包裹", 
+            "POS": "v"
+        }, 
+        {
+            "word": "包扎", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打开", 
+            "POS": "v"
+        }, 
+        {
+            "word": "封", 
+            "POS": "v"
+        }, 
+        {
+            "word": "封闭", 
+            "POS": "v"
+        }, 
+        {
+            "word": "盖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "关", 
+            "POS": "v"
+        }, 
+        {
+            "word": "裹", 
+            "POS": "v"
+        }, 
+        {
+            "word": "揭开", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解开", 
+            "POS": "v"
+        }, 
+        {
+            "word": "卷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开启", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扣", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "密封", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拧", 
+            "POS": "v"
+        }, 
+        {
+            "word": "围", 
+            "POS": "v"
+        }, 
+        {
+            "word": "系", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掀开", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掀起", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 47
+}

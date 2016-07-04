@@ -1,0 +1,37 @@
+{
+    "fdInfo": {
+        "eName": "Want_suspect", 
+        "cName": "通缉犯罪嫌疑人", 
+        "des": "犯罪嫌疑人因为犯罪而应该被逮捕，但在逃，公安机关发布通缉令通缉犯罪嫌疑人。"
+    }, 
+    "element": [
+        {
+            "abbrName": "suspect", 
+            "eName": "Suspect", 
+            "cName": "嫌疑人", 
+            "isCore": true, 
+            "def": "犯罪嫌疑人指因犯罪被官方通缉的人。"
+        }, 
+        {
+            "abbrName": "auth", 
+            "eName": "Authorities", 
+            "cName": "官方", 
+            "isCore": true, 
+            "def": "官方指有权发布通缉令的机构，一般指公安机关。"
+        }, 
+        {
+            "abbrName": "chrgs", 
+            "eName": "Charges", 
+            "cName": "指控", 
+            "isCore": false, 
+            "def": "指控罪名指犯罪嫌疑人被指控的罪名。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "缉拿", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 302
+}

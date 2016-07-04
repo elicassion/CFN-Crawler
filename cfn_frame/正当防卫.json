@@ -1,0 +1,101 @@
+{
+    "fdInfo": {
+        "eName": "Defend", 
+        "cName": "正当防卫", 
+        "des": "为了使国家、集体、个人的权益免受正在进行的不法侵害，而对侵害人进行的不明显超过必要限度的损害行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": "assail", 
+            "eName": "Assailant", 
+            "cName": "行凶者", 
+            "isCore": true, 
+            "def": "实施不法侵害的人。"
+        }, 
+        {
+            "abbrName": "defend", 
+            "eName": "Defender", 
+            "cName": "防卫者", 
+            "isCore": true, 
+            "def": "对不法侵害人实施损害行为的人。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "不法侵害行为针对的对象。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "防卫者或受害者面对不法侵害的状态"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对正当防卫行为所做的文学性描写"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "防卫者进行防卫行为的方式，方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "不法侵害和正当防卫行为发生的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "防卫者实施防卫行为所追求的目标"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "促使防卫者做出防卫行为的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "防卫者实施正当防卫行为的时间。"
+        }, 
+        {
+            "abbrName": "weapon", 
+            "eName": "Weapon", 
+            "cName": "武器", 
+            "isCore": false, 
+            "def": "防卫者实施正当防卫所使用的武器。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "防卫", 
+            "POS": "n"
+        }, 
+        {
+            "word": "防卫", 
+            "POS": "v"
+        }, 
+        {
+            "word": "防卸用的", 
+            "POS": "a"
+        }
+    ], 
+    "frameId": 215
+}

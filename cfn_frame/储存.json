@@ -1,0 +1,207 @@
+{
+    "fdInfo": {
+        "eName": "Storing", 
+        "cName": "储存", 
+        "des": "施动者将转移体放在了一个可及但有些偏的地点，其目的是为了在它未被使用时保持完好。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者指的是把转移体放到储存地点的人。"
+        }, 
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "cName": "地点", 
+            "isCore": true, 
+            "def": "地点是转移体储存的地方。在这个框架中不是全部的词元都包含这个框架元素。\n"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体是施动者存放到某个地点的物体。"
+        }, 
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "cName": "区域", 
+            "isCore": false, 
+            "def": "区域指的是存放转移体的环境。\n "
+        }, 
+        {
+            "abbrName": "co_part", 
+            "eName": "Co_participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "伴随者是指储存事件中以协同方式参与的实体，要么作为共同施动者，要么作为伴随体。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素指的是存储事件中任何描述施动者或转移体的描述性语言。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "时量指的是转移体在存放地点存放的时间量。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释指的是一个命题, 由该命题可推断出存储事件。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "这个框架元素被定义为每单位时间内一个事件发生的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何不被更具体的框架元素所涵盖的对存储状态的描述，既包括对比较性事件的一般描述（同样）和也包括影响施动者行为的明显特征（谨慎地，小心地）。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "显示存储发生的空间场所"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": " 施动者打算通过存储行为来实现的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "时间是指转移体存储的时间段。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "仓储", 
+            "POS": "v"
+        }, 
+        {
+            "word": "储", 
+            "POS": "v"
+        }, 
+        {
+            "word": "储备", 
+            "POS": "v"
+        }, 
+        {
+            "word": "储藏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "储存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存储", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存档", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存放", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存货", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存粮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存念", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存盘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存身", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存贮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "囤聚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寄存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "库藏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "匿藏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "隐藏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贮备", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贮藏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贮存", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 311
+}

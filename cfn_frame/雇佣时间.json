@@ -1,0 +1,81 @@
+{
+    "fdInfo": {
+        "eName": "Employment_continue", 
+        "cName": "雇佣时间", 
+        "des": "该框架是雇佣场景的中间阶段——指雇主和雇员之间雇佣关系稳定的场景。\r\n该框架是抽象的上位框架，主要用于建立相关的继承关系。\r\n"
+    }, 
+    "element": [
+        {
+            "abbrName": "empee", 
+            "eName": "Employee", 
+            "cName": "雇员", 
+            "isCore": true, 
+            "def": "指完成某些任务来获取报酬的人。"
+        }, 
+        {
+            "abbrName": "emper", 
+            "eName": "Employer", 
+            "cName": "雇主", 
+            "isCore": true, 
+            "def": "指付给雇员报酬的人或机构。"
+        }, 
+        {
+            "abbrName": "compense", 
+            "eName": "Compensation", 
+            "cName": "报酬", 
+            "isCore": false, 
+            "def": "报酬是指雇员完成某任务而获得的相应报偿。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员被雇佣的时间长度。"
+        }, 
+        {
+            "abbrName": "field", 
+            "eName": "Field", 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "该框架元素表示一个人工作的领域"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述雇员和雇主发展雇佣关系的特征或所处状态的成分，都归入该元素。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员为雇主工作的地点。"
+        }, 
+        {
+            "abbrName": "posit", 
+            "eName": "Position", 
+            "cName": "职位", 
+            "isCore": false, 
+            "def": "指某一工作的具体名称。"
+        }, 
+        {
+            "abbrName": "task", 
+            "eName": "Task", 
+            "cName": "任务", 
+            "isCore": false, 
+            "def": "任务指雇员需要为雇主工作的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示雇主雇用雇员的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 223
+}

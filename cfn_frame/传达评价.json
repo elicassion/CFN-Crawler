@@ -1,0 +1,270 @@
+{
+    "fdInfo": {
+        "eName": "Judgment_communication", 
+        "cName": "传达评价", 
+        "des": "信息传递者向某听话者表达对某评价对象的评价。这种评价可以是正面的（如词元“赞颂”），也可以是负面的（如词元“抨击”），与[当面评价|Judgment_direct_address]不同的是，[传达评价]的评价对象和听话者不能是同一个人；该框架与[评价|Judgment]不同的是，它表示的是一种带有判断的信息交流活动，而不仅仅是形成或持有某种判断。"
+    }, 
+    "element": [
+        {
+            "abbrName": "communi", 
+            "eName": "Communicator", 
+            "cName": "信息传递者", 
+            "isCore": true, 
+            "def": "信息传递者通过口头或书面的言语向另外的人表达对评价对象的评价。 "
+        }, 
+        {
+            "abbrName": "eval", 
+            "eName": "Evaluee", 
+            "cName": "评价对象", 
+            "isCore": true, 
+            "def": "表示所作评价与谁有关。"
+        }, 
+        {
+            "abbrName": "expr", 
+            "eName": "Expressor", 
+            "cName": "表达体", 
+            "isCore": true, 
+            "def": "该框架元素表示信息传递者用以传递其评价的身体部位或该部位所作出的某种行为。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "表示承载评价信息的具体或抽象的物体。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": true, 
+            "def": "导致信息传递者形成某种评价的原因。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "与信息传递者的评价相关的实体。"
+        }, 
+        {
+            "abbrName": "judgm", 
+            "eName": "Judgment", 
+            "cName": "判断", 
+            "isCore": true, 
+            "def": "信息传递者以自己的观点对评价对象在某些方面所达到的程度作出的描述。"
+        }, 
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": false, 
+            "def": "听话者听到信息传递者所作的评价。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素表示信息传递者认为评价对象好或坏的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述事件参与者所处的状态。"
+        }, 
+        {
+            "abbrName": "ext_acc", 
+            "eName": "Extent_of_acclaim", 
+            "cName": "评价传递范围", 
+            "isCore": false, 
+            "def": "描述在评价活动中信息传递者的数量或地域广度。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "描述信息传递活动发生的频率。"
+        }, 
+        {
+            "abbrName": "in_cause", 
+            "eName": "Internal_cause", 
+            "cName": "内因", 
+            "isCore": false, 
+            "def": "导致信息传递者表达某种评价的自身的生理或心理状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "传递某种评价的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "传递评价所使用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "描述事件的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "保荐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "保举", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贬低", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表扬", 
+            "POS": "v"
+        }, 
+        {
+            "word": "嘲讽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "嘲弄", 
+            "POS": "v"
+        }, 
+        {
+            "word": "称颂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "称赞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "斥责", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吹捧", 
+            "POS": "v"
+        }, 
+        {
+            "word": "非难", 
+            "POS": "v"
+        }, 
+        {
+            "word": "讽刺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "歌颂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "荐举", 
+            "POS": "v"
+        }, 
+        {
+            "word": "举荐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "苛责", 
+            "POS": "v"
+        }, 
+        {
+            "word": "控诉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "夸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "夸奖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抨击", 
+            "POS": "v"
+        }, 
+        {
+            "word": "批判", 
+            "POS": "v"
+        }, 
+        {
+            "word": "批评", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谴责", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推补", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推荐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推举", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推选", 
+            "POS": "v"
+        }, 
+        {
+            "word": "引荐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赞美", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赞颂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "责难", 
+            "POS": "v"
+        }, 
+        {
+            "word": "指责", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 250
+}

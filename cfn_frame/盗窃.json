@@ -1,0 +1,121 @@
+{
+    "fdInfo": {
+        "eName": "Theft", 
+        "cName": "盗窃", 
+        "des": "以非法占有为目的，秘密窃取数额较大的公私财物或者多次盗窃公私财物的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "被盗窃犯偷走的东西。"
+        }, 
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "实施盗窃行为的人。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "被盗物品最初所在地。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "财物被盗的人。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "盗窃事件发生的次数。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "盗窃犯实施盗窃所使用的器物。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对盗窃行为进行的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "盗窃犯实施盗窃时所采用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "盗窃事件发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "犯罪者实施盗窃的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "促使犯罪者实施盗窃的原因。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "盗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "盗窃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "盗用", 
+            "POS": "v"
+        }, 
+        {
+            "word": "窃取", 
+            "POS": "v"
+        }, 
+        {
+            "word": "偷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "偷盗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "偷窃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "行窃", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 5
+}

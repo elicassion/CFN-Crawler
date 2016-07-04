@@ -1,0 +1,159 @@
+{
+    "fdInfo": {
+        "eName": "Getting_underway", 
+        "cName": "启程", 
+        "des": "自移者从某源点出发。焦点是在运动本身而不是在出发的位置。这里的自移者也包括由致动者操纵的运载工具。"
+    }, 
+    "element": [
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "源点指自移者运动的出发点。"
+        }, 
+        {
+            "abbrName": "s_mov", 
+            "eName": "Self_mover", 
+            "cName": "自移体", 
+            "isCore": true, 
+            "def": "自移者是自身进行移动的有意志主体,或由有意志主体操纵的某种运载工具。"
+        }, 
+        {
+            "abbrName": "Loc_sel", 
+            "eName": "Location_of_Self_mover", 
+            "cName": "自移者位置", 
+            "isCore": false, 
+            "def": "自移者在位置移动过程中所处的位置。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容框架是描述自移者从源点开始运动时的状态."
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "自移者从源点离开的时间的长度."
+        }, 
+        {
+            "abbrName": "journey", 
+            "eName": "Journey", 
+            "cName": "旅程", 
+            "isCore": false, 
+            "def": "旅程就是自移者的行程。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "这个框架元素是与运动特征相关的词或短语，与主体的运动轨迹没有直接关系。用来描述运动的速度，修饰或方式的都归为此框架元素。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "这个框架元素确定了自移者开始运动的方法。"
+        }, 
+        {
+            "abbrName": "mot", 
+            "eName": "Mode_of_transportation", 
+            "cName": "移动模式", 
+            "isCore": false, 
+            "def": "运输工具指人这种自移者用来旅行的运输设备。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "路径是对自移者运动的轨迹的描述，但不包括源点和目标。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这个框架元素是指自移者开始离开源点运动的时间。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": false, 
+            "def": "目的地是自移者出发后欲到达的地方。"
+        }, 
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "cName": "区域", 
+            "isCore": false, 
+            "def": "区域是在没有明确路径的情况下，自移者的整体活动空间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "出发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出航", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出游", 
+            "POS": "v"
+        }, 
+        {
+            "word": "登程", 
+            "POS": "v"
+        }, 
+        {
+            "word": "动身", 
+            "POS": "v"
+        }, 
+        {
+            "word": "启程", 
+            "POS": "v"
+        }, 
+        {
+            "word": "启碇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "启航", 
+            "POS": "v"
+        }, 
+        {
+            "word": "启行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起程", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起航", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "上路", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 37
+}

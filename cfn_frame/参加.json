@@ -1,0 +1,105 @@
+{
+    "fdInfo": {
+        "eName": "Attending", 
+        "cName": "参加", 
+        "des": "施动者参与某项事件，并以相对非参与的方式存在。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者是指自主决定参与到某事件中的某人。"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "事件是指在某个特定的时间和地点所发生的一系列有主观意志的事情。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "施动者参加某事件所处的环境条件。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "时量表示的是某个（目标词所表示的）持续的状态从开始到结束的时长。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素指单位时间内事件发生的次数。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iteration", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "框架元素“次数”表示某个（目标词在其从句中）所表示的事件或状态已发生或持续的数量。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "施动者参与事件的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "通过某种策略或方法，施动者使自己有可能参与到某个事件。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "施动者参与事件的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者参与事件的原因"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者参与事件的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "参加", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参与", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出席", 
+            "POS": "v"
+        }, 
+        {
+            "word": "去", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 400
+}

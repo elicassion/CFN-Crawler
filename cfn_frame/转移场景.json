@@ -1,0 +1,39 @@
+{
+    "fdInfo": {
+        "eName": "Transfer_scenario", 
+        "cName": "转移场景", 
+        "des": "在本场景中,转移体一开始为捐赠者所拥有，最终为接受者所拥有。换言之，这两个参与者都可被识解为转让方。"
+    }, 
+    "element": [
+        {
+            "abbrName": "donor", 
+            "eName": "Donor", 
+            "cName": "捐赠者", 
+            "isCore": true, 
+            "def": "一开始拥有转移体并把所有权交给接受者的人。"
+        }, 
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": true, 
+            "def": "最终拥有转移体的实体。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "所有权发生变动的对象。"
+        }, 
+        {
+            "abbrName": "tra", 
+            "eName": "Transferors", 
+            "cName": "转让者", 
+            "isCore": true, 
+            "def": "捐赠者和接受者被认为是同一单位。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 414
+}

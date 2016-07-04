@@ -1,0 +1,58 @@
+{
+    "fdInfo": {
+        "eName": "Criminal_law", 
+        "cName": "刑法", 
+        "des": "刑法是规定犯罪、刑事责任和刑罚的法律规范的总和。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "立法机关", 
+            "isCore": true, 
+            "def": "制定刑法的国家机关，刑法典由全国人大制定，其他刑法规范由人大常委会制定。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "司法机关", 
+            "isCore": true, 
+            "def": "将刑法适用于具体案件的国家机关，我国为检察院、法院及行使刑事侦查职能的公安机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法条", 
+            "isCore": true, 
+            "def": "刑法中具体的法律条文。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪行为", 
+            "isCore": true, 
+            "def": "行为人实施的严重危害社会秩序、国家和公民利益的行为。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "刑罚", 
+            "isCore": true, 
+            "def": "刑法规定的对犯罪行为所适用的惩罚。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "修饰", 
+            "isCore": false, 
+            "def": "对刑法的说明和描述"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "刑法", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 173
+}

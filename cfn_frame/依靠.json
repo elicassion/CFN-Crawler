@@ -1,0 +1,96 @@
+{
+    "fdInfo": {
+        "eName": "Reliance", 
+        "cName": "依靠", 
+        "des": "主体依靠方法行为的实施来获得利益。相关的方法行为只能通过中介者来实施。如果主体自己实施方法行为，他所使用的工具可能代替方法"
+    }, 
+    "element": [
+        {
+            "abbrName": "prot", 
+            "eName": "Protagonist", 
+            "cName": "主体", 
+            "isCore": true, 
+            "def": "其需要由方法行为来满足的人或物。"
+        }, 
+        {
+            "abbrName": "bene", 
+            "eName": "Benefit", 
+            "cName": "利益", 
+            "isCore": true, 
+            "def": "方法行为导致的行为或状态，主体可以从中受益。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": true, 
+            "def": "主体为获得利益所使用的物体。"
+        }, 
+        {
+            "abbrName": "intermed", 
+            "eName": "Intermediary", 
+            "cName": "中介体", 
+            "isCore": true, 
+            "def": "为主体获得利益而实施方法行为的人或物。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": true, 
+            "def": "主体或中介物所实施的对主体有益的行为。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "主体需要依靠工具或中介物的条件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "利益的获得依靠方法行为的程度。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "主体希望发生的行为或状态。利益或多或少和主体有关，而不是和方法有关。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "靠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "靠", 
+            "POS": "p"
+        }, 
+        {
+            "word": "依靠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "依赖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "依凭", 
+            "POS": "v"
+        }, 
+        {
+            "word": "依托", 
+            "POS": "v"
+        }, 
+        {
+            "word": "依仗", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 109
+}

@@ -1,0 +1,150 @@
+{
+    "fdInfo": {
+        "eName": "Renting", 
+        "cName": "承租", 
+        "des": "承租者通过向出租者支付一定的费用（货币）而获得商品的使用权。"
+    }, 
+    "element": [
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "商品是在交易过程中以货币为条件被临时转移使用权的东西。"
+        }, 
+        {
+            "abbrName": "lee", 
+            "eName": "Lessee", 
+            "cName": "承租者", 
+            "isCore": true, 
+            "def": "承租者是通过向出租者支付一定的费用而获得商品临时使用权的人。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "商品被承租者租用的时间长度。"
+        }, 
+        {
+            "abbrName": "les", 
+            "eName": "Lessor", 
+            "cName": "出租者", 
+            "isCore": false, 
+            "def": "拥有商品所有权且能够把商品租给承租者临时使用的人。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何对租借活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "发生租借交易所凭借的手段。"
+        }, 
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "cName": "货币", 
+            "isCore": false, 
+            "def": "货币是交易中为获得商品临时使用权所支付的租金。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "租借行为发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "实施租借行为的目的。"
+        }, 
+        {
+            "abbrName": "pog", 
+            "eName": "Purpose_of_goods", 
+            "cName": "对商品的处置", 
+            "isCore": false, 
+            "def": "该框架元素表示承租者租用商品后如何处置。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "cName": "单位价格", 
+            "isCore": false, 
+            "def": "指商品的单位价格，通常是每一个单位多少钱。有些时候，支付的钱款是按商品的单位价格来进行计算的。"
+        }, 
+        {
+            "abbrName": "reci", 
+            "eName": "Recipient", 
+            "cName": "接受者", 
+            "isCore": false, 
+            "def": "承租者租赁商品后希望给予的对象。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "承租事件发生的时间。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "该框架元素指可以用来计算商品或服务的任何单位，用“以”、“按”、“论”等介词引导。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "包（车）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "承租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "顶", 
+            "POS": "v"
+        }, 
+        {
+            "word": "雇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "雇用", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租借", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租赁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租用", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 275
+}

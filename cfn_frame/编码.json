@@ -1,0 +1,102 @@
+{
+    "fdInfo": {
+        "eName": "Encoding", 
+        "cName": "编码", 
+        "des": "某人（讲话者）以特定方式表达广为理解的信息或思想内容。内容可能是情感方面的，如\r人类通过语言表达感受。内容也可能是智力方面的，如认真地阐述一下这个理念。内容也可能是语言方面的，如作为意见说说你的问题。\r"
+    }, 
+    "element": [
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": true, 
+            "def": "对这个框架的大多数词语来说，方式和媒介的某种表达是必须的，正如在其它框架中，方式表达描述了行为的特性，（在这种情况下，言语行为是由讲话者实施）。然而大量的方式表达出现在该框架中，包括以下几种类型：1）正确的方式，如你应该认真地组织语言。2）言外之意，如你应该将它作为一个问题来说3）目的，如你应该把它说得让每个人都能够理解。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "媒介指交流的媒介，如所使用的语言或信息出现的特定文本类型。"
+        }, 
+        {
+            "abbrName": "msg", 
+            "eName": "Message", 
+            "cName": "信息", 
+            "isCore": true, 
+            "def": "信息总是用名词短语宾语来表达。（只有用表达这个动词时例外，表达这个动词有时也跟从句。ThePrimeMinister?EXPRESSED?hersympathyforthevictims.总理表达了她对受害者的同情。But：ThePrimeMinister?EXPRESSED?thatshewasworriedaboutthevictims.总理表达了她对受害者的担忧。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "讲话者", 
+            "isCore": true, 
+            "def": "讲话者，指对信息进行编码的人，作为所有动词的外部论元出现：Theteacher?PHRASED?thequestioncarefully.教师对问题作了精心地描述。"
+        }, 
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": false, 
+            "def": "信息接收者指交流所针对的人。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "讲话者借以完成信息措辞的行为，借此表达。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "表达", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阐明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阐释", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阐述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阐说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陈述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "措辞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "话语", 
+            "POS": "n"
+        }, 
+        {
+            "word": "描述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "说法", 
+            "POS": "n"
+        }, 
+        {
+            "word": "行文", 
+            "POS": "v"
+        }, 
+        {
+            "word": "用语", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 467
+}

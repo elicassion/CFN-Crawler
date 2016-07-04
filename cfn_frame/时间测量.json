@@ -1,0 +1,72 @@
+{
+    "fdInfo": {
+        "eName": "Measure_duration", 
+        "cName": "时间测量", 
+        "des": "该框架包括表示时间计量单位的（透明）名词。框架元素有数量、计量单位和过程。在该框架中，一般不会对指示或历法名词（如星期、月等）作标注，例如下列短语：“下周，本月，21世纪”。"
+    }, 
+    "element": [
+        {
+            "abbrName": "count", 
+            "eName": "Count", 
+            "cName": "数量", 
+            "isCore": true, 
+            "def": "受测量实体的计量单位的数量。"
+        }, 
+        {
+            "abbrName": "proce", 
+            "eName": "Process", 
+            "cName": "过程", 
+            "isCore": true, 
+            "def": "在议题期限内发生的活动或状态。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": true, 
+            "def": "按照标准化量值计算得出的数值。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": false, 
+            "def": "施动者引起或最大限度地参于了过程。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "分钟", 
+            "POS": "n"
+        }, 
+        {
+            "word": "秒", 
+            "POS": "n"
+        }, 
+        {
+            "word": "年", 
+            "POS": "n"
+        }, 
+        {
+            "word": "世纪", 
+            "POS": "n"
+        }, 
+        {
+            "word": "天", 
+            "POS": "n"
+        }, 
+        {
+            "word": "小时", 
+            "POS": "n"
+        }, 
+        {
+            "word": "月", 
+            "POS": "n"
+        }, 
+        {
+            "word": "周", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 508
+}

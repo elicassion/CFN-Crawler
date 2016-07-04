@@ -1,0 +1,134 @@
+{
+    "fdInfo": {
+        "eName": "Posture", 
+        "cName": "身体姿势", 
+        "des": "此框架表达的是致动者所保持的身体姿势"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者是使其身体保持某种姿势的人，常常作动词的主语。"
+        }, 
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "cName": "地点", 
+            "isCore": true, 
+            "def": "致动者所在的（处所），常常作介词短语。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "dep_state", 
+            "eName": "Dependent_state", 
+            "cName": "依存状态", 
+            "isCore": false, 
+            "def": "致动者的状态（主要由其姿势决定）。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "致动者保持某种姿势的状态。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "致动者保持某种姿势的时间长度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者保持某种姿势的目的"
+        }, 
+        {
+            "abbrName": "sbp", 
+            "eName": "Supporting_body_part", 
+            "cName": "支撑身体部位", 
+            "isCore": false, 
+            "def": "支撑致动者保持某种姿势的身体部位。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致动者保持某种姿势的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "蹲", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弓背", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弓腰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "卷缩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "靠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "趴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "蜷缩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "躺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弯腰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "卧", 
+            "POS": "v"
+        }, 
+        {
+            "word": "站", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坐", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 80
+}

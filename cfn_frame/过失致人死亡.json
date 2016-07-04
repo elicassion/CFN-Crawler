@@ -1,0 +1,69 @@
+{
+    "fdInfo": {
+        "eName": "Manslaughter", 
+        "cName": "过失致人死亡", 
+        "des": "过失致人死亡罪是指由于过失致人死亡的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "由于自己的过失导致他人死亡的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "过失", 
+            "isCore": true, 
+            "def": "应当预见自己的行为可能发生危害社会的结果，因为疏忽大意而没有预见，或者已经预见而轻信能够避免，以致发生这种结果的心理态度。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "被害人", 
+            "isCore": true, 
+            "def": "由于犯罪人的过失而失去生命的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "司法机关", 
+            "isCore": true, 
+            "def": "对犯罪人的犯罪行为予以核实、认定，并追究其法律责任的国家机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "刑罚", 
+            "isCore": true, 
+            "def": "对犯罪人的犯罪行为所给予的刑事惩罚。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致人死亡事件发生的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "致人死亡事件发生的地点。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "过失杀人罪", 
+            "POS": "n"
+        }, 
+        {
+            "word": "过失致人死亡罪", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 155
+}

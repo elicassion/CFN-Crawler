@@ -1,0 +1,193 @@
+{
+    "fdInfo": {
+        "eName": "Patrolling", 
+        "cName": "巡逻", 
+        "des": "巡逻人员，个人或集体，通过巡逻或检查来确保背景区域处于理想事态，尤其是在安全方面没有危险的可恶体存在。巡逻人员不是穿过某个背景区域，而是通过巡逻确保所有的背景（或者是背景的某些相关部分）被巡查过。"
+    }, 
+    "element": [
+        {
+            "abbrName": "des_state", 
+            "eName": "Desired_state", 
+            "cName": "理想事态", 
+            "isCore": true, 
+            "def": "巡逻人员通过巡逻背景区域，希望确保的理想事态。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": true, 
+            "def": "巡逻人员为了确保安全而检查的区域。?"
+        }, 
+        {
+            "abbrName": "patrol", 
+            "eName": "Patrol", 
+            "cName": "巡逻人员", 
+            "isCore": true, 
+            "def": "检查背景区域是否安全的个人（或集体）。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": true, 
+            "def": "通过巡逻想达到的理想结果。通常标记的是由介词“为”、“为了”、“以”所引导的介词短语，也有可能是连谓结构的一部分。"
+        }, 
+        {
+            "abbrName": "unw_entity", 
+            "eName": "Unwanted_entity", 
+            "cName": "可恶体", 
+            "isCore": true, 
+            "def": "该实体的存在会影响背景区域的理想事态或安全性。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "巡逻人员检查背景区域的环境条件。"
+        }, 
+        {
+            "abbrName": "co-part", 
+            "eName": "Co-participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "伴随者指与巡逻人员一起巡逻的人。?"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素表明巡逻人员对背景区域的检查程度。"
+        }, 
+        {
+            "abbrName": "desc", 
+            "eName": "Descriptor", 
+            "cName": "描述语", 
+            "isCore": false, 
+            "def": "对巡逻事件中参与者的描述。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "巡逻的时间长度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "巡逻人员检查背景区域时用的实体。"
+        }, 
+        {
+            "abbrName": "loc_prot", 
+            "eName": "Location_of_protagonist", 
+            "cName": "主体位置", 
+            "isCore": false, 
+            "def": "该框架元素指巡逻人员在巡逻过程中所处的位置。通常标记的是由“从”所引导的介词短语。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素表明巡逻人员检查背景区域的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表明巡逻人员检查背景区域的方法。"
+        }, 
+        {
+            "abbrName": "mems", 
+            "eName": "Members", 
+            "cName": "群体成员", 
+            "isCore": false, 
+            "def": "该框架指巡逻队员的组成人员。?"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "这个外部题元框架元素限定了目标词的非迭代性使用，表明目标词只是被看作一系列相似事件或事态中的某一次。"
+        }, 
+        {
+            "abbrName": "possor", 
+            "eName": "Possessor", 
+            "cName": "持有人", 
+            "isCore": false, 
+            "def": "所有者是一个协调安排巡逻行动的组织（通常是一个国家或一些国家）。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表明巡逻人员巡查背景区域的时间。"
+        }, 
+        {
+            "abbrName": "veh", 
+            "eName": "Vehicle", 
+            "cName": "交通工具", 
+            "isCore": false, 
+            "def": "我们通常乘装甲车在这片区域巡逻。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "摸排", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排摸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "维护治安", 
+            "POS": "i"
+        }, 
+        {
+            "word": "巡查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "巡风", 
+            "POS": "v"
+        }, 
+        {
+            "word": "巡逻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "巡哨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "巡视", 
+            "POS": "v"
+        }, 
+        {
+            "word": "巡天", 
+            "POS": "v"
+        }, 
+        {
+            "word": "巡夜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "巡弋", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 345
+}

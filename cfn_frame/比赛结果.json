@@ -1,0 +1,182 @@
+{
+    "fdInfo": {
+        "eName": "Finish_competition", 
+        "cName": "比赛结果", 
+        "des": "比赛结束后，根据得分，参赛者战平、战胜或负于对手。（在打成平局的情况下，参赛者和对手被统称为参赛双方。）根据参赛者和对手的得分，他们可能获得一个名次或奖品。另外，得分差距可能会提及。"
+    }, 
+    "element": [
+        {
+            "abbrName": "compet", 
+            "eName": "Competition", 
+            "cName": "比赛", 
+            "isCore": true, 
+            "def": "参赛双方相互竞争的事件。"
+        }, 
+        {
+            "abbrName": "competor", 
+            "eName": "Competitor", 
+            "cName": "参赛者", 
+            "isCore": true, 
+            "def": "参与比赛的个体。"
+        }, 
+        {
+            "abbrName": "competors", 
+            "eName": "Competitors", 
+            "cName": "参赛双方", 
+            "isCore": true, 
+            "def": "互相竞争的群体。"
+        }, 
+        {
+            "abbrName": "oppo", 
+            "eName": "Opponent", 
+            "cName": "对手", 
+            "isCore": true, 
+            "def": "与参赛者竞争的个体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "无法归入其他各类非核心框架元素的对比赛的描述，包括认知修饰（也许、大概、神秘地）和次生效应（安静地、大声地），以及对事件进行比较的概括性描述(以相同的方式)。另外，它可能会描述同样影响到其行为的参赛者的显著特征（冒失地、冷淡地、故意地、急切地、仔细地）。"
+        }, 
+        {
+            "abbrName": "marg", 
+            "eName": "Margin", 
+            "cName": "差额", 
+            "isCore": false, 
+            "def": "参赛者与对手的得分差距。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "参赛者所采取的导致比赛结果的行为。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素并不表示目标词在本句之内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是重复前面的动作，也就是说，目标词被看作一系列相似事件或状态中的某一次。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "举行比赛的场所。"
+        }, 
+        {
+            "abbrName": "prize", 
+            "eName": "Prize", 
+            "cName": "奖品", 
+            "isCore": false, 
+            "def": "根据得分或名次给予参赛者在社会地位或金钱方面的重大实体奖励。"
+        }, 
+        {
+            "abbrName": "rank", 
+            "eName": "Rank", 
+            "cName": "排名", 
+            "isCore": false, 
+            "def": "参赛者（根据得分）所取得的名次。"
+        }, 
+        {
+            "abbrName": "score", 
+            "eName": "Score", 
+            "cName": "得分", 
+            "isCore": false, 
+            "def": "在比赛过程中，比赛的进展被量化记录，之后会授予这些参赛双方名次和奖品。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "举行比赛的时间。"
+        }, 
+        {
+            "abbrName": "venue", 
+            "eName": "Venue", 
+            "cName": "场地", 
+            "isCore": false, 
+            "def": "该框架元素指的是比赛的指定场地，尤其是某个场地是专为某一比赛而建造的。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "打败", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打平手", 
+            "POS": "i"
+        }, 
+        {
+            "word": "获胜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "平", 
+            "POS": "a"
+        }, 
+        {
+            "word": "平局", 
+            "POS": "n"
+        }, 
+        {
+            "word": "平手", 
+            "POS": "n"
+        }, 
+        {
+            "word": "胜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "胜出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "胜利", 
+            "POS": "v"
+        }, 
+        {
+            "word": "失败", 
+            "POS": "v"
+        }, 
+        {
+            "word": "输", 
+            "POS": "v"
+        }, 
+        {
+            "word": "输家", 
+            "POS": "n"
+        }, 
+        {
+            "word": "完败", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完胜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赢", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赢得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赢家", 
+            "POS": "n"
+        }, 
+        {
+            "word": "战胜", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 398
+}

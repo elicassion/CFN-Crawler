@@ -1,0 +1,25 @@
+{
+    "fdInfo": {
+        "eName": "Measure_scenario", 
+        "cName": "测量场景", 
+        "des": "某实体的某个属性具有某个特定的值，这个值有几种不同的表述方式，包括：\r1.与某具体实例的实体或与其他参照集的期望值之间的偏差程度。\r2.根据某个特定的计量单位测定的数量绝对值，与其属性的值相等。"
+    }, 
+    "element": [
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "关于实体的属性具有特定值的环境条件的描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实体的属性具有特定值的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 487
+}

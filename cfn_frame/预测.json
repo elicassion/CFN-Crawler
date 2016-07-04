@@ -1,0 +1,212 @@
+{
+    "fdInfo": {
+        "eName": "Predicting", 
+        "cName": "预测", 
+        "des": "说话者在某种根据的基础上陈述或公布未来可能出现的情况。"
+    }, 
+    "element": [
+        {
+            "abbrName": "evntity", 
+            "eName": "Eventuality", 
+            "cName": "预测结果", 
+            "isCore": true, 
+            "def": "该框架元素所标记的语言可以暗示出在未来某个时间将要发生或持续的事件或事态。在有提升动词出现的结构中，单个可能出现的情况可能会被拆开表达。该框架元素也可指说话者所预测的具有多种属性的实体。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "媒介是说话者用来传递预测结果的客体或渠道。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "说话者进行预测。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "该框架元素指与预测相关的主题。它通常是以“关于”所引导的介词短语来表达。"
+        }, 
+        {
+            "abbrName": "accura", 
+            "eName": "Accuracy", 
+            "cName": "准确性", 
+            "isCore": false, 
+            "def": "该框架元素指预测的准确性。"
+        }, 
+        {
+            "abbrName": "desc", 
+            "eName": "Descriptor", 
+            "cName": "描述语", 
+            "isCore": false, 
+            "def": "该框架元素是对可能出现的情况特征的描述。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": "Evidence", 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "该框架元素指在说话者进行预测所基于的一系列事实。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指未被其他更为具体的框架元素所涵盖的对于说话者预测行为的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素指说话者进行预测时所采取的行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素指说话者进行预测的处所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指做出预测的时间。"
+        }, 
+        {
+            "abbrName": "Tim_of_Evtity", 
+            "eName": "Time_of_Eventuality", 
+            "cName": "预测结果出现时间", 
+            "isCore": false, 
+            "def": "该框架元素指所预测的可能出现的情况所发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "揣测", 
+            "POS": "v"
+        }, 
+        {
+            "word": "揣度", 
+            "POS": "v"
+        }, 
+        {
+            "word": "揣摸", 
+            "POS": "r"
+        }, 
+        {
+            "word": "揣想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忖度", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忖摸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "断言", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估测", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估摸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料度", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料及", 
+            "POS": "v"
+        }, 
+        {
+            "word": "料想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推测", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推断", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "推想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预报", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预卜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预测", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预断", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预感", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预料", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预言", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 347
+}

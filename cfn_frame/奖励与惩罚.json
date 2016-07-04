@@ -1,0 +1,143 @@
+{
+    "fdInfo": {
+        "eName": "Rewards_and_punishments", 
+        "cName": "奖励与惩罚", 
+        "des": "评价者对被评价者的行为（或思想）做出的肯定或否定性评价，出于评价的不同，评价者会对被评价者给予不同的处理，表现为物质性或精神性的奖励与惩罚。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "对被评价者做出评价的人，通常为主管机构、上级机构或有权威的人。"
+        }, 
+        {
+            "abbrName": "eval", 
+            "eName": "Evaluee", 
+            "cName": "评价对象", 
+            "isCore": true, 
+            "def": "其行为（或思想）受到评价者肯定或否定，从而受到奖励或惩罚的人。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": true, 
+            "def": "评价者只所以对被评价者做出奖励或惩罚的原因。"
+        }, 
+        {
+            "abbrName": "resp_act", 
+            "eName": "Response_action", 
+            "cName": "反应行为", 
+            "isCore": true, 
+            "def": "奖励或惩罚的方式。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "奖励或惩罚的方式。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对奖励和惩罚进行的描述。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "实体是指进行奖罚所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对进行奖罚的修饰。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "所采取的奖罚的手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "奖罚发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "奖罚的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "奖罚的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "奖罚发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "惩罚刑罚", 
+            "POS": "n"
+        }, 
+        {
+            "word": "惩罚行为", 
+            "POS": "n"
+        }, 
+        {
+            "word": "惩戒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "惩戒的", 
+            "POS": "a"
+        }, 
+        {
+            "word": "处罚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "奖励", 
+            "POS": "n"
+        }, 
+        {
+            "word": "奖励", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赔偿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "刑罚", 
+            "POS": "v"
+        }, 
+        {
+            "word": "征罚性的", 
+            "POS": "a"
+        }
+    ], 
+    "frameId": 281
+}

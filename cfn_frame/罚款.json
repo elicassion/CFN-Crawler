@@ -1,0 +1,130 @@
+{
+    "fdInfo": {
+        "eName": "Fining", 
+        "cName": "罚款", 
+        "des": "付款人在官方说话者（依法）强制下支付罚款，作为对其某种行为（即框架元素原因）的惩罚。说话者代表接收罚款的实体。"
+    }, 
+    "element": [
+        {
+            "abbrName": "fine", 
+            "eName": "Fine", 
+            "cName": "罚款", 
+            "isCore": true, 
+            "def": "因为违法而需要支付的用来赎罪的钱。"
+        }, 
+        {
+            "abbrName": "payer", 
+            "eName": "Payer", 
+            "cName": "付款人", 
+            "isCore": true, 
+            "def": "付款人是指被判罚的人或物。这个框架元素通常被用作宾语。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": true, 
+            "def": "一般会有语言成分用于表达法官判罚的原因，该语言成分通常是一个介词短语。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "说话者是指对付款人进行罚款的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "罚款对于付款人而言的处罚程度。"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "cName": "事件", 
+            "isCore": false, 
+            "def": "由于违法行为被施以罚款的事件。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "执行罚款时所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是个杂类，指的是无法归入其他各类非核心框架元素的情况。一些修饰语（安静地，大声地），以及对比较事件的一般性描述（以相同的方式）都归入该元素。另外，它也可以是一些会影响到罚款行为的描述说话者的显著特征（如 “冒失”，“冷淡”，“故意地，“急切”，“仔细”）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致使惩罚/奖励所采取的行动。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "执行有意行为所要达到的目的。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "cName": "单位价格", 
+            "isCore": false, 
+            "def": "有时候，价格或款项是按单位商品给出的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "该框架元素是指任何可对商品或服务进行衡量的单位。它一般用于“按”、“论”介词短语中。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "罚单", 
+            "POS": "n"
+        }, 
+        {
+            "word": "罚金", 
+            "POS": "n"
+        }, 
+        {
+            "word": "罚金", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罚款", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罚没", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 369
+}

@@ -1,0 +1,179 @@
+{
+    "fdInfo": {
+        "eName": "Being_named", 
+        "cName": "命名", 
+        "des": "用某一特定的名字指称一个实体。"
+    }, 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "实体即说话者用特定名字指称的人。"
+        }, 
+        {
+            "abbrName": "name", 
+            "eName": "Name", 
+            "cName": "名字", 
+            "isCore": true, 
+            "def": "用来指称实体的词语。"
+        }, 
+        {
+            "abbrName": "name_src", 
+            "eName": "Name_source", 
+            "cName": "名字来源", 
+            "isCore": false, 
+            "def": "名字来源是指实体得名的根据。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": false, 
+            "def": "使用名字来指称实体的那个人。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "类型表现的是名字的类。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "笔名", 
+            "POS": "n"
+        }, 
+        {
+            "word": "并称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "称为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "称之为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "称作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "绰号", 
+            "POS": "n"
+        }, 
+        {
+            "word": "代号", 
+            "POS": "n"
+        }, 
+        {
+            "word": "法号", 
+            "POS": "n"
+        }, 
+        {
+            "word": "泛称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "改称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "改名", 
+            "POS": "v"
+        }, 
+        {
+            "word": "合称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "化名", 
+            "POS": "n"
+        }, 
+        {
+            "word": "诨名", 
+            "POS": "n"
+        }, 
+        {
+            "word": "简称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "叫", 
+            "POS": "v"
+        }, 
+        {
+            "word": "叫做", 
+            "POS": "v"
+        }, 
+        {
+            "word": "教名", 
+            "POS": "n"
+        }, 
+        {
+            "word": "名", 
+            "POS": "n"
+        }, 
+        {
+            "word": "名", 
+            "POS": "v"
+        }, 
+        {
+            "word": "名叫", 
+            "POS": "v"
+        }, 
+        {
+            "word": "名字", 
+            "POS": "n"
+        }, 
+        {
+            "word": "命名", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起名", 
+            "POS": "v"
+        }, 
+        {
+            "word": "俗称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "通称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "统称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "小名", 
+            "POS": "n"
+        }, 
+        {
+            "word": "姓", 
+            "POS": "n"
+        }, 
+        {
+            "word": "姓", 
+            "POS": "v"
+        }, 
+        {
+            "word": "原名", 
+            "POS": "n"
+        }, 
+        {
+            "word": "总称", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 32
+}

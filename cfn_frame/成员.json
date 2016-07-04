@@ -1,0 +1,78 @@
+{
+    "fdInfo": {
+        "eName": "Membership", 
+        "cName": "成员", 
+        "des": "一个成员在某段时期内是某个社会团体的一部分。"
+    }, 
+    "element": [
+        {
+            "abbrName": "group", 
+            "eName": "Group", 
+            "cName": "群体", 
+            "isCore": true, 
+            "def": "处于某种相对稳定的关系中的人的集合。"
+        }, 
+        {
+            "abbrName": "mem", 
+            "eName": "Member", 
+            "cName": "成员", 
+            "isCore": true, 
+            "def": "属于某个团体的个体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "修饰用来概括无法归入其他更具体的框架元素的任何语义成分，包括认知的修饰（如很可能，大概，神秘地），辅助描述（安静地，大声地），和与事件相比较的一般描述（同样的方式）。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "保持成员关系的地方。"
+        }, 
+        {
+            "abbrName": "std", 
+            "eName": "Standing", 
+            "cName": "地位", 
+            "isCore": false, 
+            "def": "我是麋鹿协会的正式成员。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "成员属于某个团体的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "成员", 
+            "POS": "n"
+        }, 
+        {
+            "word": "分子", 
+            "POS": "n"
+        }, 
+        {
+            "word": "会员", 
+            "POS": "n"
+        }, 
+        {
+            "word": "下属", 
+            "POS": "v"
+        }, 
+        {
+            "word": "属", 
+            "POS": "v"
+        }, 
+        {
+            "word": "属于", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 257
+}

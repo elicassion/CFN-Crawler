@@ -1,0 +1,420 @@
+{
+    "fdInfo": {
+        "eName": "Statement", 
+        "cName": "陈述", 
+        "des": "此框架表达的是说话者用语言向听话者传达信息的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "媒介是说话者用来传达信息的物理实体或渠道。"
+        }, 
+        {
+            "abbrName": "msg", 
+            "eName": "Message", 
+            "cName": "信息", 
+            "isCore": true, 
+            "def": "说明说话者向听话者传达的内容，通常用小句或名词短语的形式表现。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "说话者是提供信息的人（无论是说还是写）。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "关涉是与信息有关的内容。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "描述事件有层级差别的属性。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": null, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "说话者在陈述中所处的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述陈述活动的特征或所处状态的成分，都归入该元素，如\"认真、坦白地\"等。注意，修饰元素是对事件本身的描述，而形容元素是对事件参与者的描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "说话者进行陈述的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "报道", 
+            "POS": "v"
+        }, 
+        {
+            "word": "报告", 
+            "POS": "n"
+        }, 
+        {
+            "word": "报告", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抱怨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辩白", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表达", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "阐述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陈述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陈说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "承认", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传达", 
+            "POS": "v"
+        }, 
+        {
+            "word": "断言", 
+            "POS": "n"
+        }, 
+        {
+            "word": "断言", 
+            "POS": "v"
+        }, 
+        {
+            "word": "公布", 
+            "POS": "v"
+        }, 
+        {
+            "word": "供认", 
+            "POS": "v"
+        }, 
+        {
+            "word": "鼓吹", 
+            "POS": "v"
+        }, 
+        {
+            "word": "呼喊", 
+            "POS": "v"
+        }, 
+        {
+            "word": "汇报", 
+            "POS": "n"
+        }, 
+        {
+            "word": "汇报", 
+            "POS": "v"
+        }, 
+        {
+            "word": "讲", 
+            "POS": "v"
+        }, 
+        {
+            "word": "讲话", 
+            "POS": "n"
+        }, 
+        {
+            "word": "讲话", 
+            "POS": "v"
+        }, 
+        {
+            "word": "讲解", 
+            "POS": "v"
+        }, 
+        {
+            "word": "讲授", 
+            "POS": "v"
+        }, 
+        {
+            "word": "讲述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "揭露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "揭示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "介绍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "警告", 
+            "POS": "v"
+        }, 
+        {
+            "word": "控诉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "聊", 
+            "POS": "v"
+        }, 
+        {
+            "word": "论述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "描述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "描写", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评论", 
+            "POS": "n"
+        }, 
+        {
+            "word": "评论", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评议", 
+            "POS": "v"
+        }, 
+        {
+            "word": "强调", 
+            "POS": "v"
+        }, 
+        {
+            "word": "散布", 
+            "POS": "v"
+        }, 
+        {
+            "word": "申明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "声称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "声明", 
+            "POS": "n"
+        }, 
+        {
+            "word": "声明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "声张", 
+            "POS": "v"
+        }, 
+        {
+            "word": "述说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "说话", 
+            "POS": "v"
+        }, 
+        {
+            "word": "说明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "诉说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谈", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谈话", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谈及", 
+            "POS": "v"
+        }, 
+        {
+            "word": "谈论", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坦白", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坦陈", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坦言", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提及", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提起", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提议", 
+            "POS": "v"
+        }, 
+        {
+            "word": "透漏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "透露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "泄漏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "泄露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "叙述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宣布", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宣称", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宣读", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宣告", 
+            "POS": "n"
+        }, 
+        {
+            "word": "宣告", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宣讲", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宣明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宣言", 
+            "POS": "n"
+        }, 
+        {
+            "word": "宣扬", 
+            "POS": "v"
+        }, 
+        {
+            "word": "言论", 
+            "POS": "n"
+        }, 
+        {
+            "word": "演讲", 
+            "POS": "v"
+        }, 
+        {
+            "word": "演说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "臆说", 
+            "POS": "n"
+        }, 
+        {
+            "word": "癔说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "争辩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "直言", 
+            "POS": "v"
+        }, 
+        {
+            "word": "重申", 
+            "POS": "v"
+        }, 
+        {
+            "word": "注释", 
+            "POS": "v"
+        }, 
+        {
+            "word": "自夸", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 3
+}

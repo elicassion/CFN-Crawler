@@ -1,0 +1,113 @@
+{
+    "fdInfo": {
+        "eName": "Communication", 
+        "cName": "信息交流", 
+        "des": "信息传递者把关于某个话题（关涉）的信息通过一定的媒介传递给信息接收者。本框架对交流的方法（说话、文字、手势等）没有具体限制。"
+    }, 
+    "element": [
+        {
+            "abbrName": "communi", 
+            "eName": "Communicator", 
+            "cName": "信息传递者", 
+            "isCore": true, 
+            "def": "用书面或口语或其他形式把信息传递给另外一个人或团体的人。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "信息被传播时所借助的具体或抽象的工具。"
+        }, 
+        {
+            "abbrName": "msg", 
+            "eName": "Message", 
+            "cName": "信息", 
+            "isCore": true, 
+            "def": "信息传递者希望信息接收者相信或接受的一个或一组命题。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": " 关涉是传递的信息所涉及的事物。"
+        }, 
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": false, 
+            "def": "指接收信息的一方。"
+        }, 
+        {
+            "abbrName": "aoi", 
+            "eName": "Amount_of_information", 
+            "cName": "信息量", 
+            "isCore": false, 
+            "def": "信息交换过程中传达的信息的多少。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": null, 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "信息所属的领域。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对信息传递中的人的描述。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "信息传递时间持续的长短。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对信息传递事件的描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "信息传递发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "沟通", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交流", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交涉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交谈", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联络", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联系", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 24
+}

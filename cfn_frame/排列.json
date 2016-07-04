@@ -1,0 +1,193 @@
+{
+    "fdInfo": {
+        "eName": "Arranging", 
+        "cName": "排列", 
+        "des": "施动者将复杂转移体置于某特定格局中，该格局可以是以某种排列顺序，也可以是一种序列,还可以是空间位置。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "将转移体置于特定格局中的人。"
+        }, 
+        {
+            "abbrName": "config", 
+            "eName": "Configuration", 
+            "cName": "格局", 
+            "isCore": true, 
+            "def": "由于排列而使转移体所处的一种状态或使转移体的组成部分之间所形成的一种关系。"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "一个实体，其组成部分之间可形成某种特定的格局关系，以及/或与其所处的环境之间形成某种特定的格局关系。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件指施动者排列转移体的情形。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "排列行为的程度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "施动者用来改变转移体格局的实体。"
+        }, 
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "转移体被置于一格局中的地点。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何未被更为具体的框架元素所包括的对排列行为所进行的描述，包括认知限定（如：可能、大概、神秘地），力量（如：坚硬地、柔软地）次要影响（如：安静地、大声地）），以及对事件进行比较所作出的一概括性描述（如：相同地）。该描述也可以是影响施动者行为的某些明显特征（如：渴望地、小心地）"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者为了排列转移体所做出的行为。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者试图通过改变转移体格局来使某种行为发生。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "排列发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "安放", 
+            "POS": "v"
+        }, 
+        {
+            "word": "安排", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摆布", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摆放", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摆列", 
+            "POS": "v"
+        }, 
+        {
+            "word": "布景", 
+            "POS": "v"
+        }, 
+        {
+            "word": "布局", 
+            "POS": "v"
+        }, 
+        {
+            "word": "布设", 
+            "POS": "v"
+        }, 
+        {
+            "word": "布展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "布阵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "布置", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陈放", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陈列", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陈设", 
+            "POS": "v"
+        }, 
+        {
+            "word": "归档", 
+            "POS": "v"
+        }, 
+        {
+            "word": "归类", 
+            "POS": "v"
+        }, 
+        {
+            "word": "归整", 
+            "POS": "v"
+        }, 
+        {
+            "word": "归置", 
+            "POS": "v"
+        }, 
+        {
+            "word": "规整", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排版", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排列", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排序", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排字", 
+            "POS": "v"
+        }, 
+        {
+            "word": "梳理", 
+            "POS": "v"
+        }, 
+        {
+            "word": "整理", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 338
+}

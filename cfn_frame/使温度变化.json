@@ -1,0 +1,180 @@
+{
+    "fdInfo": {
+        "eName": "Cause_temperature_change", 
+        "cName": "使温度变化", 
+        "des": "在这个框架里，某个致动者改变个体的温度。目标温度可以明确想要的温度。一个温度变化也可以被表示，开始温度指初始温度。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者实施某个有意行为改变了个体的温度。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "指某一有生命或没有生命的实体，某种力量或者某个事件改变了温度。意识不是致因的必要特征。"
+        }, 
+        {
+            "abbrName": "horc_src", 
+            "eName": "Hot_Cold_source", 
+            "cName": "热/冷源", 
+            "isCore": true, 
+            "def": "热冷源是指热或冷的来源。"
+        }, 
+        {
+            "abbrName": "item", 
+            "eName": "Item", 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "个体承载着温度的变化。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "该框架元素表示温度发生变化时的环境。"
+        }, 
+        {
+            "abbrName": "container", 
+            "eName": "Container", 
+            "cName": "容器", 
+            "isCore": false, 
+            "def": "该框架元素表示盛放温度被改变的个体的容器。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "指个体接近某一固有的目标温度的程度，它通常可解释为周围环境的温度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素指描述致动者或个体的描述性短语。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "指致动者改变个体的温度所持续的时间长度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者改变个体温度利用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者改变个体温度的修饰。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者改变个体温度所利用的手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者改变个体温度的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者改变个体温度所为的以及致动者想要达成的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "结果指致动者改变个体温度的结果状态。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "亚区描述的是某个被影响到的更大整体的一部分。"
+        }, 
+        {
+            "abbrName": "tem_c", 
+            "eName": "Temperature_change", 
+            "cName": "温度变化", 
+            "isCore": false, 
+            "def": "温度变化是指初始温度和目标温度的差值。"
+        }, 
+        {
+            "abbrName": "tem_g", 
+            "eName": "Temperature_goal", 
+            "cName": "目标温度", 
+            "isCore": false, 
+            "def": "目标温度指致动者加热或冷却个体达到的温度。"
+        }, 
+        {
+            "abbrName": "tem_s", 
+            "eName": "Temperature_start", 
+            "cName": "开始温度", 
+            "isCore": false, 
+            "def": "开始温度是指个体的初始温度。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示致动者改变个体温度的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "加热", 
+            "POS": "v"
+        }, 
+        {
+            "word": "降温", 
+            "POS": "v"
+        }, 
+        {
+            "word": "冷却", 
+            "POS": "v"
+        }, 
+        {
+            "word": "凉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "暖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "热", 
+            "POS": "v"
+        }, 
+        {
+            "word": "升温", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 196
+}

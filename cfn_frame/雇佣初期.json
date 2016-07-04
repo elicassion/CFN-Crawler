@@ -1,0 +1,74 @@
+{
+    "fdInfo": {
+        "eName": "Employment_start", 
+        "cName": "雇佣初期", 
+        "des": "该框架是雇佣场景的初始阶段——指雇主和雇员之间建立雇佣关系时的场景。\r\n该框架是抽象的上位框架，主要用于建立相关的继承关系。\r\n"
+    }, 
+    "element": [
+        {
+            "abbrName": "empee", 
+            "eName": "Employee", 
+            "cName": "雇员", 
+            "isCore": true, 
+            "def": "指与雇主发生雇佣关系通过完成某任务而获取报酬的人。"
+        }, 
+        {
+            "abbrName": "emper", 
+            "eName": "Employer", 
+            "cName": "雇主", 
+            "isCore": true, 
+            "def": "指与雇员发生雇佣关系的人或机构。"
+        }, 
+        {
+            "abbrName": "compense", 
+            "eName": "Compensation", 
+            "cName": "报酬", 
+            "isCore": false, 
+            "def": "报酬是指在雇用期间雇员完成某任务而获得的相应报偿。"
+        }, 
+        {
+            "abbrName": "field", 
+            "eName": "Field", 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "该框架元素表示雇员在为雇主工作时涉及到的工作领域。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述雇员和雇主建立雇佣关系的特征或所处状态的成分，都归入该元素。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示雇主与雇员建立雇佣关系的地点。"
+        }, 
+        {
+            "abbrName": "posit", 
+            "eName": "Position", 
+            "cName": "职位", 
+            "isCore": false, 
+            "def": "指某一工作的具体名称。"
+        }, 
+        {
+            "abbrName": "task", 
+            "eName": "Task", 
+            "cName": "任务", 
+            "isCore": false, 
+            "def": "任务指雇员在雇佣期间需要为雇主工作的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示雇主和雇员建立雇佣关系的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 226
+}

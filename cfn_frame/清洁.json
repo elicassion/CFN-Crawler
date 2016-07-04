@@ -1,0 +1,165 @@
+{
+    "fdInfo": {
+        "eName": "Grooming", 
+        "cName": "清洁", 
+        "des": "在这一框架中，致动者进行身体清洁或修饰。在此过程中可以使用工具。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者指进行清洁活动或修饰的人。"
+        }, 
+        {
+            "abbrName": "bodp", 
+            "eName": "Body_part", 
+            "cName": "身体部位", 
+            "isCore": true, 
+            "def": "被清洁或修饰的身体的部分。"
+        }, 
+        {
+            "abbrName": "pat", 
+            "eName": "Patient", 
+            "cName": "受事", 
+            "isCore": true, 
+            "def": "受事指身体被清洗或修饰的人。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "清洁或修饰过程持续的时间长短。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "致动者清洁或修饰自己或别人的发生次数。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "致动者所用的有增强清洁效果的洗涤剂或用来修饰的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "致动者进行有意行为所采取的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事情发生的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "清洗或修饰的结果"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "清洗或修饰身体或身体的一部分，清洗修饰的区域。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "清洗或修饰发生的时间"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "拔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "冲洗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "刮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "淋浴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "沐浴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "清洁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "清洗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "梳", 
+            "POS": "v"
+        }, 
+        {
+            "word": "刷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "剔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗漱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗刷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗洗手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗澡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "修", 
+            "POS": "v"
+        }, 
+        {
+            "word": "修剪", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 75
+}

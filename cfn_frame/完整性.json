@@ -1,0 +1,49 @@
+{
+    "fdInfo": {
+        "eName": "Completeness", 
+        "cName": "完整性", 
+        "des": "指一个具有子结构的整体，判断它是否包含所有必要的部分，这些部分附属于整体或这类实体。这个实体可以是具体的实物，抽象事物或一个有目标（子目标）的过程。"
+    }, 
+    "element": [
+        {
+            "abbrName": "tot", 
+            "eName": "Totle", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "指判断是否含有所有必要部分的实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "指表达一种真实完整水平与目标词表述的水平的接近程度。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指实体完整性被评估的时间段。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "残破", 
+            "POS": "a"
+        }, 
+        {
+            "word": "残损", 
+            "POS": "a"
+        }, 
+        {
+            "word": "完全", 
+            "POS": "a"
+        }, 
+        {
+            "word": "完整", 
+            "POS": "a"
+        }
+    ], 
+    "frameId": 209
+}

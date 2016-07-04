@@ -1,0 +1,105 @@
+{
+    "fdInfo": {
+        "eName": "Process_stopped_state", 
+        "cName": "过程停止状态", 
+        "des": "事件停止后实体的状态，也是，事件X—图式的一部分。注:参见“事件”框架。"
+    }, 
+    "element": [
+        {
+            "abbrName": "proce", 
+            "eName": "Process", 
+            "cName": "过程", 
+            "isCore": true, 
+            "def": "处于停止状态的整个事件。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "停止状态持续的时间长度"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "过程不再进行的时间点。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "停", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停摆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停办", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停播", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停泊", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停车", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停放", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停工", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停航", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停火停机", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停刊", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停靠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停课", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停息", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停歇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停学", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停战", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 423
+}

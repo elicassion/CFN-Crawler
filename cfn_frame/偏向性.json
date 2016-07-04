@@ -1,0 +1,228 @@
+{
+    "fdInfo": {
+        "eName": "Partiality", 
+        "cName": "偏向性", 
+        "des": "该框架表示判断者在两个方向或者多个方向之间做出带有倾向性或缺少倾向性的评价。各方之间可能是矛盾的或者二取一的。判断者偏向或者偏离的范围，以及带有偏向性或缺少偏向性的程度，都作为框架元素包含在该框架中。该框架在句子表述时，还可能表达出偏向形成元素，表示判断者的偏向性是如何形成的。"
+    }, 
+    "element": [
+        {
+            "abbrName": "dispute", 
+            "eName": "dispute", 
+            "cName": "矛盾", 
+            "isCore": true, 
+            "def": "矛盾指包含两个互相冲突的方面的情况。"
+        }, 
+        {
+            "abbrName": "judge", 
+            "eName": "Judge", 
+            "cName": "判断者", 
+            "isCore": true, 
+            "def": "判断者指其判断的客观性受到评价的人。"
+        }, 
+        {
+            "abbrName": "mn_bs", 
+            "eName": "Manifestation_of_bias", 
+            "cName": "偏向形成", 
+            "isCore": true, 
+            "def": "指判断者用什么行为或动作表达他们的偏向性。"
+        }, 
+        {
+            "abbrName": "side_1", 
+            "eName": "Side_1", 
+            "cName": "一方", 
+            "isCore": true, 
+            "def": null
+        }, 
+        {
+            "abbrName": "side_2", 
+            "eName": "Side_2", 
+            "cName": "另一方", 
+            "isCore": true, 
+            "def": "在矛盾双方或者选项中，第二个提到的一方。"
+        }, 
+        {
+            "abbrName": "side_pl", 
+            "eName": "Side_pl", 
+            "cName": "多方", 
+            "isCore": true, 
+            "def": "该框架元素表示共同表达争议双方或处于选择情况下的所有可供选择的方面。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": true, 
+            "def": "判断者偏向某一方或保持中立的程度。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": null, 
+            "cName": "领域", 
+            "isCore": true, 
+            "def": "表示判断者在哪一范围内或采取哪一评判维度对矛盾进行评价。只要不抱有政治偏见，双方完全可以通过增加来往进行平等对话，"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "“清如水，明如镜”", 
+            "POS": "i"
+        }, 
+        {
+            "word": "“认理不认人，帮理不帮亲”", 
+            "POS": "i"
+        }, 
+        {
+            "word": "不偏不倚", 
+            "POS": "i"
+        }, 
+        {
+            "word": "持平", 
+            "POS": "v"
+        }, 
+        {
+            "word": "公事公办", 
+            "POS": "i"
+        }, 
+        {
+            "word": "公正无私", 
+            "POS": "i"
+        }, 
+        {
+            "word": "厚此薄彼", 
+            "POS": "i"
+        }, 
+        {
+            "word": "老少无欺", 
+            "POS": "i"
+        }, 
+        {
+            "word": "廉政无私", 
+            "POS": "i"
+        }, 
+        {
+            "word": "明镜高悬", 
+            "POS": "i"
+        }, 
+        {
+            "word": "偏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "偏爱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "偏见", 
+            "POS": "n"
+        }, 
+        {
+            "word": "偏见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "偏颇", 
+            "POS": "a"
+        }, 
+        {
+            "word": "偏私", 
+            "POS": "a"
+        }, 
+        {
+            "word": "偏袒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "偏听偏信", 
+            "POS": "i"
+        }, 
+        {
+            "word": "偏向", 
+            "POS": "n"
+        }, 
+        {
+            "word": "偏向", 
+            "POS": "v"
+        }, 
+        {
+            "word": "偏心", 
+            "POS": "a"
+        }, 
+        {
+            "word": "秦镜高悬", 
+            "POS": "i"
+        }, 
+        {
+            "word": "清如水，明如镜", 
+            "POS": "i"
+        }, 
+        {
+            "word": "认理不认人，帮理不帮亲", 
+            "POS": "i"
+        }, 
+        {
+            "word": "守正不扰", 
+            "POS": "i"
+        }, 
+        {
+            "word": "天公地道", 
+            "POS": "i"
+        }, 
+        {
+            "word": "铁面无私", 
+            "POS": "i"
+        }, 
+        {
+            "word": "童叟无欺", 
+            "POS": "i"
+        }, 
+        {
+            "word": "童叟无欺i", 
+            "POS": "i"
+        }, 
+        {
+            "word": "无偏无党", 
+            "POS": "i"
+        }, 
+        {
+            "word": "严明", 
+            "POS": "a"
+        }, 
+        {
+            "word": "一面倒", 
+            "POS": "i"
+        }, 
+        {
+            "word": "一偏", 
+            "POS": "a"
+        }, 
+        {
+            "word": "一视同仁", 
+            "POS": "i"
+        }, 
+        {
+            "word": "一头儿沉", 
+            "POS": "i"
+        }, 
+        {
+            "word": "正义", 
+            "POS": "n"
+        }, 
+        {
+            "word": "直道而行", 
+            "POS": "i"
+        }, 
+        {
+            "word": "中立", 
+            "POS": "v"
+        }, 
+        {
+            "word": "左袒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "左右袒", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 16
+}

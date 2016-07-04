@@ -1,0 +1,101 @@
+{
+    "fdInfo": {
+        "eName": "Residence", 
+        "cName": "居住", 
+        "des": "该框架是涉及到居住在某居住地的人（居民），有时还有共同居住者。"
+    }, 
+    "element": [
+        {
+            "abbrName": "resid", 
+            "eName": "Resident", 
+            "cName": "居民", 
+            "isCore": true, 
+            "def": "居住在某居住地的个人或群体。"
+        }, 
+        {
+            "abbrName": "co_resid", 
+            "eName": "Co_resident", 
+            "cName": "共同居住者", 
+            "isCore": true, 
+            "def": "与居民同住的某一个人或一群人"
+        }, 
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "cName": "地点", 
+            "isCore": true, 
+            "def": "某人居住的地方。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "居民在居住期间的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "实施行动的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "使居民居住在某居住地的行动。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "寄居", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寄宿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "居住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "露宿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "露营", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宿营", 
+            "POS": "n"
+        }, 
+        {
+            "word": "宿营", 
+            "POS": "v"
+        }, 
+        {
+            "word": "住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "住居", 
+            "POS": "v"
+        }, 
+        {
+            "word": "住宿", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 59
+}

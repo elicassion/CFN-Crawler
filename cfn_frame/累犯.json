@@ -1,0 +1,51 @@
+{
+    "fdInfo": {
+        "eName": "Recidivist", 
+        "cName": "累犯", 
+        "des": "累犯是指被判处一定刑罚的犯罪人，在刑罚执行完毕或者赦免以后，在法定期限内又犯罪一定之罪的情况。对于累犯，应当从重犯罪。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪人", 
+            "isCore": true, 
+            "def": "被判处一定刑罚的人。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法院", 
+            "isCore": true, 
+            "def": "确认犯罪人系累犯的司法机关。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "条件", 
+            "isCore": true, 
+            "def": "构成累犯的条件，既被判处有期徒刑以上刑罚，刑罚执行完毕或者赦免后，在5年内再犯应当判处有期徒刑以上刑罚之罪。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法律", 
+            "isCore": true, 
+            "def": "人民法院根据我国刑法关于[累犯]的规定，从重判处王某有期徒刑三年。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "结果", 
+            "isCore": true, 
+            "def": "累犯在量刑上会导致从重处罚的结果。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "累犯", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 164
+}

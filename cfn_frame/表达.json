@@ -1,0 +1,165 @@
+{
+    "fdInfo": {
+        "eName": "Expressing_publicly", 
+        "cName": "表达", 
+        "des": "交流者公开表达他们（或社会团体的成员）某些时间难以表达的内容，该内容以前可能由于难以表达或社会约束的原因而没有表达过。有时也可以体现出受话者。"
+    }, 
+    "element": [
+        {
+            "abbrName": "communi", 
+            "eName": "Communicator", 
+            "cName": "信息传递者", 
+            "isCore": true, 
+            "def": "交流者指表达（通过口头或书面形式）内容的人。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "交流者从未表达过的看法或感情。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "媒介是可以看到的交流者的行动或产物。  "
+        }, 
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": false, 
+            "def": "受话人指接收内容的人。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "指独立于交流活动和其参与者的环境（在某时某地）的状态。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "表达过程中的交流者的状态。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "解释表示某种公开表达意见的表述，常见的情况是，解释促发表达，但对于所有的情况并不尽然。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "指在单位时间内公开表达事件发生的次数。"
+        }, 
+        {
+            "abbrName": "in_cause", 
+            "eName": "Internal_cause", 
+            "cName": "内因", 
+            "isCore": false, 
+            "def": "导致交流者表达的情感或身体状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "它表现出交流者突显的特点及其对行为产生的影响（专横、冷冰冰、故意、渴望、小心）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "交流者公开表达内容所用的手段。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "特殊重复指的是反复公开表达的情况。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "公开表达内容的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "目的是通过公开表达来达到的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "公开表达内容的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "表白", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表达", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表述", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表态", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发泄", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坦露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "袒露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "吐露", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宣泄", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 49
+}

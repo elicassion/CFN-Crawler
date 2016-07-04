@@ -1,0 +1,45 @@
+{
+    "fdInfo": {
+        "eName": "Part_inner_outer", 
+        "cName": "部分之内外", 
+        "des": "该框架是关于相对于物体的中心或边缘而被定义的部分。部分是整体中的一部分，部分属性描述了部分的属性。\r她丢弃了胡桃的外壳。\r她更喜欢装饰简单的教堂内部。\r在目标词是形容词的情况下，它和所修饰的名词有一种特殊的关系，这样，名词的句法论元短语在语义上可充当形容词的论元结构，例如\r“班级的外列”\r书柜内部的架子躺在地板上。"
+    }, 
+    "element": [
+        {
+            "abbrName": "par", 
+            "eName": "Part", 
+            "cName": "部分", 
+            "isCore": true, 
+            "def": "较大整体中的一部分。"
+        }, 
+        {
+            "abbrName": "whl", 
+            "eName": "Whole", 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "一个拥有所有部分的完整实体。"
+        }, 
+        {
+            "abbrName": "parpro", 
+            "eName": "Part_Prop", 
+            "cName": "部分属性", 
+            "isCore": false, 
+            "def": "和某一整体的部分相关的性质。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "内", 
+            "POS": "n"
+        }, 
+        {
+            "word": "外", 
+            "POS": "n"
+        }, 
+        {
+            "word": "中", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 469
+}

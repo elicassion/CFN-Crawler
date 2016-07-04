@@ -1,0 +1,46 @@
+{
+    "fdInfo": {
+        "eName": "Region_with_portal", 
+        "cName": "有入口的区域", 
+        "des": "选取与某一背景相关的入口、外部、表面、边界和内部。"
+    }, 
+    "element": [
+        {
+            "abbrName": "bndry", 
+            "eName": "Boundary", 
+            "cName": "边界", 
+            "isCore": true, 
+            "def": "与背景边界相关的某一区域。"
+        }, 
+        {
+            "abbrName": "ex", 
+            "eName": "Exterior", 
+            "cName": "外部", 
+            "isCore": true, 
+            "def": "位置不在背景里面或与背景没有接触的区域。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": true, 
+            "def": "其位置相对而言人所共知的实体。因此，该实体可作为一个来确定内部、表面或者边界的地标。"
+        }, 
+        {
+            "abbrName": "in", 
+            "eName": "Interior", 
+            "cName": "内部", 
+            "isCore": true, 
+            "def": "位于背景内部的某一空间区域。"
+        }, 
+        {
+            "abbrName": "surf", 
+            "eName": "Surface", 
+            "cName": "表面", 
+            "isCore": true, 
+            "def": "位于背景外部但与背景有接触的某区域。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 494
+}

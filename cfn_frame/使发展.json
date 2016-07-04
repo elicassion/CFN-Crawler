@@ -1,0 +1,126 @@
+{
+    "fdInfo": {
+        "eName": "Cause_to_make_progress", 
+        "cName": "使发展", 
+        "des": "指某一致动者使某项目达到更好的或期望的状态。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "指带动项目发展的个人。"
+        }, 
+        {
+            "abbrName": "proje", 
+            "eName": "Project", 
+            "cName": "项目", 
+            "isCore": true, 
+            "def": "指通过致动者的动作，发生变化的事物或思想。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "指项目获得的发展变化量。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "指发展的相关范围。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "指致动者发展某项目所持续的时间长度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指对发展过程的描述；除此之外，它可能描述影响发展的致动者的特征或状态。"
+        }, 
+        {
+            "abbrName": "post_s", 
+            "eName": "Post_state", 
+            "cName": "后状态", 
+            "isCore": false, 
+            "def": "指项目发展之后的状态。"
+        }, 
+        {
+            "abbrName": "pri_s", 
+            "eName": "Prior_state", 
+            "cName": "前状态", 
+            "isCore": false, 
+            "def": "指项目发展之前的状态。"
+        }, 
+        {
+            "abbrName": "rt", 
+            "eName": "Rate", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "指项目发展的速度。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指项目发生变化的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "发展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "改进", 
+            "POS": "v"
+        }, 
+        {
+            "word": "进步", 
+            "POS": "v"
+        }, 
+        {
+            "word": "前进", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提高", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提升", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拓展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完善", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完善", 
+            "POS": "a"
+        }, 
+        {
+            "word": "增加", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增进", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 199
+}

@@ -1,0 +1,82 @@
+{
+    "fdInfo": {
+        "eName": "Reserving", 
+        "cName": "预订", 
+        "des": "该框架中的词元可激起的场景是：一位客户向一个机构预订未来时间的服务。"
+    }, 
+    "element": [
+        {
+            "abbrName": "client", 
+            "eName": "Client", 
+            "cName": "客户", 
+            "isCore": true, 
+            "def": "联系某机构去预订其服务的实体。"
+        }, 
+        {
+            "abbrName": "org", 
+            "eName": "Organization", 
+            "cName": "机构", 
+            "isCore": true, 
+            "def": "记录客户预订未来服务请求的实体。"
+        }, 
+        {
+            "abbrName": "srvis", 
+            "eName": "Services", 
+            "cName": "服务", 
+            "isCore": true, 
+            "def": "客户要求机构为其未来消费所保留的商品或劳动力。"
+        }, 
+        {
+            "abbrName": "benef", 
+            "eName": "Beneficiary", 
+            "cName": "受益人", 
+            "isCore": false, 
+            "def": "受益人指的是客户代表其预订实体的另一方。"
+        }, 
+        {
+            "abbrName": "bkr", 
+            "eName": "Booker", 
+            "cName": "中介", 
+            "isCore": false, 
+            "def": "客户与机构之间的联系人，比如旅行代理人。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "客户安排机构提供服务的未来时间点。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "订", 
+            "POS": "v"
+        }, 
+        {
+            "word": "订购", 
+            "POS": "v"
+        }, 
+        {
+            "word": "订阅", 
+            "POS": "v"
+        }, 
+        {
+            "word": "定购", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预订", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预购", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预约", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 339
+}

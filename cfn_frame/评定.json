@@ -1,0 +1,231 @@
+{
+    "fdInfo": {
+        "eName": "Assessing", 
+        "cName": "评定", 
+        "des": "评定者对某现象进行考察，对其某项特征进行评价，赋予该特征一个值，是判断现象的可接受程度的一个决定因素，有时需要使用某种方法（隐含评定者）来判定现象的值。评定者、方法、媒介，有时只出现其一，未出现的也并不属于零形式框架元素，但是，如果都没有出现，就默认为评定者零形式；现象为必有元素，如果句中没有出现，标记为零形式；特征项为可有元素。"
+    }, 
+    "element": [
+        {
+            "abbrName": "judge", 
+            "eName": "Judge", 
+            "cName": "判断者", 
+            "isCore": true, 
+            "def": "评定现象的有意识的实体。"
+        }, 
+        {
+            "abbrName": "feat", 
+            "eName": "Feature", 
+            "cName": "特征项", 
+            "isCore": true, 
+            "def": "评定现象时所针对的性质或特征类型。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": true, 
+            "def": "帮助评定者评定现象的事件或程序。"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "现象指被评定的实体，现象的某方面特征受到了评价。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "媒介是评定者进行评定所使用的物理实体或渠道。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素表示每个单位时间内评定的次数。"
+        }, 
+        {
+            "abbrName": "co_part", 
+            "eName": "Co_participant", 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "在评定过程中，评定者和现象以外的共同参与评定过程的人"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "评定发生的场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "评定者希望通过评定某现象而实现的目标。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": "Evidence", 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "证据即评定者所掌握的事实，这个事实成为评定现象的根据。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "修饰元素是指评定者的行为或者特点，它们对评定者的评定活动有重要影响。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "评定者作出评定的时间。"
+        }, 
+        {
+            "abbrName": "value", 
+            "eName": "Value", 
+            "cName": "值", 
+            "isCore": false, 
+            "def": "（根据某些衡量标准）给现象定的等级或评价，表明现象的可接受程度或受欢迎程度。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "裁判", 
+            "POS": "v"
+        }, 
+        {
+            "word": "测试", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打分", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掂量", 
+            "POS": "v"
+        }, 
+        {
+            "word": "断定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估价", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估量", 
+            "POS": "v"
+        }, 
+        {
+            "word": "估算", 
+            "POS": "v"
+        }, 
+        {
+            "word": "鉴定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "考查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "考核", 
+            "POS": "v"
+        }, 
+        {
+            "word": "考绩", 
+            "POS": "v"
+        }, 
+        {
+            "word": "考勤", 
+            "POS": "v"
+        }, 
+        {
+            "word": "论（论功行赏）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "判", 
+            "POS": "v"
+        }, 
+        {
+            "word": "判定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "品第", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评比", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评测", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评分", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评工", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评估", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评级", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评模", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评判", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "评薪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "铨叙", 
+            "POS": "v"
+        }, 
+        {
+            "word": "询事考言", 
+            "POS": "i"
+        }
+    ], 
+    "frameId": 74
+}

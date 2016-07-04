@@ -1,0 +1,160 @@
+{
+    "fdInfo": {
+        "eName": "Erasing", 
+        "cName": "删除", 
+        "des": "施动者或致因清除文件中的一条信息，以致该信息无法恢复。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "清除信息的人。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "清除信息的非施动性实体。"
+        }, 
+        {
+            "abbrName": "doc", 
+            "eName": "Document", 
+            "cName": "文件", 
+            "isCore": true, 
+            "def": "被清除的特定信息的信息集合。"
+        }, 
+        {
+            "abbrName": "infor", 
+            "eName": "Information", 
+            "cName": "信息", 
+            "isCore": true, 
+            "def": "施动者从文件中删除掉的内容。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "施动者或致因从文件中清除信息的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者或致因从文件中清除信息的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "施动者或致因从文件中清除信息的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者或致因从文件中清除信息的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "擦除", 
+            "POS": "f"
+        }, 
+        {
+            "word": "擦掉", 
+            "POS": "f"
+        }, 
+        {
+            "word": "擦去", 
+            "POS": "f"
+        }, 
+        {
+            "word": "除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "除掉", 
+            "POS": "f"
+        }, 
+        {
+            "word": "除去", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抹", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抹掉", 
+            "POS": "f"
+        }, 
+        {
+            "word": "抹去", 
+            "POS": "f"
+        }, 
+        {
+            "word": "去", 
+            "POS": "v"
+        }, 
+        {
+            "word": "去除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "删", 
+            "POS": "v"
+        }, 
+        {
+            "word": "删除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "删掉", 
+            "POS": "f"
+        }, 
+        {
+            "word": "删繁就简", 
+            "POS": "i"
+        }, 
+        {
+            "word": "删改", 
+            "POS": "v"
+        }, 
+        {
+            "word": "删减", 
+            "POS": "v"
+        }, 
+        {
+            "word": "删节", 
+            "POS": "v"
+        }, 
+        {
+            "word": "删节号", 
+            "POS": "n"
+        }, 
+        {
+            "word": "删略", 
+            "POS": "v"
+        }, 
+        {
+            "word": "删去", 
+            "POS": "f"
+        }, 
+        {
+            "word": "删汰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "删削", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 430
+}

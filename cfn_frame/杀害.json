@@ -1,0 +1,357 @@
+{
+    "fdInfo": {
+        "eName": "Killing", 
+        "cName": "杀害", 
+        "des": "凶手或者某事导致受害者死亡。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "导致受害者死亡的无生命实体或过程。 "
+        }, 
+        {
+            "abbrName": "killer", 
+            "eName": "Killer", 
+            "cName": "凶手", 
+            "isCore": true, 
+            "def": "致受害者死亡的人或有知觉力的实体。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "因遭杀害而死亡的有生命的实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "程度框架用形容词来描述某一对象的杀伤力或用名词来描述杀伤力涉及的范围多么广泛。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "凶手为致受害者死亡而使用的设备/装备。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何没有被包含在更具体的框架元素中的对于该事件的描述，包括强度(强硬地，轻柔地的)，附属影响(安静地，大声地)，以及比较事件异同的概括性描述 (同样地) 。还表示凶手影响其活动的突出特点 (专横地，冷酷的，故意地，渴望地，小心地)。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": ".凶手或某事物所进行的导致受害者死亡的行为或方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "死亡发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "凶手试图靠通过杀害引发的事态。 "
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "对于凶手对之做出反应的先前存在的事件的描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "受害者被杀的时间点或时间段。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "安乐死", 
+            "POS": "n"
+        }, 
+        {
+            "word": "暗杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "暗杀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "被闷死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "残杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "残杀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "处决", 
+            "POS": "v"
+        }, 
+        {
+            "word": "大毁灭", 
+            "POS": "n"
+        }, 
+        {
+            "word": "大屠杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "大屠杀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "饿死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "根绝", 
+            "POS": "n"
+        }, 
+        {
+            "word": "根绝", 
+            "POS": "v"
+        }, 
+        {
+            "word": "歼灭", 
+            "POS": "n"
+        }, 
+        {
+            "word": "歼灭", 
+            "POS": "v"
+        }, 
+        {
+            "word": "绞刑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "结束", 
+            "POS": "v"
+        }, 
+        {
+            "word": "砍头斩首", 
+            "POS": "n"
+        }, 
+        {
+            "word": "侩子手", 
+            "POS": "n"
+        }, 
+        {
+            "word": "灭绝", 
+            "POS": "n"
+        }, 
+        {
+            "word": "灭种", 
+            "POS": "n"
+        }, 
+        {
+            "word": "谋杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "谋杀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "溺死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "清算", 
+            "POS": "n"
+        }, 
+        {
+            "word": "清算", 
+            "POS": "v"
+        }, 
+        {
+            "word": "清算人", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "杀父", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杀害", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杀害", 
+            "POS": "v"
+        }, 
+        {
+            "word": "杀人", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杀人犯", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杀人者", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杀手", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杀死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "杀兄弟（姐妹）的行为", 
+            "POS": "n"
+        }, 
+        {
+            "word": "杀婴", 
+            "POS": "n"
+        }, 
+        {
+            "word": "射杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "使安静", 
+            "POS": "v"
+        }, 
+        {
+            "word": "使安乐死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弑君", 
+            "POS": "n"
+        }, 
+        {
+            "word": "弑母", 
+            "POS": "n"
+        }, 
+        {
+            "word": "私刑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "屠场", 
+            "POS": "n"
+        }, 
+        {
+            "word": "屠夫", 
+            "POS": "n"
+        }, 
+        {
+            "word": "屠杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "屠杀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "消灭", 
+            "POS": "n"
+        }, 
+        {
+            "word": "消灭", 
+            "POS": "v"
+        }, 
+        {
+            "word": "行刺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "凶杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "凶手", 
+            "POS": "n"
+        }, 
+        {
+            "word": "灾祸", 
+            "POS": "n"
+        }, 
+        {
+            "word": "在十字架上被钉死的刑罚", 
+            "POS": "n"
+        }, 
+        {
+            "word": "在十字架上钉死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "斩杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "斩首", 
+            "POS": "n"
+        }, 
+        {
+            "word": "斩首", 
+            "POS": "v"
+        }, 
+        {
+            "word": "致命的", 
+            "POS": "a"
+        }, 
+        {
+            "word": "窒息", 
+            "POS": "n"
+        }, 
+        {
+            "word": "窒息", 
+            "POS": "v"
+        }, 
+        {
+            "word": "终止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "自毁", 
+            "POS": "n"
+        }, 
+        {
+            "word": "自毁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "自杀", 
+            "POS": "n"
+        }, 
+        {
+            "word": "自杀", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 253
+}

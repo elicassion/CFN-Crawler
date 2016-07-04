@@ -1,0 +1,168 @@
+{
+    "fdInfo": {
+        "eName": "Telling", 
+        "cName": "告诉", 
+        "des": "说话者告诉听话者某种信息，该信息可能被间接地当做主题。"
+    }, 
+    "element": [
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "cName": "信息接收者", 
+            "isCore": true, 
+            "def": "听话者从说话者那里接收到话语信息。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "这个框架元素是表达信息的媒介。"
+        }, 
+        {
+            "abbrName": "msg", 
+            "eName": "Message", 
+            "cName": "信息", 
+            "isCore": true, 
+            "def": "说话者交流的信息内容。"
+        }, 
+        {
+            "abbrName": "spkr", 
+            "eName": "Speaker", 
+            "cName": "说话者", 
+            "isCore": true, 
+            "def": "说话者是传递信息的有知觉实体。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "主题是对信息内容的概括描述。"
+        }, 
+        {
+            "abbrName": "desc", 
+            "eName": "Descriptor", 
+            "cName": "描述语", 
+            "isCore": false, 
+            "def": "该框架元素是对告知事件的一种描述，或告知事件的一个特征。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iteration", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "该框架元素是（从句中目标词所指的某种）事件或状态的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "说话者传递信息的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "说话者向听话者传递信息的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "说话者向听话者传递信息的空间场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "说话者向听话者传递信息的时间。"
+        }, 
+        {
+            "abbrName": "vie", 
+            "eName": "Viewpoint", 
+            "cName": "观点", 
+            "isCore": false, 
+            "def": "指真实或可行的信息处于合法域或规则域内。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "报告", 
+            "POS": "v"
+        }, 
+        {
+            "word": "禀报", 
+            "POS": "v"
+        }, 
+        {
+            "word": "禀告", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传达", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传告", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传话", 
+            "POS": "v"
+        }, 
+        {
+            "word": "奉告", 
+            "POS": "v"
+        }, 
+        {
+            "word": "告白", 
+            "POS": "v"
+        }, 
+        {
+            "word": "告诉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "告知", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回禀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "汇报", 
+            "POS": "v"
+        }, 
+        {
+            "word": "讲", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倾诉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "通报", 
+            "POS": "v"
+        }, 
+        {
+            "word": "通知", 
+            "POS": "v"
+        }, 
+        {
+            "word": "透露", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 327
+}

@@ -1,0 +1,234 @@
+{
+    "fdInfo": {
+        "eName": "Motion_directional", 
+        "cName": "有向位移", 
+        "des": "在这一框架中转移体沿着某一路径移动。路径是由重力或其他自然力、物理力所决定的。转移体自己不能移动。"
+    }, 
+    "element": [
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体指位置改变的实体。"
+        }, 
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "cName": "方向", 
+            "isCore": true, 
+            "def": "转移体运动的方向。方向表现了依照某种方位系统，经常是由重力所致的运动路径的特征。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "转移体运动结束的位置（经常是无意的）。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "转移体经过的（部分）区域或转移体经过的界标。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "源点指运动发生前转移体所在的位置。"
+        }, 
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "cName": "区域", 
+            "isCore": true, 
+            "def": "此框架元素指当运动被理解为无规律的或不是由单一的、直线的路径组成时，运动发生的大体范围。"
+        }, 
+        {
+            "abbrName": "carrier", 
+            "eName": "Carrier", 
+            "cName": "载体", 
+            "isCore": false, 
+            "def": "运载工具指转移体的运输工具。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "动作发生时所处的环境。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "转移体越过边界进入目标区或处在源点时的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "这一框架元素用于形容转移体的运动状态。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "距离表示转移体运动长度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "持续时间指运动发生所经历的时间长度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "逻辑上，特定方向运动所依据的事态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "运动发生的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指转移体运动凭借什么而发生。"
+        }, 
+        {
+            "abbrName": "p_shape", 
+            "eName": "Path_shape", 
+            "cName": "路径形状", 
+            "isCore": false, 
+            "def": "转移体沿路径而行所构成的形状。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "这一框架元素指运动发生的地点，用源点、路径或目标说明。"
+        }, 
+        {
+            "abbrName": "poc", 
+            "eName": "Point_of_contact", 
+            "cName": "接触点", 
+            "isCore": false, 
+            "def": "这一框架指转移体与地平面接触的那一部分。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "转移体向特定方向的移动希望使某一事态发生。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "这一框架元素指运动的结果。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "这一框架元素指运动以怎样的速度发生。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这一框架元素指运动发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "倒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倒下", 
+            "POS": "v"
+        }, 
+        {
+            "word": "掉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跌倒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跌入", 
+            "POS": "v"
+        }, 
+        {
+            "word": "降落", 
+            "POS": "v"
+        }, 
+        {
+            "word": "落", 
+            "POS": "v"
+        }, 
+        {
+            "word": "倾斜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "升起", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摔倒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跳", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跳入", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投掷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "下", 
+            "POS": "v"
+        }, 
+        {
+            "word": "下降", 
+            "POS": "v"
+        }, 
+        {
+            "word": "陷入", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 113
+}

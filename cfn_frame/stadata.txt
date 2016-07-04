@@ -1,7 +1,7 @@
 Valid Frame Number: 504
 Frame Element Number: 4627
-Core Frame Element Number: 1582
-Non-Core Frame Element Number: 3045
+Core Frame Element Number: 1585
+Non-Core Frame Element Number: 3042
 Lexical Element Number: 5839
 POS Number: 14
 POSs: v:4162, n:861, a:458, i:244, f:44, d:43, c:6, q:6, p:5, e:3, r:3, b:2, nz:1, u:1

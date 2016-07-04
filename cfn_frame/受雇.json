@@ -1,0 +1,153 @@
+{
+    "fdInfo": {
+        "eName": "Being_employed", 
+        "cName": "受雇", 
+        "des": "雇员在一个特定的领域有一个工作岗位，或者承担一项任务，雇主给雇员一定的报酬。"
+    }, 
+    "element": [
+        {
+            "abbrName": "empee", 
+            "eName": "Employee", 
+            "cName": "雇员", 
+            "isCore": true, 
+            "def": "雇员被雇去完成一项任务以得到报酬。"
+        }, 
+        {
+            "abbrName": "emper", 
+            "eName": "Employer", 
+            "cName": "雇主", 
+            "isCore": true, 
+            "def": "雇主付给雇员报酬。"
+        }, 
+        {
+            "abbrName": "field", 
+            "eName": "Field", 
+            "cName": "领域", 
+            "isCore": true, 
+            "def": "指一个人的工作领域。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": true, 
+            "def": "这个框架描述了雇员工作的地点。 "
+        }, 
+        {
+            "abbrName": "posit", 
+            "eName": "Position", 
+            "cName": "职位", 
+            "isCore": true, 
+            "def": "某一特定职业类别的名称。"
+        }, 
+        {
+            "abbrName": "task", 
+            "eName": "Task", 
+            "cName": "任务", 
+            "isCore": true, 
+            "def": "雇员被雇完成任务而向雇主索取报酬。"
+        }, 
+        {
+            "abbrName": "amt_work", 
+            "eName": "Amount_of_work", 
+            "cName": "工作量", 
+            "isCore": false, 
+            "def": "表示雇员为雇主做了多少工作。"
+        }, 
+        {
+            "abbrName": "compense", 
+            "eName": "Compensation", 
+            "cName": "报酬", 
+            "isCore": false, 
+            "def": "报酬指的是雇员完成任务而得到的报酬。"
+        }, 
+        {
+            "abbrName": "cb", 
+            "eName": "Contract_basis", 
+            "cName": "合同类型", 
+            "isCore": false, 
+            "def": "基本协议是雇员与雇主间签订的或口头的协议，规定聘用期、基本工资或双方的责任和义务等。 "
+        }, 
+        {
+            "abbrName": "dur_fin_st", 
+            "eName": "Duration_of_final_state", 
+            "cName": "结果时量", 
+            "isCore": false, 
+            "def": "这个框架元素表示雇员被持续雇用的时间长度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "这个框架元素表明了雇员为雇主工作的方式。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "这个框架元素表示雇主雇用的目的。"
+        }, 
+        {
+            "abbrName": "rnk", 
+            "eName": "Rank", 
+            "cName": "级别", 
+            "isCore": false, 
+            "def": "官阶是雇员在雇主的组织结构中所占等级位置。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "这个框架元素表示雇员为雇主工作的时间。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "这个框架元素表示职业的类型。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "当", 
+            "POS": "v"
+        }, 
+        {
+            "word": "工作", 
+            "POS": "n"
+        }, 
+        {
+            "word": "工作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "雇用", 
+            "POS": "v"
+        }, 
+        {
+            "word": "聘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "失业", 
+            "POS": "v"
+        }, 
+        {
+            "word": "是", 
+            "POS": "v"
+        }, 
+        {
+            "word": "职位", 
+            "POS": "n"
+        }, 
+        {
+            "word": "做", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 85
+}

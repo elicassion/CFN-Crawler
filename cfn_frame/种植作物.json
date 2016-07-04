@@ -1,0 +1,162 @@
+{
+    "fdInfo": {
+        "eName": "Growing_food", 
+        "cName": "种植作物", 
+        "des": "种植者努力照护作物和改变作物的生长环境以促进其生长。"
+    }, 
+    "element": [
+        {
+            "abbrName": "food", 
+            "eName": "Food", 
+            "cName": "作物", 
+            "isCore": true, 
+            "def": "作物是指种植者种植的物品，可能会包括一些非食用品，比如花卉等，或其他消费品，如药品、烟草等。"
+        }, 
+        {
+            "abbrName": "grower", 
+            "eName": "Grower", 
+            "cName": "种植者", 
+            "isCore": true, 
+            "def": "种植者是指种植作物的人。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "该框架元素表示（处于特定时空的）世界状态，此世界状态不依赖于事件本身和任何事件参与者。"
+        }, 
+        {
+            "abbrName": "dur", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "种植者种植作物所用的时间长度。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "单位时间内种植者种植作物的次数。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": false, 
+            "def": "指种植者在种植工作过程中所关注的作物的生长背景或环境。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "工具指种植者用来种植作物的器物。（此器物不仅仅是典型的人工制品，也可以指手、胳膊、和其他非典型的狩猎和捕鱼工具。）"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "种植者种植作物的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该元素描述种植者种植作物的方法。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素并不表示目标词在本句之内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是重复前面的动作，也就是说，目标词被看作一系列相似事件或状态中的某一次。 该框架元素常用“序数词语＋动量词”、副词“又”、“再”（＋数量短语）等表示。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "指种植者种植作物的较大的地理位置。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "种植者种植作物想要达到的目的。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": false, 
+            "def": "作物的起始状态，例如：一粒种子"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "种植事件发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "播种", 
+            "POS": "v"
+        }, 
+        {
+            "word": "插播", 
+            "POS": "v"
+        }, 
+        {
+            "word": "根植", 
+            "POS": "v"
+        }, 
+        {
+            "word": "培育", 
+            "POS": "v"
+        }, 
+        {
+            "word": "培植", 
+            "POS": "v"
+        }, 
+        {
+            "word": "移植", 
+            "POS": "v"
+        }, 
+        {
+            "word": "栽", 
+            "POS": "v"
+        }, 
+        {
+            "word": "栽培", 
+            "POS": "v"
+        }, 
+        {
+            "word": "栽植", 
+            "POS": "v"
+        }, 
+        {
+            "word": "栽种", 
+            "POS": "v"
+        }, 
+        {
+            "word": "植根", 
+            "POS": "v"
+        }, 
+        {
+            "word": "种", 
+            "POS": "v"
+        }, 
+        {
+            "word": "种植", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 356
+}

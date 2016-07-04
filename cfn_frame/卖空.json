@@ -1,0 +1,83 @@
+{
+    "fdInfo": {
+        "eName": "Short_selling", 
+        "cName": "卖空", 
+        "des": "该框架描述的是一个常见的金融市场概念，指贷方将某种形式的价值体贷给中间人，中间人再将那些价值体卖给市场。中间人随后必须重新购买该价值体，并将他们返还给贷方。中间人的意图是获利，他们往往重新从市场以低价重新购买那些价值体。\r\r因为只有当中间人认为价值体的价值低于市场上其它成员的估值时，该策略才有意义。该框架里的词元可能会通过隐喻方式指代施动者认为有些实体的价值低于别人的估值（而这种观点通常是不正确的）。\r"
+    }, 
+    "element": [
+        {
+            "abbrName": "assets", 
+            "eName": "Assets", 
+            "cName": "价值体", 
+            "isCore": true, 
+            "def": "指被交易的金融价值体。"
+        }, 
+        {
+            "abbrName": "intermed", 
+            "eName": "Intermediary", 
+            "cName": "中间体", 
+            "isCore": true, 
+            "def": "对于贷方是买者，对于市场是卖者，随后是重新购买者的实体。"
+        }, 
+        {
+            "abbrName": "lender", 
+            "eName": "Lender", 
+            "cName": "贷方", 
+            "isCore": true, 
+            "def": "资金原来的所有者，很快变成了价值体的贷方。"
+        }, 
+        {
+            "abbrName": "market", 
+            "eName": "Market", 
+            "cName": "市场", 
+            "isCore": true, 
+            "def": "许多类型的金融股票、债券、证券等集合销售的地方。对于购买价值体的人们来说，市场也是一个换喻词。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "无法归类为其他框架元素的有关该有意行为的描述，次生效应(如“安静地”，“大声地”)，以及对不同事件进行比较的概括性描述(如“同样”)。除此之外，它也可以指某个影响中间人行为的显著特征(如“专横”、“冷冷”、“故意”、“急切”、“谨慎”)。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "中间人卖空时所凭借的具体方法行为"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "进行卖空的处所"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "中间人希望通过卖空实现的情形，因为这个概念与金融有关，所以目的通常就是赚钱"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "中间人卖空的时间"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "卖空", 
+            "POS": "v"
+        }, 
+        {
+            "word": "做空", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 443
+}

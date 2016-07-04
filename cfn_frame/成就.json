@@ -1,0 +1,159 @@
+{
+    "fdInfo": {
+        "eName": "Accomplishment", 
+        "cName": "成就", 
+        "des": "施动者一直致力于某个目标,经过一段时间之后终于实现了该目标。该目标可能是渴望达到的某种状态，抑或被概念化为某个事件。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "有意识实体，通常为某个人，通过实施有意行为来实现某个目标。"
+        }, 
+        {
+            "abbrName": "gl", 
+            "eName": "Goal", 
+            "cName": "目标", 
+            "isCore": true, 
+            "def": "施动者希望参与的某种状态或行动。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "对实现目标所需的环境条件的一些具体说明。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "施动者目标实现的程度。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "已实现了的目标的某个领域或方面。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "完成目标所需的时间长度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "能预测出取得某项成就的事态。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "施动者实现目标所使用的某个实体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "任何对某事件所进行的未被归类于其他较为明确的框架元素的描写，包括次生效应(如安静地、大声地)，以及对事件进行比较的概括性描述（如同样地）。它也可显示施动者的一些对行为产生影响的显著特征 (如专横地、冷淡地、蓄意地、急切地、仔细地)。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者为实现目标而采取的有意行为。"
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "该框架元素可表明实现目标的结果是成功还是失败。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素显示了施动者实现目标的空间场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素显示了施动者实现目标的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "成绩", 
+            "POS": "n"
+        }, 
+        {
+            "word": "成就", 
+            "POS": "n"
+        }, 
+        {
+            "word": "成就", 
+            "POS": "v"
+        }, 
+        {
+            "word": "达到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "得胜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "功成名就", 
+            "POS": "i"
+        }, 
+        {
+            "word": "功绩", 
+            "POS": "n"
+        }, 
+        {
+            "word": "功业", 
+            "POS": "n"
+        }, 
+        {
+            "word": "取得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "实现", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "伟绩", 
+            "POS": "n"
+        }, 
+        {
+            "word": "伟业", 
+            "POS": "n"
+        }, 
+        {
+            "word": "做", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 381
+}

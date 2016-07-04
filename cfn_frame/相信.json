@@ -1,0 +1,232 @@
+{
+    "fdInfo": {
+        "eName": "Certainty", 
+        "cName": "相信", 
+        "des": "表示认知者相信某些观点、预见是正确的，该框架必须有认知者的参与，表示的是认知者对事物的态度；如果没有认知者，只说明事物本身的可能性、确定性等，就属于另一个表示状态的框架，即[可能性]（Likelihood）。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": null, 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "即持有相信或不相信态度的人。"
+        }, 
+        {
+            "abbrName": "cont", 
+            "eName": null, 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "认知者脑中所确信或不确信的内容。"
+        }, 
+        {
+            "abbrName": "exr", 
+            "eName": null, 
+            "cName": "表达体", 
+            "isCore": false, 
+            "def": "即传达认知者的心理状态的身体部位或者身体动作。"
+        }, 
+        {
+            "abbrName": "topic", 
+            "eName": null, 
+            "cName": "关涉", 
+            "isCore": false, 
+            "def": "认知者的观点所关涉的实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": null, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "认知者确信或不确信的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素是一个杂类，凡是对确信或不确信的某种状态的描述，而又不是程度、时间、空间等，都归入该框架元素。如表示难易的\"容易、很难\"。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": null, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述参与者在事件中所处的状态。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "半信半疑", 
+            "POS": "i"
+        }, 
+        {
+            "word": "猜忌", 
+            "POS": "v"
+        }, 
+        {
+            "word": "猜疑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "打结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "当真", 
+            "POS": "v"
+        }, 
+        {
+            "word": "嘀咕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "嘀咕（心里老嘀咕着）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "多心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "多疑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "耳食", 
+            "POS": "v"
+        }, 
+        {
+            "word": "贵耳贱目", 
+            "POS": "i"
+        }, 
+        {
+            "word": "过心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "狐疑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "怀疑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坚信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "见风是雨", 
+            "POS": "i"
+        }, 
+        {
+            "word": "将信将疑", 
+            "POS": "i"
+        }, 
+        {
+            "word": "肯定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "凭信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "起疑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "轻信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "确信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "深信不疑", 
+            "POS": "i"
+        }, 
+        {
+            "word": "生疑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "听信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "相信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "信以为真", 
+            "POS": "i"
+        }, 
+        {
+            "word": "疑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "疑猜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "疑忌", 
+            "POS": "v"
+        }, 
+        {
+            "word": "疑虑", 
+            "POS": "n"
+        }, 
+        {
+            "word": "疑心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "疑信参半", 
+            "POS": "i"
+        }, 
+        {
+            "word": "以耳代目", 
+            "POS": "i"
+        }, 
+        {
+            "word": "质疑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "置信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "置疑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "自信", 
+            "POS": "v"
+        }, 
+        {
+            "word": "自信不疑", 
+            "POS": "i"
+        }, 
+        {
+            "word": "自许", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 95
+}

@@ -1,0 +1,30 @@
+{
+    "fdInfo": {
+        "eName": "Crime_target", 
+        "cName": "犯罪对象", 
+        "des": "犯罪对象是指犯罪行为所作用的，体现刑法所保护的社会关系的人和物。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "犯罪行为", 
+            "isCore": true, 
+            "def": "犯罪人实施的破坏社会秩序、侵害国家、公民权益的危害行为。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "物（人）", 
+            "isCore": true, 
+            "def": "犯罪行为作用的物或人。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "犯罪对象", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 142
+}

@@ -1,0 +1,44 @@
+{
+    "fdInfo": {
+        "eName": "Holding", 
+        "cName": "持有", 
+        "des": "持有指占有、携有、藏有或者其他方式对物品的控制、支配行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "持有人", 
+            "isCore": true, 
+            "def": "对物品予以占有、藏有等支配、控制的人，这种支配、控制是非法的。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "物品", 
+            "isCore": true, 
+            "def": "持有人所持有的物品，多为毒品、枪支、国家秘密等违禁品或特定物品。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "法律", 
+            "isCore": true, 
+            "def": "对持有物品进行管理、规定的法律。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": null, 
+            "cName": "国家机关", 
+            "isCore": true, 
+            "def": "对非法持有违禁品或特定物品予以查处、打击、追究责任的国家机构。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "持有", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 133
+}

@@ -1,0 +1,104 @@
+{
+    "fdInfo": {
+        "eName": "Being_in_category", 
+        "cName": "属于某类", 
+        "des": "该框架表示某个实体属于某个范畴，（通常暗含）指某个认知者认为的归类。"
+    }, 
+    "element": [
+        {
+            "abbrName": "categ", 
+            "eName": "Category", 
+            "cName": "范畴", 
+            "isCore": true, 
+            "def": "该框架元素表示某个实体所属的一种概括性的类型或者类别。"
+        }, 
+        {
+            "abbrName": "crit", 
+            "eName": "Criteria", 
+            "cName": "标准", 
+            "isCore": true, 
+            "def": "该框架元素表示物件所具有的某个特征，该特征是决定物件应归于哪个范畴的基准。标准指的是物件之间相互区别的一般特征，因此也就能够将物件归类于不同的范畴。例如，油漆样本可以根据颜色或者根据光滑度来区分。如果根据颜色来区分，可以区别为橙色的或者红色的。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "指某个具体范畴的实体实例。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "表示外部世界的状态，通常是事件发生所需的事理、物理条件（“在高温下”等），既不是事件过程本身的状态，也不是事件参与者的状态，而是对事件所赖以发生的外部环境的描述。"
+        }, 
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": false, 
+            "def": "表示做出归类判断的人。通常这个框架元素是间接表达出来的。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指某个实体（隐喻性的）被归类为某个范畴所依据的某个事态或者行为。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "指某个实体（隐喻性的）被归类为某个范畴所依据的某个事态或者行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示某个范畴所具有的特定时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "并非", 
+            "POS": "v"
+        }, 
+        {
+            "word": "归于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "乃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "是", 
+            "POS": "v"
+        }, 
+        {
+            "word": "算作", 
+            "POS": "v"
+        }, 
+        {
+            "word": "为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "系", 
+            "POS": "v"
+        }, 
+        {
+            "word": "属", 
+            "POS": "v"
+        }, 
+        {
+            "word": "作为", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 187
+}

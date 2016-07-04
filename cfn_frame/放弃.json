@@ -1,0 +1,83 @@
+{
+    "fdInfo": {
+        "eName": "Forgoing", 
+        "cName": "放弃", 
+        "des": "一个放弃者决定不参加平常该做之事或者说平常想做之事。\u000b"
+    }, 
+    "element": [
+        {
+            "abbrName": "des", 
+            "eName": "Desirable", 
+            "cName": "想做之事", 
+            "isCore": true, 
+            "def": "想做之事是指放弃者不参加的事件或活动。"
+        }, 
+        {
+            "abbrName": "forg", 
+            "eName": "Forgoer", 
+            "cName": "放弃者", 
+            "isCore": true, 
+            "def": "放弃者决定不参加满足需要的活动或事件。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "该框架元素表示放弃者不参加想做之事的环境条件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生所采用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生所要达到的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该元素表明放弃事件发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "放弃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弃权", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 459
+}

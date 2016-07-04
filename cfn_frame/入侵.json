@@ -1,0 +1,217 @@
+{
+    "fdInfo": {
+        "eName": "Invading", 
+        "cName": "入侵", 
+        "des": "入侵者怀着着某种侵略企图进入某地域,，目的是削弱或控制该地区的人民和政府。"
+    }, 
+    "element": [
+        {
+            "abbrName": "invd", 
+            "eName": "Invader", 
+            "cName": "入侵者", 
+            "isCore": true, 
+            "def": "以敌对方式进入某地域的军队或其他自主实体。"
+        }, 
+        {
+            "abbrName": "land", 
+            "eName": "Land", 
+            "cName": "地域", 
+            "isCore": true, 
+            "def": "由于入侵者的入侵而受创的政治地域。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "环境条件描述了独立于事件本身及其参与者的特定(即在特定时间和地点)世界状态。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素描述了某地域被侵略的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素指的是对侵略期间入侵者或入侵地域进行形容的描述性短语。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "入侵者侵占某地域的时间长度。"
+        }, 
+        {
+            "abbrName": "eve_desc", 
+            "eName": "Event_description", 
+            "cName": "事件评价", 
+            "isCore": false, 
+            "def": "该框架元素通常指的是那些用于描述目标词所在从句的语句，也是对整个句子所描述的事件进行评价"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "入侵者所响应的一种事态，该状态使他们发起对该地域的攻击。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "入侵者侵略某地域的频率。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iteration", 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "框架元素“次数”用于指那些能表明某事件或某状态（该事件或该状态的种类由目标词所在的从句来表述）发生或保持次数的语句。具体的语言表达形式有一次，两次，基数词+/次数，很多，等等"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指的是未被其他更明确的框架元素所涵盖的任何对入侵事件的描述。该描述既包括认知修正(如可能、大概、神秘地)、力度（如坚强地、柔软地）、次生效应（安静地、大声地），也包括次级效应（如“悄悄的”，“大声的”）和在比较事件时所做的一般描述（如“同样”），甚至也包括对影响入侵者行为的显著特征（如“专横”、“冷冷”、“故意”、“急切”、“谨慎”）的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "入侵者为完成攻击所采取的有意行为。"
+        }, 
+        {
+            "abbrName": "part_iter", 
+            "eName": "Particular_iteration", 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "该框架元素并不表示目标词在本句之内的重复，而是把目标词置于上下文中，认为目标词所表示的动作是重复前面的动作，也就是说，目标词被看作一系列相似事件或状态中的某一次。 此外，大多数“特定次数”的表达都可以表明所指的是系列事件或状态中的哪一个具体的事件或状态。该框架元素常用“序数词语＋动量词”、副词“又”、“再”（＋数量短语）等语言形式表述。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "cName": "路径", 
+            "isCore": false, 
+            "def": "路径是指入侵者入侵时所走的路线。"
+        }, 
+        {
+            "abbrName": "p_iter", 
+            "eName": "Period_of_iterations", 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "从目标词所指示的事件开始重复一直到重复停止这段时间的时间长度。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素显示了入侵者入侵某地域的地点"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素显示了入侵者袭击某地域的目的。"
+        }, 
+        {
+            "abbrName": "re_encd", 
+            "eName": "Re_encoding", 
+            "cName": "重编码词", 
+            "isCore": false, 
+            "def": "该框架元素将当前框架描述为由另一框架所表述的更大概念的一部分。由目标词所表述的框架通常相当于由重编码词所表述框架内的方法行为，但也并不总是这样。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "入侵者入侵某地域造成的结果"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "cName": "起点", 
+            "isCore": false, 
+            "def": "入侵者在攻击时向某地域的某个处所移动前进时，入侵者移动的起点或入侵者的炮弹投射点。在介词短语中，介词宾语表示移动的起点。而对于小品词而言，移动的起点根据上下文来理解。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素显示了入侵者入侵某地域的时间。"
+        }, 
+        {
+            "abbrName": "weapon", 
+            "eName": "Weapon", 
+            "cName": "武器", 
+            "isCore": false, 
+            "def": "入侵者入侵某地域时所使用的辅助实体。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "cName": "背景事件", 
+            "isCore": false, 
+            "def": "该框架元素是指某时间段内发生的某个事件或持续的某种事态，该事件或事态包含由目标词所指的事件或事态，或者说目标词所指的事件或事态是该框架元素所指的事件或事态的一部分。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "进犯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "侵犯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "侵害", 
+            "POS": "v"
+        }, 
+        {
+            "word": "侵略", 
+            "POS": "v"
+        }, 
+        {
+            "word": "侵扰", 
+            "POS": "v"
+        }, 
+        {
+            "word": "侵入", 
+            "POS": "v"
+        }, 
+        {
+            "word": "侵吞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "侵袭", 
+            "POS": "v"
+        }, 
+        {
+            "word": "侵越", 
+            "POS": "v"
+        }, 
+        {
+            "word": "侵占", 
+            "POS": "v"
+        }, 
+        {
+            "word": "入侵", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 386
+}

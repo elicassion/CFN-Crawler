@@ -1,0 +1,109 @@
+{
+    "fdInfo": {
+        "eName": "Instance", 
+        "cName": "实例", 
+        "des": "这个框架所包含的词语表示的是实体或事件类的实例。"
+    }, 
+    "element": [
+        {
+            "abbrName": "instan", 
+            "eName": "Instance", 
+            "cName": "实例", 
+            "isCore": true, 
+            "def": "某个实体或事件类的实例。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "cName": "类别", 
+            "isCore": true, 
+            "def": "实体或事件的类别。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "实例的特性。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "案例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "比如", 
+            "POS": "v"
+        }, 
+        {
+            "word": "病例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "凡例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "反例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "范例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "鉴戒", 
+            "POS": "n"
+        }, 
+        {
+            "word": "举例", 
+            "POS": "v"
+        }, 
+        {
+            "word": "例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "例如", 
+            "POS": "v"
+        }, 
+        {
+            "word": "例证", 
+            "POS": "n"
+        }, 
+        {
+            "word": "例子", 
+            "POS": "n"
+        }, 
+        {
+            "word": "譬如", 
+            "POS": "v"
+        }, 
+        {
+            "word": "如", 
+            "POS": "v"
+        }, 
+        {
+            "word": "实例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "示例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "事例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "特例", 
+            "POS": "n"
+        }, 
+        {
+            "word": "诸如", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 246
+}

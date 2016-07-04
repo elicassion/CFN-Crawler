@@ -1,0 +1,137 @@
+{
+    "fdInfo": {
+        "eName": "Physical_artworks", 
+        "cName": "艺术制品", 
+        "des": "一个实际存在的物理实体，一个被创造者制作的能够激起人们的认识，情感，认知等的制造物。该物品用来表达一种实际的或想象的实体或事件，这种代表可能被具体地展示在一个特定的状态里。"
+    }, 
+    "element": [
+        {
+            "abbrName": "arti", 
+            "eName": "Artifact", 
+            "cName": "人工制品", 
+            "isCore": true, 
+            "def": "被创造的具有特定用途的实体或物质。"
+        }, 
+        {
+            "abbrName": "cre", 
+            "eName": "Creator", 
+            "cName": "创造者", 
+            "isCore": false, 
+            "def": "创造物品的个体。"
+        }, 
+        {
+            "abbrName": "desc", 
+            "eName": "Descriptor", 
+            "cName": "描述语", 
+            "isCore": false, 
+            "def": "对制造物的特征，表象的描述或评估。"
+        }, 
+        {
+            "abbrName": "mat", 
+            "eName": "Material", 
+            "cName": "材料", 
+            "isCore": false, 
+            "def": "构成制造物的零组件，材料等。"
+        }, 
+        {
+            "abbrName": "name", 
+            "eName": "Name", 
+            "cName": "名字", 
+            "isCore": false, 
+            "def": "用来指称创造物的词语。"
+        }, 
+        {
+            "abbrName": "repsted", 
+            "eName": "Represented", 
+            "cName": "代表", 
+            "isCore": false, 
+            "def": "制造物所表示的一种实体，可以是一个物体，一种行为，或一种状态。"
+        }, 
+        {
+            "abbrName": "sta_rep", 
+            "eName": "State_of_represented", 
+            "cName": "代表的状态", 
+            "isCore": false, 
+            "def": "制造物所表示的实体所处的状态。"
+        }, 
+        {
+            "abbrName": "tim_cre", 
+            "eName": "Time_of_creation", 
+            "cName": "创造时间", 
+            "isCore": false, 
+            "def": "制造物所表示的实体所处的状态。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "制造物的类型。"
+        }, 
+        {
+            "abbrName": "use", 
+            "eName": "Use", 
+            "cName": "用途", 
+            "isCore": false, 
+            "def": "制造物的用途。"
+        }, 
+        {
+            "abbrName": "amount", 
+            "eName": "Amount", 
+            "cName": "物量", 
+            "isCore": false, 
+            "def": "创造物的数量。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "雕塑", 
+            "POS": "n"
+        }, 
+        {
+            "word": "雕像", 
+            "POS": "n"
+        }, 
+        {
+            "word": "画", 
+            "POS": "n"
+        }, 
+        {
+            "word": "绘画", 
+            "POS": "n"
+        }, 
+        {
+            "word": "青铜器", 
+            "POS": "n"
+        }, 
+        {
+            "word": "塑像", 
+            "POS": "n"
+        }, 
+        {
+            "word": "图片", 
+            "POS": "n"
+        }, 
+        {
+            "word": "图示", 
+            "POS": "n"
+        }, 
+        {
+            "word": "图像", 
+            "POS": "n"
+        }, 
+        {
+            "word": "相片", 
+            "POS": "n"
+        }, 
+        {
+            "word": "油画", 
+            "POS": "n"
+        }, 
+        {
+            "word": "照片", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 262
+}

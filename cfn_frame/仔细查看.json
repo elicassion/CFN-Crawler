@@ -1,0 +1,67 @@
+{
+    "fdInfo": {
+        "eName": "Scrutinizing_for", 
+        "cName": "仔细查看", 
+        "des": "认知者仔细查看背景，警惕某种现象的存在。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "认知者为了发现一些事情查看一个实体。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "cName": "背景", 
+            "isCore": true, 
+            "def": "认知者检查背景，之所以称该框架元素为背景是因为它是现象所处的背景。"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "认知者在背景中留意寻找的的实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "认知者检查背景的程度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "认知者控制的实体，通过与背景相互作用来完成检查。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "认知者检查背景的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "使其能够检查背景的认知者的行为。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "认知者希望通过寻找现象来实现的事件。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 393
+}

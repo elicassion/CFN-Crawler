@@ -1,0 +1,173 @@
+{
+    "fdInfo": {
+        "eName": "Replacing", 
+        "cName": "取代", 
+        "des": "致动者通过以新实体取代旧实体的位置来改变角色的内容，致动者须替换旧实体，在很多情况下，角色未明确表达。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "有意识的实体，一般是人，实施导致新实体替换的行动。"
+        }, 
+        {
+            "abbrName": "new", 
+            "eName": "New", 
+            "cName": "新实体", 
+            "isCore": true, 
+            "def": "新实体指致动者替换某个角色的人或物。"
+        }, 
+        {
+            "abbrName": "old", 
+            "eName": "Old", 
+            "cName": "旧实体", 
+            "isCore": true, 
+            "def": "替换前的实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "指新实体受致动者影响的程度。只有当多重新旧实体存在时，才可能有不同程度的替换。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "由致动者实施与新实体实现互动，从而使新实体得以替换。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者完成替换所实施的有意行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "致动者安置新实体的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者将新实体放置在某个位置上的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "致动者在把新实体置放在某个位置上所反映出的事态。"
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "cName": "身份", 
+            "isCore": false, 
+            "def": "新实体旧实体所起的作用适合的范畴。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致动者安置新实体的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "代替", 
+            "POS": "n"
+        }, 
+        {
+            "word": "代替", 
+            "POS": "v"
+        }, 
+        {
+            "word": "调换", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兑换", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兑换成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "兑换为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "改变", 
+            "POS": "v"
+        }, 
+        {
+            "word": "改变为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "换成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "换掉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交换", 
+            "POS": "n"
+        }, 
+        {
+            "word": "交换", 
+            "POS": "v"
+        }, 
+        {
+            "word": "取代", 
+            "POS": "v"
+        }, 
+        {
+            "word": "替代", 
+            "POS": "n"
+        }, 
+        {
+            "word": "替代", 
+            "POS": "v"
+        }, 
+        {
+            "word": "替换", 
+            "POS": "v"
+        }, 
+        {
+            "word": "替换成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "置换", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转换", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转换成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转换为", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 277
+}

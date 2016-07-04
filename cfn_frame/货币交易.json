@@ -1,0 +1,123 @@
+{
+    "fdInfo": {
+        "eName": "Commerce_money-transfer", 
+        "cName": "货币交易", 
+        "des": "该框架概括了买方将货币付给卖方和卖方向买方收取货币的活动，其下位框架包括[付款]和[收款]。"
+    }, 
+    "element": [
+        {
+            "abbrName": "byr", 
+            "eName": "Buyer", 
+            "cName": "买方", 
+            "isCore": true, 
+            "def": "购买商品的一方。"
+        }, 
+        {
+            "abbrName": "exch", 
+            "eName": "Exchangers", 
+            "cName": "交易者", 
+            "isCore": true, 
+            "def": "参与交易的个体，包含了买方和卖方"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "参与交易的个体，包含了买方和卖方。"
+        }, 
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "cName": "货币", 
+            "isCore": true, 
+            "def": "货币是在商品交易时买方支付给卖方的特殊商品"
+        }, 
+        {
+            "abbrName": "slr", 
+            "eName": "Seller", 
+            "cName": "卖方", 
+            "isCore": true, 
+            "def": "出售商品换取货币的一方。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何对收款、付款等活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "进行货币交易的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "买方、卖方或交易者希望通过交易达到的预期目标。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "cName": "单位价格", 
+            "isCore": false, 
+            "def": "指单位商品的价格。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "事件发生的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "该框架元素指可以衡量商品或服务的任何单位，通常用介词“按”、“以”等引出。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "付", 
+            "POS": "v"
+        }, 
+        {
+            "word": "付款", 
+            "POS": "v"
+        }, 
+        {
+            "word": "付了", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收取", 
+            "POS": "v"
+        }, 
+        {
+            "word": "支付", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 205
+}

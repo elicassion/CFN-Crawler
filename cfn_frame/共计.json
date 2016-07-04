@@ -1,0 +1,71 @@
+{
+    "fdInfo": {
+        "eName": "Amounting_to", 
+        "cName": "共计", 
+        "des": "指某物体的可变属性的绝对数值通过组成某物体的个体或部分属性的增减而改变。这个物体并不是独立体而是由属性的概念设定。作为选择，那些包含在绝对集合中的数字就是与该集合有关的数值。有些情况下这里所说的是个体的基数，所以数值就是一个计数。另外一些情况下属性只与数值有关。框架情境中没有认知者。做为替代，此框架关心属性或数字与具体数值之间的关系，不论是谁进行计算，这些数值都不会变。"
+    }, 
+    "element": [
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "cName": "属性", 
+            "isCore": true, 
+            "def": "指具有一定数量的具体实体或抽象实体的属性。"
+        }, 
+        {
+            "abbrName": "num", 
+            "eName": "Numbers", 
+            "cName": "加数", 
+            "isCore": true, 
+            "def": "指进行合计运算的一组数。"
+        }, 
+        {
+            "abbrName": "value", 
+            "eName": "Value", 
+            "cName": "值", 
+            "isCore": true, 
+            "def": "指属性合计的数值。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素表示一个时间范围，其整体属性的数值与额外信息以一定的间隔进行计算，并随时间的变化而变化。"
+        }, 
+        {
+            "abbrName": "tim_span", 
+            "eName": "Time_span", 
+            "cName": "时间跨度", 
+            "isCore": false, 
+            "def": "指属性维持某数值的时间范围。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "达", 
+            "POS": "v"
+        }, 
+        {
+            "word": "共计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "合计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "累计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "总计", 
+            "POS": "v"
+        }, 
+        {
+            "word": "总数", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 181
+}

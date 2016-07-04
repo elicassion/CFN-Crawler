@@ -1,0 +1,46 @@
+{
+    "fdInfo": {
+        "eName": "Lodging_scenario", 
+        "cName": "住宿场景", 
+        "des": "东道主为住宿者提供一个暂时停留的居所。"
+    }, 
+    "element": [
+        {
+            "abbrName": "host", 
+            "eName": "Host", 
+            "cName": "东道主", 
+            "isCore": true, 
+            "def": "东道主是拥有并有权控制居所让住宿者暂时停留的个体或集体。"
+        }, 
+        {
+            "abbrName": "lodger", 
+            "eName": "Lodger", 
+            "cName": "住宿者", 
+            "isCore": true, 
+            "def": "住宿者是被许可在居所里暂住的个人。"
+        }, 
+        {
+            "abbrName": "residence", 
+            "eName": "residence", 
+            "cName": "居所", 
+            "isCore": true, 
+            "def": "东道主所控制的并让住宿者暂时居住的地方。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "东道主提供的供暂时居住的处所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "东道主提供居所给住宿者的时间。"
+        }
+    ], 
+    "lexElmt": [], 
+    "frameId": 413
+}

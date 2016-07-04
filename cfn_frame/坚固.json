@@ -1,0 +1,122 @@
+{
+    "fdInfo": {
+        "eName": "Being_strong", 
+        "cName": "坚固", 
+        "des": "某实体能承受一种强大外力来防止被毁坏或破坏。"
+    }, 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "实体是不能被穿透的物品。"
+        }, 
+        {
+            "abbrName": "force", 
+            "eName": "Force", 
+            "cName": "力", 
+            "isCore": true, 
+            "def": "力与实体的力量相对抗。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "实体强劲时的状态和所处的外界条件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素描写实体力量的强度和程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素描述一个由目标词引出的行为过程中处于某种状态的事态参与者。所描述状态并未必或通常促成或引起目标词所表述的事态。在一些情况中，形容通过描绘部分的特征来描述参与者。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "实体强劲的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "实体获得力量的行为。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "实体强劲的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "实体强劲的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实体强劲的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "坚", 
+            "POS": "a"
+        }, 
+        {
+            "word": "坚不可摧", 
+            "POS": "i"
+        }, 
+        {
+            "word": "坚固", 
+            "POS": "a"
+        }, 
+        {
+            "word": "坚强", 
+            "POS": "a"
+        }, 
+        {
+            "word": "坚韧", 
+            "POS": "a"
+        }, 
+        {
+            "word": "坚实", 
+            "POS": "a"
+        }, 
+        {
+            "word": "坚挺", 
+            "POS": "a"
+        }, 
+        {
+            "word": "强", 
+            "POS": "a"
+        }, 
+        {
+            "word": "强劲", 
+            "POS": "a"
+        }, 
+        {
+            "word": "强壮", 
+            "POS": "a"
+        }
+    ], 
+    "frameId": 454
+}
